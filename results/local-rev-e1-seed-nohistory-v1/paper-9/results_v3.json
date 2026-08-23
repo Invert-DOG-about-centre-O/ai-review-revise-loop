@@ -1,0 +1,119 @@
+{
+  "experiment_C_runs": [
+    {
+      "seed": 0,
+      "final_loss": 0.8858464360237122,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0,
+      "n_amb_pool": 7,
+      "n_det_pool": 8
+    },
+    {
+      "seed": 1,
+      "final_loss": 0.9134863018989563,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0,
+      "n_amb_pool": 7,
+      "n_det_pool": 8
+    },
+    {
+      "seed": 2,
+      "final_loss": 0.9743613004684448,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9783999999999999,
+      "n_amb_pool": 7,
+      "n_det_pool": 8
+    }
+  ],
+  "experiment_C_summary": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "auroc_lex_mean": 1.0,
+    "auroc_lex_std": 0.0,
+    "auroc_sem_mean": 0.9927999999999999,
+    "auroc_sem_std": 0.010182337649086316,
+    "n_seeds_lex_ge_sem": 3
+  },
+  "experiment_D_runs": [
+    {
+      "seed": 0,
+      "final_loss": 0.8344685435295105,
+      "per_temp": {
+        "0.6": {
+          "auroc_lex": 1.0,
+          "auroc_sem": 1.0
+        },
+        "1.0": {
+          "auroc_lex": 1.0,
+          "auroc_sem": 0.9984
+        },
+        "1.5": {
+          "auroc_lex": 0.9984,
+          "auroc_sem": 0.9952000000000001
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "final_loss": 0.8532590270042419,
+      "per_temp": {
+        "0.6": {
+          "auroc_lex": 0.9792,
+          "auroc_sem": 1.0
+        },
+        "1.0": {
+          "auroc_lex": 1.0,
+          "auroc_sem": 1.0
+        },
+        "1.5": {
+          "auroc_lex": 0.9664,
+          "auroc_sem": 0.9927999999999999
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "final_loss": 0.8532814979553223,
+      "per_temp": {
+        "0.6": {
+          "auroc_lex": 1.0,
+          "auroc_sem": 0.9432
+        },
+        "1.0": {
+          "auroc_lex": 1.0,
+          "auroc_sem": 0.9688
+        },
+        "1.5": {
+          "auroc_lex": 0.9935999999999999,
+          "auroc_sem": 0.9792000000000001
+        }
+      }
+    }
+  ],
+  "experiment_D_summary": {
+    "0.6": {
+      "auroc_lex_mean": 0.9930666666666667,
+      "auroc_lex_std": 0.009805214032453479,
+      "auroc_sem_mean": 0.9810666666666666,
+      "auroc_sem_std": 0.02677577678093058,
+      "n_seeds_lex_ge_sem": 2
+    },
+    "1.0": {
+      "auroc_lex_mean": 1.0,
+      "auroc_lex_std": 0.0,
+      "auroc_sem_mean": 0.9890666666666666,
+      "auroc_sem_std": 0.01434557616673361,
+      "n_seeds_lex_ge_sem": 3
+    },
+    "1.5": {
+      "auroc_lex_mean": 0.9861333333333332,
+      "auroc_lex_std": 0.014090501134531058,
+      "auroc_sem_mean": 0.9890666666666666,
+      "auroc_sem_std": 0.007045250567265525,
+      "n_seeds_lex_ge_sem": 2
+    }
+  }
+}

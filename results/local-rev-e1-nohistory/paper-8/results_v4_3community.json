@@ -1,0 +1,93 @@
+{
+  "three_community": {
+    "none": {
+      "mean": 0.09304215060256867,
+      "std": 0.031587103474102034,
+      "n": 15,
+      "leakage_index": 0.0
+    },
+    "broadcast": {
+      "mean": 0.08711753937497822,
+      "std": 0.03405306846815671,
+      "n": 15,
+      "leakage_index": 0.005924611227590443
+    },
+    "shared_a0.9": {
+      "mean": 0.004720216106150732,
+      "std": 0.0015828524018485833,
+      "n": 15,
+      "leakage_index": 0.08832193449641794
+    }
+  },
+  "three_community_sig": {
+    "shared_a0.9_vs_none": {
+      "t": -10.989490590991984,
+      "p": 2.8682335445473678e-08
+    },
+    "shared_a0.9_vs_broadcast": {
+      "t": -9.393273915953227,
+      "p": 2.0166490881166676e-07
+    },
+    "broadcast_vs_none": {
+      "t": -1.314382758754899,
+      "p": 0.20984495396479597
+    }
+  },
+  "pooled_holm_11tests": {
+    "n40_shared_a0.9_vs_broadcast_n40": {
+      "p_raw": 1.3238059573273643e-11,
+      "p_holm": 1.4561865530601008e-10,
+      "reject_at_0.05": true
+    },
+    "n40_shared_a0.9_vs_none_n40": {
+      "p_raw": 3.6472681092610516e-10,
+      "p_holm": 3.6472681092610515e-09,
+      "reject_at_0.05": true
+    },
+    "main_shared_a0.9_vs_broadcast": {
+      "p_raw": 2.6602191224892992e-06,
+      "p_holm": 2.3941972102403694e-05,
+      "reject_at_0.05": true
+    },
+    "main_shared_a0.9_vs_none": {
+      "p_raw": 1.744778269865536e-05,
+      "p_holm": 0.00013958226158924288,
+      "reject_at_0.05": true
+    },
+    "main_shared_vs_personalized_a0.9": {
+      "p_raw": 1.8272140571208046e-05,
+      "p_holm": 0.00013958226158924288,
+      "reject_at_0.05": true
+    },
+    "main_shared_vs_personalized_a0.0": {
+      "p_raw": 4.739672091365954e-05,
+      "p_holm": 0.00028438032548195723,
+      "reject_at_0.05": true
+    },
+    "main_shared_vs_personalized_a0.3": {
+      "p_raw": 0.003082673494102039,
+      "p_holm": 0.015413367470510194,
+      "reject_at_0.05": true
+    },
+    "n40_broadcast_vs_none_n40": {
+      "p_raw": 0.015176350824066489,
+      "p_holm": 0.060705403296265954,
+      "reject_at_0.05": false
+    },
+    "main_broadcast_vs_none": {
+      "p_raw": 0.05279980051961644,
+      "p_holm": 0.15839940155884932,
+      "reject_at_0.05": false
+    },
+    "main_shared_vs_personalized_a0.6": {
+      "p_raw": 0.49384952488726913,
+      "p_holm": 0.9876990497745383,
+      "reject_at_0.05": false
+    },
+    "main_shared_vs_personalized_a1.0": {
+      "p_raw": 0.7668991316671301,
+      "p_holm": 0.9876990497745383,
+      "reject_at_0.05": false
+    }
+  }
+}

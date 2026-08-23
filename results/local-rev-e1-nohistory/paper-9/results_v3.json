@@ -1,0 +1,100 @@
+{
+  "alias_ablation_multiseed": [
+    {
+      "seed": 0,
+      "n_aliases": 2,
+      "final_loss": 0.8863537907600403,
+      "auroc_lex": 1.0,
+      "auroc_sem_oracle": 0.9648
+    },
+    {
+      "seed": 1,
+      "n_aliases": 2,
+      "final_loss": 0.8677879571914673,
+      "auroc_lex": 1.0,
+      "auroc_sem_oracle": 0.9656
+    },
+    {
+      "seed": 2,
+      "n_aliases": 2,
+      "final_loss": 0.8911831974983215,
+      "auroc_lex": 1.0,
+      "auroc_sem_oracle": 0.9872
+    },
+    {
+      "seed": 0,
+      "n_aliases": 4,
+      "final_loss": 0.9942634701728821,
+      "auroc_lex": 0.9968,
+      "auroc_sem_oracle": 0.976
+    },
+    {
+      "seed": 1,
+      "n_aliases": 4,
+      "final_loss": 1.021722435951233,
+      "auroc_lex": 0.9984,
+      "auroc_sem_oracle": 0.9176
+    },
+    {
+      "seed": 2,
+      "n_aliases": 4,
+      "final_loss": 1.0096169710159302,
+      "auroc_lex": 0.9984,
+      "auroc_sem_oracle": 0.96
+    },
+    {
+      "seed": 0,
+      "n_aliases": 8,
+      "final_loss": 1.1288697719573975,
+      "auroc_lex": 0.9856,
+      "auroc_sem_oracle": 0.9552
+    },
+    {
+      "seed": 1,
+      "n_aliases": 8,
+      "final_loss": 1.0821973085403442,
+      "auroc_lex": 0.9968,
+      "auroc_sem_oracle": 0.9007999999999999
+    },
+    {
+      "seed": 2,
+      "n_aliases": 8,
+      "final_loss": 1.1296019554138184,
+      "auroc_lex": 0.9904,
+      "auroc_sem_oracle": 0.8271999999999999
+    }
+  ],
+  "noisy_clustering": [
+    {
+      "seed": 0,
+      "auroc_lex": 1.0,
+      "noisy_auroc_sem": {
+        "0.0": 0.9648,
+        "0.05": 0.9664,
+        "0.15": 0.8992,
+        "0.3": 0.9408
+      }
+    },
+    {
+      "seed": 1,
+      "auroc_lex": 1.0,
+      "noisy_auroc_sem": {
+        "0.0": 0.9656,
+        "0.05": 0.968,
+        "0.15": 0.9328,
+        "0.3": 0.9344
+      }
+    },
+    {
+      "seed": 2,
+      "auroc_lex": 1.0,
+      "noisy_auroc_sem": {
+        "0.0": 0.9872,
+        "0.05": 0.9935999999999999,
+        "0.15": 0.9504,
+        "0.3": 0.8656
+      }
+    }
+  ],
+  "wall_time_sec": 571.2427823543549
+}

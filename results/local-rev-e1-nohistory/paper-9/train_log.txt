@@ -1,0 +1,60 @@
+step     1  loss 5.0082  elapsed 0.0s
+step   200  loss 0.8658  elapsed 3.4s
+step   400  loss 0.8734  elapsed 6.7s
+step   600  loss 0.8647  elapsed 10.0s
+step   800  loss 0.8829  elapsed 13.5s
+step  1000  loss 0.8353  elapsed 17.1s
+step  1200  loss 0.8864  elapsed 20.6s
+TOTAL TRAIN TIME: 20.6s
+
+{
+  "train_steps": 1200,
+  "train_time_sec": 20.610474348068237,
+  "final_loss": 0.8863537907600403,
+  "K_samples": 40,
+  "temperature": 1.0,
+  "auroc_lexical_entropy_vs_ambiguous": 1.0,
+  "auroc_semantic_entropy_vs_ambiguous": 0.9648,
+  "length_confound_corr_lexical": -0.008565006103495655,
+  "length_confound_corr_semantic": -0.057525290784521635,
+  "group_stats": {
+    "det": {
+      "n": 25,
+      "mean_lex_entropy": 0.7035248363378263,
+      "mean_sem_entropy": 0.17966871761951622,
+      "mean_unmapped_rate": 0.002,
+      "mean_correct_rate": 0.8910000000000001
+    },
+    "amb": {
+      "n": 25,
+      "mean_lex_entropy": 1.5446760947743092,
+      "mean_sem_entropy": 0.9789794000398336,
+      "mean_unmapped_rate": 0.006999999999999999,
+      "mean_correct_rate": 0.939
+    },
+    "ood": {
+      "n": 15,
+      "mean_lex_entropy": 1.6381233384908287,
+      "mean_sem_entropy": 1.3462992585335831,
+      "mean_unmapped_rate": 0.026666666666666672,
+      "mean_correct_rate": NaN
+    }
+  },
+  "temperature_ablation": [
+    {
+      "temperature": 0.6,
+      "auroc_lexical": 0.9664,
+      "auroc_semantic": 0.948
+    },
+    {
+      "temperature": 1.0,
+      "auroc_lexical": 1.0,
+      "auroc_semantic": 0.9672
+    },
+    {
+      "temperature": 1.5,
+      "auroc_lexical": 0.992,
+      "auroc_semantic": 0.968
+    }
+  ]
+}

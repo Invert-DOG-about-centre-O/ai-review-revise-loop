@@ -30,3 +30,11 @@
 {"episode": 7, "round": 2, "version": "v2.md", "rating": 5, "confidence": 4}
 {"episode": 7, "round": 3, "version": "v3.md", "rating": 5, "confidence": 4}
 {"episode": 7, "round": 4, "version": "v4.md", "rating": 6, "confidence": 4}
+{"episode": 8, "round": 1, "version": "v1.md", "rating": 6, "confidence": 4}
+{"episode": 9, "round": 1, "version": "v1.md", "rating": 5, "confidence": 4}
+{"episode": 8, "round": 2, "version": "v2.md", "rating": 6, "confidence": 4}
+{"episode": 8, "round": 3, "version": "v3.md", "rating": 7, "confidence": 4}
+{"episode": 8, "round": 4, "version": "v4.md", "rating": 8, "confidence": 4}
+{"episode": 9, "round": 2, "version": "v2.md", "rating": 7, "confidence": 4}
+{"episode": 9, "round": 3, "version": "v3.md", "rating": 8, "confidence": 5}
+{"episode": 9, "round": 4, "version": "v4.md", "rating": 6, "confidence": 4}
