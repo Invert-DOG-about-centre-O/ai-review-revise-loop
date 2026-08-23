@@ -1,0 +1,14 @@
+calibrated=True s=0.0 final_trust=0.794 late_acc=0.758 overreliance=0.1491 underreliance=0.0719
+calibrated=True s=0.2 final_trust=0.743 late_acc=0.708 overreliance=0.1760 underreliance=0.0635
+calibrated=True s=0.4 final_trust=0.696 late_acc=0.665 overreliance=0.2052 underreliance=0.0492
+calibrated=True s=0.6 final_trust=0.669 late_acc=0.635 overreliance=0.2170 underreliance=0.0369
+calibrated=True s=0.8 final_trust=0.609 late_acc=0.587 overreliance=0.2382 underreliance=0.0205
+calibrated=True s=1.0 final_trust=0.561 late_acc=0.544 overreliance=0.2622 underreliance=0.0000
+calibrated=False s=0.0 final_trust=0.762 late_acc=0.720 overreliance=0.1772 underreliance=0.0709
+calibrated=False s=0.2 final_trust=0.724 late_acc=0.694 overreliance=0.2078 underreliance=0.0652
+calibrated=False s=0.4 final_trust=0.684 late_acc=0.647 overreliance=0.2357 underreliance=0.0496
+calibrated=False s=0.6 final_trust=0.632 late_acc=0.625 overreliance=0.2631 underreliance=0.0372
+calibrated=False s=0.8 final_trust=0.587 late_acc=0.569 overreliance=0.2835 underreliance=0.0216
+calibrated=False s=1.0 final_trust=0.545 late_acc=0.545 overreliance=0.3065 underreliance=0.0000
+
+Total runtime: 0.08s

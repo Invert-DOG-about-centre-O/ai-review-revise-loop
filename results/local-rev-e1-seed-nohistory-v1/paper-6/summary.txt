@@ -1,0 +1,51 @@
+=== Main experiment (eps=0.35, 10 seeds) ===
+random var 0.19984485528368476 0.025901763321940035 ext 0.4286162607460266 0.035815654548224295 echo 0.45464728661808945 0.03425440555573427 clus 2.2 0.39999999999999997
+similarity var 0.2558703432572151 0.03305177701638105 ext 0.4483213075438474 0.03224578246754514 echo 0.028130760940841326 0.007122598295857838 clus 2.8 0.39999999999999997
+engagement var 0.43749899272160053 0.03543297398004556 ext 0.6679294255224637 0.02799671212807933 echo 0.011980140551561604 0.004504289032494501 clus 2.2 0.39999999999999997
+bridging var 0.2807404814357423 0.03602166118213151 ext 0.4825572872248592 0.03430634606555299 echo 0.5758658045935852 0.04007477294690302 clus 3.1 0.5385164807134505
+
+=== Permutation tests (final variance) ===
+engagement vs similarity: diff=0.1816, p=0.0001
+similarity vs random: diff=0.0560, p=0.0016
+bridging vs similarity: diff=0.0249, p=0.1419
+engagement vs bridging: diff=0.1568, p=0.0001
+
+=== Permutation tests (extremity and echo-chamber index) ===
+engagement vs similarity (extremity): diff=0.2196, p=0.0001
+engagement vs similarity (echo_chamber_index): diff=-0.0162, p=0.0004
+similarity vs random (extremity): diff=0.0197, p=0.2320
+similarity vs random (echo_chamber_index): diff=-0.4265, p=0.0001
+bridging vs similarity (extremity): diff=0.0342, p=0.0410
+bridging vs similarity (echo_chamber_index): diff=0.5477, p=0.0001
+engagement vs bridging (extremity): diff=0.1854, p=0.0001
+engagement vs bridging (echo_chamber_index): diff=-0.5639, p=0.0001
+
+=== Extremity weight sweep (engagement policy, eps=0.35, 5 seeds) ===
+weight=0.0: var=0.2476 +/- 0.0342
+weight=0.1: var=0.3102 +/- 0.0210
+weight=0.2: var=0.3930 +/- 0.0291
+weight=0.3: var=0.4369 +/- 0.0393
+weight=0.4: var=0.4605 +/- 0.0392
+weight=0.5: var=0.4861 +/- 0.0379
+
+=== Permutation tests on weight sweep (adjacent steps + extremes) ===
+w=0.0 vs w=0.1: diff=-0.0627, p=0.0113
+w=0.1 vs w=0.2: diff=-0.0828, p=0.0055
+w=0.2 vs w=0.3: diff=-0.0439, p=0.1328
+w=0.3 vs w=0.4: diff=-0.0236, p=0.4161
+w=0.4 vs w=0.5: diff=-0.0257, p=0.3743
+w=0.0 vs w=0.5 (extremes): diff=-0.2386, p=0.0078
+
+=== Ablation over epsilon (5 seeds) ===
+eps=0.2 random: var=0.2856 +/- 0.0347
+eps=0.2 similarity: var=0.2835 +/- 0.0388
+eps=0.2 engagement: var=0.3312 +/- 0.0262
+eps=0.2 bridging: var=0.2932 +/- 0.0540
+eps=0.35 random: var=0.2031 +/- 0.0310
+eps=0.35 similarity: var=0.2476 +/- 0.0342
+eps=0.35 engagement: var=0.4369 +/- 0.0393
+eps=0.35 bridging: var=0.2906 +/- 0.0392
+eps=0.5 random: var=0.0666 +/- 0.0853
+eps=0.5 similarity: var=0.1988 +/- 0.0592
+eps=0.5 engagement: var=0.4237 +/- 0.0375
+eps=0.5 bridging: var=0.2594 +/- 0.0076

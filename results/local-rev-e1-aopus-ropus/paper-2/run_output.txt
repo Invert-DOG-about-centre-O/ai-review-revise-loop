@@ -1,0 +1,46 @@
+====================================================================
+SETUP
+====================================================================
+[val] AI acc=0.707  errA=0.203 errB=0.638 gap=0.436  n_B=622
+[test] AI acc=0.710  errA=0.201 errB=0.656 gap=0.455  n_B=1171
+Human acc (both groups) target=0.75
+
+====================================================================
+TEST-SET RESULTS BY POLICY
+====================================================================
+1. AI-only                   acc=0.710  errA=0.201 errB=0.656 gap=0.455
+2. Human-only                acc=0.751  errA=0.247 errB=0.253 gap=0.005
+3. Global tau*=0.720         acc=0.768  errA=0.163 errB=0.519 gap=0.356
+   (routed 53% of cases to AI)
+4. Group-cond tau=0.72/0.99  acc=0.819  errA=0.163 errB=0.254 gap=0.092
+
+====================================================================
+ABLATION A: global-threshold sweep on TEST (acc vs gap)
+====================================================================
+   tau     acc     gap    %AI
+  0.50   0.710   0.455   100%
+  0.60   0.747   0.428    79%
+  0.70   0.766   0.373    57%
+  0.80   0.767   0.279    35%
+  0.90   0.758   0.131    14%
+  0.95   0.752   0.060     5%
+
+====================================================================
+ABLATION B: human-accuracy sweep (global tau*, group-cond)
+====================================================================
+ h_acc  glob_acc  glob_gap  gc_acc  gc_gap
+  0.60     0.716     0.447   0.767   0.188
+  0.70     0.748     0.342   0.799   0.126
+  0.80     0.796     0.089   0.842   0.092
+  0.90     0.901     0.012   0.918   0.008
+
+====================================================================
+DIAGNOSTIC: AI reliability at high confidence, by group (test)
+====================================================================
+  group A(maj): mean_conf=0.844 actual_acc_when_conf>=tau*=0.910  (n=2559)
+  group B(min): mean_conf=0.848 actual_acc_when_conf>=tau*=0.250  (n=621)
+
+DONE
+
+--- Environment: Python 3, numpy, scikit-learn. CPU-only. Runtime ~2s.
+--- Reproduce: `python reliance_fairness.py` (seeds fixed: data seed 42, RNG 0).

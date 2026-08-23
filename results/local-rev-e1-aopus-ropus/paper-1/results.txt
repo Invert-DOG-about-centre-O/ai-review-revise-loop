@@ -1,0 +1,33 @@
+Synthetic LLM semantic-UQ simulation
+greedy base accuracy = 0.424  (task: detect the incorrect answers)
+
+estimator                 k=2            k=3            k=5           k=10           k=20
+plugin(SE)       0.601+-0.006   0.646+-0.006   0.687+-0.010   0.728+-0.009   0.750+-0.007
+miller-madow     0.601+-0.006   0.646+-0.006   0.687+-0.010   0.727+-0.009   0.748+-0.007
+chao-shen        0.601+-0.006   0.646+-0.006   0.673+-0.011   0.706+-0.009   0.736+-0.007
+bayes-KT         0.601+-0.006   0.647+-0.007   0.688+-0.010   0.729+-0.009   0.753+-0.007
+num-distinct     0.601+-0.006   0.646+-0.006   0.680+-0.010   0.710+-0.010   0.716+-0.008
+1-maxprob        0.601+-0.006   0.646+-0.006   0.683+-0.010   0.729+-0.008   0.758+-0.007
+lik-weighted(ours)   0.673+-0.006   0.719+-0.007   0.749+-0.008   0.771+-0.008   0.778+-0.008
+ORACLE(true H)   0.790+-0.008   0.790+-0.008   0.790+-0.008   0.790+-0.008   0.790+-0.008
+
+Miller-Madow minus plugin AUROC (paired, mean +- std over trials):
+  k=2   delta=+0.0000 +- 0.0000  (paired t=+0.00, n=20)
+  k=3   delta=+0.0000 +- 0.0000  (paired t=+0.00, n=20)
+  k=5   delta=+0.0000 +- 0.0000  (paired t=+0.00, n=20)
+  k=10  delta=-0.0012 +- 0.0004  (paired t=-14.59, n=20)
+  k=20  delta=-0.0022 +- 0.0004  (paired t=-26.95, n=20)
+
+Chao-Shen minus plugin AUROC (paired):
+  k=2   delta=+0.0000 +- 0.0000  (paired t=+0.00, n=20)
+  k=3   delta=+0.0000 +- 0.0000  (paired t=+0.00, n=20)
+  k=5   delta=-0.0138 +- 0.0024  (paired t=-25.31, n=20)
+  k=10  delta=-0.0216 +- 0.0034  (paired t=-28.01, n=20)
+  k=20  delta=-0.0144 +- 0.0018  (paired t=-35.77, n=20)
+
+lik-weighted(ours) minus plugin AUROC (paired):
+  k=2   delta=+0.0721 +- 0.0046  (paired t=+68.59, n=20)
+  k=3   delta=+0.0727 +- 0.0059  (paired t=+54.08, n=20)
+  k=5   delta=+0.0618 +- 0.0037  (paired t=+73.74, n=20)
+  k=10  delta=+0.0427 +- 0.0045  (paired t=+41.74, n=20)
+  k=20  delta=+0.0272 +- 0.0033  (paired t=+35.51, n=20)

@@ -1,0 +1,13 @@
+$ python ablation_eps.py
+eps=0.15  calibrated: var=0.9967+-0.0035 bc=0.9759+-0.0020
+eps=0.15 sycophantic: var=0.0611+-0.0044 bc=0.3567+-0.0284
+eps=0.25  calibrated: var=0.8021+-0.1081 bc=0.9545+-0.0813
+eps=0.25 sycophantic: var=0.0611+-0.0044 bc=0.3567+-0.0284
+eps=0.35  calibrated: var=0.2140+-0.0949 bc=0.7059+-0.3293
+eps=0.35 sycophantic: var=0.0611+-0.0044 bc=0.3567+-0.0284
+eps=0.50  calibrated: var=0.0252+-0.0093 bc=0.3765+-0.4204
+eps=0.50 sycophantic: var=0.0611+-0.0044 bc=0.3567+-0.0284
+eps=0.70  calibrated: var=0.0036+-0.0025 bc=0.7810+-0.3637
+eps=0.70 sycophantic: var=0.0611+-0.0044 bc=0.3567+-0.0284
+
+Elapsed: 16.8s

@@ -1,0 +1,111 @@
+{
+  "confidence_bound_density_sweep": {
+    "0.05": {
+      "0.2": {
+        "variance_avg": 0.3321994214111524,
+        "variance_std": 0.008529807221691188,
+        "extremism_avg": 0.3008333333333334,
+        "nearest_dist_avg": 8.670792842911017e-06
+      },
+      "0.5": {
+        "variance_avg": 0.3321994214111524,
+        "variance_std": 0.008529807221691188,
+        "extremism_avg": 0.3008333333333334,
+        "nearest_dist_avg": 8.670792842911017e-06
+      },
+      "0.8": {
+        "variance_avg": 0.3321994214111524,
+        "variance_std": 0.008529807221691188,
+        "extremism_avg": 0.3008333333333334,
+        "nearest_dist_avg": 8.670792842911017e-06
+      }
+    },
+    "0.01": {
+      "0.2": {
+        "variance_avg": 0.33207141070441804,
+        "variance_std": 0.008577029724070708,
+        "extremism_avg": 0.30166666666666675,
+        "nearest_dist_avg": 0.00016238221465386495
+      },
+      "0.5": {
+        "variance_avg": 0.33207141070441804,
+        "variance_std": 0.008577029724070708,
+        "extremism_avg": 0.30166666666666675,
+        "nearest_dist_avg": 0.00016238221465386495
+      },
+      "0.8": {
+        "variance_avg": 0.33207141070441804,
+        "variance_std": 0.008577029724070708,
+        "extremism_avg": 0.30166666666666675,
+        "nearest_dist_avg": 0.00016238221465386495
+      }
+    },
+    "0.002": {
+      "0.2": {
+        "variance_avg": 0.33211134055018754,
+        "variance_std": 0.00841971373582081,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0004625866349412853
+      },
+      "0.5": {
+        "variance_avg": 0.33211134055018754,
+        "variance_std": 0.00841971373582081,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0004625866349412853
+      },
+      "0.8": {
+        "variance_avg": 0.33211134055018754,
+        "variance_std": 0.00841971373582081,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0004625866349412853
+      }
+    },
+    "0.0": {
+      "0.2": {
+        "variance_avg": 0.3321521200205514,
+        "variance_std": 0.00839501856756448,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0006354024796344072
+      },
+      "0.5": {
+        "variance_avg": 0.3321521200205514,
+        "variance_std": 0.00839501856756448,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0006354024796344072
+      },
+      "0.8": {
+        "variance_avg": 0.3321521200205514,
+        "variance_std": 0.00839501856756448,
+        "extremism_avg": 0.3017500000000001,
+        "nearest_dist_avg": 0.0006354024796344072
+      }
+    }
+  },
+  "novelty_engagement_policy_comparison": {
+    "random": {
+      "variance_final_mean_avg": 0.36044497252927526,
+      "variance_final_mean_std": 0.03966091834346782,
+      "extremism_final_mean_avg": 0.16486666666666663,
+      "extremism_final_mean_std": 0.06729608063725406,
+      "engagement_rate_final_mean_avg": 0.46470666666666666,
+      "engagement_rate_final_mean_std": 0.039294490299547506
+    },
+    "engagement": {
+      "variance_final_mean_avg": 0.33289166839333195,
+      "variance_final_mean_std": 0.007707836253097833,
+      "extremism_final_mean_avg": 0.3006666666666667,
+      "extremism_final_mean_std": 0.011813363431112918,
+      "engagement_rate_final_mean_avg": 0.4118222222222222,
+      "engagement_rate_final_mean_std": 0.002869920633823228
+    },
+    "diversity": {
+      "variance_final_mean_avg": 0.3272447349238442,
+      "variance_final_mean_std": 0.018874901982114115,
+      "extremism_final_mean_avg": 0.12524444444444444,
+      "extremism_final_mean_std": 0.026647900804452698,
+      "engagement_rate_final_mean_avg": 0.4332977777777778,
+      "engagement_rate_final_mean_std": 0.0039527230807491305
+    }
+  },
+  "total_runtime_sec": 146.07915568351746
+}

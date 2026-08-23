@@ -1,0 +1,252 @@
+{
+  "n_seeds": 8,
+  "n_keys": 240,
+  "per_seed": [
+    {
+      "seed": 0,
+      "auroc": 0.9865531151949798,
+      "n_unseen_det": 27,
+      "cell_n": {
+        "deterministic/unseen": 27,
+        "deterministic/rare": 33,
+        "deterministic/medium": 30,
+        "deterministic/frequent": 30,
+        "stochastic/unseen": 33,
+        "stochastic/rare": 27,
+        "stochastic/medium": 30,
+        "stochastic/frequent": 30
+      },
+      "h_unseen_det": 0.9205783197173366,
+      "h_unseen_sto": 0.8422029984719825,
+      "global_prior_entropy": 2.029590606689453,
+      "det_unseen_kl": 3.973142283569347,
+      "det_freq_kl": 0.000923111854159734,
+      "sto_unseen_kl": 4.030230027819908,
+      "sto_freq_kl": 0.052740224747844316,
+      "det_ratio": 4304.074599048361,
+      "sto_ratio": 76.41662596412499,
+      "collision_rate": 28.74074074074074
+    },
+    {
+      "seed": 1,
+      "auroc": 0.9677795031055901,
+      "n_unseen_det": 34,
+      "cell_n": {
+        "deterministic/unseen": 34,
+        "deterministic/rare": 27,
+        "deterministic/medium": 22,
+        "deterministic/frequent": 37,
+        "stochastic/unseen": 26,
+        "stochastic/rare": 33,
+        "stochastic/medium": 38,
+        "stochastic/frequent": 23
+      },
+      "h_unseen_det": 1.0703521800391815,
+      "h_unseen_sto": 0.9977977900550916,
+      "global_prior_entropy": 2.0680899620056152,
+      "det_unseen_kl": 4.087330660726354,
+      "det_freq_kl": 0.0013036867108349919,
+      "sto_unseen_kl": 3.991822215058496,
+      "sto_freq_kl": 0.04447882264655942,
+      "det_ratio": 3135.209269801086,
+      "sto_ratio": 89.7465800023211,
+      "collision_rate": 30.647058823529413
+    },
+    {
+      "seed": 2,
+      "auroc": 0.9902597402597403,
+      "n_unseen_det": 24,
+      "cell_n": {
+        "deterministic/unseen": 24,
+        "deterministic/rare": 35,
+        "deterministic/medium": 32,
+        "deterministic/frequent": 29,
+        "stochastic/unseen": 36,
+        "stochastic/rare": 25,
+        "stochastic/medium": 28,
+        "stochastic/frequent": 31
+      },
+      "h_unseen_det": 1.1525661473472912,
+      "h_unseen_sto": 1.0582088029219046,
+      "global_prior_entropy": 2.068350315093994,
+      "det_unseen_kl": 4.262994549464887,
+      "det_freq_kl": 0.0010953846694419483,
+      "sto_unseen_kl": 3.2708312856328656,
+      "sto_freq_kl": 0.04930836617642931,
+      "det_ratio": 3891.7785398956703,
+      "sto_ratio": 66.33420531375077,
+      "collision_rate": 31.0
+    },
+    {
+      "seed": 3,
+      "auroc": 0.9600694444444444,
+      "n_unseen_det": 31,
+      "cell_n": {
+        "deterministic/unseen": 31,
+        "deterministic/rare": 35,
+        "deterministic/medium": 27,
+        "deterministic/frequent": 27,
+        "stochastic/unseen": 29,
+        "stochastic/rare": 25,
+        "stochastic/medium": 33,
+        "stochastic/frequent": 33
+      },
+      "h_unseen_det": 0.9487197831753762,
+      "h_unseen_sto": 0.9579538158301649,
+      "global_prior_entropy": 2.042962074279785,
+      "det_unseen_kl": 3.848019658814609,
+      "det_freq_kl": 0.002299655736214931,
+      "sto_unseen_kl": 3.5026424747957403,
+      "sto_freq_kl": 0.049409996524277716,
+      "det_ratio": 1673.3024853312063,
+      "sto_ratio": 70.88934873886723,
+      "collision_rate": 30.612903225806452
+    },
+    {
+      "seed": 4,
+      "auroc": 0.9902950310559007,
+      "n_unseen_det": 30,
+      "cell_n": {
+        "deterministic/unseen": 30,
+        "deterministic/rare": 29,
+        "deterministic/medium": 32,
+        "deterministic/frequent": 29,
+        "stochastic/unseen": 30,
+        "stochastic/rare": 31,
+        "stochastic/medium": 28,
+        "stochastic/frequent": 31
+      },
+      "h_unseen_det": 1.0777858063578605,
+      "h_unseen_sto": 1.1439370850721995,
+      "global_prior_entropy": 2.0729517936706543,
+      "det_unseen_kl": 4.695243130079808,
+      "det_freq_kl": 0.0013230120423183386,
+      "sto_unseen_kl": 3.6675435028940164,
+      "sto_freq_kl": 0.053402062223776754,
+      "det_ratio": 3548.9043031326046,
+      "sto_ratio": 68.67793770820106,
+      "collision_rate": 30.466666666666665
+    },
+    {
+      "seed": 5,
+      "auroc": 0.968927624100038,
+      "n_unseen_det": 33,
+      "cell_n": {
+        "deterministic/unseen": 33,
+        "deterministic/rare": 32,
+        "deterministic/medium": 28,
+        "deterministic/frequent": 27,
+        "stochastic/unseen": 27,
+        "stochastic/rare": 28,
+        "stochastic/medium": 32,
+        "stochastic/frequent": 33
+      },
+      "h_unseen_det": 1.0190002656344213,
+      "h_unseen_sto": 0.9396951342070544,
+      "global_prior_entropy": 2.053955078125,
+      "det_unseen_kl": 4.651017050583443,
+      "det_freq_kl": 0.00188484888921767,
+      "sto_unseen_kl": 3.2638449234157356,
+      "sto_freq_kl": 0.04704319559077081,
+      "det_ratio": 2467.5808640096902,
+      "sto_ratio": 69.37974519860327,
+      "collision_rate": 30.21212121212121
+    },
+    {
+      "seed": 6,
+      "auroc": 0.9775885253249663,
+      "n_unseen_det": 29,
+      "cell_n": {
+        "deterministic/unseen": 29,
+        "deterministic/rare": 30,
+        "deterministic/medium": 34,
+        "deterministic/frequent": 27,
+        "stochastic/unseen": 31,
+        "stochastic/rare": 30,
+        "stochastic/medium": 26,
+        "stochastic/frequent": 33
+      },
+      "h_unseen_det": 0.9180496016453052,
+      "h_unseen_sto": 0.9427666962146759,
+      "global_prior_entropy": 2.069002866744995,
+      "det_unseen_kl": 3.962153997196636,
+      "det_freq_kl": 0.0017791666590968955,
+      "sto_unseen_kl": 3.353131665378622,
+      "sto_freq_kl": 0.041802716160127346,
+      "det_ratio": 2226.9718111780626,
+      "sto_ratio": 80.21324864476,
+      "collision_rate": 29.75862068965517
+    },
+    {
+      "seed": 7,
+      "auroc": 0.9578559738134207,
+      "n_unseen_det": 31,
+      "cell_n": {
+        "deterministic/unseen": 31,
+        "deterministic/rare": 35,
+        "deterministic/medium": 25,
+        "deterministic/frequent": 29,
+        "stochastic/unseen": 29,
+        "stochastic/rare": 25,
+        "stochastic/medium": 35,
+        "stochastic/frequent": 31
+      },
+      "h_unseen_det": 1.0608149670785474,
+      "h_unseen_sto": 0.9869907393023886,
+      "global_prior_entropy": 2.043813467025757,
+      "det_unseen_kl": 4.347032670340018,
+      "det_freq_kl": 0.0014832178562193849,
+      "sto_unseen_kl": 3.5222167299959226,
+      "sto_freq_kl": 0.05194323641080415,
+      "det_ratio": 2930.811985651447,
+      "sto_ratio": 67.80895788124793,
+      "collision_rate": 29.35483870967742
+    }
+  ],
+  "summary": {
+    "auroc": [
+      0.974916119662385,
+      0.012312416203421106,
+      0.9578559738134207,
+      0.9902950310559007
+    ],
+    "h_unseen_det": [
+      1.020983383874415,
+      0.07942517947317891,
+      0.9180496016453052,
+      1.1525661473472912
+    ],
+    "h_unseen_sto": [
+      0.9836941327594327,
+      0.08346652961850319,
+      0.8422029984719825,
+      1.1439370850721995
+    ],
+    "global_prior_entropy": [
+      2.0560895204544067,
+      0.014896342079050834,
+      2.029590606689453,
+      2.0729517936706543
+    ],
+    "det_ratio": [
+      3022.329232256016,
+      825.9406941235194,
+      1673.3024853312063,
+      4304.074599048361
+    ],
+    "sto_ratio": [
+      73.68333118148455,
+      7.48363006702402,
+      66.33420531375077,
+      89.7465800023211
+    ],
+    "collision_rate": [
+      30.099118758524632,
+      0.7105229930667686,
+      28.74074074074074,
+      31.0
+    ]
+  },
+  "auroc_collision_corr": 0.04629867753997393,
+  "elapsed_seconds": 351.7432494163513
+}

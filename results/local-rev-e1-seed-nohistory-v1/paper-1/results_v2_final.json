@@ -1,0 +1,43 @@
+{
+  "accuracy": 0.9466666666666667,
+  "n_errors": 8,
+  "n_eval": 150,
+  "base_aurocs": {
+    "neg_mean_logprob": 0.9630281690140845,
+    "perplexity": 0.9630281690140845,
+    "neg_min_logprob": 0.9471830985915491,
+    "first_token_entropy": 0.903169014084507
+  },
+  "k_ablation": {
+    "4": {
+      "semantic_entropy_auroc": 0.8054577464788732,
+      "sample_agreement_auroc": 0.8257042253521126,
+      "majority_vote_acc": 0.8933333333333333
+    },
+    "8": {
+      "semantic_entropy_auroc": 0.891725352112676,
+      "sample_agreement_auroc": 0.8886443661971831,
+      "majority_vote_acc": 0.9133333333333333
+    },
+    "16": {
+      "semantic_entropy_auroc": 0.9207746478873239,
+      "sample_agreement_auroc": 0.8829225352112676,
+      "majority_vote_acc": 0.9266666666666666
+    },
+    "32": {
+      "semantic_entropy_auroc": 0.9256161971830986,
+      "sample_agreement_auroc": 0.9330985915492958,
+      "majority_vote_acc": 0.94
+    }
+  },
+  "ci_meanlp": [
+    0.917198275862069,
+    0.9972413793103447,
+    0.9633260204655083
+  ],
+  "ci_sement_K8": [
+    0.7983994658510504,
+    0.9668965517241379,
+    0.8893335330943648
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "label_noise": 0.12,
+  "n_train": 4000,
+  "n_cal": 1500,
+  "n_test": 1500,
+  "n_classes": 6,
+  "T_base": 0.4505159854888916,
+  "T_ens": 0.40890783071517944,
+  "calibration_metrics": {
+    "raw_softmax": {
+      "accuracy": 0.9593333333333334,
+      "nll": 0.23780392110347748,
+      "brier": 0.09299153441538067,
+      "ece": 0.13403516707817714,
+      "mean_confidence": 0.8279617428779602
+    },
+    "temp_scaled": {
+      "accuracy": 0.9593333333333334,
+      "nll": 0.10895473510026932,
+      "brier": 0.0556925467936329,
+      "ece": 0.014812243064244592,
+      "mean_confidence": 0.9547980427742004
+    },
+    "ensemble": {
+      "accuracy": 0.9666666666666667,
+      "nll": 0.2536923587322235,
+      "brier": 0.09742455529365619,
+      "ece": 0.15259423923492432,
+      "mean_confidence": 0.8144225478172302
+    },
+    "ensemble_temp_scaled": {
+      "accuracy": 0.966,
+      "nll": 0.10811556130647659,
+      "brier": 0.05647250367834476,
+      "ece": 0.017064760347207414,
+      "mean_confidence": 0.9525623321533203
+    }
+  },
+  "conformal_results_LAC": {
+    "raw_softmax": {
+      "qhat": 0.4593329429626465,
+      "coverage": 0.9086666666666666,
+      "avg_set_size": 0.92,
+      "empty_frac": 0.08
+    },
+    "temp_scaled": {
+      "qhat": 0.17936301231384277,
+      "coverage": 0.9,
+      "avg_set_size": 0.9106666666666666,
+      "empty_frac": 0.08933333333333333
+    },
+    "ensemble": {
+      "qhat": 0.45552313327789307,
+      "coverage": 0.9033333333333333,
+      "avg_set_size": 0.916,
+      "empty_frac": 0.084
+    },
+    "ensemble_temp_scaled": {
+      "qhat": 0.1856592297554016,
+      "coverage": 0.902,
+      "avg_set_size": 0.9126666666666666,
+      "empty_frac": 0.08733333333333333
+    }
+  },
+  "conformal_results_APS": {
+    "raw_softmax": {
+      "qhat": 0.9760255813598633,
+      "coverage": 0.9993333333333333,
+      "avg_set_size": 2.744,
+      "empty_frac": 0.0
+    },
+    "temp_scaled": {
+      "qhat": 0.9999239444732666,
+      "coverage": 1.0,
+      "avg_set_size": 3.0873333333333335,
+      "empty_frac": 0.0
+    },
+    "ensemble": {
+      "qhat": 0.9676796197891235,
+      "coverage": 0.9993333333333333,
+      "avg_set_size": 2.7146666666666666,
+      "empty_frac": 0.0
+    },
+    "ensemble_temp_scaled": {
+      "qhat": 0.9999343752861023,
+      "coverage": 1.0,
+      "avg_set_size": 3.240666666666667,
+      "empty_frac": 0.0
+    }
+  },
+  "elapsed_seconds": 3.9649903774261475
+}

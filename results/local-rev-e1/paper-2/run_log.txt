@@ -1,0 +1,28 @@
+cond=random            seed=0 final_var=0.0229 bimodality=0.172 frac_extreme=0.000 diversity=2.257
+cond=random            seed=1 final_var=0.0226 bimodality=0.178 frac_extreme=0.000 diversity=2.259
+cond=random            seed=2 final_var=0.0214 bimodality=0.183 frac_extreme=0.000 diversity=2.259
+cond=random            seed=3 final_var=0.0235 bimodality=0.180 frac_extreme=0.000 diversity=2.259
+cond=random            seed=4 final_var=0.0260 bimodality=0.176 frac_extreme=0.000 diversity=2.257
+cond=static            seed=0 final_var=0.0716 bimodality=0.179 frac_extreme=0.037 diversity=1.767
+cond=static            seed=1 final_var=0.0625 bimodality=0.171 frac_extreme=0.013 diversity=1.710
+cond=static            seed=2 final_var=0.0752 bimodality=0.167 frac_extreme=0.033 diversity=1.779
+cond=static            seed=3 final_var=0.0646 bimodality=0.173 frac_extreme=0.013 diversity=1.711
+cond=static            seed=4 final_var=0.0756 bimodality=0.169 frac_extreme=0.030 diversity=1.788
+cond=adaptive          seed=0 final_var=0.0710 bimodality=0.180 frac_extreme=0.030 diversity=1.765
+cond=adaptive          seed=1 final_var=0.0610 bimodality=0.171 frac_extreme=0.013 diversity=1.707
+cond=adaptive          seed=2 final_var=0.0739 bimodality=0.167 frac_extreme=0.027 diversity=1.775
+cond=adaptive          seed=3 final_var=0.0633 bimodality=0.173 frac_extreme=0.013 diversity=1.708
+cond=adaptive          seed=4 final_var=0.0736 bimodality=0.169 frac_extreme=0.030 diversity=1.782
+cond=adaptive_diverse  seed=0 final_var=0.0225 bimodality=0.172 frac_extreme=0.000 diversity=1.904
+cond=adaptive_diverse  seed=1 final_var=0.0247 bimodality=0.173 frac_extreme=0.000 diversity=1.881
+cond=adaptive_diverse  seed=2 final_var=0.0237 bimodality=0.166 frac_extreme=0.000 diversity=1.911
+cond=adaptive_diverse  seed=3 final_var=0.0251 bimodality=0.176 frac_extreme=0.000 diversity=1.890
+cond=adaptive_diverse  seed=4 final_var=0.0253 bimodality=0.172 frac_extreme=0.000 diversity=1.900
+
+=== SUMMARY (mean +/- std over seeds) ===
+random            var=0.0233+/-0.0015 bimodality=0.178+/-0.004 frac_extreme=0.000+/-0.000 diversity=2.258+/-0.001
+static            var=0.0699+/-0.0054 bimodality=0.172+/-0.004 frac_extreme=0.025+/-0.010 diversity=1.751+/-0.034
+adaptive          var=0.0686+/-0.0054 bimodality=0.172+/-0.005 frac_extreme=0.023+/-0.008 diversity=1.748+/-0.033
+adaptive_diverse  var=0.0243+/-0.0010 bimodality=0.172+/-0.003 frac_extreme=0.000+/-0.000 diversity=1.897+/-0.011
+
+Total wall time: 5.2s

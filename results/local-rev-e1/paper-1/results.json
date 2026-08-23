@@ -1,0 +1,705 @@
+{
+  "summary": {
+    "train_steps": 1200,
+    "train_time_sec": 20.610474348068237,
+    "final_loss": 0.8863537907600403,
+    "K_samples": 40,
+    "temperature": 1.0,
+    "auroc_lexical_entropy_vs_ambiguous": 1.0,
+    "auroc_semantic_entropy_vs_ambiguous": 0.9648,
+    "length_confound_corr_lexical": -0.008565006103495655,
+    "length_confound_corr_semantic": -0.057525290784521635,
+    "group_stats": {
+      "det": {
+        "n": 25,
+        "mean_lex_entropy": 0.7035248363378263,
+        "mean_sem_entropy": 0.17966871761951622,
+        "mean_unmapped_rate": 0.002,
+        "mean_correct_rate": 0.8910000000000001
+      },
+      "amb": {
+        "n": 25,
+        "mean_lex_entropy": 1.5446760947743092,
+        "mean_sem_entropy": 0.9789794000398336,
+        "mean_unmapped_rate": 0.006999999999999999,
+        "mean_correct_rate": 0.939
+      },
+      "ood": {
+        "n": 15,
+        "mean_lex_entropy": 1.6381233384908287,
+        "mean_sem_entropy": 1.3462992585335831,
+        "mean_unmapped_rate": 0.026666666666666672,
+        "mean_correct_rate": NaN
+      }
+    },
+    "temperature_ablation": [
+      {
+        "temperature": 0.6,
+        "auroc_lexical": 0.9664,
+        "auroc_semantic": 0.948
+      },
+      {
+        "temperature": 1.0,
+        "auroc_lexical": 1.0,
+        "auroc_semantic": 0.9672
+      },
+      {
+        "temperature": 1.5,
+        "auroc_lexical": 0.992,
+        "auroc_semantic": 0.968
+      }
+    ]
+  },
+  "rows": [
+    {
+      "country": 27,
+      "group": "det",
+      "lex_entropy": 0.6305810283840148,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.325,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 50,
+      "group": "det",
+      "lex_entropy": 0.7534119982029703,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 2.975,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 53,
+      "group": "det",
+      "lex_entropy": 0.6818546087287836,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 55,
+      "group": "det",
+      "lex_entropy": 0.6730116670072565,
+      "sem_entropy": 0.6730116670072565,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.4
+    },
+    {
+      "country": 36,
+      "group": "det",
+      "lex_entropy": 0.7187175746216141,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 1.325,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 14,
+      "group": "det",
+      "lex_entropy": 0.7924048022298816,
+      "sem_entropy": 0.7924048022298816,
+      "mean_len": 2.025,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.475
+    },
+    {
+      "country": 56,
+      "group": "det",
+      "lex_entropy": 0.8357940955103493,
+      "sem_entropy": 0.1985152433438726,
+      "mean_len": 2.325,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 35,
+      "group": "det",
+      "lex_entropy": 0.7665283304888402,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 1.75,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 61,
+      "group": "det",
+      "lex_entropy": 0.6969150969687418,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 29,
+      "group": "det",
+      "lex_entropy": 0.6818546087287836,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 47,
+      "group": "det",
+      "lex_entropy": 0.8088161633653141,
+      "sem_entropy": 0.1985152433438726,
+      "mean_len": 2.3,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 1,
+      "group": "det",
+      "lex_entropy": 0.6108643020528935,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.3,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 21,
+      "group": "det",
+      "lex_entropy": 0.6116510622989808,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 63,
+      "group": "det",
+      "lex_entropy": 0.5623351446168083,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.5,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 23,
+      "group": "det",
+      "lex_entropy": 0.6730116670072565,
+      "sem_entropy": 0.6730116670072565,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.4
+    },
+    {
+      "country": 24,
+      "group": "det",
+      "lex_entropy": 0.5623351446168083,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 57,
+      "group": "det",
+      "lex_entropy": 0.6881388137115885,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 1.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 59,
+      "group": "det",
+      "lex_entropy": 0.6730116670072565,
+      "sem_entropy": 0.6730116670072565,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.4
+    },
+    {
+      "country": 32,
+      "group": "det",
+      "lex_entropy": 0.8556886672526695,
+      "sem_entropy": 0.1985152433438726,
+      "mean_len": 2.45,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 45,
+      "group": "det",
+      "lex_entropy": 0.6474466390326326,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 49,
+      "group": "det",
+      "lex_entropy": 0.7534119982029703,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 1.375,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 0,
+      "group": "det",
+      "lex_entropy": 0.5881687773521909,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 7,
+      "group": "det",
+      "lex_entropy": 0.6730116670072565,
+      "sem_entropy": -1.000088900581841e-12,
+      "mean_len": 3.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 6,
+      "group": "det",
+      "lex_entropy": 0.6969150969687418,
+      "sem_entropy": 0.1169068491355311,
+      "mean_len": 2.275,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 54,
+      "group": "det",
+      "lex_entropy": 0.9522402870810518,
+      "sem_entropy": 0.26638446326592047,
+      "mean_len": 1.975,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 1,
+      "correct_rate": 0.925
+    },
+    {
+      "country": 20,
+      "group": "amb",
+      "lex_entropy": 1.3183841597221437,
+      "sem_entropy": 0.6730116670072565,
+      "mean_len": 1.4,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 18,
+      "group": "amb",
+      "lex_entropy": 1.8720551966781445,
+      "sem_entropy": 1.2684674337396555,
+      "mean_len": 2.225,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 38,
+      "group": "amb",
+      "lex_entropy": 1.2650844342010217,
+      "sem_entropy": 0.6305810283840148,
+      "mean_len": 2.425,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 3,
+      "group": "amb",
+      "lex_entropy": 1.5132832355149608,
+      "sem_entropy": 0.8903460262796667,
+      "mean_len": 1.725,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 2,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 19,
+      "group": "amb",
+      "lex_entropy": 1.8444397270479682,
+      "sem_entropy": 1.2443615833402784,
+      "mean_len": 2.4,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.925
+    },
+    {
+      "country": 10,
+      "group": "amb",
+      "lex_entropy": 1.8038171111466947,
+      "sem_entropy": 1.174950770258072,
+      "mean_len": 2.15,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 46,
+      "group": "amb",
+      "lex_entropy": 1.3414678575345327,
+      "sem_entropy": 1.1803308875020564,
+      "mean_len": 2.125,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 0.65
+    },
+    {
+      "country": 22,
+      "group": "amb",
+      "lex_entropy": 1.53280069621961,
+      "sem_entropy": 1.0473204694080311,
+      "mean_len": 2.575,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 2,
+      "correct_rate": 0.9
+    },
+    {
+      "country": 31,
+      "group": "amb",
+      "lex_entropy": 1.6952587823093592,
+      "sem_entropy": 1.0805276266011719,
+      "mean_len": 2.175,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 28,
+      "group": "amb",
+      "lex_entropy": 1.7647797779335295,
+      "sem_entropy": 1.2612232833641064,
+      "mean_len": 1.625,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.9
+    },
+    {
+      "country": 40,
+      "group": "amb",
+      "lex_entropy": 1.949464789189091,
+      "sem_entropy": 1.3544205238690732,
+      "mean_len": 1.525,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 3,
+      "correct_rate": 0.9
+    },
+    {
+      "country": 26,
+      "group": "amb",
+      "lex_entropy": 1.6714030757380822,
+      "sem_entropy": 1.0518345279182597,
+      "mean_len": 1.55,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 13,
+      "group": "amb",
+      "lex_entropy": 1.844113706985167,
+      "sem_entropy": 1.251859894137375,
+      "mean_len": 2.325,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 0.95
+    },
+    {
+      "country": 15,
+      "group": "amb",
+      "lex_entropy": 1.1567797118103957,
+      "sem_entropy": 0.5623351446168083,
+      "mean_len": 2.2,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 41,
+      "group": "amb",
+      "lex_entropy": 1.1080190893456552,
+      "sem_entropy": 0.6474466390326326,
+      "mean_len": 2.125,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 17,
+      "group": "amb",
+      "lex_entropy": 1.3264314849275853,
+      "sem_entropy": 0.7769347910557629,
+      "mean_len": 2.25,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 33,
+      "group": "amb",
+      "lex_entropy": 1.3163647246814316,
+      "sem_entropy": 0.7924048022298816,
+      "mean_len": 2.425,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 2,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 25,
+      "group": "amb",
+      "lex_entropy": 1.5691917264422313,
+      "sem_entropy": 0.8864644756767975,
+      "mean_len": 1.8,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 51,
+      "group": "amb",
+      "lex_entropy": 2.055119853748621,
+      "sem_entropy": 1.3548293960178388,
+      "mean_len": 1.5,
+      "unmapped_rate": 0.075,
+      "n_true_answers": 3,
+      "correct_rate": 0.9
+    },
+    {
+      "country": 34,
+      "group": "amb",
+      "lex_entropy": 1.3208883431453222,
+      "sem_entropy": 0.6931471805579453,
+      "mean_len": 2.25,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 44,
+      "group": "amb",
+      "lex_entropy": 1.761041230197332,
+      "sem_entropy": 1.0805276266011719,
+      "mean_len": 1.75,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 60,
+      "group": "amb",
+      "lex_entropy": 1.311124568725584,
+      "sem_entropy": 1.0868142240204726,
+      "mean_len": 1.85,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 0.6
+    },
+    {
+      "country": 58,
+      "group": "amb",
+      "lex_entropy": 1.1750497258903763,
+      "sem_entropy": 0.6615632381559821,
+      "mean_len": 2.125,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 9,
+      "group": "amb",
+      "lex_entropy": 1.3842232458289019,
+      "sem_entropy": 0.7534119982029703,
+      "mean_len": 2.225,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 2,
+      "correct_rate": 0.975
+    },
+    {
+      "country": 8,
+      "group": "amb",
+      "lex_entropy": 1.7163161143939902,
+      "sem_entropy": 1.0693697630185586,
+      "mean_len": 1.725,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 3,
+      "correct_rate": 1.0
+    },
+    {
+      "country": 48,
+      "group": "ood",
+      "lex_entropy": 2.0793454466386243,
+      "sem_entropy": 1.6853136286307329,
+      "mean_len": 2.075,
+      "unmapped_rate": 0.075,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 43,
+      "group": "ood",
+      "lex_entropy": 2.0358979481801986,
+      "sem_entropy": 1.5529237892115444,
+      "mean_len": 1.825,
+      "unmapped_rate": 0.05,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 5,
+      "group": "ood",
+      "lex_entropy": 1.711849605128272,
+      "sem_entropy": 1.519442292202879,
+      "mean_len": 2.15,
+      "unmapped_rate": 0.075,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 4,
+      "group": "ood",
+      "lex_entropy": 1.5705912445600019,
+      "sem_entropy": 1.4178061102707387,
+      "mean_len": 2.025,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 64,
+      "group": "ood",
+      "lex_entropy": 1.9284647976461091,
+      "sem_entropy": 1.478576923450478,
+      "mean_len": 1.475,
+      "unmapped_rate": 0.05,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 16,
+      "group": "ood",
+      "lex_entropy": 1.5186449980393357,
+      "sem_entropy": 1.0667784312888022,
+      "mean_len": 1.6,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 42,
+      "group": "ood",
+      "lex_entropy": 2.021515479777755,
+      "sem_entropy": 1.4320124921670987,
+      "mean_len": 1.925,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 39,
+      "group": "ood",
+      "lex_entropy": 1.6541356977724426,
+      "sem_entropy": 1.3882566869494306,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 2,
+      "group": "ood",
+      "lex_entropy": 2.085638587655603,
+      "sem_entropy": 1.6721583677186023,
+      "mean_len": 2.225,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 62,
+      "group": "ood",
+      "lex_entropy": 0.9541792393146606,
+      "sem_entropy": 0.9541792393146606,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 52,
+      "group": "ood",
+      "lex_entropy": 2.2465217308673933,
+      "sem_entropy": 1.8977728378351362,
+      "mean_len": 1.75,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 12,
+      "group": "ood",
+      "lex_entropy": 1.4114417725408357,
+      "sem_entropy": 1.0988395284588564,
+      "mean_len": 1.725,
+      "unmapped_rate": 0.025,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 11,
+      "group": "ood",
+      "lex_entropy": 0.9958213213415275,
+      "sem_entropy": 0.9958213213415275,
+      "mean_len": 2.0,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 37,
+      "group": "ood",
+      "lex_entropy": 1.5808674168439065,
+      "sem_entropy": 1.2576724381074984,
+      "mean_len": 1.775,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    },
+    {
+      "country": 30,
+      "group": "ood",
+      "lex_entropy": 0.7769347910557629,
+      "sem_entropy": 0.7769347910557629,
+      "mean_len": 2.025,
+      "unmapped_rate": 0.0,
+      "n_true_answers": 0,
+      "correct_rate": NaN
+    }
+  ]
+}

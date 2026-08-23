@@ -1,0 +1,50 @@
+{
+  "engagement_vs_similarity": {
+    "diff": 0.18162864946438545,
+    "p": 9.999000099990002e-05
+  },
+  "similarity_vs_random": {
+    "diff": 0.056025487973530325,
+    "p": 0.0015998400159984002
+  },
+  "bridging_vs_similarity": {
+    "diff": 0.024870138178527235,
+    "p": 0.14188581141885812
+  },
+  "engagement_vs_bridging": {
+    "diff": 0.15675851128585822,
+    "p": 9.999000099990002e-05
+  },
+  "engagement_vs_similarity_extremity": {
+    "diff": 0.2196081179786163,
+    "p": 9.999000099990002e-05
+  },
+  "engagement_vs_similarity_echo_chamber_index": {
+    "diff": -0.016150620389279724,
+    "p": 0.00039996000399960006
+  },
+  "similarity_vs_random_extremity": {
+    "diff": 0.019705046797820813,
+    "p": 0.23197680231976803
+  },
+  "similarity_vs_random_echo_chamber_index": {
+    "diff": -0.4265165256772481,
+    "p": 9.999000099990002e-05
+  },
+  "bridging_vs_similarity_extremity": {
+    "diff": 0.034235979681011774,
+    "p": 0.040995900409959006
+  },
+  "bridging_vs_similarity_echo_chamber_index": {
+    "diff": 0.5477350436527438,
+    "p": 9.999000099990002e-05
+  },
+  "engagement_vs_bridging_extremity": {
+    "diff": 0.18537213829760452,
+    "p": 9.999000099990002e-05
+  },
+  "engagement_vs_bridging_echo_chamber_index": {
+    "diff": -0.5638856640420236,
+    "p": 9.999000099990002e-05
+  }
+}

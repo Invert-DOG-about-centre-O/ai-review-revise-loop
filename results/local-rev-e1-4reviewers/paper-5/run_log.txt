@@ -1,0 +1,41 @@
+[2.9s] starting training, 260 steps
+[2.9s] step 0 loss 2.4787
+[12.5s] step 200 loss 0.7194
+[15.9s] training done
+[15.9s] starting eval on 700 examples, K=20 samples each
+[106.5s] eval decoding done
+Greedy accuracy on test set: 0.811
+{
+  "accuracy": 0.8114285714285714,
+  "n_test": 700,
+  "k_samples": 20,
+  "auroc": {
+    "maxprob (cheap, single-pass)": 0.7337147887323944,
+    "neg_pred_entropy (cheap, single-pass)": 0.6177576824583867,
+    "sample_agree (expensive, K samples)": 0.6552563486982501,
+    "neg_sample_entropy (expensive, K samples)": 0.595203798548869
+  },
+  "ece": {
+    "maxprob": 0.06399619294064392,
+    "sample_agree": 0.33107142857142857
+  },
+  "probe_r2_recovering_sample_entropy": 0.26063907387181096,
+  "auroc_holdout": {
+    "true_neg_sample_entropy (expensive)": 0.6204930662557782,
+    "probe_neg_predicted_sample_entropy (cheap, probes expensive signal)": 0.6207704160246533,
+    "maxprob (cheap, single-pass)": 0.7497072419106316,
+    "neg_pred_entropy (cheap, single-pass)": 0.6076425269645609
+  }
+}
+[106.6s] DONE, total elapsed 106.6s
+
+Notes on run history:
+- Initial run with TRAIN_STEPS=1200 reached 100% test accuracy (no errors to
+  detect, AUROC undefined) -> reduced to TRAIN_STEPS=260 to deliberately
+  under-train the model and obtain a meaningful error rate (~19%) for
+  calibration/error-detection analysis.
+- First probe attempt (N_TEST=400, K=16, plain LinearRegression, unscaled
+  features) gave a negative R^2 (probe worse than predicting the mean).
+  Switched to Ridge(alpha=1.0) on standardized features and increased
+  N_TEST=700, K=20 for a less noisy expensive-signal estimate; this is the
+  run reported in the paper.

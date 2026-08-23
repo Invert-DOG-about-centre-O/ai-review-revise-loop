@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "results": [
+    {
+      "seed": 0,
+      "accuracy": 0.3275,
+      "auroc_probe": 0.6441865808823529,
+      "auroc_logp": 0.6390165441176471,
+      "auroc_sem_ent_true": 0.6306870404411765
+    },
+    {
+      "seed": 1,
+      "accuracy": 0.225,
+      "auroc_probe": 0.7007209694738457,
+      "auroc_logp": 0.7892314772204326,
+      "auroc_sem_ent_true": 0.7578616352201258
+    },
+    {
+      "seed": 2,
+      "accuracy": 0.08,
+      "auroc_probe": 0.6446886446886447,
+      "auroc_logp": 0.5540293040293041,
+      "auroc_sem_ent_true": 0.5015262515262515
+    }
+  ],
+  "probe_mean": 0.6631987316816144,
+  "logp_mean": 0.6607591084557946,
+  "sem_ent_mean": 0.6300249757291846
+}

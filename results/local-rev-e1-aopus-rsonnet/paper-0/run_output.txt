@@ -1,0 +1,40 @@
+=== MAIN: trap regime (feat_noise=2.0); final window (last 10 of 40), mean +/- sd over 8 seeds ===
+allocator            rate_gap          tpr_gap        qual_appr           util  calibErr_B
+greedy       0.084+/-0.071   0.105+/-0.072   0.602+/-0.030   0.102+/-0.005   0.030
+eps_explore  0.048+/-0.016   0.063+/-0.017   0.605+/-0.038   0.093+/-0.011   0.020
+ucb          0.060+/-0.031   0.077+/-0.032   0.646+/-0.027   0.103+/-0.003   0.022
+dp_parity    0.002+/-0.001   0.045+/-0.014   0.613+/-0.035   0.101+/-0.006   0.024
+
+=== rate_gap trajectory (rounds 0,5,10,20,39), mean over seeds, feat_noise=2.0 ===
+greedy       0.445  0.303  0.219  0.141  0.064
+eps_explore  0.387  0.172  0.068  0.042  0.073
+ucb          0.442  0.235  0.102  0.061  0.056
+dp_parity    0.002  0.002  0.003  0.003  0.002
+
+=== Ablation: feature noise vs greedy outcomes (final window) ===
+feat_noise   rate_gap    tpr_gap  qual_appr  calibErr_B     util
+       0.5      0.044      0.054      0.839       0.021    0.219
+       1.0      0.047      0.069      0.730       0.022    0.169
+       2.0      0.084      0.105      0.602       0.030    0.102
+       3.0      0.142      0.170      0.509       0.033    0.068
+       4.0      0.262      0.293      0.331       0.080    0.029
+
+=== Ablation: eps_explore vs eps, trap regime feat_noise=2.0 (final window) ===
+eps=0.0  rate_gap=0.056  tpr_gap=0.071  qual_appr=0.604  util=0.103
+eps=0.05 rate_gap=0.050  tpr_gap=0.059  qual_appr=0.615  util=0.099
+eps=0.1  rate_gap=0.048  tpr_gap=0.063  qual_appr=0.605  util=0.093
+eps=0.2  rate_gap=0.045  tpr_gap=0.058  qual_appr=0.606  util=0.085
+eps=0.4  rate_gap=0.038  tpr_gap=0.058  qual_appr=0.585  util=0.065
+
+=== Ablation: ucb vs beta, trap regime feat_noise=2.0 (final window) ===
+beta=0.0  rate_gap=0.084  tpr_gap=0.105  qual_appr=0.602  util=0.102
+beta=0.3  rate_gap=0.058  tpr_gap=0.074  qual_appr=0.621  util=0.103
+beta=0.6  rate_gap=0.060  tpr_gap=0.077  qual_appr=0.646  util=0.103
+beta=1.2  rate_gap=0.063  tpr_gap=0.078  qual_appr=0.677  util=0.103
+beta=2.0  rate_gap=0.051  tpr_gap=0.067  qual_appr=0.713  util=0.102
+
+=== Ablation: greedy vs seed_B_frac, trap regime feat_noise=2.0 (final window) ===
+seed_B_frac=0.5   rate_gap=0.116  tpr_gap=0.135  calibErr_B=0.064
+seed_B_frac=0.3   rate_gap=0.078  tpr_gap=0.099  calibErr_B=0.043
+seed_B_frac=0.15  rate_gap=0.084  tpr_gap=0.105  calibErr_B=0.030
+seed_B_frac=0.05  rate_gap=0.057  tpr_gap=0.083  calibErr_B=0.022

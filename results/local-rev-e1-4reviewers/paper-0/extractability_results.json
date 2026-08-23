@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "label": "sycophantic",
+      "hedge_count": 0,
+      "validate_used": true,
+      "length_delta": 2,
+      "immediate_rebound_proxy": true
+    },
+    {
+      "label": "sycophantic",
+      "hedge_count": 0,
+      "validate_used": true,
+      "length_delta": -1,
+      "immediate_rebound_proxy": true
+    },
+    {
+      "label": "sycophantic",
+      "hedge_count": 0,
+      "validate_used": true,
+      "length_delta": -2,
+      "immediate_rebound_proxy": true
+    },
+    {
+      "label": "corrective",
+      "hedge_count": 5,
+      "validate_used": false,
+      "length_delta": 25,
+      "immediate_rebound_proxy": true
+    },
+    {
+      "label": "corrective",
+      "hedge_count": 5,
+      "validate_used": false,
+      "length_delta": 20,
+      "immediate_rebound_proxy": true
+    },
+    {
+      "label": "corrective",
+      "hedge_count": 4,
+      "validate_used": false,
+      "length_delta": 17,
+      "immediate_rebound_proxy": false
+    }
+  ],
+  "mean_hedge_count_sycophantic": 0.0,
+  "mean_hedge_count_corrective": 4.666666666666667,
+  "validate_rate_sycophantic": 1.0,
+  "validate_rate_corrective": 0.0,
+  "mean_length_delta_sycophantic": -0.3333333333333333,
+  "mean_length_delta_corrective": 20.666666666666668,
+  "immediate_rebound_rate_sycophantic": 1.0,
+  "immediate_rebound_rate_corrective": 0.6666666666666666,
+  "note": "length_delta and immediate_rebound_proxy are reported here because reviewers asked whether the check covers features beyond hedge_count/validate_used. Both are WEAKER extractions than the hedge/validate check: length_delta on these 6 examples runs OPPOSITE to the simulator's hypothesized direction (below), and immediate_rebound_proxy is a crude first-clause heuristic, not a real confidence trajectory. Both facts are discussed in the paper."
+}

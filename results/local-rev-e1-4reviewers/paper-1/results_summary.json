@@ -1,0 +1,11 @@
+{
+  "n_problems": 400,
+  "k_samples": 10,
+  "temperature": 0.9,
+  "train_steps": 1500,
+  "greedy_accuracy": 0.585,
+  "auroc_token_entropy": 0.6463803933683452,
+  "auroc_semantic_entropy": 0.6678895067449284,
+  "auroc_self_consistency": 0.6728967150653897,
+  "total_time_sec": 76.40978932380676
+}

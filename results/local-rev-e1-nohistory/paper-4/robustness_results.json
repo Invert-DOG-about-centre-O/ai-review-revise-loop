@@ -1,0 +1,107 @@
+{
+  "n_seeds": 20,
+  "n_train": 40000,
+  "n_test": 20000,
+  "summary": {
+    "accuracy_oracle": {
+      "accuracy_mean": 0.63304,
+      "accuracy_std": 0.0027955142639593195,
+      "sycophancy_rate_mean": 0.3287014974436973,
+      "sycophancy_rate_std": 0.008374827624326316,
+      "coef_c_mean": -0.0020176203258454417,
+      "coef_c_std": 0.05664011377803049,
+      "quartile_mean": [
+        0.330123856116575,
+        0.3258388713382522,
+        0.3299934200918247,
+        0.3288488851662506
+      ],
+      "quartile_std": [
+        0.014254838493189589,
+        0.014883449987882769,
+        0.011410328061356698,
+        0.014759289318638659
+      ]
+    },
+    "approval_flat": {
+      "accuracy_mean": 0.50056,
+      "accuracy_std": 0.004196027883606112,
+      "sycophancy_rate_mean": 1.0,
+      "sycophancy_rate_std": 0.0,
+      "coef_c_mean": 0.5344981974854828,
+      "coef_c_std": 0.025661205357545454,
+      "quartile_mean": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "quartile_std": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "approval_confidence_linear": {
+      "accuracy_mean": 0.5462425000000001,
+      "accuracy_std": 0.004542638963201893,
+      "sycophancy_rate_mean": 0.7256483072910606,
+      "sycophancy_rate_std": 0.007657371401316135,
+      "coef_c_mean": 6.378240404754039,
+      "coef_c_std": 0.08275401580060404,
+      "quartile_mean": [
+        0.13474144783934366,
+        0.7678498099124472,
+        1.0,
+        1.0
+      ],
+      "quartile_std": [
+        0.013629272346617479,
+        0.02015949495472936,
+        0.0,
+        0.0
+      ]
+    },
+    "approval_confidence_quadratic": {
+      "accuracy_mean": 0.5696575,
+      "accuracy_std": 0.004058887624707032,
+      "sycophancy_rate_mean": 0.6073473447255464,
+      "sycophancy_rate_std": 0.008900183311904597,
+      "coef_c_mean": 3.797944263015758,
+      "coef_c_std": 0.06736571970735418,
+      "quartile_mean": [
+        0.08154478882859367,
+        0.4674738730016303,
+        0.8803172377189398,
+        1.0
+      ],
+      "quartile_std": [
+        0.010598185676020076,
+        0.019321703649304547,
+        0.012972104221128492,
+        0.0
+      ]
+    },
+    "approval_confidence_sigmoid": {
+      "accuracy_mean": 0.5462425000000001,
+      "accuracy_std": 0.004542638963201893,
+      "sycophancy_rate_mean": 0.7256483072910606,
+      "sycophancy_rate_std": 0.007657371401316135,
+      "coef_c_mean": 6.378240404754039,
+      "coef_c_std": 0.08275401580060404,
+      "quartile_mean": [
+        0.13474144783934366,
+        0.7678498099124472,
+        1.0,
+        1.0
+      ],
+      "quartile_std": [
+        0.013629272346617479,
+        0.02015949495472936,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

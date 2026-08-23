@@ -1,0 +1,108 @@
+{
+  "experiment_E_runs": [
+    {
+      "seed": 0,
+      "final_loss": 0.9500475525856018,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.988
+    },
+    {
+      "seed": 1,
+      "final_loss": 0.9014868140220642,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0
+    },
+    {
+      "seed": 2,
+      "final_loss": 0.913057804107666,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9864
+    },
+    {
+      "seed": 3,
+      "final_loss": 0.9260476231575012,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9967999999999999
+    },
+    {
+      "seed": 4,
+      "final_loss": 0.9192253947257996,
+      "auroc_lex": 0.9984,
+      "auroc_sem": 0.9344
+    }
+  ],
+  "experiment_E_summary": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "auroc_lex_mean": 0.99968,
+    "auroc_lex_std": 0.0006400000000000184,
+    "auroc_sem_mean": 0.98112,
+    "auroc_sem_std": 0.02391772564438348,
+    "n_seeds_lex_ge_sem": 5,
+    "gap_per_seed": [
+      0.01200000000000001,
+      0.0,
+      0.013599999999999945,
+      0.0032000000000000917,
+      0.06399999999999995
+    ]
+  },
+  "experiment_C5_runs": [
+    {
+      "seed": 0,
+      "final_loss": 0.8858464360237122,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0
+    },
+    {
+      "seed": 1,
+      "final_loss": 0.9134863018989563,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0
+    },
+    {
+      "seed": 2,
+      "final_loss": 0.9743613004684448,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9783999999999999
+    },
+    {
+      "seed": 3,
+      "final_loss": 0.9137778878211975,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9816
+    },
+    {
+      "seed": 4,
+      "final_loss": 0.9216760993003845,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9896
+    }
+  ],
+  "experiment_C5_summary": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "auroc_lex_mean": 1.0,
+    "auroc_lex_std": 0.0,
+    "auroc_sem_mean": 0.98992,
+    "auroc_sem_std": 0.009002755133846537,
+    "n_seeds_lex_ge_sem": 5,
+    "gap_per_seed": [
+      0.0,
+      0.0,
+      0.021600000000000064,
+      0.018399999999999972,
+      0.010399999999999965
+    ]
+  }
+}

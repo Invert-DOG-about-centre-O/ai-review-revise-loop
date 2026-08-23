@@ -1,0 +1,65 @@
+{
+  "jt_trend_test": {
+    "J": 368,
+    "J_max": 375,
+    "p_one_sided": 0.0,
+    "weights": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  "ablation_pairwise": [
+    {
+      "policy": "engagement",
+      "eps1": 0.35,
+      "eps2": 0.5,
+      "diff_eps2_minus_eps1": 0.0011877534479220464,
+      "p": 0.92368
+    },
+    {
+      "policy": "random",
+      "eps1": 0.2,
+      "eps2": 0.5,
+      "diff_eps2_minus_eps1": -0.2114002699142452,
+      "p": 0.00815
+    },
+    {
+      "policy": "bridging",
+      "eps1": 0.2,
+      "eps2": 0.5,
+      "diff_eps2_minus_eps1": -0.049474776510266105,
+      "p": 0.30122
+    },
+    {
+      "policy": "similarity",
+      "eps1": 0.2,
+      "eps2": 0.5,
+      "diff_eps2_minus_eps1": -0.026629292369293178,
+      "p": 0.6693
+    }
+  ],
+  "bridging_diagnostic": [
+    {
+      "policy": "similarity",
+      "cluster_spread_mean": 1.1509370140555257,
+      "cluster_spread_std": 0.12817113284018117,
+      "extreme_frac_mean": 0.5429999999999999
+    },
+    {
+      "policy": "engagement",
+      "cluster_spread_mean": 1.3329454482408911,
+      "cluster_spread_std": 0.03952431808584037,
+      "extreme_frac_mean": 0.9855
+    },
+    {
+      "policy": "bridging",
+      "cluster_spread_mean": 1.2339519336948928,
+      "cluster_spread_std": 0.20742340974016482,
+      "extreme_frac_mean": 0.422
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "n_eval": 150,
+  "k_default": 8,
+  "n_boot": 2000,
+  "new_seeds_budgets": [
+    [
+      3,
+      200
+    ],
+    [
+      4,
+      230
+    ]
+  ],
+  "new_seed_results": [
+    {
+      "seed": 3,
+      "budget_s": 200,
+      "steps": 2763,
+      "final_loss": 0.07536159723997116,
+      "greedy_accuracy": 0.9133333333333333,
+      "n_errors": 13,
+      "aurocs": {
+        "token_prob": 0.9556428972487366,
+        "semantic_entropy": 0.9458169567658619,
+        "self_consistency": 0.9460976979225154
+      },
+      "bootstrap_ci": {
+        "vs_semantic_entropy": {
+          "lo": -0.019695507487865162,
+          "hi": 0.035301332797398444,
+          "median": 0.01053379098118118
+        },
+        "vs_self_consistency": {
+          "lo": -0.009547310083806429,
+          "hi": 0.028620089786756377,
+          "median": 0.009794776119402993
+        },
+        "n_boot_valid": 2000
+      }
+    },
+    {
+      "seed": 4,
+      "budget_s": 230,
+      "steps": 3681,
+      "final_loss": 0.07861275859177112,
+      "greedy_accuracy": 0.9133333333333333,
+      "n_errors": 13,
+      "aurocs": {
+        "token_prob": 0.9432902863559798,
+        "semantic_entropy": 0.8621560920830995,
+        "self_consistency": 0.861875350926446
+      },
+      "bootstrap_ci": {
+        "vs_semantic_entropy": {
+          "lo": -0.008224977954144634,
+          "hi": 0.20076406758875812,
+          "median": 0.07694874237690613
+        },
+        "vs_self_consistency": {
+          "lo": -0.005723214285714356,
+          "hi": 0.20233185665570558,
+          "median": 0.07685660018993351
+        },
+        "n_boot_valid": 2000
+      }
+    }
+  ],
+  "total_script_time_s": 488.7
+}

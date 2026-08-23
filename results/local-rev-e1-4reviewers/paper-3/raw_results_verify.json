@@ -1,0 +1,8010 @@
+{
+  "n_questions": 400,
+  "k_samples": 8,
+  "temperature": 1.0,
+  "train_steps": 600,
+  "accuracy": 0.3275,
+  "total_time_sec": 84.16604208946228,
+  "records": [
+    {
+      "prompt": "82+15=",
+      "gt": 97,
+      "greedy_ans": 97,
+      "correct": true,
+      "first_token_entropy": 0.912099301815033,
+      "mean_logp": -0.3356348845940614,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        86,
+        107,
+        97,
+        105,
+        107,
+        97,
+        97,
+        106
+      ]
+    },
+    {
+      "prompt": "4+95=",
+      "gt": 99,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.7173928022384644,
+      "mean_logp": -0.35990882344252495,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        103,
+        101,
+        98,
+        102,
+        91,
+        101,
+        102,
+        101
+      ]
+    },
+    {
+      "prompt": "36+32=",
+      "gt": 68,
+      "greedy_ans": 67,
+      "correct": false,
+      "first_token_entropy": 1.0281548500061035,
+      "mean_logp": -0.35781669947945915,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        86,
+        67,
+        76,
+        76,
+        67,
+        67,
+        77,
+        65
+      ]
+    },
+    {
+      "prompt": "29+18=",
+      "gt": 47,
+      "greedy_ans": 43,
+      "correct": false,
+      "first_token_entropy": 0.9584948420524597,
+      "mean_logp": -0.7087718778495958,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        43,
+        42,
+        59,
+        44,
+        42,
+        56,
+        31,
+        66
+      ]
+    },
+    {
+      "prompt": "95+14=",
+      "gt": 109,
+      "greedy_ans": 109,
+      "correct": true,
+      "first_token_entropy": 0.040216799825429916,
+      "mean_logp": -0.33133009203129743,
+      "semantic_entropy": 1.6674619334292946,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        129,
+        118,
+        119,
+        108,
+        108,
+        108,
+        111,
+        109
+      ]
+    },
+    {
+      "prompt": "87+95=",
+      "gt": 182,
+      "greedy_ans": 173,
+      "correct": false,
+      "first_token_entropy": 0.043064434081315994,
+      "mean_logp": -0.5816803695998362,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        192,
+        174,
+        183,
+        195,
+        184,
+        174,
+        150,
+        174
+      ]
+    },
+    {
+      "prompt": "70+12=",
+      "gt": 82,
+      "greedy_ans": 82,
+      "correct": true,
+      "first_token_entropy": 1.0269584655761719,
+      "mean_logp": -0.6381546767639464,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        83,
+        94,
+        71,
+        81,
+        81,
+        84,
+        93,
+        83
+      ]
+    },
+    {
+      "prompt": "76+55=",
+      "gt": 131,
+      "greedy_ans": 131,
+      "correct": true,
+      "first_token_entropy": 0.039020031690597534,
+      "mean_logp": -0.4172418152649549,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        128,
+        139,
+        140,
+        121,
+        130,
+        126,
+        136,
+        131
+      ]
+    },
+    {
+      "prompt": "5+4=",
+      "gt": 9,
+      "greedy_ans": 8,
+      "correct": false,
+      "first_token_entropy": 1.827759861946106,
+      "mean_logp": -0.6205878622008372,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        8,
+        4,
+        9,
+        9,
+        8,
+        9,
+        9,
+        6
+      ]
+    },
+    {
+      "prompt": "12+28=",
+      "gt": 40,
+      "greedy_ans": 32,
+      "correct": false,
+      "first_token_entropy": 1.0339655876159668,
+      "mean_logp": -0.9348248723233087,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        32,
+        44,
+        48,
+        41,
+        43,
+        25,
+        32,
+        39
+      ]
+    },
+    {
+      "prompt": "30+65=",
+      "gt": 95,
+      "greedy_ans": 105,
+      "correct": false,
+      "first_token_entropy": 0.8780418038368225,
+      "mean_logp": -0.4312013401751728,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        106,
+        96,
+        97,
+        96,
+        107,
+        107,
+        107,
+        95
+      ]
+    },
+    {
+      "prompt": "78+4=",
+      "gt": 82,
+      "greedy_ans": 82,
+      "correct": true,
+      "first_token_entropy": 1.043674349784851,
+      "mean_logp": -0.716319989159493,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        84,
+        83,
+        83,
+        72,
+        74,
+        85,
+        81,
+        70
+      ]
+    },
+    {
+      "prompt": "72+26=",
+      "gt": 98,
+      "greedy_ans": 97,
+      "correct": false,
+      "first_token_entropy": 0.9588057994842529,
+      "mean_logp": -0.3314272127625429,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        108,
+        97,
+        88,
+        107,
+        107,
+        107,
+        97,
+        98
+      ]
+    },
+    {
+      "prompt": "92+84=",
+      "gt": 176,
+      "greedy_ans": 176,
+      "correct": true,
+      "first_token_entropy": 0.044150035828351974,
+      "mean_logp": -0.30786897448946793,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        166,
+        175,
+        177,
+        165,
+        176,
+        175,
+        175,
+        175
+      ]
+    },
+    {
+      "prompt": "90+70=",
+      "gt": 160,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.04009522497653961,
+      "mean_logp": -0.276107583202961,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        151,
+        162,
+        151,
+        150,
+        161,
+        170,
+        150,
+        151
+      ]
+    },
+    {
+      "prompt": "54+29=",
+      "gt": 83,
+      "greedy_ans": 83,
+      "correct": true,
+      "first_token_entropy": 1.0819967985153198,
+      "mean_logp": -0.7959006393595697,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        73,
+        83,
+        73,
+        80,
+        88,
+        82,
+        73,
+        84
+      ]
+    },
+    {
+      "prompt": "58+76=",
+      "gt": 134,
+      "greedy_ans": 133,
+      "correct": false,
+      "first_token_entropy": 0.043078724294900894,
+      "mean_logp": -0.5272748975068872,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        143,
+        133,
+        136,
+        134,
+        127,
+        142,
+        132,
+        131
+      ]
+    },
+    {
+      "prompt": "36+1=",
+      "gt": 37,
+      "greedy_ans": 36,
+      "correct": false,
+      "first_token_entropy": 1.0363259315490723,
+      "mean_logp": -0.6958103709166421,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        39,
+        47,
+        45,
+        49,
+        35,
+        37,
+        36,
+        35
+      ]
+    },
+    {
+      "prompt": "98+21=",
+      "gt": 119,
+      "greedy_ans": 119,
+      "correct": true,
+      "first_token_entropy": 0.034852925688028336,
+      "mean_logp": -0.31527734185602857,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        118,
+        118,
+        117,
+        110,
+        119,
+        119,
+        118,
+        117
+      ]
+    },
+    {
+      "prompt": "90+55=",
+      "gt": 145,
+      "greedy_ans": 145,
+      "correct": true,
+      "first_token_entropy": 0.04152405634522438,
+      "mean_logp": -0.3959198671961758,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        126,
+        139,
+        135,
+        145,
+        146,
+        145,
+        137,
+        139
+      ]
+    },
+    {
+      "prompt": "44+36=",
+      "gt": 80,
+      "greedy_ans": 81,
+      "correct": false,
+      "first_token_entropy": 1.011627435684204,
+      "mean_logp": -0.8566229726231439,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        81,
+        87,
+        90,
+        85,
+        83,
+        76,
+        70,
+        71
+      ]
+    },
+    {
+      "prompt": "20+28=",
+      "gt": 48,
+      "greedy_ans": 49,
+      "correct": false,
+      "first_token_entropy": 0.7781589031219482,
+      "mean_logp": -0.3594253973433874,
+      "semantic_entropy": 1.4941751382893083,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        37,
+        40,
+        48,
+        57,
+        49,
+        40,
+        49,
+        49
+      ]
+    },
+    {
+      "prompt": "98+44=",
+      "gt": 142,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.047615647315979004,
+      "mean_logp": -0.5813955996319969,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        135,
+        143,
+        144,
+        148,
+        143,
+        133,
+        134,
+        132
+      ]
+    },
+    {
+      "prompt": "14+12=",
+      "gt": 26,
+      "greedy_ans": 36,
+      "correct": false,
+      "first_token_entropy": 1.2796590328216553,
+      "mean_logp": -0.5227498752965022,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        105,
+        36,
+        35,
+        35,
+        26,
+        26,
+        27,
+        47
+      ]
+    },
+    {
+      "prompt": "49+13=",
+      "gt": 62,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 1.0049892663955688,
+      "mean_logp": -0.7320059702997844,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        64,
+        60,
+        null,
+        63,
+        68,
+        79,
+        61,
+        61
+      ]
+    },
+    {
+      "prompt": "46+45=",
+      "gt": 91,
+      "greedy_ans": 102,
+      "correct": false,
+      "first_token_entropy": 1.0171453952789307,
+      "mean_logp": -0.6932656102365897,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        90,
+        101,
+        103,
+        80,
+        106,
+        104,
+        104,
+        112
+      ]
+    },
+    {
+      "prompt": "78+34=",
+      "gt": 112,
+      "greedy_ans": 112,
+      "correct": true,
+      "first_token_entropy": 0.04143805429339409,
+      "mean_logp": -0.4263269330353845,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        115,
+        124,
+        113,
+        114,
+        111,
+        105,
+        111
+      ]
+    },
+    {
+      "prompt": "6+94=",
+      "gt": 100,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.44461992383003235,
+      "mean_logp": -0.2910806949208773,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        101,
+        102,
+        100,
+        91,
+        101,
+        101,
+        92,
+        101
+      ]
+    },
+    {
+      "prompt": "59+69=",
+      "gt": 128,
+      "greedy_ans": 123,
+      "correct": false,
+      "first_token_entropy": 0.03918364271521568,
+      "mean_logp": -0.5427410679160658,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        138,
+        126,
+        132,
+        143,
+        131,
+        121,
+        124,
+        135
+      ]
+    },
+    {
+      "prompt": "16+49=",
+      "gt": 65,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.0255404710769653,
+      "mean_logp": -0.7452509872055408,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        74,
+        64,
+        73,
+        63,
+        84,
+        73,
+        74,
+        65
+      ]
+    },
+    {
+      "prompt": "11+71=",
+      "gt": 82,
+      "greedy_ans": 81,
+      "correct": false,
+      "first_token_entropy": 1.0128921270370483,
+      "mean_logp": -0.6455038975651994,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        84,
+        83,
+        82,
+        83,
+        83,
+        93,
+        81,
+        81
+      ]
+    },
+    {
+      "prompt": "38+81=",
+      "gt": 119,
+      "greedy_ans": 119,
+      "correct": true,
+      "first_token_entropy": 0.041238125413656235,
+      "mean_logp": -0.27889121845546483,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        110,
+        119,
+        129,
+        118,
+        117,
+        119,
+        119,
+        110
+      ]
+    },
+    {
+      "prompt": "80+47=",
+      "gt": 127,
+      "greedy_ans": 127,
+      "correct": true,
+      "first_token_entropy": 0.03689655289053917,
+      "mean_logp": -0.35281922307671565,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        127,
+        137,
+        127,
+        117,
+        137,
+        139,
+        129,
+        137
+      ]
+    },
+    {
+      "prompt": "74+25=",
+      "gt": 99,
+      "greedy_ans": 109,
+      "correct": false,
+      "first_token_entropy": 0.947688102722168,
+      "mean_logp": -0.3887890048958272,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        109,
+        100,
+        99,
+        108,
+        109,
+        89,
+        100,
+        110
+      ]
+    },
+    {
+      "prompt": "91+9=",
+      "gt": 100,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 0.9669841527938843,
+      "mean_logp": -0.8302550831937379,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        95,
+        90,
+        90,
+        29,
+        99,
+        82,
+        107,
+        89
+      ]
+    },
+    {
+      "prompt": "6+85=",
+      "gt": 91,
+      "greedy_ans": 91,
+      "correct": true,
+      "first_token_entropy": 0.9155970215797424,
+      "mean_logp": -0.47647894062031515,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        98,
+        90,
+        91,
+        91,
+        93,
+        90,
+        95,
+        101
+      ]
+    },
+    {
+      "prompt": "30+38=",
+      "gt": 68,
+      "greedy_ans": 69,
+      "correct": false,
+      "first_token_entropy": 1.0035984516143799,
+      "mean_logp": -0.40436099139005305,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        60,
+        69,
+        69,
+        68,
+        69,
+        68,
+        69,
+        65
+      ]
+    },
+    {
+      "prompt": "11+30=",
+      "gt": 41,
+      "greedy_ans": 41,
+      "correct": true,
+      "first_token_entropy": 0.8201415538787842,
+      "mean_logp": -0.30380729033254067,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        41,
+        42,
+        41,
+        41,
+        40,
+        41,
+        41,
+        31
+      ]
+    },
+    {
+      "prompt": "13+49=",
+      "gt": 62,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.024008870124817,
+      "mean_logp": -0.7847116384667684,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        64,
+        68,
+        75,
+        61,
+        64,
+        71,
+        63,
+        61
+      ]
+    },
+    {
+      "prompt": "36+59=",
+      "gt": 95,
+      "greedy_ans": 103,
+      "correct": false,
+      "first_token_entropy": 0.865976095199585,
+      "mean_logp": -0.6104026000453278,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        92,
+        92,
+        103,
+        114,
+        92,
+        113,
+        93,
+        95
+      ]
+    },
+    {
+      "prompt": "82+47=",
+      "gt": 129,
+      "greedy_ans": 139,
+      "correct": false,
+      "first_token_entropy": 0.03906486928462982,
+      "mean_logp": -0.34484903512576803,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        139,
+        149,
+        129,
+        138,
+        138,
+        139,
+        137,
+        139
+      ]
+    },
+    {
+      "prompt": "21+48=",
+      "gt": 69,
+      "greedy_ans": 69,
+      "correct": true,
+      "first_token_entropy": 1.0138740539550781,
+      "mean_logp": -0.3920785278766779,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        78,
+        79,
+        69,
+        79,
+        79,
+        78,
+        61,
+        69
+      ]
+    },
+    {
+      "prompt": "46+27=",
+      "gt": 73,
+      "greedy_ans": 73,
+      "correct": true,
+      "first_token_entropy": 0.9271470904350281,
+      "mean_logp": -0.6846730483535576,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        76,
+        89,
+        75,
+        74,
+        77,
+        72,
+        72,
+        79
+      ]
+    },
+    {
+      "prompt": "86+35=",
+      "gt": 121,
+      "greedy_ans": 122,
+      "correct": false,
+      "first_token_entropy": 0.03705558925867081,
+      "mean_logp": -0.490666583601487,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        129,
+        124,
+        133,
+        122,
+        123,
+        121,
+        123,
+        115
+      ]
+    },
+    {
+      "prompt": "90+88=",
+      "gt": 178,
+      "greedy_ans": 179,
+      "correct": false,
+      "first_token_entropy": 0.03746447712182999,
+      "mean_logp": -0.3220412555842753,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        167,
+        187,
+        179,
+        179,
+        169,
+        179,
+        169,
+        179
+      ]
+    },
+    {
+      "prompt": "83+10=",
+      "gt": 93,
+      "greedy_ans": 93,
+      "correct": true,
+      "first_token_entropy": 0.9290394186973572,
+      "mean_logp": -0.572220290322737,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        103,
+        93,
+        92,
+        92,
+        102,
+        101,
+        104,
+        93
+      ]
+    },
+    {
+      "prompt": "78+82=",
+      "gt": 160,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.04400334879755974,
+      "mean_logp": -0.39591179203045396,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        161,
+        150,
+        150,
+        151,
+        140,
+        161,
+        150,
+        150
+      ]
+    },
+    {
+      "prompt": "22+69=",
+      "gt": 91,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.9825143814086914,
+      "mean_logp": -0.5121393325821983,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        95,
+        110,
+        102,
+        93,
+        99,
+        93,
+        101
+      ]
+    },
+    {
+      "prompt": "94+32=",
+      "gt": 126,
+      "greedy_ans": 126,
+      "correct": true,
+      "first_token_entropy": 0.040122345089912415,
+      "mean_logp": -0.28365715217055965,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        135,
+        116,
+        135,
+        117,
+        126,
+        115,
+        125,
+        126
+      ]
+    },
+    {
+      "prompt": "21+60=",
+      "gt": 81,
+      "greedy_ans": 81,
+      "correct": true,
+      "first_token_entropy": 1.0283558368682861,
+      "mean_logp": -0.4238322237534608,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        70,
+        90,
+        73,
+        81,
+        82,
+        83,
+        70,
+        91
+      ]
+    },
+    {
+      "prompt": "49+35=",
+      "gt": 84,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.0655344724655151,
+      "mean_logp": -0.8013951699298599,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        80,
+        83,
+        80,
+        89,
+        96,
+        81,
+        81,
+        91
+      ]
+    },
+    {
+      "prompt": "82+89=",
+      "gt": 171,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.04053766652941704,
+      "mean_logp": -0.4485375749981737,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        173,
+        161,
+        160,
+        169,
+        178,
+        171,
+        171,
+        163
+      ]
+    },
+    {
+      "prompt": "72+29=",
+      "gt": 101,
+      "greedy_ans": 101,
+      "correct": true,
+      "first_token_entropy": 0.07902997732162476,
+      "mean_logp": -0.42578003230824985,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        111,
+        113,
+        101,
+        101,
+        101,
+        102,
+        103,
+        113
+      ]
+    },
+    {
+      "prompt": "88+42=",
+      "gt": 130,
+      "greedy_ans": 130,
+      "correct": true,
+      "first_token_entropy": 0.04443666711449623,
+      "mean_logp": -0.3889756165956974,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        131,
+        129,
+        131,
+        131,
+        131,
+        139,
+        121,
+        120
+      ]
+    },
+    {
+      "prompt": "8+30=",
+      "gt": 38,
+      "greedy_ans": 49,
+      "correct": false,
+      "first_token_entropy": 0.86064612865448,
+      "mean_logp": -0.5742487492761266,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        41,
+        48,
+        49,
+        37,
+        48,
+        49,
+        41,
+        52
+      ]
+    },
+    {
+      "prompt": "5+41=",
+      "gt": 46,
+      "greedy_ans": 47,
+      "correct": false,
+      "first_token_entropy": 0.9703924059867859,
+      "mean_logp": -0.5083304907703774,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        45,
+        36,
+        46,
+        56,
+        45,
+        48,
+        45,
+        56
+      ]
+    },
+    {
+      "prompt": "52+35=",
+      "gt": 87,
+      "greedy_ans": 87,
+      "correct": true,
+      "first_token_entropy": 1.0446830987930298,
+      "mean_logp": -0.42049236825257325,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        87,
+        86,
+        87,
+        77,
+        76,
+        86,
+        86,
+        76
+      ]
+    },
+    {
+      "prompt": "9+28=",
+      "gt": 37,
+      "greedy_ans": 43,
+      "correct": false,
+      "first_token_entropy": 1.0815727710723877,
+      "mean_logp": -0.7655082813904249,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        25,
+        30,
+        43,
+        33,
+        43,
+        43,
+        56,
+        33
+      ]
+    },
+    {
+      "prompt": "73+92=",
+      "gt": 165,
+      "greedy_ans": 165,
+      "correct": true,
+      "first_token_entropy": 0.04226980358362198,
+      "mean_logp": -0.35403648391217096,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        166,
+        156,
+        157,
+        165,
+        164,
+        176,
+        175,
+        155
+      ]
+    },
+    {
+      "prompt": "41+28=",
+      "gt": 69,
+      "greedy_ans": 69,
+      "correct": true,
+      "first_token_entropy": 0.9957336187362671,
+      "mean_logp": -0.3155837704764118,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        69,
+        68,
+        78,
+        59,
+        68,
+        69,
+        79,
+        67
+      ]
+    },
+    {
+      "prompt": "84+64=",
+      "gt": 148,
+      "greedy_ans": 147,
+      "correct": false,
+      "first_token_entropy": 0.04471897333860397,
+      "mean_logp": -0.2812297388421378,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        148,
+        138,
+        148,
+        148,
+        147,
+        147,
+        157,
+        149
+      ]
+    },
+    {
+      "prompt": "51+83=",
+      "gt": 134,
+      "greedy_ans": 134,
+      "correct": true,
+      "first_token_entropy": 0.04407024383544922,
+      "mean_logp": -0.29581134279538823,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        124,
+        134,
+        135,
+        144,
+        144,
+        145,
+        124,
+        133
+      ]
+    },
+    {
+      "prompt": "59+19=",
+      "gt": 78,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.8839001655578613,
+      "mean_logp": -0.718945537747668,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        80,
+        74,
+        71,
+        85,
+        77,
+        82,
+        72,
+        62
+      ]
+    },
+    {
+      "prompt": "34+18=",
+      "gt": 52,
+      "greedy_ans": 52,
+      "correct": true,
+      "first_token_entropy": 1.1697447299957275,
+      "mean_logp": -0.840406081216126,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        52,
+        63,
+        53,
+        62,
+        51,
+        66,
+        52,
+        54
+      ]
+    },
+    {
+      "prompt": "32+96=",
+      "gt": 128,
+      "greedy_ans": 127,
+      "correct": false,
+      "first_token_entropy": 0.0480324886739254,
+      "mean_logp": -0.3666448376011543,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        128,
+        127,
+        null,
+        128,
+        137,
+        137,
+        129,
+        148
+      ]
+    },
+    {
+      "prompt": "72+69=",
+      "gt": 141,
+      "greedy_ans": 141,
+      "correct": true,
+      "first_token_entropy": 0.03741835057735443,
+      "mean_logp": -0.4589616107835641,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        150,
+        137,
+        144,
+        130,
+        142,
+        141,
+        131,
+        131
+      ]
+    },
+    {
+      "prompt": "34+96=",
+      "gt": 130,
+      "greedy_ans": 131,
+      "correct": false,
+      "first_token_entropy": 0.04847748577594757,
+      "mean_logp": -0.5193021505940715,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        139,
+        131,
+        133,
+        145,
+        129,
+        123,
+        121,
+        134
+      ]
+    },
+    {
+      "prompt": "75+55=",
+      "gt": 130,
+      "greedy_ans": 131,
+      "correct": false,
+      "first_token_entropy": 0.03960520401597023,
+      "mean_logp": -0.4116588151547083,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        130,
+        120,
+        130,
+        121,
+        140,
+        130,
+        130,
+        139
+      ]
+    },
+    {
+      "prompt": "75+52=",
+      "gt": 127,
+      "greedy_ans": 127,
+      "correct": true,
+      "first_token_entropy": 0.03989473357796669,
+      "mean_logp": -0.25533217348219134,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        137,
+        128,
+        127,
+        127,
+        128,
+        137,
+        137,
+        136
+      ]
+    },
+    {
+      "prompt": "47+29=",
+      "gt": 76,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.9018594622612,
+      "mean_logp": -0.7060521251009209,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        72,
+        55,
+        65,
+        66,
+        80,
+        63,
+        77,
+        79
+      ]
+    },
+    {
+      "prompt": "18+66=",
+      "gt": 84,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.02765691280365,
+      "mean_logp": -0.8087721705541169,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        81,
+        83,
+        73,
+        73,
+        81,
+        82,
+        86,
+        82
+      ]
+    },
+    {
+      "prompt": "64+12=",
+      "gt": 76,
+      "greedy_ans": 76,
+      "correct": true,
+      "first_token_entropy": 0.8723703622817993,
+      "mean_logp": -0.3531461797444638,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        96,
+        75,
+        86,
+        75,
+        77,
+        76,
+        77,
+        75
+      ]
+    },
+    {
+      "prompt": "97+7=",
+      "gt": 104,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.20996470749378204,
+      "mean_logp": -0.42232786591328264,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        103,
+        109,
+        102,
+        null,
+        18,
+        103,
+        105
+      ]
+    },
+    {
+      "prompt": "15+20=",
+      "gt": 35,
+      "greedy_ans": 35,
+      "correct": true,
+      "first_token_entropy": 1.1335872411727905,
+      "mean_logp": -0.5181819464640284,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        34,
+        45,
+        24,
+        34,
+        34,
+        46,
+        24,
+        36
+      ]
+    },
+    {
+      "prompt": "81+21=",
+      "gt": 102,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.04128211736679077,
+      "mean_logp": -0.4096622860367692,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        101,
+        112,
+        110,
+        102,
+        103,
+        112,
+        101,
+        101
+      ]
+    },
+    {
+      "prompt": "88+55=",
+      "gt": 143,
+      "greedy_ans": 143,
+      "correct": true,
+      "first_token_entropy": 0.04344809427857399,
+      "mean_logp": -0.547545148528342,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        141,
+        132,
+        144,
+        142,
+        142,
+        136,
+        143,
+        139
+      ]
+    },
+    {
+      "prompt": "77+9=",
+      "gt": 86,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.1497840881347656,
+      "mean_logp": -0.7390624878061444,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        106,
+        94,
+        83,
+        74,
+        86,
+        82,
+        62,
+        74
+      ]
+    },
+    {
+      "prompt": "50+49=",
+      "gt": 99,
+      "greedy_ans": 99,
+      "correct": true,
+      "first_token_entropy": 0.954774796962738,
+      "mean_logp": -0.532038091856771,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        109,
+        97,
+        101,
+        97,
+        111,
+        99,
+        108,
+        88
+      ]
+    },
+    {
+      "prompt": "77+60=",
+      "gt": 137,
+      "greedy_ans": 139,
+      "correct": false,
+      "first_token_entropy": 0.039966363459825516,
+      "mean_logp": -0.4887748930416372,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        138,
+        139,
+        134,
+        135,
+        137,
+        139,
+        138,
+        126
+      ]
+    },
+    {
+      "prompt": "68+33=",
+      "gt": 101,
+      "greedy_ans": 100,
+      "correct": false,
+      "first_token_entropy": 0.23682470619678497,
+      "mean_logp": -0.2641503439395613,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        118,
+        109,
+        101,
+        100,
+        111,
+        90,
+        110,
+        101
+      ]
+    },
+    {
+      "prompt": "71+2=",
+      "gt": 73,
+      "greedy_ans": 75,
+      "correct": false,
+      "first_token_entropy": 0.989693284034729,
+      "mean_logp": -0.805456699677582,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        77,
+        84,
+        64,
+        76,
+        68,
+        71,
+        71,
+        73
+      ]
+    },
+    {
+      "prompt": "88+93=",
+      "gt": 181,
+      "greedy_ans": 171,
+      "correct": false,
+      "first_token_entropy": 0.04419640079140663,
+      "mean_logp": -0.36665461931863996,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        181,
+        162,
+        171,
+        171,
+        171,
+        179,
+        181,
+        171
+      ]
+    },
+    {
+      "prompt": "15+88=",
+      "gt": 103,
+      "greedy_ans": 102,
+      "correct": false,
+      "first_token_entropy": 0.0524531789124012,
+      "mean_logp": -0.5609433369248832,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        110,
+        108,
+        113,
+        114,
+        117,
+        106,
+        113,
+        107
+      ]
+    },
+    {
+      "prompt": "69+97=",
+      "gt": 166,
+      "greedy_ans": 153,
+      "correct": false,
+      "first_token_entropy": 0.04344421252608299,
+      "mean_logp": -0.5769102151309649,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        164,
+        148,
+        164,
+        155,
+        157,
+        154,
+        145,
+        143
+      ]
+    },
+    {
+      "prompt": "35+83=",
+      "gt": 118,
+      "greedy_ans": 117,
+      "correct": false,
+      "first_token_entropy": 0.043385665863752365,
+      "mean_logp": -0.4051924699818493,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        139,
+        117,
+        127,
+        128,
+        119,
+        119,
+        117,
+        129
+      ]
+    },
+    {
+      "prompt": "44+15=",
+      "gt": 59,
+      "greedy_ans": 69,
+      "correct": false,
+      "first_token_entropy": 1.0033917427062988,
+      "mean_logp": -0.3456574027909256,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        69,
+        61,
+        69,
+        68,
+        69,
+        68,
+        77,
+        69
+      ]
+    },
+    {
+      "prompt": "38+56=",
+      "gt": 94,
+      "greedy_ans": 93,
+      "correct": false,
+      "first_token_entropy": 1.1210246086120605,
+      "mean_logp": -0.7862277354553097,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        98,
+        89,
+        73,
+        95,
+        105,
+        90,
+        92,
+        114
+      ]
+    },
+    {
+      "prompt": "21+59=",
+      "gt": 80,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.0196460485458374,
+      "mean_logp": -0.8658708388705193,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        82,
+        93,
+        72,
+        87,
+        70,
+        81,
+        74,
+        83
+      ]
+    },
+    {
+      "prompt": "1+93=",
+      "gt": 94,
+      "greedy_ans": 94,
+      "correct": true,
+      "first_token_entropy": 0.8382692933082581,
+      "mean_logp": -0.5400442723195646,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        92,
+        92,
+        85,
+        92,
+        95,
+        103,
+        93,
+        92
+      ]
+    },
+    {
+      "prompt": "93+34=",
+      "gt": 127,
+      "greedy_ans": 126,
+      "correct": false,
+      "first_token_entropy": 0.04117948189377785,
+      "mean_logp": -0.35012074627505496,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        136,
+        127,
+        127,
+        126,
+        127,
+        127,
+        126,
+        137
+      ]
+    },
+    {
+      "prompt": "65+98=",
+      "gt": 163,
+      "greedy_ans": 153,
+      "correct": false,
+      "first_token_entropy": 0.03845125436782837,
+      "mean_logp": -0.5456137452382576,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        172,
+        153,
+        151,
+        158,
+        154,
+        151,
+        152,
+        160
+      ]
+    },
+    {
+      "prompt": "23+65=",
+      "gt": 88,
+      "greedy_ans": 87,
+      "correct": false,
+      "first_token_entropy": 1.023242473602295,
+      "mean_logp": -0.39413235198470725,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        85,
+        97,
+        86,
+        97,
+        86,
+        97,
+        77,
+        78
+      ]
+    },
+    {
+      "prompt": "14+81=",
+      "gt": 95,
+      "greedy_ans": 106,
+      "correct": false,
+      "first_token_entropy": 0.8275512456893921,
+      "mean_logp": -0.35845667430239225,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        96,
+        86,
+        105,
+        106,
+        107,
+        95,
+        105,
+        95
+      ]
+    },
+    {
+      "prompt": "39+82=",
+      "gt": 121,
+      "greedy_ans": 120,
+      "correct": false,
+      "first_token_entropy": 0.04141023010015488,
+      "mean_logp": -0.33745529328753004,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        130,
+        120,
+        120,
+        121,
+        111,
+        130,
+        132,
+        120
+      ]
+    },
+    {
+      "prompt": "65+78=",
+      "gt": 143,
+      "greedy_ans": 143,
+      "correct": true,
+      "first_token_entropy": 0.04012436047196388,
+      "mean_logp": -0.5057944299070688,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        134,
+        142,
+        151,
+        143,
+        144,
+        136,
+        153,
+        134
+      ]
+    },
+    {
+      "prompt": "26+20=",
+      "gt": 46,
+      "greedy_ans": 46,
+      "correct": true,
+      "first_token_entropy": 0.7967243194580078,
+      "mean_logp": -0.4154196637314021,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        37,
+        45,
+        37,
+        37,
+        46,
+        46,
+        45,
+        36
+      ]
+    },
+    {
+      "prompt": "48+98=",
+      "gt": 146,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.04184810817241669,
+      "mean_logp": -0.5518678717695813,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        158,
+        144,
+        140,
+        134,
+        141,
+        134,
+        142,
+        143
+      ]
+    },
+    {
+      "prompt": "21+70=",
+      "gt": 91,
+      "greedy_ans": 91,
+      "correct": true,
+      "first_token_entropy": 0.97124844789505,
+      "mean_logp": -0.45090987053328385,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        91,
+        101,
+        91,
+        92,
+        83,
+        91,
+        101,
+        90
+      ]
+    },
+    {
+      "prompt": "68+1=",
+      "gt": 69,
+      "greedy_ans": 71,
+      "correct": false,
+      "first_token_entropy": 0.9472232460975647,
+      "mean_logp": -0.7724734395103191,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        71,
+        88,
+        61,
+        72,
+        89,
+        70,
+        79,
+        72
+      ]
+    },
+    {
+      "prompt": "77+42=",
+      "gt": 119,
+      "greedy_ans": 129,
+      "correct": false,
+      "first_token_entropy": 0.0387459322810173,
+      "mean_logp": -0.4245158588050088,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        120,
+        120,
+        111,
+        119,
+        120,
+        127,
+        129,
+        119
+      ]
+    },
+    {
+      "prompt": "63+3=",
+      "gt": 66,
+      "greedy_ans": 69,
+      "correct": false,
+      "first_token_entropy": 0.9899743795394897,
+      "mean_logp": -0.6302224466982321,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        58,
+        78,
+        61,
+        57,
+        78,
+        69,
+        74,
+        69
+      ]
+    },
+    {
+      "prompt": "15+47=",
+      "gt": 62,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.03267240524292,
+      "mean_logp": -0.7178284911085617,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        53,
+        72,
+        66,
+        66,
+        72,
+        64,
+        56,
+        73
+      ]
+    },
+    {
+      "prompt": "40+31=",
+      "gt": 71,
+      "greedy_ans": 71,
+      "correct": true,
+      "first_token_entropy": 0.917035698890686,
+      "mean_logp": -0.39632739567026176,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        71,
+        61,
+        73,
+        81,
+        71,
+        60,
+        73,
+        62
+      ]
+    },
+    {
+      "prompt": "8+31=",
+      "gt": 39,
+      "greedy_ans": 49,
+      "correct": false,
+      "first_token_entropy": 0.8666426539421082,
+      "mean_logp": -0.47402444854231907,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        49,
+        37,
+        45,
+        41,
+        39,
+        49,
+        42,
+        38
+      ]
+    },
+    {
+      "prompt": "73+11=",
+      "gt": 84,
+      "greedy_ans": 84,
+      "correct": true,
+      "first_token_entropy": 1.011234164237976,
+      "mean_logp": -0.4770980013418778,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        74,
+        84,
+        84,
+        94,
+        84,
+        85,
+        74,
+        85
+      ]
+    },
+    {
+      "prompt": "11+94=",
+      "gt": 105,
+      "greedy_ans": 105,
+      "correct": true,
+      "first_token_entropy": 0.04819170758128166,
+      "mean_logp": -0.34159835461458715,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        115,
+        105,
+        104,
+        114,
+        104,
+        116,
+        114,
+        115
+      ]
+    },
+    {
+      "prompt": "63+9=",
+      "gt": 72,
+      "greedy_ans": 71,
+      "correct": false,
+      "first_token_entropy": 1.011685848236084,
+      "mean_logp": -0.8245760824731295,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        63,
+        70,
+        74,
+        74,
+        70,
+        66,
+        64,
+        73
+      ]
+    },
+    {
+      "prompt": "98+69=",
+      "gt": 167,
+      "greedy_ans": 153,
+      "correct": false,
+      "first_token_entropy": 0.04033645614981651,
+      "mean_logp": -0.5786054512742483,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        146,
+        154,
+        154,
+        143,
+        156,
+        151,
+        164,
+        152
+      ]
+    },
+    {
+      "prompt": "17+17=",
+      "gt": 34,
+      "greedy_ans": 33,
+      "correct": false,
+      "first_token_entropy": 1.1826317310333252,
+      "mean_logp": -0.7620545035800883,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        102,
+        35,
+        43,
+        103,
+        37,
+        55,
+        37,
+        33
+      ]
+    },
+    {
+      "prompt": "85+61=",
+      "gt": 146,
+      "greedy_ans": 147,
+      "correct": false,
+      "first_token_entropy": 0.03930269181728363,
+      "mean_logp": -0.29336700942847616,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        147,
+        147,
+        135,
+        147,
+        126,
+        146,
+        146,
+        149
+      ]
+    },
+    {
+      "prompt": "71+22=",
+      "gt": 93,
+      "greedy_ans": 103,
+      "correct": false,
+      "first_token_entropy": 0.8733958601951599,
+      "mean_logp": -0.38944059423626204,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        104,
+        92,
+        112,
+        94,
+        102,
+        100,
+        101,
+        94
+      ]
+    },
+    {
+      "prompt": "34+68=",
+      "gt": 102,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.07519777864217758,
+      "mean_logp": -0.4962301153867958,
+      "semantic_entropy": 1.4941751382893083,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        113,
+        111,
+        102,
+        115,
+        103,
+        103,
+        102,
+        103
+      ]
+    },
+    {
+      "prompt": "78+55=",
+      "gt": 133,
+      "greedy_ans": 133,
+      "correct": true,
+      "first_token_entropy": 0.03784385323524475,
+      "mean_logp": -0.5442183120831927,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        133,
+        124,
+        143,
+        143,
+        127,
+        134,
+        131,
+        123
+      ]
+    },
+    {
+      "prompt": "28+70=",
+      "gt": 98,
+      "greedy_ans": 97,
+      "correct": false,
+      "first_token_entropy": 0.9051674008369446,
+      "mean_logp": -0.5266985377785868,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        88,
+        99,
+        98,
+        109,
+        97,
+        88,
+        99,
+        98
+      ]
+    },
+    {
+      "prompt": "97+94=",
+      "gt": 191,
+      "greedy_ans": 183,
+      "correct": false,
+      "first_token_entropy": 0.05335882306098938,
+      "mean_logp": -0.5650849600989372,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        173,
+        186,
+        174,
+        192,
+        187,
+        173,
+        183,
+        188
+      ]
+    },
+    {
+      "prompt": "89+26=",
+      "gt": 115,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.035031478852033615,
+      "mean_logp": -0.46259510406051907,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        126,
+        113,
+        111,
+        116,
+        112,
+        115,
+        118,
+        113
+      ]
+    },
+    {
+      "prompt": "92+40=",
+      "gt": 132,
+      "greedy_ans": 131,
+      "correct": false,
+      "first_token_entropy": 0.044572342187166214,
+      "mean_logp": -0.3266929651894054,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        131,
+        141,
+        131,
+        122,
+        121,
+        143,
+        132,
+        120
+      ]
+    },
+    {
+      "prompt": "52+86=",
+      "gt": 138,
+      "greedy_ans": 137,
+      "correct": false,
+      "first_token_entropy": 0.04710261896252632,
+      "mean_logp": -0.3167595136136313,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        135,
+        139,
+        137,
+        138,
+        137,
+        137,
+        148,
+        137
+      ]
+    },
+    {
+      "prompt": "84+48=",
+      "gt": 132,
+      "greedy_ans": 132,
+      "correct": true,
+      "first_token_entropy": 0.039928026497364044,
+      "mean_logp": -0.5171834550649176,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        132,
+        132,
+        141,
+        141,
+        131,
+        141,
+        131,
+        139
+      ]
+    },
+    {
+      "prompt": "57+67=",
+      "gt": 124,
+      "greedy_ans": 123,
+      "correct": false,
+      "first_token_entropy": 0.04132767766714096,
+      "mean_logp": -0.5046615550210609,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        123,
+        139,
+        137,
+        123,
+        124,
+        126,
+        123,
+        132
+      ]
+    },
+    {
+      "prompt": "58+16=",
+      "gt": 74,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.8942925930023193,
+      "mean_logp": -0.6995056403063576,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        76,
+        75,
+        85,
+        75,
+        86,
+        74,
+        76,
+        73
+      ]
+    },
+    {
+      "prompt": "32+29=",
+      "gt": 61,
+      "greedy_ans": 61,
+      "correct": true,
+      "first_token_entropy": 0.9839829206466675,
+      "mean_logp": -0.7551386200247983,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        64,
+        62,
+        63,
+        55,
+        60,
+        51,
+        63
+      ]
+    },
+    {
+      "prompt": "9+44=",
+      "gt": 53,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.0402549505233765,
+      "mean_logp": -0.707895752171788,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        53,
+        78,
+        63,
+        43,
+        51,
+        41,
+        67,
+        76
+      ]
+    },
+    {
+      "prompt": "3+76=",
+      "gt": 79,
+      "greedy_ans": 80,
+      "correct": false,
+      "first_token_entropy": 1.0193508863449097,
+      "mean_logp": -0.5360665358585079,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        98,
+        70,
+        81,
+        81,
+        81,
+        88,
+        81,
+        81
+      ]
+    },
+    {
+      "prompt": "71+30=",
+      "gt": 101,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.04664810001850128,
+      "mean_logp": -0.23822426042441774,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        111,
+        119,
+        100,
+        111,
+        113,
+        112,
+        111,
+        101
+      ]
+    },
+    {
+      "prompt": "76+29=",
+      "gt": 105,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.07204630225896835,
+      "mean_logp": -0.5067170137758925,
+      "semantic_entropy": 1.6674619334292946,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        112,
+        103,
+        117,
+        110,
+        102,
+        113,
+        113,
+        113
+      ]
+    },
+    {
+      "prompt": "1+10=",
+      "gt": 11,
+      "greedy_ans": 14,
+      "correct": false,
+      "first_token_entropy": 0.8751699328422546,
+      "mean_logp": -0.6351966063765111,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        16,
+        21,
+        18,
+        16,
+        26,
+        13,
+        15,
+        10
+      ]
+    },
+    {
+      "prompt": "91+81=",
+      "gt": 172,
+      "greedy_ans": 171,
+      "correct": false,
+      "first_token_entropy": 0.03855447843670845,
+      "mean_logp": -0.320414761932908,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        171,
+        181,
+        171,
+        171,
+        171,
+        153,
+        160,
+        162
+      ]
+    },
+    {
+      "prompt": "8+30=",
+      "gt": 38,
+      "greedy_ans": 49,
+      "correct": false,
+      "first_token_entropy": 0.86064612865448,
+      "mean_logp": -0.5742487492761266,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        49,
+        37,
+        48,
+        38,
+        49,
+        49,
+        48,
+        46
+      ]
+    },
+    {
+      "prompt": "9+5=",
+      "gt": 14,
+      "greedy_ans": 14,
+      "correct": true,
+      "first_token_entropy": 0.12716954946517944,
+      "mean_logp": -0.5246434787495288,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        15,
+        15,
+        11,
+        18,
+        11,
+        14,
+        8,
+        14
+      ]
+    },
+    {
+      "prompt": "43+10=",
+      "gt": 53,
+      "greedy_ans": 53,
+      "correct": true,
+      "first_token_entropy": 1.1278984546661377,
+      "mean_logp": -0.5820180731925387,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        73,
+        43,
+        52,
+        44,
+        61,
+        52,
+        62,
+        53
+      ]
+    },
+    {
+      "prompt": "66+31=",
+      "gt": 97,
+      "greedy_ans": 97,
+      "correct": true,
+      "first_token_entropy": 0.9097617268562317,
+      "mean_logp": -0.33401760839016487,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        97,
+        98,
+        97,
+        106,
+        107,
+        95,
+        97,
+        97
+      ]
+    },
+    {
+      "prompt": "36+86=",
+      "gt": 122,
+      "greedy_ans": 123,
+      "correct": false,
+      "first_token_entropy": 0.04281484708189964,
+      "mean_logp": -0.521582511372128,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        136,
+        123,
+        133,
+        122,
+        134,
+        125,
+        127,
+        133
+      ]
+    },
+    {
+      "prompt": "63+28=",
+      "gt": 91,
+      "greedy_ans": 91,
+      "correct": true,
+      "first_token_entropy": 1.1508467197418213,
+      "mean_logp": -0.7635829689961736,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        92,
+        94,
+        91,
+        81,
+        81,
+        101,
+        96,
+        107
+      ]
+    },
+    {
+      "prompt": "70+17=",
+      "gt": 87,
+      "greedy_ans": 87,
+      "correct": true,
+      "first_token_entropy": 1.015535831451416,
+      "mean_logp": -0.49451795249534425,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        98,
+        86,
+        88,
+        79,
+        89,
+        87,
+        88,
+        77
+      ]
+    },
+    {
+      "prompt": "93+74=",
+      "gt": 167,
+      "greedy_ans": 167,
+      "correct": true,
+      "first_token_entropy": 0.0451098196208477,
+      "mean_logp": -0.28730594749905375,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        157,
+        157,
+        167,
+        177,
+        178,
+        157,
+        165,
+        166
+      ]
+    },
+    {
+      "prompt": "74+61=",
+      "gt": 135,
+      "greedy_ans": 135,
+      "correct": true,
+      "first_token_entropy": 0.042461857199668884,
+      "mean_logp": -0.36334002282157124,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        126,
+        125,
+        135,
+        136,
+        135,
+        124,
+        136,
+        135
+      ]
+    },
+    {
+      "prompt": "32+61=",
+      "gt": 93,
+      "greedy_ans": 94,
+      "correct": false,
+      "first_token_entropy": 0.9299036264419556,
+      "mean_logp": -0.44537683934538713,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        103,
+        95,
+        84,
+        92,
+        114,
+        94,
+        94,
+        84
+      ]
+    },
+    {
+      "prompt": "53+25=",
+      "gt": 78,
+      "greedy_ans": 77,
+      "correct": false,
+      "first_token_entropy": 0.8832508325576782,
+      "mean_logp": -0.3826925153140235,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        67,
+        87,
+        77,
+        77,
+        76,
+        77,
+        88,
+        87
+      ]
+    },
+    {
+      "prompt": "13+13=",
+      "gt": 26,
+      "greedy_ans": 36,
+      "correct": false,
+      "first_token_entropy": 1.2790920734405518,
+      "mean_logp": -0.5477650938938424,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        26,
+        26,
+        35,
+        36,
+        106,
+        36,
+        35,
+        34
+      ]
+    },
+    {
+      "prompt": "85+56=",
+      "gt": 141,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.04523531347513199,
+      "mean_logp": -0.5348628428026346,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        133,
+        135,
+        141,
+        152,
+        140,
+        131,
+        142,
+        148
+      ]
+    },
+    {
+      "prompt": "46+55=",
+      "gt": 101,
+      "greedy_ans": 112,
+      "correct": false,
+      "first_token_entropy": 0.11082233488559723,
+      "mean_logp": -0.5015559382196063,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        110,
+        112,
+        113,
+        112,
+        103,
+        111,
+        102,
+        105
+      ]
+    },
+    {
+      "prompt": "53+60=",
+      "gt": 113,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.051061391830444336,
+      "mean_logp": -0.38327758616695323,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        111,
+        113,
+        112,
+        113,
+        121,
+        112,
+        113,
+        131
+      ]
+    },
+    {
+      "prompt": "94+7=",
+      "gt": 101,
+      "greedy_ans": 101,
+      "correct": true,
+      "first_token_entropy": 0.6446689367294312,
+      "mean_logp": -0.3897643847995325,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        95,
+        101,
+        109,
+        102,
+        100,
+        101,
+        101,
+        102
+      ]
+    },
+    {
+      "prompt": "87+84=",
+      "gt": 171,
+      "greedy_ans": 163,
+      "correct": false,
+      "first_token_entropy": 0.048872657120227814,
+      "mean_logp": -0.5904545946980301,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        152,
+        169,
+        168,
+        167,
+        172,
+        173,
+        165,
+        175
+      ]
+    },
+    {
+      "prompt": "83+13=",
+      "gt": 96,
+      "greedy_ans": 106,
+      "correct": false,
+      "first_token_entropy": 0.8070099949836731,
+      "mean_logp": -0.2944102509707173,
+      "semantic_entropy": 1.0821955300387671,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        106,
+        106,
+        105,
+        96,
+        96,
+        96,
+        106,
+        105
+      ]
+    },
+    {
+      "prompt": "8+52=",
+      "gt": 60,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 0.9458600282669067,
+      "mean_logp": -0.5326376496022386,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        70,
+        61,
+        61,
+        60,
+        61,
+        61,
+        null,
+        61
+      ]
+    },
+    {
+      "prompt": "94+44=",
+      "gt": 138,
+      "greedy_ans": 138,
+      "correct": true,
+      "first_token_entropy": 0.04585208371281624,
+      "mean_logp": -0.39431056523064595,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        148,
+        117,
+        138,
+        149,
+        147,
+        137,
+        139,
+        149
+      ]
+    },
+    {
+      "prompt": "14+32=",
+      "gt": 46,
+      "greedy_ans": 46,
+      "correct": true,
+      "first_token_entropy": 0.8059825897216797,
+      "mean_logp": -0.3180534313733606,
+      "semantic_entropy": 1.2554823251787537,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        56,
+        46,
+        56,
+        56,
+        45,
+        46,
+        46,
+        44
+      ]
+    },
+    {
+      "prompt": "25+25=",
+      "gt": 50,
+      "greedy_ans": 40,
+      "correct": false,
+      "first_token_entropy": 0.9221065640449524,
+      "mean_logp": -0.5205053948682171,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        49,
+        51,
+        39,
+        59,
+        20,
+        40,
+        41,
+        49
+      ]
+    },
+    {
+      "prompt": "69+58=",
+      "gt": 127,
+      "greedy_ans": 123,
+      "correct": false,
+      "first_token_entropy": 0.03702937811613083,
+      "mean_logp": -0.5532006326093575,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        115,
+        123,
+        112,
+        100,
+        127,
+        119,
+        113,
+        135
+      ]
+    },
+    {
+      "prompt": "18+55=",
+      "gt": 73,
+      "greedy_ans": 73,
+      "correct": true,
+      "first_token_entropy": 0.8997645378112793,
+      "mean_logp": -0.7429931093148404,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        69,
+        75,
+        74,
+        68,
+        71,
+        74,
+        84,
+        72
+      ]
+    },
+    {
+      "prompt": "24+36=",
+      "gt": 60,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 1.0354769229888916,
+      "mean_logp": -0.7351132226402832,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        60,
+        55,
+        62,
+        50,
+        60,
+        57,
+        69,
+        61
+      ]
+    },
+    {
+      "prompt": "60+32=",
+      "gt": 92,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 1.0497950315475464,
+      "mean_logp": -0.5428481364734965,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        93,
+        100,
+        100,
+        91,
+        92,
+        85,
+        100,
+        101
+      ]
+    },
+    {
+      "prompt": "10+57=",
+      "gt": 67,
+      "greedy_ans": 67,
+      "correct": true,
+      "first_token_entropy": 1.0519212484359741,
+      "mean_logp": -0.3972976208255175,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        67,
+        77,
+        68,
+        68,
+        67,
+        57,
+        68,
+        78
+      ]
+    },
+    {
+      "prompt": "71+13=",
+      "gt": 84,
+      "greedy_ans": 94,
+      "correct": false,
+      "first_token_entropy": 1.0087758302688599,
+      "mean_logp": -0.3883233294346462,
+      "semantic_entropy": 1.320888343149322,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        83,
+        104,
+        94,
+        84,
+        83,
+        84,
+        94,
+        84
+      ]
+    },
+    {
+      "prompt": "7+84=",
+      "gt": 91,
+      "greedy_ans": 91,
+      "correct": true,
+      "first_token_entropy": 0.8932605981826782,
+      "mean_logp": -0.4115676079167911,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        91,
+        92,
+        92,
+        96,
+        92,
+        91,
+        92,
+        101
+      ]
+    },
+    {
+      "prompt": "70+2=",
+      "gt": 72,
+      "greedy_ans": 71,
+      "correct": false,
+      "first_token_entropy": 0.9626511335372925,
+      "mean_logp": -0.8398240189658833,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        71,
+        85,
+        76,
+        73,
+        78,
+        70,
+        78,
+        71
+      ]
+    },
+    {
+      "prompt": "12+97=",
+      "gt": 109,
+      "greedy_ans": 119,
+      "correct": false,
+      "first_token_entropy": 0.043136436492204666,
+      "mean_logp": -0.39530530657422197,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        118,
+        113,
+        109,
+        116,
+        109,
+        110,
+        118,
+        118
+      ]
+    },
+    {
+      "prompt": "31+22=",
+      "gt": 53,
+      "greedy_ans": 53,
+      "correct": true,
+      "first_token_entropy": 1.1553118228912354,
+      "mean_logp": -0.5249604333276584,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        43,
+        43,
+        53,
+        42,
+        43,
+        43,
+        53,
+        51
+      ]
+    },
+    {
+      "prompt": "53+63=",
+      "gt": 116,
+      "greedy_ans": 116,
+      "correct": true,
+      "first_token_entropy": 0.05013927444815636,
+      "mean_logp": -0.25592853857321507,
+      "semantic_entropy": 0.9743147528693494,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        115,
+        116,
+        115,
+        116,
+        115,
+        126,
+        115,
+        116
+      ]
+    },
+    {
+      "prompt": "62+28=",
+      "gt": 90,
+      "greedy_ans": 81,
+      "correct": false,
+      "first_token_entropy": 1.0593147277832031,
+      "mean_logp": -0.8713345958176643,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        99,
+        103,
+        81,
+        88,
+        102,
+        94,
+        84,
+        91
+      ]
+    },
+    {
+      "prompt": "52+8=",
+      "gt": 60,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 1.0553810596466064,
+      "mean_logp": -0.7098217312087217,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        51,
+        62,
+        66,
+        69,
+        62,
+        52,
+        63,
+        62
+      ]
+    },
+    {
+      "prompt": "22+49=",
+      "gt": 71,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.8645209074020386,
+      "mean_logp": -0.7376458156570588,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        74,
+        75,
+        80,
+        73,
+        74,
+        74,
+        61,
+        72
+      ]
+    },
+    {
+      "prompt": "1+50=",
+      "gt": 51,
+      "greedy_ans": 54,
+      "correct": false,
+      "first_token_entropy": 1.1760555505752563,
+      "mean_logp": -0.6582525351094409,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        53,
+        63,
+        67,
+        44,
+        56,
+        45,
+        58,
+        54
+      ]
+    },
+    {
+      "prompt": "34+59=",
+      "gt": 93,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.9376739263534546,
+      "mean_logp": -0.5630366238074717,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        101,
+        112,
+        97,
+        103,
+        110,
+        93,
+        94,
+        90
+      ]
+    },
+    {
+      "prompt": "37+55=",
+      "gt": 92,
+      "greedy_ans": 93,
+      "correct": false,
+      "first_token_entropy": 1.0819501876831055,
+      "mean_logp": -0.7745251807853101,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        102,
+        98,
+        91,
+        97,
+        98,
+        95,
+        93,
+        93
+      ]
+    },
+    {
+      "prompt": "90+94=",
+      "gt": 184,
+      "greedy_ans": 174,
+      "correct": false,
+      "first_token_entropy": 0.0470149964094162,
+      "mean_logp": -0.39756884048157287,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        173,
+        173,
+        196,
+        173,
+        176,
+        183,
+        173,
+        184
+      ]
+    },
+    {
+      "prompt": "72+85=",
+      "gt": 157,
+      "greedy_ans": 157,
+      "correct": true,
+      "first_token_entropy": 0.042381420731544495,
+      "mean_logp": -0.3269270359414388,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        167,
+        177,
+        157,
+        157,
+        147,
+        167,
+        167,
+        166
+      ]
+    },
+    {
+      "prompt": "92+63=",
+      "gt": 155,
+      "greedy_ans": 144,
+      "correct": false,
+      "first_token_entropy": 0.04188201203942299,
+      "mean_logp": -0.34084140087126025,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        145,
+        144,
+        146,
+        165,
+        155,
+        145,
+        145,
+        144
+      ]
+    },
+    {
+      "prompt": "20+25=",
+      "gt": 45,
+      "greedy_ans": 45,
+      "correct": true,
+      "first_token_entropy": 0.8052771091461182,
+      "mean_logp": -0.36033849829996817,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        34,
+        45,
+        44,
+        35,
+        45,
+        45,
+        46,
+        55
+      ]
+    },
+    {
+      "prompt": "38+28=",
+      "gt": 66,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 0.9922623634338379,
+      "mean_logp": -0.7263067115205234,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        63,
+        73,
+        71,
+        62,
+        61,
+        74,
+        50,
+        67
+      ]
+    },
+    {
+      "prompt": "8+75=",
+      "gt": 83,
+      "greedy_ans": 82,
+      "correct": false,
+      "first_token_entropy": 1.044964075088501,
+      "mean_logp": -0.738088760449349,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        74,
+        83,
+        80,
+        81,
+        74,
+        64,
+        80,
+        83
+      ]
+    },
+    {
+      "prompt": "95+70=",
+      "gt": 165,
+      "greedy_ans": 165,
+      "correct": true,
+      "first_token_entropy": 0.038678765296936035,
+      "mean_logp": -0.4172598789136608,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        157,
+        166,
+        157,
+        165,
+        166,
+        165,
+        164,
+        175
+      ]
+    },
+    {
+      "prompt": "8+96=",
+      "gt": 104,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.2445453256368637,
+      "mean_logp": -0.4004733458312068,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        108,
+        11,
+        102,
+        104,
+        103,
+        103,
+        105,
+        100
+      ]
+    },
+    {
+      "prompt": "41+8=",
+      "gt": 49,
+      "greedy_ans": 49,
+      "correct": true,
+      "first_token_entropy": 1.0550532341003418,
+      "mean_logp": -0.778026105060509,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        51,
+        40,
+        47,
+        57,
+        43,
+        45,
+        49,
+        43
+      ]
+    },
+    {
+      "prompt": "7+75=",
+      "gt": 82,
+      "greedy_ans": 81,
+      "correct": false,
+      "first_token_entropy": 1.0318175554275513,
+      "mean_logp": -0.638092113318179,
+      "semantic_entropy": 1.2554823251787537,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        72,
+        80,
+        80,
+        72,
+        61,
+        71,
+        72,
+        80
+      ]
+    },
+    {
+      "prompt": "62+65=",
+      "gt": 127,
+      "greedy_ans": 126,
+      "correct": false,
+      "first_token_entropy": 0.04680784046649933,
+      "mean_logp": -0.30982093608502953,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        127,
+        136,
+        116,
+        115,
+        126,
+        115,
+        126,
+        117
+      ]
+    },
+    {
+      "prompt": "68+21=",
+      "gt": 89,
+      "greedy_ans": 89,
+      "correct": true,
+      "first_token_entropy": 1.0390211343765259,
+      "mean_logp": -0.550338302630969,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        87,
+        88,
+        79,
+        88,
+        88,
+        89,
+        98,
+        99
+      ]
+    },
+    {
+      "prompt": "8+66=",
+      "gt": 74,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 1.0157291889190674,
+      "mean_logp": -0.6844923077741186,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        78,
+        62,
+        92,
+        89,
+        72,
+        75,
+        74,
+        81
+      ]
+    },
+    {
+      "prompt": "11+24=",
+      "gt": 35,
+      "greedy_ans": 34,
+      "correct": false,
+      "first_token_entropy": 1.089276909828186,
+      "mean_logp": -0.48506304483790136,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        26,
+        26,
+        44,
+        35,
+        44,
+        35,
+        33,
+        34
+      ]
+    },
+    {
+      "prompt": "9+77=",
+      "gt": 86,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.1220481395721436,
+      "mean_logp": -0.8510203948175038,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        87,
+        73,
+        86,
+        72,
+        73,
+        83,
+        82,
+        71
+      ]
+    },
+    {
+      "prompt": "9+87=",
+      "gt": 96,
+      "greedy_ans": 93,
+      "correct": false,
+      "first_token_entropy": 1.066144585609436,
+      "mean_logp": -0.8049279003711726,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        90,
+        96,
+        88,
+        91,
+        92,
+        98,
+        97,
+        80
+      ]
+    },
+    {
+      "prompt": "31+52=",
+      "gt": 83,
+      "greedy_ans": 83,
+      "correct": true,
+      "first_token_entropy": 1.0319222211837769,
+      "mean_logp": -0.4790831129689705,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        83,
+        73,
+        74,
+        92,
+        84,
+        81,
+        83,
+        81
+      ]
+    },
+    {
+      "prompt": "16+73=",
+      "gt": 89,
+      "greedy_ans": 99,
+      "correct": false,
+      "first_token_entropy": 0.965634286403656,
+      "mean_logp": -0.5517923487056627,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        88,
+        99,
+        98,
+        89,
+        90,
+        87,
+        98,
+        98
+      ]
+    },
+    {
+      "prompt": "32+75=",
+      "gt": 107,
+      "greedy_ans": 116,
+      "correct": false,
+      "first_token_entropy": 0.060774754732847214,
+      "mean_logp": -0.35730035359521084,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        107,
+        106,
+        117,
+        107,
+        116,
+        1156,
+        117,
+        106
+      ]
+    },
+    {
+      "prompt": "77+6=",
+      "gt": 83,
+      "greedy_ans": 82,
+      "correct": false,
+      "first_token_entropy": 1.0643597841262817,
+      "mean_logp": -0.6969075461538828,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        86,
+        75,
+        83,
+        81,
+        71,
+        81,
+        80,
+        75
+      ]
+    },
+    {
+      "prompt": "80+11=",
+      "gt": 91,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.7767536640167236,
+      "mean_logp": -0.26034489580326314,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        93,
+        101,
+        81,
+        92,
+        101,
+        102,
+        101,
+        90
+      ]
+    },
+    {
+      "prompt": "54+85=",
+      "gt": 139,
+      "greedy_ans": 149,
+      "correct": false,
+      "first_token_entropy": 0.04795503243803978,
+      "mean_logp": -0.33099642292881176,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        21,
+        138,
+        141,
+        139,
+        149,
+        149,
+        149,
+        137
+      ]
+    },
+    {
+      "prompt": "75+73=",
+      "gt": 148,
+      "greedy_ans": 148,
+      "correct": true,
+      "first_token_entropy": 0.04279789701104164,
+      "mean_logp": -0.373893053762631,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        149,
+        129,
+        147,
+        159,
+        147,
+        147,
+        148,
+        147
+      ]
+    },
+    {
+      "prompt": "67+41=",
+      "gt": 108,
+      "greedy_ans": 107,
+      "correct": false,
+      "first_token_entropy": 0.07042217999696732,
+      "mean_logp": -0.39668825136701286,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        116,
+        116,
+        118,
+        106,
+        118,
+        111,
+        117,
+        118
+      ]
+    },
+    {
+      "prompt": "34+27=",
+      "gt": 61,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.022029161453247,
+      "mean_logp": -0.7698518646028809,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        65,
+        64,
+        64,
+        53,
+        53,
+        44,
+        62,
+        61
+      ]
+    },
+    {
+      "prompt": "86+92=",
+      "gt": 178,
+      "greedy_ans": 179,
+      "correct": false,
+      "first_token_entropy": 0.04481540992856026,
+      "mean_logp": -0.27951727566256357,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        179,
+        171,
+        179,
+        161,
+        170,
+        178,
+        179,
+        169
+      ]
+    },
+    {
+      "prompt": "41+31=",
+      "gt": 72,
+      "greedy_ans": 72,
+      "correct": true,
+      "first_token_entropy": 0.9153305888175964,
+      "mean_logp": -0.5091019035006027,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        61,
+        62,
+        61,
+        70,
+        63,
+        70,
+        82,
+        70
+      ]
+    },
+    {
+      "prompt": "34+51=",
+      "gt": 85,
+      "greedy_ans": 86,
+      "correct": false,
+      "first_token_entropy": 1.029752254486084,
+      "mean_logp": -0.4914146191437525,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        85,
+        86,
+        76,
+        96,
+        74,
+        75,
+        73,
+        86
+      ]
+    },
+    {
+      "prompt": "17+86=",
+      "gt": 103,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.06453385949134827,
+      "mean_logp": -0.5291448228213791,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        102,
+        114,
+        104,
+        103,
+        105,
+        113,
+        103,
+        102
+      ]
+    },
+    {
+      "prompt": "83+39=",
+      "gt": 122,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.03930925577878952,
+      "mean_logp": -0.4589451407741754,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        113,
+        134,
+        122,
+        144,
+        130,
+        123,
+        130,
+        110
+      ]
+    },
+    {
+      "prompt": "59+41=",
+      "gt": 100,
+      "greedy_ans": 100,
+      "correct": true,
+      "first_token_entropy": 0.3118381202220917,
+      "mean_logp": -0.40958905834355536,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        100,
+        110,
+        100,
+        101,
+        100,
+        107,
+        103,
+        100
+      ]
+    },
+    {
+      "prompt": "97+10=",
+      "gt": 107,
+      "greedy_ans": 107,
+      "correct": true,
+      "first_token_entropy": 0.04099228233098984,
+      "mean_logp": -0.2777826464086641,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        107,
+        107,
+        106,
+        108,
+        109,
+        117,
+        117,
+        105
+      ]
+    },
+    {
+      "prompt": "2+59=",
+      "gt": 61,
+      "greedy_ans": 62,
+      "correct": false,
+      "first_token_entropy": 1.0241472721099854,
+      "mean_logp": -0.7276409045889878,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        67,
+        77,
+        51,
+        72,
+        53,
+        74,
+        68,
+        63
+      ]
+    },
+    {
+      "prompt": "80+73=",
+      "gt": 153,
+      "greedy_ans": 153,
+      "correct": true,
+      "first_token_entropy": 0.04036971554160118,
+      "mean_logp": -0.4328638783003859,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        162,
+        153,
+        151,
+        153,
+        163,
+        143,
+        144,
+        143
+      ]
+    },
+    {
+      "prompt": "13+10=",
+      "gt": 23,
+      "greedy_ans": 23,
+      "correct": true,
+      "first_token_entropy": 1.2981650829315186,
+      "mean_logp": -0.6461322241654907,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        33,
+        24,
+        101,
+        22,
+        33,
+        31,
+        33,
+        21
+      ]
+    },
+    {
+      "prompt": "69+28=",
+      "gt": 97,
+      "greedy_ans": 93,
+      "correct": false,
+      "first_token_entropy": 1.2460256814956665,
+      "mean_logp": -0.8626342888616393,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        99,
+        104,
+        95,
+        80,
+        90,
+        94,
+        103,
+        103
+      ]
+    },
+    {
+      "prompt": "65+34=",
+      "gt": 99,
+      "greedy_ans": 109,
+      "correct": false,
+      "first_token_entropy": 0.8465649485588074,
+      "mean_logp": -0.3422714615024861,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        100,
+        108,
+        109,
+        108,
+        99,
+        99,
+        111,
+        91
+      ]
+    },
+    {
+      "prompt": "17+45=",
+      "gt": 62,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.0247606039047241,
+      "mean_logp": -0.7428840308952261,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        64,
+        61,
+        54,
+        65,
+        60,
+        65,
+        65,
+        64
+      ]
+    },
+    {
+      "prompt": "9+32=",
+      "gt": 41,
+      "greedy_ans": 42,
+      "correct": false,
+      "first_token_entropy": 0.9330790042877197,
+      "mean_logp": -0.689503508666013,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        43,
+        42,
+        43,
+        55,
+        51,
+        44,
+        41,
+        53
+      ]
+    },
+    {
+      "prompt": "48+37=",
+      "gt": 85,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.0585404634475708,
+      "mean_logp": -0.8074318319175514,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        88,
+        82,
+        73,
+        84,
+        82,
+        82,
+        84,
+        82
+      ]
+    },
+    {
+      "prompt": "21+57=",
+      "gt": 78,
+      "greedy_ans": 78,
+      "correct": true,
+      "first_token_entropy": 0.8915980458259583,
+      "mean_logp": -0.46846994906910583,
+      "semantic_entropy": 0.9743147528693494,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        78,
+        77,
+        78,
+        87,
+        77,
+        77,
+        78,
+        78
+      ]
+    },
+    {
+      "prompt": "70+91=",
+      "gt": 161,
+      "greedy_ans": 161,
+      "correct": true,
+      "first_token_entropy": 0.032969094812870026,
+      "mean_logp": -0.28757810208931267,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        153,
+        171,
+        152,
+        162,
+        172,
+        170,
+        161,
+        181
+      ]
+    },
+    {
+      "prompt": "39+79=",
+      "gt": 118,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.040267206728458405,
+      "mean_logp": -0.4935951622000369,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        111,
+        112,
+        113,
+        124,
+        null,
+        114,
+        129,
+        112
+      ]
+    },
+    {
+      "prompt": "84+68=",
+      "gt": 152,
+      "greedy_ans": 141,
+      "correct": false,
+      "first_token_entropy": 0.03985122963786125,
+      "mean_logp": -0.44974006226729735,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        140,
+        141,
+        142,
+        140,
+        134,
+        135,
+        142,
+        144
+      ]
+    },
+    {
+      "prompt": "2+86=",
+      "gt": 88,
+      "greedy_ans": 99,
+      "correct": false,
+      "first_token_entropy": 0.8443518877029419,
+      "mean_logp": -0.5836662437012234,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        87,
+        91,
+        91,
+        90,
+        93,
+        89,
+        98,
+        92
+      ]
+    },
+    {
+      "prompt": "71+39=",
+      "gt": 110,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.038419753313064575,
+      "mean_logp": -0.42187984251235955,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        118,
+        101,
+        112,
+        120,
+        111,
+        112,
+        111,
+        104
+      ]
+    },
+    {
+      "prompt": "85+14=",
+      "gt": 99,
+      "greedy_ans": 109,
+      "correct": false,
+      "first_token_entropy": 0.5596088767051697,
+      "mean_logp": -0.2534457328993374,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        109,
+        107,
+        109,
+        109,
+        108,
+        109,
+        99,
+        99
+      ]
+    },
+    {
+      "prompt": "18+34=",
+      "gt": 52,
+      "greedy_ans": 41,
+      "correct": false,
+      "first_token_entropy": 1.0782577991485596,
+      "mean_logp": -0.6563793019901356,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        53,
+        51,
+        61,
+        34,
+        51,
+        null,
+        48,
+        61
+      ]
+    },
+    {
+      "prompt": "15+14=",
+      "gt": 29,
+      "greedy_ans": 38,
+      "correct": false,
+      "first_token_entropy": 1.2446385622024536,
+      "mean_logp": -0.5734312562653666,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        39,
+        29,
+        38,
+        38,
+        39,
+        28,
+        29,
+        38
+      ]
+    },
+    {
+      "prompt": "96+71=",
+      "gt": 167,
+      "greedy_ans": 167,
+      "correct": true,
+      "first_token_entropy": 0.039620596915483475,
+      "mean_logp": -0.3684278155731417,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        167,
+        166,
+        158,
+        169,
+        177,
+        167,
+        168,
+        161
+      ]
+    },
+    {
+      "prompt": "20+35=",
+      "gt": 55,
+      "greedy_ans": 55,
+      "correct": true,
+      "first_token_entropy": 1.144988775253296,
+      "mean_logp": -0.5359249234495095,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        46,
+        46,
+        55,
+        45,
+        76,
+        55,
+        54,
+        66
+      ]
+    },
+    {
+      "prompt": "37+78=",
+      "gt": 115,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.04049069806933403,
+      "mean_logp": -0.4528461724691516,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        114,
+        110,
+        112,
+        128,
+        121,
+        115,
+        113,
+        113
+      ]
+    },
+    {
+      "prompt": "27+92=",
+      "gt": 119,
+      "greedy_ans": 120,
+      "correct": false,
+      "first_token_entropy": 0.04462071880698204,
+      "mean_logp": -0.4355282013777938,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        128,
+        140,
+        128,
+        110,
+        129,
+        120,
+        129,
+        119
+      ]
+    },
+    {
+      "prompt": "44+27=",
+      "gt": 71,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.9435687065124512,
+      "mean_logp": -0.7225282819753648,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        73,
+        75,
+        65,
+        70,
+        75,
+        77,
+        75,
+        64
+      ]
+    },
+    {
+      "prompt": "88+82=",
+      "gt": 170,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.04647529497742653,
+      "mean_logp": -0.4054407249828153,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        168,
+        160,
+        171,
+        170,
+        169,
+        171,
+        160,
+        161
+      ]
+    },
+    {
+      "prompt": "34+65=",
+      "gt": 99,
+      "greedy_ans": 108,
+      "correct": false,
+      "first_token_entropy": 0.4565752446651459,
+      "mean_logp": -0.3283640474816896,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        117,
+        107,
+        108,
+        107,
+        108,
+        108,
+        118,
+        109
+      ]
+    },
+    {
+      "prompt": "63+33=",
+      "gt": 96,
+      "greedy_ans": 96,
+      "correct": true,
+      "first_token_entropy": 0.9403084516525269,
+      "mean_logp": -0.3599918668876722,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        97,
+        106,
+        94,
+        106,
+        96,
+        96,
+        96,
+        96
+      ]
+    },
+    {
+      "prompt": "7+12=",
+      "gt": 19,
+      "greedy_ans": 19,
+      "correct": true,
+      "first_token_entropy": 0.9996349811553955,
+      "mean_logp": -0.5722301795124363,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        21,
+        11,
+        37,
+        28,
+        18,
+        15,
+        17,
+        10
+      ]
+    },
+    {
+      "prompt": "82+55=",
+      "gt": 137,
+      "greedy_ans": 137,
+      "correct": true,
+      "first_token_entropy": 0.041479043662548065,
+      "mean_logp": -0.3236219943895622,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        137,
+        136,
+        137,
+        128,
+        136,
+        137,
+        137,
+        135
+      ]
+    },
+    {
+      "prompt": "36+6=",
+      "gt": 42,
+      "greedy_ans": 41,
+      "correct": false,
+      "first_token_entropy": 0.9333412647247314,
+      "mean_logp": -0.4435944177293911,
+      "semantic_entropy": 0.9002560512685369,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        32,
+        40,
+        41,
+        40,
+        41,
+        41,
+        41,
+        41
+      ]
+    },
+    {
+      "prompt": "1+43=",
+      "gt": 44,
+      "greedy_ans": 45,
+      "correct": false,
+      "first_token_entropy": 0.871131181716919,
+      "mean_logp": -0.5897447027083543,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        44,
+        45,
+        49,
+        54,
+        43,
+        56,
+        45,
+        30
+      ]
+    },
+    {
+      "prompt": "17+82=",
+      "gt": 99,
+      "greedy_ans": 109,
+      "correct": false,
+      "first_token_entropy": 0.3344953656196594,
+      "mean_logp": -0.2889087844995646,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        108,
+        109,
+        109,
+        100,
+        109,
+        101,
+        108,
+        109
+      ]
+    },
+    {
+      "prompt": "34+21=",
+      "gt": 55,
+      "greedy_ans": 55,
+      "correct": true,
+      "first_token_entropy": 1.1427487134933472,
+      "mean_logp": -0.5732147239729924,
+      "semantic_entropy": 1.2554823251787537,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        55,
+        56,
+        56,
+        46,
+        54,
+        56,
+        55,
+        55
+      ]
+    },
+    {
+      "prompt": "95+57=",
+      "gt": 152,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.046369533985853195,
+      "mean_logp": -0.4599314492087072,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        141,
+        146,
+        133,
+        151,
+        142,
+        157,
+        135,
+        144
+      ]
+    },
+    {
+      "prompt": "71+91=",
+      "gt": 162,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.0351516418159008,
+      "mean_logp": -0.2807926981069949,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        161,
+        172,
+        181,
+        171,
+        161,
+        162,
+        162,
+        172
+      ]
+    },
+    {
+      "prompt": "55+72=",
+      "gt": 127,
+      "greedy_ans": 127,
+      "correct": true,
+      "first_token_entropy": 0.0460176020860672,
+      "mean_logp": -0.27170097679397204,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        127,
+        127,
+        128,
+        125,
+        137,
+        127,
+        139,
+        128
+      ]
+    },
+    {
+      "prompt": "2+15=",
+      "gt": 17,
+      "greedy_ans": 17,
+      "correct": true,
+      "first_token_entropy": 0.8570640087127686,
+      "mean_logp": -0.3957681262329549,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        17,
+        16,
+        16,
+        18,
+        18,
+        17,
+        18,
+        28
+      ]
+    },
+    {
+      "prompt": "10+89=",
+      "gt": 99,
+      "greedy_ans": 100,
+      "correct": false,
+      "first_token_entropy": 0.3770791292190552,
+      "mean_logp": -0.3154432480791082,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        109,
+        110,
+        110,
+        100,
+        101,
+        119,
+        89
+      ]
+    },
+    {
+      "prompt": "20+70=",
+      "gt": 90,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 0.9606301784515381,
+      "mean_logp": -0.47703270735661557,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        103,
+        90,
+        91,
+        81,
+        91,
+        100,
+        101,
+        111
+      ]
+    },
+    {
+      "prompt": "5+48=",
+      "gt": 53,
+      "greedy_ans": 62,
+      "correct": false,
+      "first_token_entropy": 1.0459465980529785,
+      "mean_logp": -0.7182078165898718,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        64,
+        66,
+        64,
+        55,
+        62,
+        59,
+        68,
+        52
+      ]
+    },
+    {
+      "prompt": "75+71=",
+      "gt": 146,
+      "greedy_ans": 147,
+      "correct": false,
+      "first_token_entropy": 0.04114270582795143,
+      "mean_logp": -0.27076153247243473,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        156,
+        146,
+        147,
+        147,
+        156,
+        149,
+        147,
+        136
+      ]
+    },
+    {
+      "prompt": "19+56=",
+      "gt": 75,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.899540901184082,
+      "mean_logp": -0.7246164070860567,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        73,
+        70,
+        73,
+        70,
+        61,
+        72,
+        79,
+        79
+      ]
+    },
+    {
+      "prompt": "17+6=",
+      "gt": 23,
+      "greedy_ans": 10,
+      "correct": false,
+      "first_token_entropy": 1.2745110988616943,
+      "mean_logp": -1.0159916923796768,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        38,
+        10,
+        12,
+        11,
+        100,
+        22,
+        32,
+        58
+      ]
+    },
+    {
+      "prompt": "40+47=",
+      "gt": 87,
+      "greedy_ans": 87,
+      "correct": true,
+      "first_token_entropy": 1.0253719091415405,
+      "mean_logp": -0.4896854256525634,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        87,
+        86,
+        87,
+        89,
+        95,
+        87,
+        87,
+        89
+      ]
+    },
+    {
+      "prompt": "6+46=",
+      "gt": 52,
+      "greedy_ans": 62,
+      "correct": false,
+      "first_token_entropy": 1.0937787294387817,
+      "mean_logp": -0.7095397728486783,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        54,
+        60,
+        52,
+        53,
+        51,
+        40,
+        51,
+        61
+      ]
+    },
+    {
+      "prompt": "27+88=",
+      "gt": 115,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.03790949285030365,
+      "mean_logp": -0.4498472932773673,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        113,
+        112,
+        128,
+        115,
+        123,
+        131,
+        123,
+        132
+      ]
+    },
+    {
+      "prompt": "32+86=",
+      "gt": 118,
+      "greedy_ans": 117,
+      "correct": false,
+      "first_token_entropy": 0.044217150658369064,
+      "mean_logp": -0.29427371573843747,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        118,
+        127,
+        117,
+        118,
+        126,
+        138,
+        126,
+        127
+      ]
+    },
+    {
+      "prompt": "14+46=",
+      "gt": 60,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 1.0265603065490723,
+      "mean_logp": -0.7427252617405427,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        64,
+        64,
+        60,
+        64,
+        70,
+        54,
+        62,
+        65
+      ]
+    },
+    {
+      "prompt": "72+53=",
+      "gt": 125,
+      "greedy_ans": 124,
+      "correct": false,
+      "first_token_entropy": 0.037752460688352585,
+      "mean_logp": -0.31038414875952586,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        124,
+        133,
+        125,
+        124,
+        126,
+        134,
+        123,
+        134
+      ]
+    },
+    {
+      "prompt": "80+96=",
+      "gt": 176,
+      "greedy_ans": 177,
+      "correct": false,
+      "first_token_entropy": 0.04091872274875641,
+      "mean_logp": -0.3609500520212749,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        175,
+        187,
+        177,
+        160,
+        166,
+        176,
+        186,
+        178
+      ]
+    },
+    {
+      "prompt": "20+31=",
+      "gt": 51,
+      "greedy_ans": 51,
+      "correct": true,
+      "first_token_entropy": 1.1504849195480347,
+      "mean_logp": -0.5346273049195865,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        50,
+        41,
+        31,
+        53,
+        51,
+        62,
+        51
+      ]
+    },
+    {
+      "prompt": "21+23=",
+      "gt": 44,
+      "greedy_ans": 44,
+      "correct": true,
+      "first_token_entropy": 0.7824893593788147,
+      "mean_logp": -0.21357500356354284,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        34,
+        44,
+        43,
+        44,
+        44,
+        45,
+        44,
+        44
+      ]
+    },
+    {
+      "prompt": "53+4=",
+      "gt": 57,
+      "greedy_ans": 69,
+      "correct": false,
+      "first_token_entropy": 1.100785255432129,
+      "mean_logp": -0.7695644452797925,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        57,
+        69,
+        69,
+        62,
+        66,
+        57,
+        69,
+        41
+      ]
+    },
+    {
+      "prompt": "23+95=",
+      "gt": 118,
+      "greedy_ans": 127,
+      "correct": false,
+      "first_token_entropy": 0.04231131076812744,
+      "mean_logp": -0.38425024445318395,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        127,
+        117,
+        127,
+        127,
+        129,
+        117,
+        128,
+        127
+      ]
+    },
+    {
+      "prompt": "43+53=",
+      "gt": 96,
+      "greedy_ans": 106,
+      "correct": false,
+      "first_token_entropy": 0.8360511064529419,
+      "mean_logp": -0.34224701194398877,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        106,
+        115,
+        105,
+        107,
+        965,
+        96,
+        105,
+        105
+      ]
+    },
+    {
+      "prompt": "86+95=",
+      "gt": 181,
+      "greedy_ans": 172,
+      "correct": false,
+      "first_token_entropy": 0.04437237232923508,
+      "mean_logp": -0.5905135946296662,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        192,
+        185,
+        171,
+        173,
+        183,
+        182,
+        180,
+        174
+      ]
+    },
+    {
+      "prompt": "32+35=",
+      "gt": 67,
+      "greedy_ans": 67,
+      "correct": true,
+      "first_token_entropy": 1.0262199640274048,
+      "mean_logp": -0.4323190491732957,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        66,
+        64,
+        76,
+        66,
+        66,
+        67,
+        57,
+        56
+      ]
+    },
+    {
+      "prompt": "21+90=",
+      "gt": 111,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.03603527322411537,
+      "mean_logp": -0.3039763799721265,
+      "semantic_entropy": 1.4941751382893083,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        112,
+        113,
+        130,
+        120,
+        112,
+        131,
+        131,
+        131
+      ]
+    },
+    {
+      "prompt": "14+49=",
+      "gt": 63,
+      "greedy_ans": 63,
+      "correct": true,
+      "first_token_entropy": 1.0247142314910889,
+      "mean_logp": -0.7727775910889733,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        54,
+        62,
+        54,
+        62,
+        64,
+        64,
+        74,
+        63
+      ]
+    },
+    {
+      "prompt": "5+61=",
+      "gt": 66,
+      "greedy_ans": 67,
+      "correct": false,
+      "first_token_entropy": 1.0153573751449585,
+      "mean_logp": -0.507604980975047,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        64,
+        57,
+        65,
+        63,
+        65,
+        67,
+        66,
+        68
+      ]
+    },
+    {
+      "prompt": "29+26=",
+      "gt": 55,
+      "greedy_ans": 53,
+      "correct": false,
+      "first_token_entropy": 1.1702147722244263,
+      "mean_logp": -0.8700402242553379,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        null,
+        41,
+        57,
+        52,
+        46,
+        52,
+        63,
+        58
+      ]
+    },
+    {
+      "prompt": "59+45=",
+      "gt": 104,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.0698791965842247,
+      "mean_logp": -0.4466984054767155,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        107,
+        112,
+        112,
+        114,
+        114,
+        112,
+        112,
+        116
+      ]
+    },
+    {
+      "prompt": "40+30=",
+      "gt": 70,
+      "greedy_ans": 71,
+      "correct": false,
+      "first_token_entropy": 0.8966018557548523,
+      "mean_logp": -0.3325957344020538,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        61,
+        71,
+        72,
+        71,
+        63,
+        83,
+        82
+      ]
+    },
+    {
+      "prompt": "29+4=",
+      "gt": 33,
+      "greedy_ans": 32,
+      "correct": false,
+      "first_token_entropy": 1.1931430101394653,
+      "mean_logp": -0.9016800226133269,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        31,
+        33,
+        35,
+        35,
+        34,
+        34,
+        41,
+        33
+      ]
+    },
+    {
+      "prompt": "85+25=",
+      "gt": 110,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.04074525460600853,
+      "mean_logp": -0.31651479003366423,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        112,
+        110,
+        101,
+        111,
+        110,
+        111,
+        119,
+        100
+      ]
+    },
+    {
+      "prompt": "52+43=",
+      "gt": 95,
+      "greedy_ans": 105,
+      "correct": false,
+      "first_token_entropy": 0.783401370048523,
+      "mean_logp": -0.3639341449395858,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        106,
+        104,
+        104,
+        103,
+        115,
+        105,
+        84,
+        105
+      ]
+    },
+    {
+      "prompt": "36+9=",
+      "gt": 45,
+      "greedy_ans": 43,
+      "correct": false,
+      "first_token_entropy": 1.1124589443206787,
+      "mean_logp": -0.7083193629623912,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        56,
+        56,
+        43,
+        50,
+        41,
+        44,
+        55,
+        40
+      ]
+    },
+    {
+      "prompt": "36+45=",
+      "gt": 81,
+      "greedy_ans": 80,
+      "correct": false,
+      "first_token_entropy": 0.9855515956878662,
+      "mean_logp": -0.615818003467779,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        89,
+        71,
+        81,
+        78,
+        80,
+        89,
+        71,
+        89
+      ]
+    },
+    {
+      "prompt": "83+66=",
+      "gt": 149,
+      "greedy_ans": 149,
+      "correct": true,
+      "first_token_entropy": 0.043097276240587234,
+      "mean_logp": -0.28249803967661774,
+      "semantic_entropy": 1.2554823251787535,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        149,
+        148,
+        147,
+        149,
+        149,
+        147,
+        147,
+        157
+      ]
+    },
+    {
+      "prompt": "52+87=",
+      "gt": 139,
+      "greedy_ans": 139,
+      "correct": true,
+      "first_token_entropy": 0.04474957287311554,
+      "mean_logp": -0.3158344413283373,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        158,
+        139,
+        141,
+        139,
+        149,
+        138,
+        139,
+        149
+      ]
+    },
+    {
+      "prompt": "69+43=",
+      "gt": 112,
+      "greedy_ans": 110,
+      "correct": false,
+      "first_token_entropy": 0.03740943595767021,
+      "mean_logp": -0.30761965977801736,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        111,
+        100,
+        111,
+        111,
+        119,
+        110,
+        107,
+        129
+      ]
+    },
+    {
+      "prompt": "4+15=",
+      "gt": 19,
+      "greedy_ans": 17,
+      "correct": false,
+      "first_token_entropy": 0.8796343207359314,
+      "mean_logp": -0.38324113214299277,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        17,
+        29,
+        16,
+        27,
+        27,
+        29,
+        25,
+        17
+      ]
+    },
+    {
+      "prompt": "34+23=",
+      "gt": 57,
+      "greedy_ans": 57,
+      "correct": true,
+      "first_token_entropy": 1.156963586807251,
+      "mean_logp": -0.45380520798251606,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        56,
+        67,
+        58,
+        47,
+        55,
+        66,
+        48,
+        58
+      ]
+    },
+    {
+      "prompt": "75+34=",
+      "gt": 109,
+      "greedy_ans": 119,
+      "correct": false,
+      "first_token_entropy": 0.058246172964572906,
+      "mean_logp": -0.28263313575565285,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        108,
+        119,
+        119,
+        110,
+        117,
+        108,
+        109,
+        108
+      ]
+    },
+    {
+      "prompt": "5+14=",
+      "gt": 19,
+      "greedy_ans": 17,
+      "correct": false,
+      "first_token_entropy": 0.910066545009613,
+      "mean_logp": -0.34913885632915403,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        18,
+        1,
+        17,
+        10,
+        15,
+        10,
+        29,
+        1
+      ]
+    },
+    {
+      "prompt": "77+56=",
+      "gt": 133,
+      "greedy_ans": 133,
+      "correct": true,
+      "first_token_entropy": 0.03953476622700691,
+      "mean_logp": -0.5272956770920846,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        114,
+        136,
+        134,
+        126,
+        132,
+        130,
+        136,
+        133
+      ]
+    },
+    {
+      "prompt": "45+94=",
+      "gt": 139,
+      "greedy_ans": 130,
+      "correct": false,
+      "first_token_entropy": 0.05116390436887741,
+      "mean_logp": -0.4347930917704555,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        141,
+        142,
+        141,
+        140,
+        130,
+        149,
+        138,
+        130
+      ]
+    },
+    {
+      "prompt": "41+56=",
+      "gt": 97,
+      "greedy_ans": 97,
+      "correct": true,
+      "first_token_entropy": 0.9074267148971558,
+      "mean_logp": -0.3575375689609808,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        96,
+        97,
+        99,
+        87,
+        86,
+        87,
+        97,
+        97
+      ]
+    },
+    {
+      "prompt": "78+66=",
+      "gt": 144,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.03909839689731598,
+      "mean_logp": -0.5334171812438135,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        146,
+        133,
+        132,
+        133,
+        136,
+        145,
+        145,
+        142
+      ]
+    },
+    {
+      "prompt": "15+50=",
+      "gt": 65,
+      "greedy_ans": 65,
+      "correct": true,
+      "first_token_entropy": 1.054747223854065,
+      "mean_logp": -0.47266935289834383,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        66,
+        64,
+        67,
+        65,
+        66,
+        66,
+        66,
+        55
+      ]
+    },
+    {
+      "prompt": "74+25=",
+      "gt": 99,
+      "greedy_ans": 109,
+      "correct": false,
+      "first_token_entropy": 0.947688102722168,
+      "mean_logp": -0.3887890048958272,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        98,
+        109,
+        99,
+        108,
+        109,
+        109,
+        109,
+        90
+      ]
+    },
+    {
+      "prompt": "33+6=",
+      "gt": 39,
+      "greedy_ans": 49,
+      "correct": false,
+      "first_token_entropy": 0.9180736541748047,
+      "mean_logp": -0.5807026758762404,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        49,
+        47,
+        48,
+        38,
+        39,
+        42,
+        48,
+        46
+      ]
+    },
+    {
+      "prompt": "91+56=",
+      "gt": 147,
+      "greedy_ans": 147,
+      "correct": true,
+      "first_token_entropy": 0.042435504496097565,
+      "mean_logp": -0.29214859679512084,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        147,
+        148,
+        137,
+        147,
+        146,
+        146,
+        135,
+        147
+      ]
+    },
+    {
+      "prompt": "1+67=",
+      "gt": 68,
+      "greedy_ans": 61,
+      "correct": false,
+      "first_token_entropy": 1.0509240627288818,
+      "mean_logp": -0.7180719352705006,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        62,
+        70,
+        68,
+        59,
+        74,
+        62,
+        68,
+        60
+      ]
+    },
+    {
+      "prompt": "69+88=",
+      "gt": 157,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.04219132661819458,
+      "mean_logp": -0.5225933808735045,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        145,
+        143,
+        147,
+        155,
+        142,
+        149,
+        156,
+        145
+      ]
+    },
+    {
+      "prompt": "93+95=",
+      "gt": 188,
+      "greedy_ans": 179,
+      "correct": false,
+      "first_token_entropy": 0.046404022723436356,
+      "mean_logp": -0.3523953306535402,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        179,
+        177,
+        179,
+        188,
+        189,
+        169,
+        198,
+        187
+      ]
+    },
+    {
+      "prompt": "95+86=",
+      "gt": 181,
+      "greedy_ans": 173,
+      "correct": false,
+      "first_token_entropy": 0.04577510431408882,
+      "mean_logp": -0.555552172715973,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        185,
+        181,
+        182,
+        174,
+        184,
+        182,
+        179,
+        174
+      ]
+    },
+    {
+      "prompt": "26+47=",
+      "gt": 73,
+      "greedy_ans": 73,
+      "correct": true,
+      "first_token_entropy": 0.8759235143661499,
+      "mean_logp": -0.6764245555345423,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        74,
+        73,
+        70,
+        74,
+        71,
+        70,
+        78,
+        62
+      ]
+    },
+    {
+      "prompt": "56+9=",
+      "gt": 65,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.1930866241455078,
+      "mean_logp": -0.7472432646597628,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        72,
+        61,
+        63,
+        null,
+        64,
+        50,
+        73
+      ]
+    },
+    {
+      "prompt": "86+43=",
+      "gt": 129,
+      "greedy_ans": 139,
+      "correct": false,
+      "first_token_entropy": 0.04527442529797554,
+      "mean_logp": -0.415340604478703,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        129,
+        139,
+        139,
+        149,
+        129,
+        139,
+        139,
+        120
+      ]
+    },
+    {
+      "prompt": "80+41=",
+      "gt": 121,
+      "greedy_ans": 121,
+      "correct": true,
+      "first_token_entropy": 0.03765765205025673,
+      "mean_logp": -0.33958303665665557,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        131,
+        131,
+        121,
+        130,
+        121,
+        120,
+        121,
+        121
+      ]
+    },
+    {
+      "prompt": "85+16=",
+      "gt": 101,
+      "greedy_ans": 102,
+      "correct": false,
+      "first_token_entropy": 0.07617715001106262,
+      "mean_logp": -0.5257806608260712,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        112,
+        108,
+        103,
+        115,
+        101,
+        113,
+        112,
+        126
+      ]
+    },
+    {
+      "prompt": "93+39=",
+      "gt": 132,
+      "greedy_ans": 131,
+      "correct": false,
+      "first_token_entropy": 0.0426044836640358,
+      "mean_logp": -0.4990367981372496,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        120,
+        133,
+        124,
+        131,
+        126,
+        95,
+        133,
+        139
+      ]
+    },
+    {
+      "prompt": "65+40=",
+      "gt": 105,
+      "greedy_ans": 106,
+      "correct": false,
+      "first_token_entropy": 0.07721830904483795,
+      "mean_logp": -0.3912283223837612,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        106,
+        107,
+        105,
+        106,
+        107,
+        106,
+        105,
+        114
+      ]
+    },
+    {
+      "prompt": "86+53=",
+      "gt": 139,
+      "greedy_ans": 139,
+      "correct": true,
+      "first_token_entropy": 0.04556930437684059,
+      "mean_logp": -0.38308364339628453,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        149,
+        139,
+        149,
+        148,
+        131,
+        130,
+        140,
+        130
+      ]
+    },
+    {
+      "prompt": "42+52=",
+      "gt": 94,
+      "greedy_ans": 104,
+      "correct": false,
+      "first_token_entropy": 0.9111528992652893,
+      "mean_logp": -0.3611406752450052,
+      "semantic_entropy": 1.0821955300387673,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        93,
+        94,
+        93,
+        94,
+        93,
+        94,
+        104,
+        104
+      ]
+    },
+    {
+      "prompt": "90+38=",
+      "gt": 128,
+      "greedy_ans": 129,
+      "correct": false,
+      "first_token_entropy": 0.035874515771865845,
+      "mean_logp": -0.3296900395208926,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        127,
+        149,
+        114,
+        139,
+        129,
+        120,
+        128,
+        140
+      ]
+    },
+    {
+      "prompt": "71+17=",
+      "gt": 88,
+      "greedy_ans": 88,
+      "correct": true,
+      "first_token_entropy": 1.0033955574035645,
+      "mean_logp": -0.557094847511676,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        88,
+        77,
+        88,
+        87,
+        79,
+        88,
+        99,
+        89
+      ]
+    },
+    {
+      "prompt": "25+54=",
+      "gt": 79,
+      "greedy_ans": 79,
+      "correct": true,
+      "first_token_entropy": 0.9047684073448181,
+      "mean_logp": -0.3722768656340618,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        77,
+        78,
+        79,
+        68,
+        89,
+        89,
+        88,
+        87
+      ]
+    },
+    {
+      "prompt": "86+49=",
+      "gt": 135,
+      "greedy_ans": 133,
+      "correct": false,
+      "first_token_entropy": 0.042189501225948334,
+      "mean_logp": -0.49903806634304554,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        122,
+        144,
+        134,
+        134,
+        146,
+        130,
+        133,
+        124
+      ]
+    },
+    {
+      "prompt": "87+96=",
+      "gt": 183,
+      "greedy_ans": 173,
+      "correct": false,
+      "first_token_entropy": 0.042870551347732544,
+      "mean_logp": -0.5675187368195251,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        176,
+        173,
+        172,
+        177,
+        173,
+        183,
+        106,
+        184
+      ]
+    },
+    {
+      "prompt": "23+79=",
+      "gt": 102,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.05953371152281761,
+      "mean_logp": -0.44666182875741206,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        110,
+        100,
+        102,
+        111,
+        112,
+        111,
+        104,
+        103
+      ]
+    },
+    {
+      "prompt": "73+39=",
+      "gt": 112,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.036840759217739105,
+      "mean_logp": -0.38379133475068716,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        111,
+        121,
+        113,
+        113,
+        111,
+        122,
+        111,
+        111
+      ]
+    },
+    {
+      "prompt": "52+71=",
+      "gt": 123,
+      "greedy_ans": 123,
+      "correct": true,
+      "first_token_entropy": 0.04311470314860344,
+      "mean_logp": -0.3900573472150121,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        122,
+        133,
+        124,
+        133,
+        131,
+        142,
+        123,
+        113
+      ]
+    },
+    {
+      "prompt": "1+39=",
+      "gt": 40,
+      "greedy_ans": 42,
+      "correct": false,
+      "first_token_entropy": 0.883850634098053,
+      "mean_logp": -0.6985623290002225,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        43,
+        43,
+        53,
+        43,
+        36,
+        32,
+        42,
+        45
+      ]
+    },
+    {
+      "prompt": "37+27=",
+      "gt": 64,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 1.0145251750946045,
+      "mean_logp": -0.7198474922322751,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        61,
+        64,
+        64,
+        61,
+        53,
+        64,
+        56,
+        50
+      ]
+    },
+    {
+      "prompt": "56+75=",
+      "gt": 131,
+      "greedy_ans": 132,
+      "correct": false,
+      "first_token_entropy": 0.044353365898132324,
+      "mean_logp": -0.4969976035328608,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        141,
+        121,
+        135,
+        132,
+        131,
+        132,
+        127,
+        130
+      ]
+    },
+    {
+      "prompt": "78+84=",
+      "gt": 162,
+      "greedy_ans": 163,
+      "correct": false,
+      "first_token_entropy": 0.04428562894463539,
+      "mean_logp": -0.6006397974593067,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        159,
+        150,
+        164,
+        166,
+        163,
+        166,
+        161,
+        165
+      ]
+    },
+    {
+      "prompt": "42+60=",
+      "gt": 102,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.12618812918663025,
+      "mean_logp": -0.2987282846487122,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        113,
+        112,
+        101,
+        111,
+        112,
+        111,
+        100,
+        101
+      ]
+    },
+    {
+      "prompt": "57+57=",
+      "gt": 114,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.04137768968939781,
+      "mean_logp": -0.4393218428167366,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        124,
+        113,
+        113,
+        114,
+        123,
+        113,
+        104,
+        112
+      ]
+    },
+    {
+      "prompt": "87+28=",
+      "gt": 115,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.034799978137016296,
+      "mean_logp": -0.44234189709242183,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        104,
+        114,
+        114,
+        123,
+        113,
+        112,
+        134,
+        112
+      ]
+    },
+    {
+      "prompt": "66+61=",
+      "gt": 127,
+      "greedy_ans": 127,
+      "correct": true,
+      "first_token_entropy": 0.0462859682738781,
+      "mean_logp": -0.32318145647230223,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        125,
+        127,
+        126,
+        127,
+        136,
+        126,
+        135,
+        138
+      ]
+    },
+    {
+      "prompt": "95+22=",
+      "gt": 117,
+      "greedy_ans": 117,
+      "correct": true,
+      "first_token_entropy": 0.03703080862760544,
+      "mean_logp": -0.20505758517757597,
+      "semantic_entropy": 0.7356219397587946,
+      "self_consistency_conf": 0.75,
+      "samples": [
+        117,
+        117,
+        107,
+        126,
+        117,
+        117,
+        117,
+        117
+      ]
+    },
+    {
+      "prompt": "85+11=",
+      "gt": 96,
+      "greedy_ans": 96,
+      "correct": true,
+      "first_token_entropy": 0.9159359335899353,
+      "mean_logp": -0.4429037915777942,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        107,
+        96,
+        76,
+        105,
+        98,
+        107,
+        96,
+        96
+      ]
+    },
+    {
+      "prompt": "37+66=",
+      "gt": 103,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.10137240588665009,
+      "mean_logp": -0.5171202205762563,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        124,
+        121,
+        113,
+        105,
+        114,
+        111,
+        112,
+        117
+      ]
+    },
+    {
+      "prompt": "85+82=",
+      "gt": 167,
+      "greedy_ans": 167,
+      "correct": true,
+      "first_token_entropy": 0.044384416192770004,
+      "mean_logp": -0.3145681027301251,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        158,
+        178,
+        168,
+        177,
+        167,
+        157,
+        167,
+        167
+      ]
+    },
+    {
+      "prompt": "80+43=",
+      "gt": 123,
+      "greedy_ans": 123,
+      "correct": true,
+      "first_token_entropy": 0.03992774337530136,
+      "mean_logp": -0.3912557721710046,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        113,
+        134,
+        133,
+        35,
+        131,
+        123,
+        122,
+        135
+      ]
+    },
+    {
+      "prompt": "12+97=",
+      "gt": 109,
+      "greedy_ans": 119,
+      "correct": false,
+      "first_token_entropy": 0.043136436492204666,
+      "mean_logp": -0.39530530657422197,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        108,
+        119,
+        109,
+        109,
+        119,
+        108,
+        117,
+        119
+      ]
+    },
+    {
+      "prompt": "31+87=",
+      "gt": 118,
+      "greedy_ans": 117,
+      "correct": false,
+      "first_token_entropy": 0.041777029633522034,
+      "mean_logp": -0.3802266855123768,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        119,
+        119,
+        119,
+        128,
+        107,
+        139,
+        117,
+        118
+      ]
+    },
+    {
+      "prompt": "40+29=",
+      "gt": 69,
+      "greedy_ans": 69,
+      "correct": true,
+      "first_token_entropy": 0.9916509389877319,
+      "mean_logp": -0.39751178186971536,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        79,
+        61,
+        69,
+        68,
+        50,
+        79,
+        79,
+        68
+      ]
+    },
+    {
+      "prompt": "26+19=",
+      "gt": 45,
+      "greedy_ans": 43,
+      "correct": false,
+      "first_token_entropy": 0.9310405254364014,
+      "mean_logp": -0.6723125104745654,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        46,
+        47,
+        48,
+        45,
+        43,
+        44,
+        61,
+        43
+      ]
+    },
+    {
+      "prompt": "4+6=",
+      "gt": 10,
+      "greedy_ans": 8,
+      "correct": false,
+      "first_token_entropy": 1.3395406007766724,
+      "mean_logp": -0.4567188179931813,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        8,
+        8,
+        7,
+        9,
+        7,
+        9,
+        8,
+        6
+      ]
+    },
+    {
+      "prompt": "32+61=",
+      "gt": 93,
+      "greedy_ans": 94,
+      "correct": false,
+      "first_token_entropy": 0.9299036264419556,
+      "mean_logp": -0.44537683934538713,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        104,
+        103,
+        94,
+        102,
+        103,
+        94,
+        93,
+        94
+      ]
+    },
+    {
+      "prompt": "79+10=",
+      "gt": 89,
+      "greedy_ans": 80,
+      "correct": false,
+      "first_token_entropy": 1.0064411163330078,
+      "mean_logp": -0.7343376845944825,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        87,
+        70,
+        78,
+        75,
+        81,
+        91,
+        88,
+        81
+      ]
+    },
+    {
+      "prompt": "59+54=",
+      "gt": 113,
+      "greedy_ans": 113,
+      "correct": true,
+      "first_token_entropy": 0.0406324528157711,
+      "mean_logp": -0.4833419917591818,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        132,
+        116,
+        115,
+        113,
+        117,
+        105,
+        110,
+        122
+      ]
+    },
+    {
+      "prompt": "81+74=",
+      "gt": 155,
+      "greedy_ans": 154,
+      "correct": false,
+      "first_token_entropy": 0.04248819500207901,
+      "mean_logp": -0.4081771491354913,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        155,
+        155,
+        164,
+        155,
+        164,
+        144,
+        155,
+        154
+      ]
+    },
+    {
+      "prompt": "25+92=",
+      "gt": 117,
+      "greedy_ans": 117,
+      "correct": true,
+      "first_token_entropy": 0.04214514046907425,
+      "mean_logp": -0.28967100834693893,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        117,
+        117,
+        127,
+        118,
+        127,
+        117,
+        138,
+        117
+      ]
+    },
+    {
+      "prompt": "90+50=",
+      "gt": 140,
+      "greedy_ans": 141,
+      "correct": false,
+      "first_token_entropy": 0.042451027780771255,
+      "mean_logp": -0.24108694338533043,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        131,
+        131,
+        131,
+        142,
+        141,
+        141,
+        150,
+        171
+      ]
+    },
+    {
+      "prompt": "64+52=",
+      "gt": 116,
+      "greedy_ans": 116,
+      "correct": true,
+      "first_token_entropy": 0.04782814905047417,
+      "mean_logp": -0.2479053069703413,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        115,
+        117,
+        126,
+        116,
+        123,
+        117,
+        117,
+        116
+      ]
+    },
+    {
+      "prompt": "32+19=",
+      "gt": 51,
+      "greedy_ans": 51,
+      "correct": true,
+      "first_token_entropy": 1.152876377105713,
+      "mean_logp": -0.8091304074897695,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        42,
+        54,
+        50,
+        60,
+        60,
+        51,
+        64,
+        54
+      ]
+    },
+    {
+      "prompt": "84+89=",
+      "gt": 173,
+      "greedy_ans": 161,
+      "correct": false,
+      "first_token_entropy": 0.040913503617048264,
+      "mean_logp": -0.5039720014411369,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        161,
+        179,
+        162,
+        172,
+        169,
+        172,
+        175,
+        161
+      ]
+    },
+    {
+      "prompt": "1+97=",
+      "gt": 98,
+      "greedy_ans": 100,
+      "correct": false,
+      "first_token_entropy": 0.8486207127571106,
+      "mean_logp": -0.4768905288158335,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        101,
+        109,
+        105,
+        91,
+        99,
+        100,
+        94
+      ]
+    },
+    {
+      "prompt": "14+55=",
+      "gt": 69,
+      "greedy_ans": 79,
+      "correct": false,
+      "first_token_entropy": 1.0044525861740112,
+      "mean_logp": -0.45552639197256767,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        67,
+        60,
+        61,
+        79,
+        79,
+        78,
+        68,
+        59
+      ]
+    },
+    {
+      "prompt": "29+23=",
+      "gt": 52,
+      "greedy_ans": 41,
+      "correct": false,
+      "first_token_entropy": 0.9916201829910278,
+      "mean_logp": -0.5788035776521648,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        41,
+        41,
+        44,
+        34,
+        58,
+        41,
+        50,
+        40
+      ]
+    },
+    {
+      "prompt": "90+67=",
+      "gt": 157,
+      "greedy_ans": 149,
+      "correct": false,
+      "first_token_entropy": 0.03769979998469353,
+      "mean_logp": -0.41279365399743595,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        158,
+        147,
+        148,
+        139,
+        148,
+        138,
+        148,
+        147
+      ]
+    },
+    {
+      "prompt": "60+7=",
+      "gt": 67,
+      "greedy_ans": 69,
+      "correct": false,
+      "first_token_entropy": 0.999467134475708,
+      "mean_logp": -0.8936773098858984,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        54,
+        67,
+        63,
+        62,
+        61,
+        69,
+        53
+      ]
+    },
+    {
+      "prompt": "72+32=",
+      "gt": 104,
+      "greedy_ans": 104,
+      "correct": true,
+      "first_token_entropy": 0.0463300496339798,
+      "mean_logp": -0.24598518214123202,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        104,
+        115,
+        114,
+        104,
+        103,
+        104,
+        104,
+        105
+      ]
+    },
+    {
+      "prompt": "16+59=",
+      "gt": 75,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.881040096282959,
+      "mean_logp": -0.6829283148731994,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        77,
+        61,
+        72,
+        73,
+        71,
+        79,
+        73,
+        84
+      ]
+    },
+    {
+      "prompt": "18+60=",
+      "gt": 78,
+      "greedy_ans": 77,
+      "correct": false,
+      "first_token_entropy": 0.8446711301803589,
+      "mean_logp": -0.47297932218149613,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        76,
+        78,
+        78,
+        7,
+        79,
+        77,
+        87,
+        75
+      ]
+    },
+    {
+      "prompt": "86+68=",
+      "gt": 154,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.040720902383327484,
+      "mean_logp": -0.47525041088778935,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        148,
+        148,
+        143,
+        141,
+        144,
+        148,
+        151,
+        154
+      ]
+    },
+    {
+      "prompt": "72+77=",
+      "gt": 149,
+      "greedy_ans": 149,
+      "correct": true,
+      "first_token_entropy": 0.038729749619960785,
+      "mean_logp": -0.24199259426369032,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        147,
+        151,
+        148,
+        140,
+        140,
+        148,
+        149,
+        149
+      ]
+    },
+    {
+      "prompt": "41+97=",
+      "gt": 138,
+      "greedy_ans": 139,
+      "correct": false,
+      "first_token_entropy": 0.046422865241765976,
+      "mean_logp": -0.3852796370012194,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        148,
+        128,
+        149,
+        138,
+        128,
+        148,
+        149,
+        148
+      ]
+    },
+    {
+      "prompt": "57+79=",
+      "gt": 136,
+      "greedy_ans": 133,
+      "correct": false,
+      "first_token_entropy": 0.04104725643992424,
+      "mean_logp": -0.5085275983532673,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        142,
+        134,
+        132,
+        142,
+        133,
+        124,
+        137,
+        153
+      ]
+    },
+    {
+      "prompt": "93+65=",
+      "gt": 158,
+      "greedy_ans": 147,
+      "correct": false,
+      "first_token_entropy": 0.042342398315668106,
+      "mean_logp": -0.3728180829965498,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        159,
+        158,
+        158,
+        149,
+        159,
+        146,
+        147,
+        158
+      ]
+    },
+    {
+      "prompt": "55+71=",
+      "gt": 126,
+      "greedy_ans": 127,
+      "correct": false,
+      "first_token_entropy": 0.04454195499420166,
+      "mean_logp": -0.3179782981744957,
+      "semantic_entropy": 0.9743147528693494,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        127,
+        126,
+        127,
+        126,
+        126,
+        127,
+        126,
+        137
+      ]
+    },
+    {
+      "prompt": "58+21=",
+      "gt": 79,
+      "greedy_ans": 79,
+      "correct": true,
+      "first_token_entropy": 0.9025751352310181,
+      "mean_logp": -0.43892798477163564,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        78,
+        79,
+        79,
+        87,
+        79,
+        79,
+        79,
+        77
+      ]
+    },
+    {
+      "prompt": "96+61=",
+      "gt": 157,
+      "greedy_ans": 147,
+      "correct": false,
+      "first_token_entropy": 0.03923533856868744,
+      "mean_logp": -0.38771146580089416,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        167,
+        159,
+        147,
+        137,
+        147,
+        158,
+        149,
+        158
+      ]
+    },
+    {
+      "prompt": "58+34=",
+      "gt": 92,
+      "greedy_ans": 103,
+      "correct": false,
+      "first_token_entropy": 0.8818432092666626,
+      "mean_logp": -0.6077222081516458,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        102,
+        105,
+        93,
+        1,
+        98,
+        null,
+        72,
+        102
+      ]
+    },
+    {
+      "prompt": "97+32=",
+      "gt": 129,
+      "greedy_ans": 129,
+      "correct": true,
+      "first_token_entropy": 0.04333735629916191,
+      "mean_logp": -0.41316703889094525,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        121,
+        139,
+        139,
+        120,
+        120,
+        159,
+        129,
+        130
+      ]
+    },
+    {
+      "prompt": "82+36=",
+      "gt": 118,
+      "greedy_ans": 117,
+      "correct": false,
+      "first_token_entropy": 0.038225941359996796,
+      "mean_logp": -0.30848270889331497,
+      "semantic_entropy": 1.6674619334292946,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        138,
+        129,
+        118,
+        117,
+        117,
+        126,
+        137,
+        117
+      ]
+    },
+    {
+      "prompt": "67+63=",
+      "gt": 130,
+      "greedy_ans": 130,
+      "correct": true,
+      "first_token_entropy": 0.043484777212142944,
+      "mean_logp": -0.3702527167809295,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        132,
+        131,
+        141,
+        129,
+        121,
+        131,
+        129,
+        130
+      ]
+    },
+    {
+      "prompt": "81+31=",
+      "gt": 112,
+      "greedy_ans": 111,
+      "correct": false,
+      "first_token_entropy": 0.03363524377346039,
+      "mean_logp": -0.36541214316879705,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        113,
+        114,
+        111,
+        111,
+        121,
+        121,
+        122,
+        111
+      ]
+    },
+    {
+      "prompt": "36+57=",
+      "gt": 93,
+      "greedy_ans": 93,
+      "correct": true,
+      "first_token_entropy": 1.031083345413208,
+      "mean_logp": -0.8235424603802958,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        97,
+        90,
+        99,
+        85,
+        83,
+        90,
+        97,
+        115
+      ]
+    },
+    {
+      "prompt": "10+92=",
+      "gt": 102,
+      "greedy_ans": 101,
+      "correct": false,
+      "first_token_entropy": 0.05196405574679375,
+      "mean_logp": -0.340799341672962,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        101,
+        111,
+        102,
+        111,
+        102,
+        141,
+        101,
+        110
+      ]
+    },
+    {
+      "prompt": "37+31=",
+      "gt": 68,
+      "greedy_ans": 67,
+      "correct": false,
+      "first_token_entropy": 1.0276862382888794,
+      "mean_logp": -0.36385405845476465,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        68,
+        66,
+        76,
+        76,
+        76,
+        57,
+        76,
+        66
+      ]
+    },
+    {
+      "prompt": "35+43=",
+      "gt": 78,
+      "greedy_ans": 77,
+      "correct": false,
+      "first_token_entropy": 0.8873140811920166,
+      "mean_logp": -0.3030652971246513,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        86,
+        78,
+        78,
+        86,
+        67,
+        77,
+        77,
+        79
+      ]
+    },
+    {
+      "prompt": "41+70=",
+      "gt": 111,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.04436613246798515,
+      "mean_logp": -0.31823831756673643,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        120,
+        111,
+        111,
+        101,
+        121,
+        122,
+        121,
+        122
+      ]
+    },
+    {
+      "prompt": "11+18=",
+      "gt": 29,
+      "greedy_ans": 39,
+      "correct": false,
+      "first_token_entropy": 1.2797614336013794,
+      "mean_logp": -0.5601380122138454,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        29,
+        37,
+        39,
+        26,
+        52,
+        39,
+        29,
+        38
+      ]
+    },
+    {
+      "prompt": "20+30=",
+      "gt": 50,
+      "greedy_ans": 51,
+      "correct": false,
+      "first_token_entropy": 1.145538330078125,
+      "mean_logp": -0.49062909948332184,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        61,
+        62,
+        50,
+        51,
+        50,
+        52,
+        40,
+        62
+      ]
+    },
+    {
+      "prompt": "50+89=",
+      "gt": 139,
+      "greedy_ans": 139,
+      "correct": true,
+      "first_token_entropy": 0.03922317177057266,
+      "mean_logp": -0.3440748417503101,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        148,
+        130,
+        130,
+        149,
+        141,
+        140,
+        133,
+        122
+      ]
+    },
+    {
+      "prompt": "20+91=",
+      "gt": 111,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.036184683442115784,
+      "mean_logp": -0.3309750435386144,
+      "semantic_entropy": 1.2554823251787535,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        121,
+        121,
+        143,
+        122,
+        111,
+        122,
+        122,
+        121
+      ]
+    },
+    {
+      "prompt": "28+9=",
+      "gt": 37,
+      "greedy_ans": 43,
+      "correct": false,
+      "first_token_entropy": 1.3026541471481323,
+      "mean_logp": -0.7899689583395926,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        30,
+        38,
+        57,
+        44,
+        36,
+        51,
+        41,
+        31
+      ]
+    },
+    {
+      "prompt": "54+53=",
+      "gt": 107,
+      "greedy_ans": 117,
+      "correct": false,
+      "first_token_entropy": 0.06221907585859299,
+      "mean_logp": -0.30039646396636377,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        117,
+        107,
+        108,
+        117,
+        115,
+        106,
+        117,
+        107
+      ]
+    },
+    {
+      "prompt": "43+70=",
+      "gt": 113,
+      "greedy_ans": 113,
+      "correct": true,
+      "first_token_entropy": 0.04556552693247795,
+      "mean_logp": -0.4491325082157975,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        113,
+        123,
+        131,
+        112,
+        120,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "prompt": "60+54=",
+      "gt": 114,
+      "greedy_ans": 114,
+      "correct": true,
+      "first_token_entropy": 0.04405852034687996,
+      "mean_logp": -0.2337999127450167,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        114,
+        115,
+        105,
+        114,
+        113,
+        123,
+        114,
+        104
+      ]
+    },
+    {
+      "prompt": "8+27=",
+      "gt": 35,
+      "greedy_ans": 42,
+      "correct": false,
+      "first_token_entropy": 1.0043927431106567,
+      "mean_logp": -0.6767486557391119,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        41,
+        44,
+        32,
+        43,
+        49,
+        43,
+        31,
+        32
+      ]
+    },
+    {
+      "prompt": "54+50=",
+      "gt": 104,
+      "greedy_ans": 113,
+      "correct": false,
+      "first_token_entropy": 0.07152990251779556,
+      "mean_logp": -0.38821886015352547,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        113,
+        102,
+        103,
+        113,
+        115,
+        103,
+        110,
+        104
+      ]
+    },
+    {
+      "prompt": "75+90=",
+      "gt": 165,
+      "greedy_ans": 166,
+      "correct": false,
+      "first_token_entropy": 0.037802692502737045,
+      "mean_logp": -0.47852261908856114,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        166,
+        165,
+        185,
+        174,
+        175,
+        165,
+        165,
+        175
+      ]
+    },
+    {
+      "prompt": "3+98=",
+      "gt": 101,
+      "greedy_ans": 101,
+      "correct": true,
+      "first_token_entropy": 0.30911728739738464,
+      "mean_logp": -0.33308319368653366,
+      "semantic_entropy": 1.0735428464085233,
+      "self_consistency_conf": 0.625,
+      "samples": [
+        11,
+        100,
+        11,
+        11,
+        11,
+        11,
+        105,
+        103
+      ]
+    },
+    {
+      "prompt": "74+49=",
+      "gt": 123,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.037082020193338394,
+      "mean_logp": -0.5149412377809617,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        123,
+        120,
+        122,
+        131,
+        120,
+        121,
+        114,
+        112
+      ]
+    },
+    {
+      "prompt": "62+1=",
+      "gt": 63,
+      "greedy_ans": 66,
+      "correct": false,
+      "first_token_entropy": 0.9958895444869995,
+      "mean_logp": -0.6589018253399627,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        65,
+        65,
+        57,
+        62,
+        68,
+        67,
+        65,
+        66
+      ]
+    },
+    {
+      "prompt": "46+39=",
+      "gt": 85,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.0859506130218506,
+      "mean_logp": -0.765292710989582,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        82,
+        80,
+        84,
+        87,
+        84,
+        95,
+        80,
+        82
+      ]
+    },
+    {
+      "prompt": "97+50=",
+      "gt": 147,
+      "greedy_ans": 149,
+      "correct": false,
+      "first_token_entropy": 0.043493736535310745,
+      "mean_logp": -0.3981974227585919,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        139,
+        148,
+        155,
+        36,
+        138,
+        149,
+        137,
+        141
+      ]
+    },
+    {
+      "prompt": "54+69=",
+      "gt": 123,
+      "greedy_ans": 121,
+      "correct": false,
+      "first_token_entropy": 0.04103992506861687,
+      "mean_logp": -0.4831460593715518,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        124,
+        122,
+        124,
+        134,
+        123,
+        113,
+        115,
+        120
+      ]
+    },
+    {
+      "prompt": "96+95=",
+      "gt": 191,
+      "greedy_ans": 183,
+      "correct": false,
+      "first_token_entropy": 0.05228528752923012,
+      "mean_logp": -0.5626100942223926,
+      "semantic_entropy": 2.0794415416798357,
+      "self_consistency_conf": 0.125,
+      "samples": [
+        185,
+        199,
+        195,
+        191,
+        186,
+        184,
+        183,
+        182
+      ]
+    },
+    {
+      "prompt": "70+78=",
+      "gt": 148,
+      "greedy_ans": 149,
+      "correct": false,
+      "first_token_entropy": 0.0381803996860981,
+      "mean_logp": -0.3195521380733377,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        130,
+        148,
+        149,
+        139,
+        149,
+        147,
+        149,
+        148
+      ]
+    },
+    {
+      "prompt": "29+63=",
+      "gt": 92,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 0.984515368938446,
+      "mean_logp": -0.6443820366095041,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        80,
+        94,
+        1,
+        91,
+        3,
+        80,
+        91,
+        2
+      ]
+    },
+    {
+      "prompt": "29+35=",
+      "gt": 64,
+      "greedy_ans": 63,
+      "correct": false,
+      "first_token_entropy": 0.995384693145752,
+      "mean_logp": -0.7575502486350377,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        62,
+        63,
+        61,
+        52,
+        52,
+        62,
+        72,
+        57
+      ]
+    },
+    {
+      "prompt": "56+63=",
+      "gt": 119,
+      "greedy_ans": 119,
+      "correct": true,
+      "first_token_entropy": 0.046623554080724716,
+      "mean_logp": -0.37066980550513706,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        128,
+        121,
+        110,
+        110,
+        119,
+        110,
+        119,
+        110
+      ]
+    },
+    {
+      "prompt": "4+50=",
+      "gt": 54,
+      "greedy_ans": 55,
+      "correct": false,
+      "first_token_entropy": 1.173957109451294,
+      "mean_logp": -0.602751700455592,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        44,
+        45,
+        46,
+        64,
+        64,
+        56,
+        55,
+        53
+      ]
+    },
+    {
+      "prompt": "44+86=",
+      "gt": 130,
+      "greedy_ans": 131,
+      "correct": false,
+      "first_token_entropy": 0.04703564569354057,
+      "mean_logp": -0.49996426336431615,
+      "semantic_entropy": 1.9061547465398496,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        132,
+        125,
+        148,
+        131,
+        130,
+        123,
+        131,
+        141
+      ]
+    },
+    {
+      "prompt": "87+52=",
+      "gt": 139,
+      "greedy_ans": 139,
+      "correct": true,
+      "first_token_entropy": 0.04626394435763359,
+      "mean_logp": -0.43140640096390737,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        149,
+        148,
+        121,
+        141,
+        140,
+        141,
+        139,
+        149
+      ]
+    },
+    {
+      "prompt": "93+22=",
+      "gt": 115,
+      "greedy_ans": 115,
+      "correct": true,
+      "first_token_entropy": 0.03912367671728134,
+      "mean_logp": -0.35322241688631095,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        114,
+        126,
+        124,
+        125,
+        125,
+        124,
+        124,
+        126
+      ]
+    },
+    {
+      "prompt": "60+17=",
+      "gt": 77,
+      "greedy_ans": 77,
+      "correct": true,
+      "first_token_entropy": 0.8603471517562866,
+      "mean_logp": -0.3846033312336503,
+      "semantic_entropy": 1.3208883431493221,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        77,
+        87,
+        87,
+        78,
+        78,
+        79,
+        78,
+        77
+      ]
+    },
+    {
+      "prompt": "80+69=",
+      "gt": 149,
+      "greedy_ans": 149,
+      "correct": true,
+      "first_token_entropy": 0.0351652093231678,
+      "mean_logp": -0.2958239828838265,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        147,
+        139,
+        141,
+        146,
+        159,
+        139,
+        149,
+        139
+      ]
+    },
+    {
+      "prompt": "4+51=",
+      "gt": 55,
+      "greedy_ans": 55,
+      "correct": true,
+      "first_token_entropy": 1.178313136100769,
+      "mean_logp": -0.6157816020535053,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        54,
+        56,
+        55,
+        55,
+        54,
+        55,
+        55,
+        45
+      ]
+    },
+    {
+      "prompt": "76+73=",
+      "gt": 149,
+      "greedy_ans": 149,
+      "correct": true,
+      "first_token_entropy": 0.043334659188985825,
+      "mean_logp": -0.37267874056034955,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        131,
+        159,
+        141,
+        148,
+        141,
+        140,
+        148,
+        149
+      ]
+    },
+    {
+      "prompt": "85+4=",
+      "gt": 89,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 0.911029040813446,
+      "mean_logp": -0.5562292624233484,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        80,
+        92,
+        93,
+        99,
+        81,
+        80,
+        91,
+        92
+      ]
+    },
+    {
+      "prompt": "11+83=",
+      "gt": 94,
+      "greedy_ans": 104,
+      "correct": false,
+      "first_token_entropy": 0.5833958983421326,
+      "mean_logp": -0.18921922091137072,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        94,
+        104,
+        113,
+        103,
+        104,
+        104,
+        95,
+        94
+      ]
+    },
+    {
+      "prompt": "55+18=",
+      "gt": 73,
+      "greedy_ans": 73,
+      "correct": true,
+      "first_token_entropy": 0.8687411546707153,
+      "mean_logp": -0.6803310913703311,
+      "semantic_entropy": 1.3862943611198906,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        74,
+        74,
+        87,
+        71,
+        74,
+        79,
+        73,
+        74
+      ]
+    },
+    {
+      "prompt": "60+24=",
+      "gt": 84,
+      "greedy_ans": 84,
+      "correct": true,
+      "first_token_entropy": 1.029973030090332,
+      "mean_logp": -0.4657080021821945,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        84,
+        85,
+        74,
+        93,
+        85,
+        74,
+        85,
+        83
+      ]
+    },
+    {
+      "prompt": "7+34=",
+      "gt": 41,
+      "greedy_ans": 41,
+      "correct": true,
+      "first_token_entropy": 0.8320868611335754,
+      "mean_logp": -0.36872451737585155,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        42,
+        32,
+        41,
+        40,
+        41,
+        42,
+        51,
+        51
+      ]
+    },
+    {
+      "prompt": "49+42=",
+      "gt": 91,
+      "greedy_ans": 90,
+      "correct": false,
+      "first_token_entropy": 1.0860950946807861,
+      "mean_logp": -0.5008359369106267,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        90,
+        111,
+        81,
+        89,
+        81,
+        100,
+        90,
+        101
+      ]
+    },
+    {
+      "prompt": "28+59=",
+      "gt": 87,
+      "greedy_ans": 83,
+      "correct": false,
+      "first_token_entropy": 1.058377981185913,
+      "mean_logp": -0.7973942627579832,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        92,
+        81,
+        89,
+        83,
+        81,
+        85,
+        83,
+        76
+      ]
+    },
+    {
+      "prompt": "42+44=",
+      "gt": 86,
+      "greedy_ans": 86,
+      "correct": true,
+      "first_token_entropy": 1.049524188041687,
+      "mean_logp": -0.43038167579497727,
+      "semantic_entropy": 1.2130075659799042,
+      "self_consistency_conf": 0.5,
+      "samples": [
+        74,
+        76,
+        74,
+        76,
+        76,
+        85,
+        76,
+        95
+      ]
+    },
+    {
+      "prompt": "98+49=",
+      "gt": 147,
+      "greedy_ans": 143,
+      "correct": false,
+      "first_token_entropy": 0.04397854208946228,
+      "mean_logp": -0.556183139474945,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        143,
+        123,
+        132,
+        143,
+        135,
+        144,
+        143,
+        148
+      ]
+    },
+    {
+      "prompt": "36+97=",
+      "gt": 133,
+      "greedy_ans": 133,
+      "correct": true,
+      "first_token_entropy": 0.04725010693073273,
+      "mean_logp": -0.5094210086172575,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        134,
+        132,
+        135,
+        135,
+        132,
+        123,
+        133,
+        145
+      ]
+    },
+    {
+      "prompt": "54+33=",
+      "gt": 87,
+      "greedy_ans": 87,
+      "correct": true,
+      "first_token_entropy": 1.0344847440719604,
+      "mean_logp": -0.42126402034332844,
+      "semantic_entropy": 1.559581156259877,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        86,
+        97,
+        97,
+        96,
+        87,
+        87,
+        77,
+        96
+      ]
+    },
+    {
+      "prompt": "11+61=",
+      "gt": 72,
+      "greedy_ans": 72,
+      "correct": true,
+      "first_token_entropy": 0.8435088396072388,
+      "mean_logp": -0.5001366405215315,
+      "semantic_entropy": 1.4941751382893085,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        74,
+        61,
+        71,
+        91,
+        71,
+        72,
+        71,
+        72
+      ]
+    },
+    {
+      "prompt": "3+96=",
+      "gt": 99,
+      "greedy_ans": 100,
+      "correct": false,
+      "first_token_entropy": 0.5708561539649963,
+      "mean_logp": -0.3381606704308262,
+      "semantic_entropy": 1.320888343149322,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        100,
+        101,
+        90,
+        92,
+        92,
+        101,
+        92,
+        90
+      ]
+    },
+    {
+      "prompt": "70+7=",
+      "gt": 77,
+      "greedy_ans": 71,
+      "correct": false,
+      "first_token_entropy": 0.9303464889526367,
+      "mean_logp": -0.8078764291393741,
+      "semantic_entropy": 1.6674619334292948,
+      "self_consistency_conf": 0.375,
+      "samples": [
+        86,
+        69,
+        69,
+        69,
+        62,
+        73,
+        83,
+        71
+      ]
+    },
+    {
+      "prompt": "45+29=",
+      "gt": 74,
+      "greedy_ans": 73,
+      "correct": false,
+      "first_token_entropy": 0.9043737649917603,
+      "mean_logp": -0.6966895365647338,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        70,
+        76,
+        74,
+        62,
+        74,
+        70,
+        73,
+        71
+      ]
+    },
+    {
+      "prompt": "84+9=",
+      "gt": 93,
+      "greedy_ans": 91,
+      "correct": false,
+      "first_token_entropy": 1.006737232208252,
+      "mean_logp": -0.6942395941254075,
+      "semantic_entropy": 1.7328679513998633,
+      "self_consistency_conf": 0.25,
+      "samples": [
+        93,
+        80,
+        90,
+        92,
+        91,
+        97,
+        90,
+        93
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[02:03:30] ep0: authored w/ search (Socio-technical aspects of AI...)
+[02:05:23] ep0 round1: rating 6
+[02:11:21] ep0 round2: rating 7
+[02:15:43] ep0 round3: rating 7
+[02:21:16] ep0 round4: rating 7
+[02:21:16] e1: episode 0 done
+[02:21:16] e1: COMPLETE
+[13:22:11] e1: episode 0 done
+[13:30:44] ep1: authored w/ search (Probabilistic methods in large language ...)
+[13:33:42] ep1 round1: rating 5
+[13:49:37] ep1 round2: rating 7
+[14:11:42] ep1 round3: rating 7
+[14:15:00] e1: episode 1 FAILED: RuntimeError("revise_with_tools: C:\\Shaurya PC\\Career\\Statistics\\Paperena\\paperena-agent\\agents\\local-rev-e1\\data\\autoresearch\\paper-1\\v4.md was not written (stdout: I'll pause here until the background experiment finishes or the scheduled wakeup fires.\n)") — continuing to next episode (rerun to retry this one)
+[14:17:49] e1: episode 2 FAILED: RuntimeError("author_with_tools: C:\\Shaurya PC\\Career\\Statistics\\Paperena\\paperena-agent\\agents\\local-rev-e1\\data\\autoresearch\\paper-2\\v1.md was not written (stdout: I'll pause here since the edit permission hasn't been granted yet — let me know when I can proceed and I'll continue adding the baseline metrics and finishing the run.\n)") — continuing to next episode (rerun to retry this one)
+[14:17:49] e1: COMPLETE with failures in episodes [1, 2]
+[14:58:49] e1: episode 0 done
+[15:16:46] ep1 round4: rating 8
+[15:16:46] e1: episode 1 done
+[15:22:00] ep2: authored w/ search (Socio-technical aspects of AI...)
+[15:23:30] ep2 round1: rating 6
+[15:28:16] ep2 round2: rating 8
+[15:33:50] ep2 round3: rating 8
+[15:40:15] e1: episode 2 FAILED: RuntimeError("review_with_tools: round4_review.json wasn't valid JSON: Expecting ',' delimiter: line 6 column 1171 (char 3864)") — continuing to next episode (rerun to retry this one)
+[15:40:15] e1: COMPLETE with failures in episodes [2]
+[15:40:54] e1: episode 0 done
+[15:40:54] e1: episode 1 done
+[15:42:51] ep2 round4: rating 8
+[15:42:51] e1: episode 2 done
+[15:42:51] e1: COMPLETE

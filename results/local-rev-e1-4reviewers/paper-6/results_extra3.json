@@ -1,0 +1,249 @@
+{
+  "multiseed_sensitivity_sweep": [
+    {
+      "perturbation": "default",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.21360566728663394,
+      "trust_gap_std": 0.00653255765996696,
+      "acc_gap_mean": -0.202725,
+      "acc_gap_std": 0.010639813203247509
+    },
+    {
+      "perturbation": "default",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.003105955317802034,
+      "trust_gap_std": 0.007215336277952197,
+      "acc_gap_mean": -0.03032499999999998,
+      "acc_gap_std": 0.0104905016562603
+    },
+    {
+      "perturbation": "low LR (0.04)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.18171072645302008,
+      "trust_gap_std": 0.0033451617866432914,
+      "acc_gap_mean": -0.19875000000000004,
+      "acc_gap_std": 0.010932177276279417
+    },
+    {
+      "perturbation": "low LR (0.04)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.0012053910822510839,
+      "trust_gap_std": 0.0036656497443475064,
+      "acc_gap_mean": -0.031424999999999995,
+      "acc_gap_std": 0.0108501440082609
+    },
+    {
+      "perturbation": "high LR (0.30)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.22268123762600514,
+      "trust_gap_std": 0.009805186885758991,
+      "acc_gap_mean": -0.2008,
+      "acc_gap_std": 0.009767164378672045
+    },
+    {
+      "perturbation": "high LR (0.30)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.0001265284407505951,
+      "trust_gap_std": 0.009185534693537079,
+      "acc_gap_mean": -0.030799999999999973,
+      "acc_gap_std": 0.010091952239284543
+    },
+    {
+      "perturbation": "low reliance slope (1,1)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.2188566153624266,
+      "trust_gap_std": 0.006397299592454417,
+      "acc_gap_mean": -0.15987500000000002,
+      "acc_gap_std": 0.010590827399216764
+    },
+    {
+      "perturbation": "low reliance slope (1,1)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.0024075835556184866,
+      "trust_gap_std": 0.006902252246546263,
+      "acc_gap_mean": -0.018449999999999956,
+      "acc_gap_std": 0.009819495913742211
+    },
+    {
+      "perturbation": "high reliance slope (6,4)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.2045758631064855,
+      "trust_gap_std": 0.00663970908509448,
+      "acc_gap_mean": -0.2306,
+      "acc_gap_std": 0.010461954884246064
+    },
+    {
+      "perturbation": "high reliance slope (6,4)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.0022638294214906486,
+      "trust_gap_std": 0.006567094188840801,
+      "acc_gap_mean": -0.03687499999999997,
+      "acc_gap_std": 0.009308094595565735
+    },
+    {
+      "perturbation": "compressed confidence (0.70/0.60)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.22416968945865706,
+      "trust_gap_std": 0.006570086315868751,
+      "acc_gap_mean": -0.182675,
+      "acc_gap_std": 0.010581853571090465
+    },
+    {
+      "perturbation": "compressed confidence (0.70/0.60)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.003392244183293247,
+      "trust_gap_std": 0.007637393975305862,
+      "acc_gap_mean": -0.012899999999999977,
+      "acc_gap_std": 0.011382662254499158
+    },
+    {
+      "perturbation": "extreme confidence (0.95/0.50)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.2066611197202798,
+      "trust_gap_std": 0.006289416519803041,
+      "acc_gap_mean": -0.21447500000000003,
+      "acc_gap_std": 0.010300151697912022
+    },
+    {
+      "perturbation": "extreme confidence (0.95/0.50)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.0027931124987702004,
+      "trust_gap_std": 0.007056271356184989,
+      "acc_gap_mean": -0.043299999999999984,
+      "acc_gap_std": 0.01104694527912581
+    },
+    {
+      "perturbation": "low non-reliance decay (0.1x)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.20779437104828938,
+      "trust_gap_std": 0.00637952366019672,
+      "acc_gap_mean": -0.20302499999999996,
+      "acc_gap_std": 0.010484780636713393
+    },
+    {
+      "perturbation": "low non-reliance decay (0.1x)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.003910857155541969,
+      "trust_gap_std": 0.0075648760789212705,
+      "acc_gap_mean": -0.030624999999999993,
+      "acc_gap_std": 0.010280594583972279
+    },
+    {
+      "perturbation": "high non-reliance decay (0.6x)",
+      "competence": "AI>user (base)",
+      "trust_gap_mean": -0.22099880235156993,
+      "trust_gap_std": 0.006808835875881392,
+      "acc_gap_mean": -0.20199999999999996,
+      "acc_gap_std": 0.010889788795013428
+    },
+    {
+      "perturbation": "high non-reliance decay (0.6x)",
+      "competence": "equal competence",
+      "trust_gap_mean": 0.002072487818920543,
+      "trust_gap_std": 0.007165330861204113,
+      "acc_gap_mean": -0.031374999999999965,
+      "acc_gap_std": 0.011219542102955895
+    }
+  ],
+  "deferred_round_decomposition": {
+    "per_seed": [
+      {
+        "seed": 0,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.68425,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.49720044792833146,
+        "acc_nondeferred_s1": 0.7773261065943993,
+        "share_deferred_s1": 0.4465
+      },
+      {
+        "seed": 1,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.6685,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.5,
+        "acc_nondeferred_s1": 0.7611209964412812,
+        "share_deferred_s1": 0.438
+      },
+      {
+        "seed": 2,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.68275,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4930032292787944,
+        "acc_nondeferred_s1": 0.7754435107376284,
+        "share_deferred_s1": 0.4645
+      },
+      {
+        "seed": 3,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.657,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.5134099616858238,
+        "acc_nondeferred_s1": 0.7556373676944317,
+        "share_deferred_s1": 0.45675
+      },
+      {
+        "seed": 4,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.679,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4918032786885246,
+        "acc_nondeferred_s1": 0.7778801843317973,
+        "share_deferred_s1": 0.4575
+      },
+      {
+        "seed": 5,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.6675,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.5112299465240642,
+        "acc_nondeferred_s1": 0.7694835680751174,
+        "share_deferred_s1": 0.4675
+      },
+      {
+        "seed": 6,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.6825,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4963707426018984,
+        "acc_nondeferred_s1": 0.7876867360796741,
+        "share_deferred_s1": 0.44775
+      },
+      {
+        "seed": 7,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.67675,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4847137298499166,
+        "acc_nondeferred_s1": 0.7737392094502499,
+        "share_deferred_s1": 0.44975
+      },
+      {
+        "seed": 8,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.6885,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4827207899067471,
+        "acc_nondeferred_s1": 0.7841065686724851,
+        "share_deferred_s1": 0.45575
+      },
+      {
+        "seed": 9,
+        "acc_deferred_s0": 0.0,
+        "acc_nondeferred_s0": 0.682,
+        "share_deferred_s0": 0.0,
+        "acc_deferred_s1": 0.4833512352309345,
+        "acc_nondeferred_s1": 0.764733395696913,
+        "share_deferred_s1": 0.4655
+      }
+    ],
+    "summary": {
+      "nondeferred_acc_s0_mean": 0.6768750000000001,
+      "nondeferred_acc_s1_mean": 0.7727157643773979,
+      "nondeferred_acc_gap": 0.09584076437739775,
+      "deferred_acc_s1_mean": 0.49538033616950344,
+      "share_deferred_at_s1_mean": 0.45495
+    }
+  }
+}

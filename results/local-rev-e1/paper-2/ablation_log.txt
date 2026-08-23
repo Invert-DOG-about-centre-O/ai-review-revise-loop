@@ -1,0 +1,16 @@
+=== Diversity-injection sweep (adaptive_diverse condition) ===
+eps=0.0 var=0.0686 diversity=1.749 frac_extreme=0.023
+eps=0.1 var=0.0686 diversity=1.749 frac_extreme=0.023
+eps=0.2 var=0.0345 diversity=1.784 frac_extreme=0.000
+eps=0.3 var=0.0236 diversity=1.898 frac_extreme=0.000
+eps=0.5 var=0.0236 diversity=1.898 frac_extreme=0.000
+eps=1.0 var=0.0212 diversity=2.257 frac_extreme=0.000
+
+=== Retrain-frequency sweep (adaptive condition) ===
+retrain_every= 1 var=0.0684 diversity=1.748 frac_extreme=0.022
+retrain_every= 2 var=0.0685 diversity=1.749 frac_extreme=0.023
+retrain_every= 4 var=0.0686 diversity=1.749 frac_extreme=0.023
+retrain_every=10 var=0.0688 diversity=1.749 frac_extreme=0.024
+retrain_every=40 var=0.0698 diversity=1.752 frac_extreme=0.028
+
+Total wall time: 13.6s

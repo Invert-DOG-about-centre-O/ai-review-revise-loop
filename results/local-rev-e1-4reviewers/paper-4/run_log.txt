@@ -1,0 +1,13 @@
+[naive_rlhf] accuracy=0.889, accuracy_verifiable=0.995, accuracy_ambiguous=0.780, sycophancy_overall=0.141, sycophancy_verifiable=0.009, sycophancy_ambiguous=0.285, approval_proxy=0.834, wc=1.632, g=0.811, h=-0.052
+[robust_median_agg] accuracy=0.888, accuracy_verifiable=0.995, accuracy_ambiguous=0.778, sycophancy_overall=0.148, sycophancy_verifiable=0.010, sycophancy_ambiguous=0.298, approval_proxy=0.839, wc=1.562, g=0.958, h=-0.064
+[sycophancy_penalty] accuracy=0.887, accuracy_verifiable=0.997, accuracy_ambiguous=0.773, sycophancy_overall=0.121, sycophancy_verifiable=0.004, sycophancy_ambiguous=0.247, approval_proxy=0.813, wc=1.721, g=0.157, h=-0.051
+[precommit_answer] accuracy=0.891, accuracy_verifiable=0.997, accuracy_ambiguous=0.783, sycophancy_overall=0.126, sycophancy_verifiable=0.006, sycophancy_ambiguous=0.256, approval_proxy=0.822, wc=1.740, g=0.439, h=-0.049
+[naive_rlhf_with_outliers] accuracy=0.882, accuracy_verifiable=0.991, accuracy_ambiguous=0.769, sycophancy_overall=0.167, sycophancy_verifiable=0.018, sycophancy_ambiguous=0.329, approval_proxy=0.848, wc=1.406, g=1.252, h=-0.080
+
+Total wall time: 0.24s
+
+Note: naive_rlhf and robust_median_agg differ in BOTH aggregation rule AND
+presence of outlier (rubber-stamp) raters (n_outliers=1 for robust_median_agg,
+0 for naive_rlhf). The controlled comparison for the aggregation-robustness
+claim is robust_median_agg vs. naive_rlhf_with_outliers (same outlier setting,
+mean vs. median aggregation).

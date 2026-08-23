@@ -1,0 +1,22 @@
+{
+  "accuracy": 0.8114285714285714,
+  "n_test": 700,
+  "k_samples": 20,
+  "auroc": {
+    "maxprob (cheap, single-pass)": 0.7337147887323944,
+    "neg_pred_entropy (cheap, single-pass)": 0.6177576824583867,
+    "sample_agree (expensive, K samples)": 0.6552563486982501,
+    "neg_sample_entropy (expensive, K samples)": 0.595203798548869
+  },
+  "ece": {
+    "maxprob": 0.06399619294064392,
+    "sample_agree": 0.33107142857142857
+  },
+  "probe_r2_recovering_sample_entropy": 0.26063907387181096,
+  "auroc_holdout": {
+    "true_neg_sample_entropy (expensive)": 0.6204930662557782,
+    "probe_neg_predicted_sample_entropy (cheap, probes expensive signal)": 0.6207704160246533,
+    "maxprob (cheap, single-pass)": 0.7497072419106316,
+    "neg_pred_entropy (cheap, single-pass)": 0.6076425269645609
+  }
+}

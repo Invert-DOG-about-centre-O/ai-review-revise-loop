@@ -1,0 +1,104 @@
+{
+  "per_seed": [
+    {
+      "seed": 0,
+      "acc": 0.82,
+      "auroc_maxprob": 0.7547002032520326,
+      "auroc_negent": 0.6099678184281843,
+      "auroc_agree": 0.6778667005420055,
+      "auroc_negsampent": 0.5780403116531166,
+      "probe_r2": 0.2595513603295434,
+      "auroc_true_holdout": 0.5768970189701897,
+      "auroc_probe_holdout": 0.5877371273712738,
+      "gap_maxprob_minus_agree": 0.07683350271002709
+    },
+    {
+      "seed": 1,
+      "acc": 0.75,
+      "auroc_maxprob": 0.7303666666666667,
+      "auroc_negent": 0.6217999999999999,
+      "auroc_agree": 0.6458666666666667,
+      "auroc_negsampent": 0.5615666666666667,
+      "probe_r2": 0.4187096768223775,
+      "auroc_true_holdout": 0.5371436403508771,
+      "auroc_probe_holdout": 0.686951754385965,
+      "gap_maxprob_minus_agree": 0.08450000000000002
+    },
+    {
+      "seed": 2,
+      "acc": 0.0775,
+      "auroc_maxprob": 0.6627327563598217,
+      "auroc_negent": 0.5484745170032346,
+      "auroc_agree": 0.3885829180872453,
+      "auroc_negsampent": 0.5748754261736165,
+      "probe_r2": 0.0888342637658397,
+      "auroc_true_holdout": 0.5684903331962156,
+      "auroc_probe_holdout": 0.48498560263266144,
+      "gap_maxprob_minus_agree": 0.27414983827257633
+    },
+    {
+      "seed": 3,
+      "acc": 0.76,
+      "auroc_maxprob": 0.6793105811403508,
+      "auroc_negent": 0.6110540021929824,
+      "auroc_agree": 0.652772066885965,
+      "auroc_negsampent": 0.5707750822368421,
+      "probe_r2": 0.20146725602568982,
+      "auroc_true_holdout": 0.5659852593519679,
+      "auroc_probe_holdout": 0.5871227923793632,
+      "gap_maxprob_minus_agree": 0.026538514254385803
+    },
+    {
+      "seed": 4,
+      "acc": 0.88,
+      "auroc_maxprob": 0.7143702651515152,
+      "auroc_negent": 0.5825639204545455,
+      "auroc_agree": 0.6518406723484849,
+      "auroc_negsampent": 0.6040482954545454,
+      "probe_r2": 0.30130905286085485,
+      "auroc_true_holdout": 0.6054857142857143,
+      "auroc_probe_holdout": 0.6592,
+      "gap_maxprob_minus_agree": 0.06252959280303039
+    }
+  ],
+  "summary": {
+    "acc": [
+      0.6575,
+      0.2937260628544903
+    ],
+    "auroc_maxprob": [
+      0.7082960945140774,
+      0.03344704704794392
+    ],
+    "auroc_negent": [
+      0.5947720516157893,
+      0.026529317424785853
+    ],
+    "auroc_agree": [
+      0.6033858049060734,
+      0.10796220141101577
+    ],
+    "auroc_negsampent": [
+      0.5778611564369575,
+      0.01421573618330782
+    ],
+    "probe_r2": [
+      0.25397432196086106,
+      0.1090299482174194
+    ],
+    "auroc_true_holdout": [
+      0.570800393230993,
+      0.02191592684849686
+    ],
+    "auroc_probe_holdout": [
+      0.6011994553538527,
+      0.07014637018129044
+    ],
+    "gap_maxprob_minus_agree": [
+      0.10491028960800393,
+      0.08693120193617278
+    ]
+  },
+  "n_seeds_maxprob_wins": 5,
+  "n_seeds": 5
+}

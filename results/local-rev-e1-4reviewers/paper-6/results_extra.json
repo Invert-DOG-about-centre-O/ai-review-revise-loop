@@ -1,0 +1,59 @@
+{
+  "multi_seed_gap": {
+    "0.0": {
+      "final_trust_mean_across_seeds": 0.7879299254609091,
+      "final_trust_std_across_seeds": 0.0032817628950837546,
+      "late_acc_mean_across_seeds": 0.7499125,
+      "late_acc_std_across_seeds": 0.006971045025675838,
+      "overreliance_mean_across_seeds": 0.1518875,
+      "overreliance_std_across_seeds": 0.0014377173748689278
+    },
+    "1.0": {
+      "final_trust_mean_across_seeds": 0.5730013971012525,
+      "final_trust_std_across_seeds": 0.004029549791835937,
+      "late_acc_mean_across_seeds": 0.5517125,
+      "late_acc_std_across_seeds": 0.0060875256672970265,
+      "overreliance_mean_across_seeds": 0.25517708333333333,
+      "overreliance_std_across_seeds": 0.001439393378688091
+    },
+    "gap_trust_mean": -0.21492852835965676,
+    "gap_trust_std": 0.005537882506657955,
+    "gap_acc_mean": -0.1982,
+    "gap_acc_std": 0.00916978734758882
+  },
+  "competence_crossing": [
+    {
+      "label": "AI>user (base)",
+      "AI_COMPETENCE": 0.78,
+      "USER_COMPETENCE": 0.55,
+      "final_trust_s0.0": 0.794481599623458,
+      "late_acc_s0.0": 0.758,
+      "final_trust_s1.0": 0.5700363520772532,
+      "late_acc_s1.0": 0.5505,
+      "trust_delta_s1_minus_s0": -0.22444524754620476,
+      "acc_delta_s1_minus_s0": -0.20750000000000002
+    },
+    {
+      "label": "equal competence",
+      "AI_COMPETENCE": 0.65,
+      "USER_COMPETENCE": 0.65,
+      "final_trust_s0.0": 0.6734868641734306,
+      "late_acc_s0.0": 0.68425,
+      "final_trust_s1.0": 0.6630877202601729,
+      "late_acc_s1.0": 0.64825,
+      "trust_delta_s1_minus_s0": -0.010399143913257691,
+      "acc_delta_s1_minus_s0": -0.03600000000000003
+    },
+    {
+      "label": "user>AI (reversed)",
+      "AI_COMPETENCE": 0.55,
+      "USER_COMPETENCE": 0.78,
+      "final_trust_s0.0": 0.5768215728059579,
+      "late_acc_s0.0": 0.66725,
+      "final_trust_s1.0": 0.786487466945568,
+      "late_acc_s1.0": 0.7815,
+      "trust_delta_s1_minus_s0": 0.20966589413961012,
+      "acc_delta_s1_minus_s0": 0.11424999999999996
+    }
+  ]
+}

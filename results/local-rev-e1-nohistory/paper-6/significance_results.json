@@ -1,0 +1,32 @@
+[
+  {
+    "a": "engagement",
+    "b": "similarity",
+    "diff": 0.15833265893414755,
+    "p": 2e-05
+  },
+  {
+    "a": "bridging",
+    "b": "similarity",
+    "diff": -0.016324356752714264,
+    "p": 0.44256
+  },
+  {
+    "a": "engagement",
+    "b": "random",
+    "diff": 0.22152464381030132,
+    "p": 2e-05
+  },
+  {
+    "a": "similarity",
+    "b": "random",
+    "diff": 0.06319198487615377,
+    "p": 0.00226
+  },
+  {
+    "a": "bridging",
+    "b": "engagement",
+    "diff": -0.17465701568686182,
+    "p": 2e-05
+  }
+]

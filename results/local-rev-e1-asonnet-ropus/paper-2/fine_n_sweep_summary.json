@@ -1,0 +1,41 @@
+{
+  "fine_N_sweep": [
+    {
+      "N": 100,
+      "clusters_beta0": 3.7666666666666666,
+      "clusters_beta5": 3.466666666666667,
+      "p_clusters": 0.34000878206388674
+    },
+    {
+      "N": 120,
+      "clusters_beta0": 3.9,
+      "clusters_beta5": 3.4,
+      "p_clusters": 0.045104314211554794
+    },
+    {
+      "N": 140,
+      "clusters_beta0": 4.2,
+      "clusters_beta5": 3.7333333333333334,
+      "p_clusters": 0.23668715102578597
+    },
+    {
+      "N": 160,
+      "clusters_beta0": 3.8666666666666667,
+      "clusters_beta5": 3.4,
+      "p_clusters": 0.2922654914524716
+    },
+    {
+      "N": 180,
+      "clusters_beta0": 4.333333333333333,
+      "clusters_beta5": 3.566666666666667,
+      "p_clusters": 0.05776896775839456
+    },
+    {
+      "N": 200,
+      "clusters_beta0": 4.8,
+      "clusters_beta5": 3.7,
+      "p_clusters": 0.018595904303200076
+    }
+  ],
+  "elapsed_seconds": 175.7403802871704
+}

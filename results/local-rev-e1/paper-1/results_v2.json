@@ -1,0 +1,128 @@
+{
+  "experiment_A_runs": [
+    {
+      "seed": 0,
+      "train_time": 21.2367684841156,
+      "final_loss": 0.8344685435295105,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0,
+      "corr_len_lex": 0.5954107648721669,
+      "corr_len_sem": 0.10717392731392873,
+      "auroc_ood_sem_vs_id": 0.7719999999999999,
+      "auroc_ood_unmapped_vs_id": 0.42533333333333334
+    },
+    {
+      "seed": 1,
+      "train_time": 33.173598766326904,
+      "final_loss": 0.8532590270042419,
+      "auroc_lex": 1.0,
+      "auroc_sem": 1.0,
+      "corr_len_lex": 0.23906551256324574,
+      "corr_len_sem": 0.1075212363232955,
+      "auroc_ood_sem_vs_id": 0.9520000000000001,
+      "auroc_ood_unmapped_vs_id": 0.6233333333333334
+    },
+    {
+      "seed": 2,
+      "train_time": 35.27859401702881,
+      "final_loss": 0.8532814979553223,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9808000000000001,
+      "corr_len_lex": 0.06478484883361585,
+      "corr_len_sem": -0.45559905249773897,
+      "auroc_ood_sem_vs_id": 0.8886666666666666,
+      "auroc_ood_unmapped_vs_id": 0.44266666666666665
+    },
+    {
+      "seed": 3,
+      "train_time": 36.22418785095215,
+      "final_loss": 0.8391935229301453,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9840000000000001,
+      "corr_len_lex": 0.28331902909574863,
+      "corr_len_sem": -0.1577593116819869,
+      "auroc_ood_sem_vs_id": 0.8493333333333334,
+      "auroc_ood_unmapped_vs_id": 0.5726666666666668
+    },
+    {
+      "seed": 4,
+      "train_time": 42.79190397262573,
+      "final_loss": 0.9100900888442993,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9712,
+      "corr_len_lex": 0.24771054318940938,
+      "corr_len_sem": -0.05627044088979337,
+      "auroc_ood_sem_vs_id": 0.9786666666666667,
+      "auroc_ood_unmapped_vs_id": 0.8579999999999999
+    }
+  ],
+  "experiment_A_summary": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "auroc_lex_mean": 1.0,
+    "auroc_lex_std": 0.0,
+    "auroc_sem_mean": 0.9872,
+    "auroc_sem_std": 0.011268362791461761,
+    "n_seeds_lex_ge_sem": 5,
+    "corr_len_lex_mean": 0.28605813971083727,
+    "corr_len_lex_std": 0.17224823008786247,
+    "corr_len_sem_mean": -0.090986728286459,
+    "corr_len_sem_std": 0.20846054922318286,
+    "auroc_ood_sem_mean": 0.8881333333333334,
+    "auroc_ood_sem_std": 0.07384837318602372,
+    "auroc_ood_unmapped_mean": 0.5843999999999999,
+    "auroc_ood_unmapped_std": 0.15614158816777657
+  },
+  "experiment_B_runs": [
+    {
+      "seed": 0,
+      "train_time": 32.92787051200867,
+      "final_loss": 1.0157698392868042,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9456,
+      "corr_len_lex": 0.054825082610997486,
+      "corr_len_sem": -0.07021188998213322,
+      "auroc_ood_sem_vs_id": 0.8466666666666668,
+      "auroc_ood_unmapped_vs_id": 0.5586666666666666
+    },
+    {
+      "seed": 1,
+      "train_time": 35.30411148071289,
+      "final_loss": 1.01753830909729,
+      "auroc_lex": 1.0,
+      "auroc_sem": 0.9808,
+      "corr_len_lex": 0.3391548160499223,
+      "corr_len_sem": 0.03765490897394171,
+      "auroc_ood_sem_vs_id": 0.8666666666666666,
+      "auroc_ood_unmapped_vs_id": 0.5466666666666666
+    },
+    {
+      "seed": 2,
+      "train_time": 43.7645947933197,
+      "final_loss": 1.015468955039978,
+      "auroc_lex": 0.9984,
+      "auroc_sem": 0.9823999999999999,
+      "corr_len_lex": 0.18685380862081577,
+      "corr_len_sem": -0.7132615777069505,
+      "auroc_ood_sem_vs_id": 0.8913333333333332,
+      "auroc_ood_unmapped_vs_id": 0.6586666666666666
+    }
+  ],
+  "experiment_B_summary": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "auroc_lex_mean": 0.9994666666666667,
+    "auroc_lex_std": 0.0007542472332656723,
+    "auroc_sem_mean": 0.9696000000000001,
+    "auroc_sem_std": 0.01698312888329669,
+    "n_seeds_lex_ge_sem": 3
+  }
+}

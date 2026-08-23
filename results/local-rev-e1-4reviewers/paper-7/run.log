@@ -1,0 +1,49 @@
+Building datasets...
+Training model...
+epoch 1/6 loss=1.5588
+epoch 2/6 loss=1.4543
+epoch 3/6 loss=1.2969
+epoch 4/6 loss=0.9922
+epoch 5/6 loss=0.6658
+epoch 6/6 loss=0.4860
+Training done at t=152.8s
+Evaluating on test set with uncertainty signals (this samples k times per example)...
+  500/2000 done, t=224.1s
+  1000/2000 done, t=296.4s
+  1500/2000 done, t=368.6s
+  2000/2000 done, t=438.2s
+Overall greedy accuracy: 0.6535
+{
+  "overall_accuracy": 0.6535,
+  "n_test": 2000,
+  "auroc": {
+    "mean_max_prob": 0.8712610547002948,
+    "neg_mean_entropy": 0.8630505513702369,
+    "self_consistency": 0.840786112020963,
+    "logistic_combo": 0.8741871383338793
+  },
+  "ece_self_consistency_raw": 0.088375,
+  "ece_self_consistency_isotonic": 0.055440120546400955,
+  "ece_logistic_combo": 0.0418498225475629,
+  "accuracy_by_n_digits": {
+    "1": 0.9725738396624473,
+    "2": 0.8224852071005917,
+    "3": 0.492156862745098,
+    "4": 0.34970530451866405
+  },
+  "accuracy_by_n_carries": {
+    "0": {"acc": 0.7604355716878403, "n": 551},
+    "1": {"acc": 0.7486631016042781, "n": 748},
+    "2": {"acc": 0.5053533190578159, "n": 467},
+    "3": {"acc": 0.39800995024875624, "n": 201},
+    "4": {"acc": 0.36363636363636365, "n": 33}
+  },
+  "logistic_weights": {
+    "w_mean_max_prob": 1.0164750480971332,
+    "w_neg_mean_entropy": 0.6807929598115636,
+    "w_self_consistency": 0.5668395510264658,
+    "b": 0.7788433429393131
+  },
+  "wall_clock_sec": 438.24931955337524
+}
+Total wall clock: 438.3s

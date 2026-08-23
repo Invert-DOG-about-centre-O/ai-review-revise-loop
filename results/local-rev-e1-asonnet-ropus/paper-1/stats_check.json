@@ -1,0 +1,69 @@
+{
+  "per_seed_auroc_recheck": {
+    "semantic_entropy": [
+      0.6612451206085477,
+      0.53140625,
+      0.5238613681727454
+    ],
+    "self_consistency_disagreement": [
+      0.6728555700130117,
+      0.497890625,
+      0.5238613681727454
+    ],
+    "lexical_diversity": [
+      0.625512961665499,
+      0.54140625,
+      0.5229540918163673
+    ],
+    "mean_token_entropy": [
+      0.6859173255930338,
+      0.57078125,
+      0.6151333696243876
+    ]
+  },
+  "seed_level_bootstrap": {
+    "semantic_entropy": {
+      "mean_diff": 0.051773068812042765,
+      "ci_lo": 0.02467220498448608,
+      "ci_hi": 0.09127200145164216,
+      "p_le_zero": 0.0
+    },
+    "self_consistency_disagreement": {
+      "mean_diff": 0.059074794010554765,
+      "ci_lo": 0.013061755580022094,
+      "ci_hi": 0.09127200145164216,
+      "p_le_zero": 0.0
+    },
+    "lexical_diversity": {
+      "mean_diff": 0.060652880578518364,
+      "ci_lo": 0.02937500000000004,
+      "ci_hi": 0.09217927780802027,
+      "p_le_zero": 0.0
+    }
+  },
+  "example_level_bootstrap_vs_semantic_entropy": {
+    "seed0": {
+      "mean_diff": 0.024801683720618778,
+      "p_le_zero": 0.3005
+    },
+    "seed1": {
+      "mean_diff": 0.03992677713205531,
+      "p_le_zero": 0.268
+    },
+    "seed2": {
+      "mean_diff": 0.0890538479802247,
+      "p_le_zero": 0.106
+    }
+  },
+  "scd_vs_se_correlation": {
+    "seed0": {
+      "pearson": 0.9233911211847405
+    },
+    "seed1": {
+      "pearson": 0.8820204784351193
+    },
+    "seed2": {
+      "pearson": 0.8938802356481291
+    }
+  }
+}

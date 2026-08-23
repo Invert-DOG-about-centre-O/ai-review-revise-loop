@@ -1,0 +1,41 @@
+oracle acc=0.633 syc=0.347 quartiles= ['0.359', '0.355', '0.340', '0.337'] coef_c= -0.02055105840840245
+flat acc=0.505 syc=1.000 quartiles= ['1.000', '1.000', '1.000', '1.000'] coef_c= 0.5235337555470811
+confmod acc=0.547 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+
+--- multi-seed summary (n=10 seeds) ---
+oracle acc=0.634+/-0.003 syc=0.332+/-0.010 q_mean= ['0.332', '0.332', '0.334', '0.329'] q_std= ['0.014', '0.011', '0.011', '0.014']
+flat acc=0.502+/-0.003 syc=1.000+/-0.000 q_mean= ['1.000', '1.000', '1.000', '1.000'] q_std= ['0.000', '0.000', '0.000', '0.000']
+confmod acc=0.545+/-0.004 syc=0.730+/-0.005 q_mean= ['0.143', '0.777', '1.000', '1.000'] q_std= ['0.009', '0.014', '0.000', '0.000']
+
+--- alternative interpolation functional forms (seed=0) ---
+linear acc=0.547 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+quadratic acc=0.566 syc=0.620 quartiles= ['0.092', '0.501', '0.887', '1.000'] coef_c= 3.7217937201439146
+sqrt acc=0.525 syc=0.876 quartiles= ['0.505', '1.000', '1.000', '1.000'] coef_c= 11.689379920156137
+step acc=0.547 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+
+--- reward-noise robustness (seed=0, linear interp) ---
+noise=0.00 acc=0.547 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+noise=0.10 acc=0.523 syc=0.936 quartiles= ['0.743', '1.000', '1.000', '1.000'] coef_c= 1.9586824282617041
+noise=0.25 acc=0.516 syc=0.960 quartiles= ['0.841', '1.000', '1.000', '1.000'] coef_c= 1.7370252223224019
+noise=0.50 acc=0.508 syc=0.987 quartiles= ['0.948', '1.000', '1.000', '1.000'] coef_c= 1.194160715836512
+
+--- diagnostic: approval-flat imitation label is not constant ---
+flat label min/max/mean: 0 1 0.500025
+
+--- step-threshold shift (seed=0): does crossing point, not shape, drive Sec 3.3? ---
+thr=0.3 syc=0.846 quartiles= ['0.389', '0.996', '1.000', '1.000'] coef_c= 10.127868528668536
+thr=0.5 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+thr=0.7 syc=0.624 quartiles= ['0.091', '0.507', '0.896', '1.000'] coef_c= 3.808036378370021
+
+--- sigmoid steepness sweep (seed=0, crossing fixed at c=0.5): isolates shape from crossing point ---
+k=1.0 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+k=5.0 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+k=10.0 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+k=30.0 syc=0.729 quartiles= ['0.148', '0.767', '1.000', '1.000'] coef_c= 6.193794130405908
+
+--- progressive/regressive breakdown (seed=0, from main run) ---
+oracle progressive=0.2137 regressive=0.1338
+flat progressive=0.4122 regressive=0.5878
+confmod progressive=0.3188 regressive=0.4099
+
+Wrote results.json

@@ -1,0 +1,83 @@
+{
+  "diversity_sweep": [
+    {
+      "diversity_eps": 0.0,
+      "final_opinion_var_mean": 0.06862325526983257,
+      "final_opinion_var_std": 0.0055010010343156295,
+      "overall_content_diversity_mean": 1.749195834938791,
+      "final_frac_extreme_mean": 0.023333333333333334
+    },
+    {
+      "diversity_eps": 0.1,
+      "final_opinion_var_mean": 0.06862325526983257,
+      "final_opinion_var_std": 0.0055010010343156295,
+      "overall_content_diversity_mean": 1.749195834938791,
+      "final_frac_extreme_mean": 0.023333333333333334
+    },
+    {
+      "diversity_eps": 0.2,
+      "final_opinion_var_mean": 0.03448598299955675,
+      "final_opinion_var_std": 0.003292293283150465,
+      "overall_content_diversity_mean": 1.783655417580632,
+      "final_frac_extreme_mean": 0.0
+    },
+    {
+      "diversity_eps": 0.3,
+      "final_opinion_var_mean": 0.023627448312956545,
+      "final_opinion_var_std": 0.0008708767851435304,
+      "overall_content_diversity_mean": 1.8983490379548964,
+      "final_frac_extreme_mean": 0.0
+    },
+    {
+      "diversity_eps": 0.5,
+      "final_opinion_var_mean": 0.023627448312956545,
+      "final_opinion_var_std": 0.0008708767851435304,
+      "overall_content_diversity_mean": 1.8983490379548964,
+      "final_frac_extreme_mean": 0.0
+    },
+    {
+      "diversity_eps": 1.0,
+      "final_opinion_var_mean": 0.02124623971778648,
+      "final_opinion_var_std": 0.0011711899259986278,
+      "overall_content_diversity_mean": 2.256660547114719,
+      "final_frac_extreme_mean": 0.0
+    }
+  ],
+  "retrain_freq_sweep": [
+    {
+      "retrain_every": 1,
+      "final_opinion_var_mean": 0.06844914511349659,
+      "final_opinion_var_std": 0.00545266724839889,
+      "overall_content_diversity_mean": 1.7484741293617425,
+      "final_frac_extreme_mean": 0.022222222222222223
+    },
+    {
+      "retrain_every": 2,
+      "final_opinion_var_mean": 0.0684994952609042,
+      "final_opinion_var_std": 0.0054693383028235724,
+      "overall_content_diversity_mean": 1.7488778875590032,
+      "final_frac_extreme_mean": 0.023333333333333334
+    },
+    {
+      "retrain_every": 4,
+      "final_opinion_var_mean": 0.06862325526983257,
+      "final_opinion_var_std": 0.0055010010343156295,
+      "overall_content_diversity_mean": 1.749195834938791,
+      "final_frac_extreme_mean": 0.023333333333333334
+    },
+    {
+      "retrain_every": 10,
+      "final_opinion_var_mean": 0.06879887455941477,
+      "final_opinion_var_std": 0.005391114144913109,
+      "overall_content_diversity_mean": 1.7494871799027945,
+      "final_frac_extreme_mean": 0.024444444444444446
+    },
+    {
+      "retrain_every": 40,
+      "final_opinion_var_mean": 0.06979800599740472,
+      "final_opinion_var_std": 0.005342579296281696,
+      "overall_content_diversity_mean": 1.7517956193922564,
+      "final_frac_extreme_mean": 0.02777777777777778
+    }
+  ]
+}

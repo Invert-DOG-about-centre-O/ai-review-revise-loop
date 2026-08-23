@@ -1,0 +1,11 @@
+[16:46:29] ep0: authored (A gating mechanism that improves long-co...)
+[16:47:02] ep0 round1: rating 4
+[16:49:45] ep0 round2: rating 5
+[16:52:20] ep0 round3: rating 5
+[16:52:20] e1: episode 0 done
+[16:53:31] ep1: authored (A curriculum for tool-use agents that re...)
+[16:54:00] ep1 round1: rating 5
+[16:56:16] ep1 round2: rating 4
+[17:00:55] ep1 round3: rating 2
+[17:00:55] e1: episode 1 done
+[17:00:55] e1: COMPLETE

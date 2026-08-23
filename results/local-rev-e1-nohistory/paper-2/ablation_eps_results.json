@@ -1,0 +1,82 @@
+{
+  "eps0.15_calibrated": {
+    "eps": 0.15,
+    "strategy": "calibrated",
+    "final_var_mean": 0.9966506371874215,
+    "final_var_std": 0.0034675475504254314,
+    "final_bc_mean": 0.9758639081648045,
+    "final_bc_std": 0.0019855931983731195
+  },
+  "eps0.15_sycophantic": {
+    "eps": 0.15,
+    "strategy": "sycophantic",
+    "final_var_mean": 0.061070034067376024,
+    "final_var_std": 0.0044442369708529526,
+    "final_bc_mean": 0.3567170136466874,
+    "final_bc_std": 0.02835370972064349
+  },
+  "eps0.25_calibrated": {
+    "eps": 0.25,
+    "strategy": "calibrated",
+    "final_var_mean": 0.8020980246633505,
+    "final_var_std": 0.10805998439398522,
+    "final_bc_mean": 0.9545482163288946,
+    "final_bc_std": 0.08131265728039176
+  },
+  "eps0.25_sycophantic": {
+    "eps": 0.25,
+    "strategy": "sycophantic",
+    "final_var_mean": 0.061070034067376024,
+    "final_var_std": 0.0044442369708529526,
+    "final_bc_mean": 0.3567170136466874,
+    "final_bc_std": 0.02835370972064349
+  },
+  "eps0.35_calibrated": {
+    "eps": 0.35,
+    "strategy": "calibrated",
+    "final_var_mean": 0.21395125739384765,
+    "final_var_std": 0.09490380725021193,
+    "final_bc_mean": 0.7059005382915016,
+    "final_bc_std": 0.32925125156370033
+  },
+  "eps0.35_sycophantic": {
+    "eps": 0.35,
+    "strategy": "sycophantic",
+    "final_var_mean": 0.061070034067376024,
+    "final_var_std": 0.0044442369708529526,
+    "final_bc_mean": 0.3567170136466874,
+    "final_bc_std": 0.02835370972064349
+  },
+  "eps0.5_calibrated": {
+    "eps": 0.5,
+    "strategy": "calibrated",
+    "final_var_mean": 0.02524309456650838,
+    "final_var_std": 0.009331066646187571,
+    "final_bc_mean": 0.3764559474876815,
+    "final_bc_std": 0.42040272874081047
+  },
+  "eps0.5_sycophantic": {
+    "eps": 0.5,
+    "strategy": "sycophantic",
+    "final_var_mean": 0.061070034067376024,
+    "final_var_std": 0.0044442369708529526,
+    "final_bc_mean": 0.3567170136466874,
+    "final_bc_std": 0.02835370972064349
+  },
+  "eps0.7_calibrated": {
+    "eps": 0.7,
+    "strategy": "calibrated",
+    "final_var_mean": 0.0035789712619855433,
+    "final_var_std": 0.0024707059954609417,
+    "final_bc_mean": 0.7810076291367885,
+    "final_bc_std": 0.36368993248337084
+  },
+  "eps0.7_sycophantic": {
+    "eps": 0.7,
+    "strategy": "sycophantic",
+    "final_var_mean": 0.061070034067376024,
+    "final_var_std": 0.0044442369708529526,
+    "final_bc_mean": 0.3567170136466874,
+    "final_bc_std": 0.02835370972064349
+  }
+}

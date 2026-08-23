@@ -1,0 +1,172 @@
+{
+  "taskA_multiseed": [
+    {
+      "seed": 0,
+      "steps": 107,
+      "final_loss": 0.944739043712616,
+      "accuracy": 0.13749999999999996,
+      "n_errors": 69,
+      "aurocs": {
+        "neg_mean_logprob": 0.6258234519104083,
+        "perplexity": 0.6258234519104083,
+        "neg_min_logprob": 0.5349143610013175,
+        "first_token_entropy": 0.5573122529644269,
+        "semantic_entropy": 0.47694334650856385,
+        "neg_sample_agreement": 0.6482213438735178
+      }
+    },
+    {
+      "seed": 1,
+      "steps": 110,
+      "final_loss": 0.931204080581665,
+      "accuracy": 0.09999999999999998,
+      "n_errors": 72,
+      "aurocs": {
+        "neg_mean_logprob": 0.4513888888888889,
+        "perplexity": 0.4513888888888889,
+        "neg_min_logprob": 0.5451388888888888,
+        "first_token_entropy": 0.4444444444444444,
+        "semantic_entropy": 0.609375,
+        "neg_sample_agreement": 0.6649305555555556
+      }
+    },
+    {
+      "seed": 2,
+      "steps": 114,
+      "final_loss": 0.7881196737289429,
+      "accuracy": 0.30000000000000004,
+      "n_errors": 56,
+      "aurocs": {
+        "neg_mean_logprob": 0.6190476190476191,
+        "perplexity": 0.6190476190476191,
+        "neg_min_logprob": 0.6376488095238095,
+        "first_token_entropy": 0.5052083333333333,
+        "semantic_entropy": 0.5022321428571429,
+        "neg_sample_agreement": 0.4854910714285714
+      }
+    }
+  ],
+  "taskA_auroc_summary": {
+    "neg_mean_logprob": {
+      "mean": 0.5654199866156387,
+      "std": 0.08067959847165741,
+      "values": [
+        0.6258234519104083,
+        0.4513888888888889,
+        0.6190476190476191
+      ]
+    },
+    "perplexity": {
+      "mean": 0.5654199866156387,
+      "std": 0.08067959847165741,
+      "values": [
+        0.6258234519104083,
+        0.4513888888888889,
+        0.6190476190476191
+      ]
+    },
+    "neg_min_logprob": {
+      "mean": 0.5725673531380052,
+      "std": 0.046208456777260556,
+      "values": [
+        0.5349143610013175,
+        0.5451388888888888,
+        0.6376488095238095
+      ]
+    },
+    "first_token_entropy": {
+      "mean": 0.5023216769140683,
+      "std": 0.04612327784671582,
+      "values": [
+        0.5573122529644269,
+        0.4444444444444444,
+        0.5052083333333333
+      ]
+    },
+    "semantic_entropy": {
+      "mean": 0.529516829788569,
+      "std": 0.057404275783419945,
+      "values": [
+        0.47694334650856385,
+        0.609375,
+        0.5022321428571429
+      ]
+    },
+    "neg_sample_agreement": {
+      "mean": 0.5995476569525483,
+      "std": 0.0809381573169704,
+      "values": [
+        0.6482213438735178,
+        0.6649305555555556,
+        0.4854910714285714
+      ]
+    }
+  },
+  "taskA_bootstrap_ci_seed0": {
+    "neg_mean_logprob": [
+      0.4668190571683219,
+      0.7590478682908257,
+      0.6224857753787449
+    ],
+    "semantic_entropy": [
+      0.26467752100840336,
+      0.7026565850949754,
+      0.47938736671790144
+    ]
+  },
+  "k_ablation": {
+    "4": {
+      "semantic_entropy_auroc": 0.4976689976689976,
+      "sample_agreement_auroc": 0.548951048951049,
+      "majority_vote_acc": 0.06
+    },
+    "8": {
+      "semantic_entropy_auroc": 0.5897435897435898,
+      "sample_agreement_auroc": 0.5407925407925408,
+      "majority_vote_acc": 0.08
+    },
+    "16": {
+      "semantic_entropy_auroc": 0.6515151515151515,
+      "sample_agreement_auroc": 0.472027972027972,
+      "majority_vote_acc": 0.08
+    }
+  },
+  "greedy_acc_for_k_ablation": 0.21999999999999997,
+  "taskB_multiseed": [
+    {
+      "seed": 0,
+      "accuracy": 0.06000000000000005,
+      "n_errors": 47,
+      "aurocs": {
+        "neg_mean_logprob": 0.4964539007092199,
+        "semantic_entropy": 0.45744680851063835,
+        "neg_sample_agreement": 0.7198581560283689
+      }
+    },
+    {
+      "seed": 1,
+      "accuracy": 0.020000000000000018,
+      "n_errors": 49,
+      "aurocs": {
+        "neg_mean_logprob": 0.3469387755102041,
+        "semantic_entropy": 0.8877551020408163,
+        "neg_sample_agreement": 0.3979591836734694
+      }
+    }
+  ],
+  "taskB_auroc_summary": {
+    "neg_mean_logprob": {
+      "mean": 0.42169633810971197,
+      "std": 0.07475756259950792
+    },
+    "semantic_entropy": {
+      "mean": 0.6726009552757273,
+      "std": 0.21515414676508898
+    },
+    "neg_sample_agreement": {
+      "mean": 0.5589086698509191,
+      "std": 0.16094948617744975
+    }
+  },
+  "total_wallclock_s": 284.4012670516968
+}

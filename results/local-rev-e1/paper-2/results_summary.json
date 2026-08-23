@@ -1,0 +1,42 @@
+{
+  "random": {
+    "final_opinion_var_mean": 0.023265011180246493,
+    "final_opinion_var_std": 0.0015244781093872951,
+    "final_bimodality_mean": 0.17796782506580774,
+    "final_bimodality_std": 0.0037854882524512978,
+    "final_frac_extreme_mean": 0.0,
+    "final_frac_extreme_std": 0.0,
+    "overall_content_diversity_mean": 2.2581722679316263,
+    "overall_content_diversity_std": 0.0010282976076624515
+  },
+  "static": {
+    "final_opinion_var_mean": 0.06991917453990774,
+    "final_opinion_var_std": 0.005421306571384931,
+    "final_bimodality_mean": 0.1717713228087192,
+    "final_bimodality_std": 0.004362047721379734,
+    "final_frac_extreme_mean": 0.025333333333333336,
+    "final_frac_extreme_std": 0.010022197585581937,
+    "overall_content_diversity_mean": 1.7508632462553826,
+    "overall_content_diversity_std": 0.033731316622794105
+  },
+  "adaptive": {
+    "final_opinion_var_mean": 0.06855610667329666,
+    "final_opinion_var_std": 0.005367546969745589,
+    "final_bimodality_mean": 0.17185440309363165,
+    "final_bimodality_std": 0.004571715063771116,
+    "final_frac_extreme_mean": 0.02266666666666667,
+    "final_frac_extreme_std": 0.007717224601860149,
+    "overall_content_diversity_mean": 1.7475671204893566,
+    "overall_content_diversity_std": 0.03309811515266785
+  },
+  "adaptive_diverse": {
+    "final_opinion_var_mean": 0.024250422378482957,
+    "final_opinion_var_std": 0.0010204532550824829,
+    "final_bimodality_mean": 0.17196641518691275,
+    "final_bimodality_std": 0.0031824145262810298,
+    "final_frac_extreme_mean": 0.0,
+    "final_frac_extreme_std": 0.0,
+    "overall_content_diversity_mean": 1.8970420996104846,
+    "overall_content_diversity_std": 0.01052878861945294
+  }
+}

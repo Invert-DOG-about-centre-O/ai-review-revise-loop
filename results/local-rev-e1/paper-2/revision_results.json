@@ -1,0 +1,124 @@
+{
+  "paired_significance": {
+    "static_vs_adaptive_var": {
+      "mean_a": 0.06991917453990773,
+      "mean_b": 0.06855610667329665,
+      "t": 6.430812991713603,
+      "p": 0.0030069807404138073,
+      "n": 5,
+      "cohens_d": 2.875947000012082
+    },
+    "static_vs_adaptive_diversity": {
+      "mean_a": 1.7136343020776668,
+      "mean_b": 1.7032174368054362,
+      "t": 5.1335628119530945,
+      "p": 0.006821636184541808,
+      "n": 5,
+      "cohens_d": 2.295799082858418
+    },
+    "static_vs_random_var": {
+      "mean_a": 0.06991917453990773,
+      "mean_b": 0.023265011180246462,
+      "t": 17.531600529416124,
+      "p": 6.21588904456786e-05,
+      "n": 5,
+      "cohens_d": 7.84037010762915
+    }
+  },
+  "drift_experiment": {
+    "rows": [
+      {
+        "label": "static",
+        "final_var_mean": 0.06915460876644701,
+        "final_var_std": 0.005481456714414795,
+        "raw": [
+          0.07115235901105874,
+          0.061669109172343826,
+          0.07464235811593847
+        ]
+      },
+      {
+        "label": "adaptive_retrain1",
+        "final_var_mean": 0.06880410496446877,
+        "final_var_std": 0.005782424506301387,
+        "raw": [
+          0.07157617195975255,
+          0.06075538558297673,
+          0.07408075735067703
+        ]
+      },
+      {
+        "label": "adaptive_retrain20",
+        "final_var_mean": 0.06883403281165552,
+        "final_var_std": 0.0060321191881858634,
+        "raw": [
+          0.07138763188814368,
+          0.06050818782965531,
+          0.0746062787171676
+        ]
+      }
+    ],
+    "retrain1_vs_retrain20_paired_t": -0.12049477903394808,
+    "retrain1_vs_retrain20_paired_p": 0.9151049151784965,
+    "retrain1_vs_retrain20_cohens_d": -0.06956769311119439
+  },
+  "misspec_experiment": {
+    "rows": [
+      {
+        "condition": "static",
+        "final_var_mean": 0.003836095761665248,
+        "final_var_std": 0.0026222811659933182,
+        "raw": [
+          0.00013292737340602745,
+          0.0058592774104179405,
+          0.005516082501171776
+        ]
+      },
+      {
+        "condition": "adaptive",
+        "final_var_mean": 0.2894800226996064,
+        "final_var_std": 0.017902447325028083,
+        "raw": [
+          0.27259727641133263,
+          0.31426079879068236,
+          0.2815819928968042
+        ]
+      }
+    ],
+    "static_vs_adaptive_paired_t": -24.999038873580737,
+    "static_vs_adaptive_paired_p": 0.0015962926544676322,
+    "static_vs_adaptive_cohens_d": -14.433201823143756
+  },
+  "partial_misspec_sweep": {
+    "rows": [
+      {
+        "feature_set": "full",
+        "adaptive_var_mean": 0.06862325526983257,
+        "adaptive_var_std": 0.0055010010343156295,
+        "static_var_mean": 0.06979800599740472,
+        "static_var_std": 0.005342579296281696
+      },
+      {
+        "feature_set": "no_dist",
+        "adaptive_var_mean": 0.9553815288091733,
+        "adaptive_var_std": 0.01158336409282892,
+        "static_var_mean": 0.9530139077041185,
+        "static_var_std": 0.010412295781967873
+      },
+      {
+        "feature_set": "no_product",
+        "adaptive_var_mean": 0.06460229171999432,
+        "adaptive_var_std": 0.005540048978519335,
+        "static_var_mean": 0.06459832628795148,
+        "static_var_std": 0.00549363542470715
+      },
+      {
+        "feature_set": "linear_only",
+        "adaptive_var_mean": 0.2894800226996064,
+        "adaptive_var_std": 0.017902447325028083,
+        "static_var_mean": 0.003836095761665248,
+        "static_var_std": 0.0026222811659933182
+      }
+    ]
+  }
+}

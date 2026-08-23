@@ -1,0 +1,134 @@
+{
+  "train_seconds_budget_per_seed": 130,
+  "n_eval": 150,
+  "k_default": 8,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "seed_results": [
+    {
+      "seed": 0,
+      "steps": 1742,
+      "final_loss": 0.3825206512212753,
+      "greedy_accuracy": 0.4666666666666667,
+      "n_errors": 80,
+      "majority_accuracy": 0.43333333333333335,
+      "aurocs": {
+        "neg_mean_logprob": 0.8926785714285714,
+        "neg_min_logprob": 0.8744642857142857,
+        "perplexity": 0.8926785714285714,
+        "first_token_entropy": 0.79625,
+        "semantic_entropy": 0.8579464285714286,
+        "neg_sample_agreement": 0.859375
+      }
+    },
+    {
+      "seed": 1,
+      "steps": 1750,
+      "final_loss": 0.1397376300394535,
+      "greedy_accuracy": 0.86,
+      "n_errors": 21,
+      "majority_accuracy": 0.8466666666666667,
+      "aurocs": {
+        "neg_mean_logprob": 0.9675156884459211,
+        "neg_min_logprob": 0.9638242894056848,
+        "perplexity": 0.9675156884459211,
+        "first_token_entropy": 0.7818383167220376,
+        "semantic_entropy": 0.9178663713547434,
+        "neg_sample_agreement": 0.9232188999630859
+      }
+    },
+    {
+      "seed": 2,
+      "steps": 1720,
+      "final_loss": 0.1444677846133709,
+      "greedy_accuracy": 0.7866666666666666,
+      "n_errors": 32,
+      "majority_accuracy": 0.76,
+      "aurocs": {
+        "neg_mean_logprob": 0.940677966101695,
+        "neg_min_logprob": 0.9393538135593221,
+        "perplexity": 0.940677966101695,
+        "first_token_entropy": 0.7772775423728813,
+        "semantic_entropy": 0.9042637711864407,
+        "neg_sample_agreement": 0.9102224576271187
+      }
+    }
+  ],
+  "aggregate_auroc": {
+    "neg_mean_logprob": {
+      "mean": 0.9336240753253958,
+      "std": 0.030956599212231404,
+      "n": 3,
+      "values": [
+        0.8926785714285714,
+        0.9675156884459211,
+        0.940677966101695
+      ]
+    },
+    "neg_min_logprob": {
+      "mean": 0.9258807962264308,
+      "std": 0.03770450204746559,
+      "n": 3,
+      "values": [
+        0.8744642857142857,
+        0.9638242894056848,
+        0.9393538135593221
+      ]
+    },
+    "perplexity": {
+      "mean": 0.9336240753253958,
+      "std": 0.030956599212231404,
+      "n": 3,
+      "values": [
+        0.8926785714285714,
+        0.9675156884459211,
+        0.940677966101695
+      ]
+    },
+    "first_token_entropy": {
+      "mean": 0.7851219530316396,
+      "std": 0.00808600592231239,
+      "n": 3,
+      "values": [
+        0.79625,
+        0.7818383167220376,
+        0.7772775423728813
+      ]
+    },
+    "semantic_entropy": {
+      "mean": 0.8933588570375376,
+      "std": 0.025648752409362156,
+      "n": 3,
+      "values": [
+        0.8579464285714286,
+        0.9178663713547434,
+        0.9042637711864407
+      ]
+    },
+    "neg_sample_agreement": {
+      "mean": 0.8976054525300682,
+      "std": 0.027548774973833588,
+      "n": 3,
+      "values": [
+        0.859375,
+        0.9232188999630859,
+        0.9102224576271187
+      ]
+    }
+  },
+  "paired_diff_token_minus_semantic": [
+    0.03473214285714288,
+    0.0496493170911777,
+    0.03641419491525422
+  ],
+  "paired_diff_token_minus_selfcons": [
+    0.03330357142857143,
+    0.04429678848283514,
+    0.03045550847457623
+  ],
+  "k_ablation": {},
+  "total_script_time_s": 456.4
+}

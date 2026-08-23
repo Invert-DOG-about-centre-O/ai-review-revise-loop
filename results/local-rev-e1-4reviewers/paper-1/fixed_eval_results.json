@@ -1,0 +1,52 @@
+{
+  "eval_seed": 999,
+  "n_eval_problems": 400,
+  "seed_results": [
+    {
+      "seed": 0,
+      "n_correct": 159,
+      "n_incorrect": 241,
+      "greedy_accuracy": 0.3975,
+      "auroc_token_entropy": 0.6626216759310003,
+      "auroc_semantic_entropy": 0.6802761032386022,
+      "auroc_self_consistency": 0.6702941099715546
+    },
+    {
+      "seed": 1,
+      "n_correct": 287,
+      "n_incorrect": 113,
+      "greedy_accuracy": 0.7175,
+      "auroc_token_entropy": 0.8010237118806081,
+      "auroc_semantic_entropy": 0.8211741851931794,
+      "auroc_self_consistency": 0.8361135950171132
+    },
+    {
+      "seed": 2,
+      "n_correct": 63,
+      "n_incorrect": 337,
+      "greedy_accuracy": 0.1575,
+      "auroc_token_entropy": 0.6065658706608261,
+      "auroc_semantic_entropy": 0.5435212660731948,
+      "auroc_self_consistency": 0.5772926381234986
+    },
+    {
+      "seed": 3,
+      "n_correct": 314,
+      "n_incorrect": 86,
+      "greedy_accuracy": 0.785,
+      "auroc_token_entropy": 0.6435713227669975,
+      "auroc_semantic_entropy": 0.5839875573989038,
+      "auroc_self_consistency": 0.6337579617834395
+    },
+    {
+      "seed": 4,
+      "n_correct": 323,
+      "n_incorrect": 77,
+      "greedy_accuracy": 0.8075,
+      "auroc_token_entropy": 0.7304491174460215,
+      "auroc_semantic_entropy": 0.7619918780909493,
+      "auroc_self_consistency": 0.7721442644043264
+    }
+  ],
+  "total_time_sec": 435.0751338005066
+}

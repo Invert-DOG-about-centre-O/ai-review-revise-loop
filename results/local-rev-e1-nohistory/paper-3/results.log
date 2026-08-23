@@ -1,0 +1,40 @@
+Training examples: 2595  (keys=60, vals=8, vocab=72)
+  tier=unseen    freq=   0  n_keys=15
+  tier=rare      freq=   3  n_keys=15
+  tier=medium    freq=  20  n_keys=15
+  tier=frequent  freq= 150  n_keys=15
+Model params: 76552
+epoch   0  loss 1.9080  elapsed 1.3s
+epoch   5  loss 0.9161  elapsed 2.9s
+epoch  10  loss 0.9047  elapsed 4.4s
+epoch  15  loss 0.8962  elapsed 6.0s
+epoch  20  loss 0.8920  elapsed 7.6s
+epoch  24  loss 0.8962  elapsed 8.9s
+Training done at 8.9s
+
+=== Experiment A: calibration vs training frequency tier ===
+  deterministic/unseen   n= 5  KL(true||model)=3.259  TV=0.876  H_true=0.000  H_model=0.942  argmax_acc=0.00
+  deterministic/rare     n= 7  KL(true||model)=0.028  TV=0.027  H_true=0.000  H_model=0.129  argmax_acc=1.00
+  deterministic/medium   n= 9  KL(true||model)=0.006  TV=0.006  H_true=0.000  H_model=0.043  argmax_acc=1.00
+  deterministic/frequent n= 9  KL(true||model)=0.001  TV=0.001  H_true=0.000  H_model=0.011  argmax_acc=1.00
+  stochastic/unseen      n=10  KL(true||model)=2.594  TV=0.680  H_true=0.898  H_model=0.888  argmax_acc=0.10
+  stochastic/rare        n= 8  KL(true||model)=0.705  TV=0.294  H_true=0.898  H_model=0.696  argmax_acc=0.75
+  stochastic/medium      n= 6  KL(true||model)=0.188  TV=0.162  H_true=0.898  H_model=0.859  argmax_acc=1.00
+  stochastic/frequent    n= 6  KL(true||model)=0.042  TV=0.099  H_true=0.898  H_model=0.896  argmax_acc=1.00
+
+=== Experiment B: MC-sampled entropy vs analytic (single forward pass) entropy ===
+  T=   5 samples  MAE(entropy)=0.1431  RMSE=0.2500  (analytic entropy needs 1 forward pass, 0 sampling error)
+  T=  20 samples  MAE(entropy)=0.0826  RMSE=0.1339  (analytic entropy needs 1 forward pass, 0 sampling error)
+  T= 100 samples  MAE(entropy)=0.0404  RMSE=0.0571  (analytic entropy needs 1 forward pass, 0 sampling error)
+  T= 400 samples  MAE(entropy)=0.0220  RMSE=0.0296  (analytic entropy needs 1 forward pass, 0 sampling error)
+
+=== Experiment C: AUROC of uncertainty scores for detecting argmax errors (deterministic keys) ===
+  n_det_keys=30 n_errors=5  AUROC(entropy)=0.992  AUROC(1-maxprob)=0.992
+
+  deterministic-key argmax accuracy by tier:
+    unseen    n= 5 acc=0.00
+    rare      n= 7 acc=1.00
+    medium    n= 9 acc=1.00
+    frequent  n= 9 acc=1.00
+
+Total elapsed: 12.5s

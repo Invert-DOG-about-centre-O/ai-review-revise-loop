@@ -1,0 +1,85 @@
+{
+  "determinism_same_seed_single_thread": [
+    {
+      "trial": 0,
+      "acc_seen": 0.0,
+      "auroc": {}
+    },
+    {
+      "trial": 1,
+      "acc_seen": 0.0,
+      "auroc": {}
+    }
+  ],
+  "epoch_sensitivity_sweep": {
+    "10": {
+      "acc_seen_mean": 0.016666666666666666,
+      "n_seen": 60,
+      "n_wrong": 59,
+      "pred_entropy": 0.9661016949152542,
+      "lex_entropy": 0.288135593220339,
+      "sem_entropy": 0.11016949152542373
+    },
+    "12": {
+      "acc_seen_mean": 0.03333333333333333,
+      "n_seen": 60,
+      "n_wrong": 58,
+      "pred_entropy": 0.896551724137931,
+      "lex_entropy": 0.4827586206896552,
+      "sem_entropy": 0.3275862068965517
+    },
+    "14": {
+      "acc_seen_mean": 0.16666666666666666,
+      "n_seen": 60,
+      "n_wrong": 50,
+      "pred_entropy": 0.588,
+      "lex_entropy": 0.6970000000000001,
+      "sem_entropy": 0.772
+    },
+    "16": {
+      "acc_seen_mean": 0.4166666666666666,
+      "n_seen": 60,
+      "n_wrong": 35,
+      "pred_entropy": 0.8765714285714286,
+      "lex_entropy": 0.8251428571428572,
+      "sem_entropy": 0.9411428571428572
+    },
+    "18": {
+      "acc_seen_mean": 0.7666666666666666,
+      "n_seen": 60,
+      "n_wrong": 14,
+      "pred_entropy": 0.7841614906832298,
+      "lex_entropy": 0.8555900621118012,
+      "sem_entropy": 0.9153726708074533
+    }
+  },
+  "noisy_extractor_sweep": {
+    "lexical_auroc_reference": 0.9194711538461539,
+    "semantic_oracle_auroc_reference": 0.9515224358974359,
+    "0.0": {
+      "semantic_auroc": 0.6294642857142857,
+      "n": 60,
+      "n_wrong": 56
+    },
+    "0.1": {
+      "semantic_auroc": 0.7053571428571429,
+      "n": 60,
+      "n_wrong": 56
+    },
+    "0.2": {
+      "semantic_auroc": 0.47098214285714285,
+      "n": 60,
+      "n_wrong": 56
+    },
+    "0.3": {
+      "semantic_auroc": 0.7477678571428571,
+      "n": 60,
+      "n_wrong": 56
+    },
+    "0.5": {
+      "semantic_auroc": 0.5848214285714286,
+      "n": 60,
+      "n_wrong": 56
+    }
+  }
+}

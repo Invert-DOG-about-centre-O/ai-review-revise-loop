@@ -1,0 +1,66 @@
+{
+  "seed_results": [
+    {
+      "seed": 0,
+      "greedy_accuracy": 0.44,
+      "auroc_token_entropy": 0.7045200892857143,
+      "auroc_semantic_entropy": 0.7000304383116883,
+      "auroc_self_consistency": 0.6838600852272727
+    },
+    {
+      "seed": 1,
+      "greedy_accuracy": 0.72,
+      "auroc_token_entropy": 0.7844432043650794,
+      "auroc_semantic_entropy": 0.7785063244047619,
+      "auroc_self_consistency": 0.7761656746031746
+    },
+    {
+      "seed": 2,
+      "greedy_accuracy": 0.1125,
+      "auroc_token_entropy": 0.5742723004694835,
+      "auroc_semantic_entropy": 0.6015649452269171,
+      "auroc_self_consistency": 0.5432237871674491
+    },
+    {
+      "seed": 3,
+      "greedy_accuracy": 0.7325,
+      "auroc_token_entropy": 0.6213198941022615,
+      "auroc_semantic_entropy": 0.587572964179771,
+      "auroc_self_consistency": 0.6284010079423303
+    },
+    {
+      "seed": 4,
+      "greedy_accuracy": 0.785,
+      "auroc_token_entropy": 0.7644793363946082,
+      "auroc_semantic_entropy": 0.7704599318619464,
+      "auroc_self_consistency": 0.7659976299807436
+    }
+  ],
+  "bootstrap_ci_seed0": {
+    "semantic_minus_token": {
+      "mean_diff": -0.004343539812919111,
+      "ci95": [
+        -0.05191969822240594,
+        0.041280420848336274
+      ],
+      "frac_gt_0": 0.437
+    },
+    "selfconsistency_minus_token": {
+      "mean_diff": -0.020732159177517688,
+      "ci95": [
+        -0.07603832250562448,
+        0.030357507139942785
+      ],
+      "frac_gt_0": 0.224
+    },
+    "selfconsistency_minus_semantic": {
+      "mean_diff": -0.016388619364598577,
+      "ci95": [
+        -0.059568739935587756,
+        0.027788270252574798
+      ],
+      "frac_gt_0": 0.235
+    }
+  },
+  "total_time_sec": 436.49002861976624
+}

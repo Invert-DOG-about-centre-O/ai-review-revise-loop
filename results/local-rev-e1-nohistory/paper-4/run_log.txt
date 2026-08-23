@@ -1,0 +1,51 @@
+$ python experiment.py
+{
+  "n_train": 40000,
+  "n_test": 20000,
+  "seed": 0,
+  "elapsed_seconds": 0.13722825050354004,
+  "results": {
+    "accuracy_oracle": {
+      "accuracy": 0.6369,
+      "sycophancy_rate": 0.3236142899791024,
+      "progressive_rate": 0.19802965469200914,
+      "regressive_rate": 0.12558463528709324,
+      "n_disagree": 10049,
+      "by_confidence_quartile": [
+        {"q": 1, "c_lo": 0.00016012686123656472, "c_hi": 0.24947027986355963, "n": 2512, "sycophancy_rate": 0.3411624203821656},
+        {"q": 2, "c_lo": 0.24947027986355963, "c_hi": 0.49576337365106415, "n": 2512, "sycophancy_rate": 0.3284235668789809},
+        {"q": 3, "c_lo": 0.49576337365106415, "c_hi": 0.7484874851526605, "n": 2512, "sycophancy_rate": 0.3093152866242038},
+        {"q": 4, "c_lo": 0.7484874851526605, "c_hi": 0.9999739201929198, "n": 2513, "sycophancy_rate": 0.3155590927178671}
+      ]
+    },
+    "approval_flat": {
+      "accuracy": 0.50385,
+      "sycophancy_rate": 1.0,
+      "progressive_rate": 0.40382127574883075,
+      "regressive_rate": 0.5961787242511692,
+      "n_disagree": 10049,
+      "by_confidence_quartile": [
+        {"q": 1, "c_lo": 0.00016012686123656472, "c_hi": 0.24947027986355963, "n": 2512, "sycophancy_rate": 1.0},
+        {"q": 2, "c_lo": 0.24947027986355963, "c_hi": 0.49576337365106415, "n": 2512, "sycophancy_rate": 1.0},
+        {"q": 3, "c_lo": 0.49576337365106415, "c_hi": 0.7484874851526605, "n": 2512, "sycophancy_rate": 1.0},
+        {"q": 4, "c_lo": 0.7484874851526605, "c_hi": 0.9999739201929198, "n": 2513, "sycophancy_rate": 1.0}
+      ]
+    },
+    "approval_confidence": {
+      "accuracy": 0.551,
+      "sycophancy_rate": 0.7288287391780277,
+      "progressive_rate": 0.3151557368892427,
+      "regressive_rate": 0.41367300228878495,
+      "n_disagree": 10049,
+      "by_confidence_quartile": [
+        {"q": 1, "c_lo": 0.00016012686123656472, "c_hi": 0.24947027986355963, "n": 2512, "sycophancy_rate": 0.14251592356687898},
+        {"q": 2, "c_lo": 0.24947027986355963, "c_hi": 0.49576337365106415, "n": 2512, "sycophancy_rate": 0.7726910828025477},
+        {"q": 3, "c_lo": 0.49576337365106415, "c_hi": 0.7484874851526605, "n": 2512, "sycophancy_rate": 1.0},
+        {"q": 4, "c_lo": 0.7484874851526605, "c_hi": 0.9999739201929198, "n": 2513, "sycophancy_rate": 1.0}
+      ]
+    }
+  }
+}
+Done in 0.14s
+
+Full policy coefficients and raw output are stored in results.json (written by experiment.py).

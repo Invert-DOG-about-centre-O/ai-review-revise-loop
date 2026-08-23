@@ -1,0 +1,841 @@
+{
+  "main_seed0": {
+    "oracle": {
+      "mode": "oracle",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.0,
+      "accuracy": 0.633,
+      "sycophancy_rate": 0.347488811536549,
+      "progressive": 0.21372451516658378,
+      "regressive": 0.1337642963699652,
+      "quartile_sycophancy": [
+        0.35918854415274465,
+        0.35455630720254677,
+        0.33969769291964996,
+        0.33651551312649164
+      ],
+      "coef_confidence": -0.02055105840840245
+    },
+    "flat": {
+      "mode": "flat",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.0,
+      "accuracy": 0.50455,
+      "sycophancy_rate": 1.0,
+      "progressive": 0.41223272003978123,
+      "regressive": 0.5877672799602188,
+      "quartile_sycophancy": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 0.5235337555470811
+    },
+    "confmod": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    }
+  },
+  "multiseed": {
+    "oracle": [
+      {
+        "mode": "oracle",
+        "seed": 0,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.633,
+        "sycophancy_rate": 0.347488811536549,
+        "progressive": 0.21372451516658378,
+        "regressive": 0.1337642963699652,
+        "quartile_sycophancy": [
+          0.35918854415274465,
+          0.35455630720254677,
+          0.33969769291964996,
+          0.33651551312649164
+        ],
+        "coef_confidence": -0.02055105840840245
+      },
+      {
+        "mode": "oracle",
+        "seed": 1,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.63315,
+        "sycophancy_rate": 0.31645190290680253,
+        "progressive": 0.19218859254819698,
+        "regressive": 0.12426331035860554,
+        "quartile_sycophancy": [
+          0.3060327606871754,
+          0.30895283772981613,
+          0.3212145425489413,
+          0.32960447463044346
+        ],
+        "coef_confidence": 0.07524710400934921
+      },
+      {
+        "mode": "oracle",
+        "seed": 2,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.62745,
+        "sycophancy_rate": 0.3358817020420481,
+        "progressive": 0.20098581631626597,
+        "regressive": 0.13489588572578212,
+        "quartile_sycophancy": [
+          0.3392354124748491,
+          0.3436619718309859,
+          0.34245472837022134,
+          0.3181818181818182
+        ],
+        "coef_confidence": 0.01408269950823777
+      },
+      {
+        "mode": "oracle",
+        "seed": 3,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.63395,
+        "sycophancy_rate": 0.3345132743362832,
+        "progressive": 0.20383480825958702,
+        "regressive": 0.13067846607669617,
+        "quartile_sycophancy": [
+          0.3244199764058199,
+          0.33123524783634933,
+          0.34461054287962234,
+          0.33779001179709006
+        ],
+        "coef_confidence": 0.01749063236817656
+      },
+      {
+        "mode": "oracle",
+        "seed": 4,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.6365,
+        "sycophancy_rate": 0.3367839195979899,
+        "progressive": 0.20552763819095476,
+        "regressive": 0.13125628140703519,
+        "quartile_sycophancy": [
+          0.3504823151125402,
+          0.3345396059509449,
+          0.33896260554885405,
+          0.32315112540192925
+        ],
+        "coef_confidence": -0.06153340530906073
+      },
+      {
+        "mode": "oracle",
+        "seed": 5,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.63185,
+        "sycophancy_rate": 0.32014820749048667,
+        "progressive": 0.19637492489485278,
+        "regressive": 0.12377328259563389,
+        "quartile_sycophancy": [
+          0.3223868642370845,
+          0.33052884615384615,
+          0.31169871794871795,
+          0.315979175010012
+        ],
+        "coef_confidence": 0.04528829615075566
+      },
+      {
+        "mode": "oracle",
+        "seed": 6,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.63695,
+        "sycophancy_rate": 0.32593340060544906,
+        "progressive": 0.1939455095862765,
+        "regressive": 0.13198789101917255,
+        "quartile_sycophancy": [
+          0.32728006456820014,
+          0.32498990714574083,
+          0.32983447719014936,
+          0.3216303470540759
+        ],
+        "coef_confidence": 0.04018653023450049
+      },
+      {
+        "mode": "oracle",
+        "seed": 7,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.63515,
+        "sycophancy_rate": 0.3239337681886603,
+        "progressive": 0.19588559959859508,
+        "regressive": 0.12804816859006524,
+        "quartile_sycophancy": [
+          0.3235648334002409,
+          0.3315937374548374,
+          0.3287836210357286,
+          0.31179775280898875
+        ],
+        "coef_confidence": 0.01477014372349548
+      },
+      {
+        "mode": "oracle",
+        "seed": 8,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.6359,
+        "sycophancy_rate": 0.3450972528574293,
+        "progressive": 0.21024664126729498,
+        "regressive": 0.13485061159013434,
+        "quartile_sycophancy": [
+          0.3319967923015237,
+          0.3333333333333333,
+          0.35218612113918973,
+          0.3628708901363272
+        ],
+        "coef_confidence": 0.09420350026262697
+      },
+      {
+        "mode": "oracle",
+        "seed": 9,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.6355,
+        "sycophancy_rate": 0.3318843509906996,
+        "progressive": 0.19803881924787708,
+        "regressive": 0.1338455317428225,
+        "quartile_sycophancy": [
+          0.33077234128588756,
+          0.33158107561665995,
+          0.33400727860897694,
+          0.3311767084512738
+        ],
+        "coef_confidence": -0.0003975141995442152
+      }
+    ],
+    "flat": [
+      {
+        "mode": "flat",
+        "seed": 0,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.50455,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.41223272003978123,
+        "regressive": 0.5877672799602188,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5235337555470811
+      },
+      {
+        "mode": "flat",
+        "seed": 1,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5033,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.40425531914893614,
+        "regressive": 0.5957446808510638,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5467006417231242
+      },
+      {
+        "mode": "flat",
+        "seed": 2,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.49655,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.4013680716225732,
+        "regressive": 0.5986319283774268,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.4927255612443445
+      },
+      {
+        "mode": "flat",
+        "seed": 3,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.50315,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.4079646017699115,
+        "regressive": 0.5920353982300885,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5467454220660553
+      },
+      {
+        "mode": "flat",
+        "seed": 4,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.49815,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.3980904522613065,
+        "regressive": 0.6019095477386934,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5473518163032208
+      },
+      {
+        "mode": "flat",
+        "seed": 5,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5051,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.40937312237131984,
+        "regressive": 0.5906268776286802,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5291735442976189
+      },
+      {
+        "mode": "flat",
+        "seed": 6,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.50375,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.39656912209889,
+        "regressive": 0.6034308779011099,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5600516529849057
+      },
+      {
+        "mode": "flat",
+        "seed": 7,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5046,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.4029101856497742,
+        "regressive": 0.5970898143502258,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5163778993606631
+      },
+      {
+        "mode": "flat",
+        "seed": 8,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.505,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.4064567876478845,
+        "regressive": 0.5935432123521155,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.5220935488581043
+      },
+      {
+        "mode": "flat",
+        "seed": 9,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.50035,
+        "sycophancy_rate": 1.0,
+        "progressive": 0.39547108774767487,
+        "regressive": 0.6045289122523251,
+        "quartile_sycophancy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 0.4977066061082984
+      }
+    ],
+    "confmod": [
+      {
+        "mode": "confmod",
+        "seed": 0,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.547,
+        "sycophancy_rate": 0.72879164594729,
+        "progressive": 0.3188463451019393,
+        "regressive": 0.4099453008453506,
+        "quartile_sycophancy": [
+          0.14797136038186157,
+          0.7672105053720653,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.193794130405908
+      },
+      {
+        "mode": "confmod",
+        "seed": 1,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5473,
+        "sycophancy_rate": 0.7223054639896114,
+        "progressive": 0.30935970432524224,
+        "regressive": 0.4129457596643692,
+        "quartile_sycophancy": [
+          0.1346384338793448,
+          0.7545963229416467,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.473871727258068
+      },
+      {
+        "mode": "confmod",
+        "seed": 2,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5363,
+        "sycophancy_rate": 0.7343325621164872,
+        "progressive": 0.30852026959058443,
+        "regressive": 0.4258122925259028,
+        "quartile_sycophancy": [
+          0.1557344064386318,
+          0.7814889336016096,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.30492430601265
+      },
+      {
+        "mode": "confmod",
+        "seed": 3,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54985,
+        "sycophancy_rate": 0.727826941986234,
+        "progressive": 0.3177974434611603,
+        "regressive": 0.41002949852507375,
+        "quartile_sycophancy": [
+          0.12780180888714118,
+          0.7836349331235248,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.265967971716307
+      },
+      {
+        "mode": "confmod",
+        "seed": 4,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.5424,
+        "sycophancy_rate": 0.7319597989949749,
+        "progressive": 0.3085427135678392,
+        "regressive": 0.4234170854271357,
+        "quartile_sycophancy": [
+          0.14630225080385853,
+          0.781664656212304,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.364849641665376
+      },
+      {
+        "mode": "confmod",
+        "seed": 5,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54365,
+        "sycophancy_rate": 0.7351291808531945,
+        "progressive": 0.31554175846184657,
+        "regressive": 0.4195874223913479,
+        "quartile_sycophancy": [
+          0.1565879054865839,
+          0.7840544871794872,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.633645519816753
+      },
+      {
+        "mode": "confmod",
+        "seed": 6,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54445,
+        "sycophancy_rate": 0.730978809283552,
+        "progressive": 0.3031281533804238,
+        "regressive": 0.42785065590312815,
+        "quartile_sycophancy": [
+          0.14769975786924938,
+          0.7763423496164715,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.368821645240262
+      },
+      {
+        "mode": "confmod",
+        "seed": 7,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54395,
+        "sycophancy_rate": 0.736979427997993,
+        "progressive": 0.3108881083793276,
+        "regressive": 0.4260913196186653,
+        "quartile_sycophancy": [
+          0.14130871136089923,
+          0.8065034122842232,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.2977841539167345
+      },
+      {
+        "mode": "confmod",
+        "seed": 8,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54975,
+        "sycophancy_rate": 0.7281933025867254,
+        "progressive": 0.31542009223982354,
+        "regressive": 0.41277321034690195,
+        "quartile_sycophancy": [
+          0.13753007217321572,
+          0.7753710389089451,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.444369734590455
+      },
+      {
+        "mode": "confmod",
+        "seed": 9,
+        "interp": "linear",
+        "reward_noise": 0.0,
+        "accuracy": 0.54785,
+        "sycophancy_rate": 0.7238172260412454,
+        "progressive": 0.3053983016579054,
+        "regressive": 0.41841892438334005,
+        "quartile_sycophancy": [
+          0.1362717347351395,
+          0.7589971694298423,
+          1.0,
+          1.0
+        ],
+        "coef_confidence": 6.394927698252903
+      }
+    ]
+  },
+  "interp_forms": {
+    "linear": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "quadratic": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "quadratic",
+      "reward_noise": 0.0,
+      "accuracy": 0.5657,
+      "sycophancy_rate": 0.6197911486822476,
+      "progressive": 0.28294380905022376,
+      "regressive": 0.33684733963202385,
+      "quartile_sycophancy": [
+        0.09188544152744631,
+        0.5005968961400716,
+        0.8866348448687351,
+        1.0
+      ],
+      "coef_confidence": 3.7217937201439146
+    },
+    "sqrt": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "sqrt",
+      "reward_noise": 0.0,
+      "accuracy": 0.5252,
+      "sycophancy_rate": 0.8761810044753854,
+      "progressive": 0.3708602685231228,
+      "regressive": 0.5053207359522626,
+      "quartile_sycophancy": [
+        0.5047732696897375,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 11.689379920156137
+    },
+    "step": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "step",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    }
+  },
+  "noise_robustness": {
+    "0.0": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "0.1": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.1,
+      "accuracy": 0.5229,
+      "sycophancy_rate": 0.9358528095474888,
+      "progressive": 0.3984087518647439,
+      "regressive": 0.537444057682745,
+      "quartile_sycophancy": [
+        0.7434367541766109,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 1.9586824282617041
+    },
+    "0.25": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.25,
+      "accuracy": 0.5164,
+      "sycophancy_rate": 0.9603182496270513,
+      "progressive": 0.40417702635504726,
+      "regressive": 0.556141223272004,
+      "quartile_sycophancy": [
+        0.8412887828162291,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 1.7370252223224019
+    },
+    "0.5": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "linear",
+      "reward_noise": 0.5,
+      "accuracy": 0.5085,
+      "sycophancy_rate": 0.9869716558925907,
+      "progressive": 0.40964694181999006,
+      "regressive": 0.5773247140726007,
+      "quartile_sycophancy": [
+        0.9478918058870326,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 1.194160715836512
+    }
+  },
+  "flat_label_diagnostic": {
+    "min": 0,
+    "max": 1,
+    "mean": 0.500025
+  },
+  "step_threshold_shift": {
+    "0.3": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "step",
+      "reward_noise": 0.0,
+      "accuracy": 0.5298,
+      "sycophancy_rate": 0.8461461959224267,
+      "progressive": 0.3604177026355047,
+      "regressive": 0.4857284932869219,
+      "quartile_sycophancy": [
+        0.38862370723945905,
+        0.9960206923995225,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 10.127868528668536
+    },
+    "0.5": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "step",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "0.7": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "step",
+      "reward_noise": 0.0,
+      "accuracy": 0.56495,
+      "sycophancy_rate": 0.6236698160119344,
+      "progressive": 0.28413724515166583,
+      "regressive": 0.3395325708602685,
+      "quartile_sycophancy": [
+        0.09148766905330151,
+        0.5073617190608835,
+        0.8957836117740652,
+        1.0
+      ],
+      "coef_confidence": 3.808036378370021
+    }
+  },
+  "sigmoid_steepness_shift": {
+    "1.0": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "sigmoid",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "5.0": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "sigmoid",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "10.0": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "sigmoid",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    },
+    "30.0": {
+      "mode": "confmod",
+      "seed": 0,
+      "interp": "sigmoid",
+      "reward_noise": 0.0,
+      "accuracy": 0.547,
+      "sycophancy_rate": 0.72879164594729,
+      "progressive": 0.3188463451019393,
+      "regressive": 0.4099453008453506,
+      "quartile_sycophancy": [
+        0.14797136038186157,
+        0.7672105053720653,
+        1.0,
+        1.0
+      ],
+      "coef_confidence": 6.193794130405908
+    }
+  }
+}

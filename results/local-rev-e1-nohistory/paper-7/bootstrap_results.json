@@ -1,0 +1,51 @@
+{
+  "n_seeds": 20,
+  "n_bootstrap_valid": 2000,
+  "n_seen_total": 400,
+  "n_wrong_total": 291,
+  "point_estimate": {
+    "predictive_entropy_token": 0.6563258614710427,
+    "lexical_entropy": 0.7029383019641225,
+    "semantic_entropy": 0.8109335098836659
+  },
+  "bootstrap_ci95": {
+    "predictive_entropy_token": {
+      "mean": 0.6455737857795356,
+      "lo": 0.5096602003011076,
+      "hi": 0.7607796244826821
+    },
+    "lexical_entropy": {
+      "mean": 0.6931864467438079,
+      "lo": 0.5881609213381763,
+      "hi": 0.787911498226278
+    },
+    "semantic_entropy": {
+      "mean": 0.8041423431045088,
+      "lo": 0.7146266981562287,
+      "hi": 0.8733413179561832
+    }
+  },
+  "pairwise_diff": {
+    "semantic_minus_token": {
+      "mean_diff": 0.15856855732497319,
+      "ci95_lo": 0.09194975106831092,
+      "ci95_hi": 0.2378622576524531,
+      "frac_bootstrap_gt_0": 1.0,
+      "significant_at_5pct": true
+    },
+    "semantic_minus_lexical": {
+      "mean_diff": 0.11095589636070094,
+      "ci95_lo": 0.0725425207610638,
+      "ci95_hi": 0.15799868040603227,
+      "frac_bootstrap_gt_0": 1.0,
+      "significant_at_5pct": true
+    },
+    "lexical_minus_token": {
+      "mean_diff": 0.04761266096427225,
+      "ci95_lo": -0.007808438482909207,
+      "ci95_hi": 0.1076892595460406,
+      "frac_bootstrap_gt_0": 0.952,
+      "significant_at_5pct": false
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "skill_sweep": [
+    {
+      "tau_in": 0.45,
+      "tau_out": 0.702,
+      "acc": 0.3543473482131958,
+      "T_global": 2.31,
+      "shift_raw_ece": 0.5435949335863024,
+      "shift_glob_ece": 0.23600847975528816,
+      "shift_reduction_pct": 56.583760227813286,
+      "indomain_reduction_pct": 90.78316635581427
+    },
+    {
+      "tau_in": 0.6,
+      "tau_out": 0.936,
+      "acc": 0.23865910371144614,
+      "T_global": 3.11,
+      "shift_raw_ece": 0.5290071227415246,
+      "shift_glob_ece": 0.1519742289763909,
+      "shift_reduction_pct": 71.2717991038003,
+      "indomain_reduction_pct": 92.52165329032685
+    },
+    {
+      "tau_in": 0.8,
+      "tau_out": 1.248,
+      "acc": 0.1550200084845225,
+      "T_global": 4.670000000000001,
+      "shift_raw_ece": 0.504170323500676,
+      "shift_glob_ece": 0.08000510927225109,
+      "shift_reduction_pct": 84.13133309458985,
+      "indomain_reduction_pct": 94.38070538586199
+    },
+    {
+      "tau_in": 1.0,
+      "tau_out": 1.56,
+      "acc": 0.11251945793628693,
+      "T_global": 6.703333333333334,
+      "shift_raw_ece": 0.48464119322709814,
+      "shift_glob_ece": 0.046163372072182664,
+      "shift_reduction_pct": 90.47473208688825,
+      "indomain_reduction_pct": 96.64766863612522
+    }
+  ],
+  "runtime_s": 299.18422174453735
+}

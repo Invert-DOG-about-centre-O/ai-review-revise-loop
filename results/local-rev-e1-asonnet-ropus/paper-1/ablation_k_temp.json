@@ -1,0 +1,31 @@
+{
+  "seed": 0,
+  "mean_token_entropy_auroc": 0.6896828582898434,
+  "configs": {
+    "K8_T0.9": {
+      "semantic_entropy_auroc": 0.6248494580489763,
+      "self_consistency_auroc": 0.6406563629064632,
+      "time_s": 26.435168981552124
+    },
+    "K16_T0.9": {
+      "semantic_entropy_auroc": 0.7107587314331594,
+      "self_consistency_auroc": 0.7084504215174628,
+      "time_s": 52.9184250831604
+    },
+    "K8_T0.5": {
+      "semantic_entropy_auroc": 0.6556603773584906,
+      "self_consistency_auroc": 0.6886792452830188,
+      "time_s": 29.324752807617188
+    },
+    "K8_T1.3": {
+      "semantic_entropy_auroc": 0.6236451224407868,
+      "self_consistency_auroc": 0.6233942191890807,
+      "time_s": 28.15902352333069
+    },
+    "K24_T0.9": {
+      "semantic_entropy_auroc": 0.7123143315937375,
+      "self_consistency_auroc": 0.7501505419510237,
+      "time_s": 73.48841595649719
+    }
+  }
+}

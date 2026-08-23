@@ -1,0 +1,81 @@
+{
+  "broadcast_20seed": {
+    "gap_mean": 0.04761879047805735,
+    "gap_std": 0.031301724945325196,
+    "within_var_mean": 0.07174022010719744,
+    "leakage_index": -0.00846887154561246,
+    "baseline_gap_mean_20seed": 0.03914991893244489,
+    "paired_t_vs_baseline": -2.0654058407255933,
+    "paired_p_vs_baseline": 0.05279980051961644,
+    "n_seeds": 20
+  },
+  "full_sweep_20seed": {
+    "none": {
+      "gap_mean": 0.03914991893244489,
+      "gap_std": 0.0298246986877794,
+      "within_var_mean": 0.07076455641453543,
+      "leakage_index": 0.0
+    },
+    "personalized_a0.0": {
+      "gap_mean": 0.023134779405172893,
+      "gap_std": 0.01840321535714026,
+      "within_var_mean": 0.020819077353341493,
+      "leakage_index": 0.016015139527271998
+    },
+    "personalized_a0.3": {
+      "gap_mean": 0.01886168752472658,
+      "gap_std": 0.01376329837808799,
+      "within_var_mean": 0.014062177374424023,
+      "leakage_index": 0.02028823140771831
+    },
+    "personalized_a0.6": {
+      "gap_mean": 0.013867912007235578,
+      "gap_std": 0.010625070428314398,
+      "within_var_mean": 0.0032544491948335377,
+      "leakage_index": 0.025282006925209315
+    },
+    "personalized_a0.9": {
+      "gap_mean": 0.024193345046741636,
+      "gap_std": 0.018428842180466157,
+      "within_var_mean": 0.024767876131975654,
+      "leakage_index": 0.014956573885703255
+    },
+    "personalized_a1.0": {
+      "gap_mean": 0.03914991893244487,
+      "gap_std": 0.029824698687779393,
+      "within_var_mean": 0.07047539276573382,
+      "leakage_index": 2.0816681711721685e-17
+    },
+    "shared_a0.0": {
+      "gap_mean": 0.041951152040565556,
+      "gap_std": 0.025687468462534967,
+      "within_var_mean": 0.0665941654349799,
+      "leakage_index": -0.0028012331081206654
+    },
+    "shared_a0.3": {
+      "gap_mean": 0.048692405670464727,
+      "gap_std": 0.04166085274083578,
+      "within_var_mean": 0.05437534838908491,
+      "leakage_index": -0.009542486738019836
+    },
+    "shared_a0.6": {
+      "gap_mean": 0.011116897405452356,
+      "gap_std": 0.010806678535326774,
+      "within_var_mean": 0.009657561147671396,
+      "leakage_index": 0.028033021526992535
+    },
+    "shared_a0.9": {
+      "gap_mean": 0.002074223700903213,
+      "gap_std": 0.0014714178508752102,
+      "within_var_mean": 8.357681116652288e-10,
+      "leakage_index": 0.03707569523154168
+    },
+    "shared_a1.0": {
+      "gap_mean": 0.03914991893244487,
+      "gap_std": 0.029824698687779438,
+      "within_var_mean": 0.07081240187010149,
+      "leakage_index": 2.0816681711721685e-17
+    }
+  },
+  "wall_time_s": 38.86617684364319
+}

@@ -1,0 +1,20 @@
+{
+  "n_train": 700,
+  "n_test": 200,
+  "n_params": 153039,
+  "epochs": 60,
+  "K": 8,
+  "temperature": 0.9,
+  "greedy_accuracy": 0.485,
+  "majority_accuracy": 0.59,
+  "time_greedy_s": 3.0126490592956543,
+  "time_sampling_s": 25.0899338722229,
+  "cost_ratio": 8.328196672893865,
+  "auroc": {
+    "mean_token_entropy (cheap, 1 pass)": 0.6859173255930338,
+    "max_token_entropy (cheap, 1 pass)": 0.6681012911620459,
+    "lexical_diversity (K samples, syntactic)": 0.625512961665499,
+    "self_consistency_disagreement (K samples, semantic)": 0.6728555700130117,
+    "semantic_entropy (K samples, semantic)": 0.6612451206085477
+  }
+}

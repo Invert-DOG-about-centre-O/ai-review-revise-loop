@@ -1,0 +1,47 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "greedy_accuracy_mean": 0.2833333333333334,
+  "greedy_accuracy_std": 0.14331395217803775,
+  "majority_accuracy_mean": 0.3316666666666666,
+  "cost_ratio_mean": 8.234935183889752,
+  "individual_signal_auroc": {
+    "mean_token_entropy (cheap, 1 pass)": [
+      0.6239439817391405,
+      0.047415181395263885
+    ],
+    "max_token_entropy (cheap, 1 pass)": [
+      0.586496030475052,
+      0.0583251301254741
+    ],
+    "lexical_diversity (K samples, syntactic)": [
+      0.5632911011606221,
+      0.044637730519705106
+    ],
+    "self_consistency_disagreement (K samples, semantic)": [
+      0.5648691877285857,
+      0.07709048339189828
+    ],
+    "semantic_entropy (K samples, semantic)": [
+      0.5721709129270977,
+      0.06306024720326518
+    ]
+  },
+  "learned_probe_auroc": {
+    "cheap_probe": [
+      0.618999048007616,
+      0.053230050331617484
+    ],
+    "expensive_probe": [
+      0.544657276670358,
+      0.08869854274764004
+    ],
+    "all_probe": [
+      0.5860724364205087,
+      0.10506109060447008
+    ]
+  }
+}

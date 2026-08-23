@@ -1,0 +1,21 @@
+{
+  "random": {
+    "variance_avg": 0.5227002439916036,
+    "variance_std": 0.07885528144586483,
+    "extremism_avg": 0.5428666666666666,
+    "extremism_std": 0.1861715444170169
+  },
+  "engagement": {
+    "variance_avg": 0.33290688113239353,
+    "variance_std": 0.0077594026644039514,
+    "extremism_avg": 0.3000000000000001,
+    "extremism_std": 0.011737877907772691
+  },
+  "diversity": {
+    "variance_avg": 0.40481036390500325,
+    "variance_std": 0.031184472379781867,
+    "extremism_avg": 0.3028666666666667,
+    "extremism_std": 0.06212680779593927
+  },
+  "total_runtime_sec": 33.60069966316223
+}

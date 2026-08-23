@@ -1,0 +1,16 @@
+{
+  "seed": 1,
+  "mean_token_entropy_auroc": 0.5106493506493507,
+  "configs": {
+    "K8_T0.9": {
+      "semantic_entropy_auroc": 0.5865800865800865,
+      "self_consistency_auroc": 0.6141991341991342,
+      "time_s": 32.13810181617737
+    },
+    "K24_T0.9": {
+      "semantic_entropy_auroc": 0.5254545454545455,
+      "self_consistency_auroc": 0.5257142857142857,
+      "time_s": 98.88306879997253
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "seed0": {
+    "best_expensive_signal": "self_consistency_disagreement",
+    "best_expensive_auroc": 0.6728555700130117,
+    "mean_token_entropy_auroc": 0.6859173255930338,
+    "mean_diff": 0.012687111979164403,
+    "p_le_zero": 0.402
+  },
+  "seed1": {
+    "best_expensive_signal": "lexical_diversity",
+    "best_expensive_auroc": 0.54140625,
+    "mean_token_entropy_auroc": 0.57078125,
+    "mean_diff": 0.030557455901784835,
+    "p_le_zero": 0.3065
+  },
+  "seed2": {
+    "best_expensive_signal": "semantic_entropy",
+    "best_expensive_auroc": 0.5238613681727454,
+    "mean_token_entropy_auroc": 0.6151333696243876,
+    "mean_diff": 0.09256947821046746,
+    "p_le_zero": 0.1085
+  }
+}

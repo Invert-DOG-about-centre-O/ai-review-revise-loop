@@ -1,0 +1,56 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "results": [
+    {
+      "seed": 0,
+      "accuracy": 0.3275,
+      "auroc_logp": 0.6404551775021993,
+      "auroc_sem_ent": 0.614120718522092,
+      "auroc_self_cons": 0.6032378898379637
+    },
+    {
+      "seed": 1,
+      "accuracy": 0.225,
+      "auroc_logp": 0.7861290322580645,
+      "auroc_sem_ent": 0.6941039426523298,
+      "auroc_self_cons": 0.668010752688172
+    },
+    {
+      "seed": 2,
+      "accuracy": 0.08,
+      "auroc_logp": 0.6075067934782609,
+      "auroc_sem_ent": 0.5103175951086957,
+      "auroc_self_cons": 0.502335258152174
+    },
+    {
+      "seed": 3,
+      "accuracy": 0.4225,
+      "auroc_logp": 0.7021696252465484,
+      "auroc_sem_ent": 0.6884141499526115,
+      "auroc_self_cons": 0.6786931017700248
+    },
+    {
+      "seed": 4,
+      "accuracy": 0.0875,
+      "auroc_logp": 0.5769080234833659,
+      "auroc_sem_ent": 0.5437181996086106,
+      "auroc_self_cons": 0.5053228962818004
+    }
+  ],
+  "summary": {
+    "logp_mean": 0.6626337303936878,
+    "logp_std": 0.07442303510567463,
+    "sem_ent_mean": 0.610134921168868,
+    "sem_ent_std": 0.074254966558506,
+    "self_cons_mean": 0.591519979746027,
+    "self_cons_std": 0.07611984331188845,
+    "n_logp_wins_sem": 5,
+    "n_logp_wins_sc": 5
+  }
+}

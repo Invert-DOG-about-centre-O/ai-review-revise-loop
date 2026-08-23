@@ -1,0 +1,59 @@
+{
+  "n": 400,
+  "accuracy": 0.3275,
+  "k_samples": 8,
+  "auroc": {
+    "first_token_entropy (1 pass)": 0.5244473452708647,
+    "neg_mean_logp (1 pass, greedy)": 0.6404551775021993,
+    "semantic_entropy (K=8 samples)": 0.614120718522092,
+    "neg_self_consistency_conf (K=8 samples)": 0.6032378898379637
+  },
+  "calibration": {
+    "logp_conf = exp(mean_logp) (1 pass)": {
+      "ece": 0.29049082392878095,
+      "brier": 0.29259536591271984
+    },
+    "self_consistency_conf (K=8 samples)": {
+      "ece": 0.023750000000000004,
+      "brier": 0.212890625
+    }
+  },
+  "tradeoff": {
+    "1": {
+      "sem_ent_auroc_mean": 0.5,
+      "sem_ent_auroc_std": 0.0,
+      "sc_auroc_mean": 0.5,
+      "sc_auroc_std": 0.0
+    },
+    "2": {
+      "sem_ent_auroc_mean": 0.5198442067028008,
+      "sem_ent_auroc_std": 0.01864240604956097,
+      "sc_auroc_mean": 0.5198442067028008,
+      "sc_auroc_std": 0.01864240604956097
+    },
+    "3": {
+      "sem_ent_auroc_mean": 0.5404580152671755,
+      "sem_ent_auroc_std": 0.022682715926492077,
+      "sc_auroc_mean": 0.5404580152671755,
+      "sc_auroc_std": 0.022682715926492077
+    },
+    "4": {
+      "sem_ent_auroc_mean": 0.5552126904849741,
+      "sem_ent_auroc_std": 0.021443279019988246,
+      "sc_auroc_mean": 0.5546462725957036,
+      "sc_auroc_std": 0.020749722712478276
+    },
+    "6": {
+      "sem_ent_auroc_mean": 0.593835806918471,
+      "sem_ent_auroc_std": 0.019791188332226414,
+      "sc_auroc_mean": 0.5828258463634041,
+      "sc_auroc_std": 0.0203399480591233
+    },
+    "8": {
+      "sem_ent_auroc_mean": 0.6152700133374954,
+      "sem_ent_auroc_std": 0.0,
+      "sc_auroc_mean": 0.6032378898379637,
+      "sc_auroc_std": 0.0
+    }
+  }
+}
