@@ -1,0 +1,26 @@
+seed=0 acc=0.307 auc_mlp=0.616 auc_se=0.582 auc_sc=0.567 ece_logp=0.347 ece_sc=0.044 rho(se,sc)=-0.880
+seed=1 acc=0.065 auc_mlp=0.476 auc_se=0.551 auc_sc=0.535 ece_logp=0.421 ece_sc=0.158 rho(se,sc)=-0.866
+seed=2 acc=0.398 auc_mlp=0.679 auc_se=0.576 auc_sc=0.572 ece_logp=0.296 ece_sc=0.078 rho(se,sc)=-0.853
+seed=3 acc=0.170 auc_mlp=0.660 auc_se=0.575 auc_sc=0.555 ece_logp=0.420 ece_sc=0.088 rho(se,sc)=-0.852
+seed=4 acc=0.077 auc_mlp=0.603 auc_se=0.544 auc_sc=0.532 ece_logp=0.401 ece_sc=0.143 rho(se,sc)=-0.872
+seed=5 acc=0.092 auc_mlp=0.584 auc_se=0.546 auc_sc=0.544 ece_logp=0.402 ece_sc=0.138 rho(se,sc)=-0.814
+seed=6 acc=0.403 auc_mlp=0.606 auc_se=0.552 auc_sc=0.554 ece_logp=0.317 ece_sc=0.096 rho(se,sc)=-0.866
+seed=7 acc=0.250 auc_mlp=0.621 auc_se=0.509 auc_sc=0.528 ece_logp=0.390 ece_sc=0.063 rho(se,sc)=-0.861
+seed=8 acc=0.417 auc_mlp=0.646 auc_se=0.534 auc_sc=0.538 ece_logp=0.296 ece_sc=0.088 rho(se,sc)=-0.868
+seed=9 acc=0.095 auc_mlp=0.458 auc_se=0.519 auc_sc=0.445 ece_logp=0.381 ece_sc=0.124 rho(se,sc)=-0.783
+
+=== Multi-seed calibration (all 10 seeds) ===
+ECE logp: mean=0.367 sd=0.047
+ECE sc:   mean=0.102 sd=0.035
+Brier logp: mean=0.288 sd=0.041
+Brier sc:   mean=0.170 sd=0.063
+sc better calibrated (lower ECE) in 10/10 seeds
+Spearman(se,sc): mean=-0.852 sd=0.029 (all seeds strongly negative: 10/10)
+
+=== Sensitivity: excluding 4 seeds with acc<10% (seeds [1, 4, 5, 9]) ===
+auc_mlp: all10 mean=0.595 sd=0.069  |  excl-low mean=0.638 sd=0.026 (n=6)
+auc_se: all10 mean=0.549 sd=0.023  |  excl-low mean=0.555 sd=0.026 (n=6)
+auc_sc: all10 mean=0.537 sd=0.034  |  excl-low mean=0.552 sd=0.015 (n=6)
+win counts excl-low: mlp>se 6/6, mlp>sc 6/6
+
+TOTAL_TIME 591.7s

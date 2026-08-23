@@ -1,0 +1,4002 @@
+[
+  {
+    "prompt": "7+35=",
+    "target": "42",
+    "greedy_out": "42",
+    "correct": 1,
+    "token_entropy": 0.7551388265565038,
+    "semantic_entropy": 1.4708084763221114,
+    "self_consistency": 0.4,
+    "digit_len": 2
+  },
+  {
+    "prompt": "53+35=",
+    "target": "88",
+    "greedy_out": "88",
+    "correct": 1,
+    "token_entropy": 0.23705366801004857,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "49-5=",
+    "target": "44",
+    "greedy_out": "43",
+    "correct": 0,
+    "token_entropy": 0.5467064453599354,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "44-43=",
+    "target": "1",
+    "greedy_out": "0",
+    "correct": 0,
+    "token_entropy": 0.3490188494324684,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 1
+  },
+  {
+    "prompt": "21+18=",
+    "target": "39",
+    "greedy_out": "39",
+    "correct": 1,
+    "token_entropy": 0.040200604795245454,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "43+90=",
+    "target": "133",
+    "greedy_out": "133",
+    "correct": 1,
+    "token_entropy": 0.04961512837326154,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "56-1=",
+    "target": "55",
+    "greedy_out": "55",
+    "correct": 1,
+    "token_entropy": 0.27765676317115623,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "77+49=",
+    "target": "126",
+    "greedy_out": "126",
+    "correct": 1,
+    "token_entropy": 0.043292012298479676,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "41+94=",
+    "target": "135",
+    "greedy_out": "136",
+    "correct": 0,
+    "token_entropy": 0.17664814443560317,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "12-6=",
+    "target": "6",
+    "greedy_out": "6",
+    "correct": 1,
+    "token_entropy": 0.9720420108642429,
+    "semantic_entropy": 1.2798542258336676,
+    "self_consistency": 0.2,
+    "digit_len": 1
+  },
+  {
+    "prompt": "17+3=",
+    "target": "20",
+    "greedy_out": "20",
+    "correct": 1,
+    "token_entropy": 1.000178645675381,
+    "semantic_entropy": 2.1639556568820564,
+    "self_consistency": 0.1,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56+74=",
+    "target": "130",
+    "greedy_out": "130",
+    "correct": 1,
+    "token_entropy": 0.06365509930765256,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "61-5=",
+    "target": "56",
+    "greedy_out": "56",
+    "correct": 1,
+    "token_entropy": 0.13992488787819943,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "67-44=",
+    "target": "23",
+    "greedy_out": "23",
+    "correct": 1,
+    "token_entropy": 0.0960817967231075,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "78-27=",
+    "target": "51",
+    "greedy_out": "51",
+    "correct": 1,
+    "token_entropy": 0.25419403791117173,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "73+41=",
+    "target": "114",
+    "greedy_out": "114",
+    "correct": 1,
+    "token_entropy": 0.046776000410318375,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "99-83=",
+    "target": "16",
+    "greedy_out": "16",
+    "correct": 1,
+    "token_entropy": 0.1272575629215377,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "88-69=",
+    "target": "19",
+    "greedy_out": "19",
+    "correct": 1,
+    "token_entropy": 0.049897062592208385,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "86-77=",
+    "target": "9",
+    "greedy_out": "9",
+    "correct": 1,
+    "token_entropy": 0.030110623687505722,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "67-63=",
+    "target": "4",
+    "greedy_out": "3",
+    "correct": 0,
+    "token_entropy": 0.3623699576128274,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.4,
+    "digit_len": 1
+  },
+  {
+    "prompt": "48+66=",
+    "target": "114",
+    "greedy_out": "114",
+    "correct": 1,
+    "token_entropy": 0.09989538963418454,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "97+83=",
+    "target": "180",
+    "greedy_out": "180",
+    "correct": 1,
+    "token_entropy": 0.06540315091842785,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "63-11=",
+    "target": "52",
+    "greedy_out": "52",
+    "correct": 1,
+    "token_entropy": 0.22533631689536074,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "22+43=",
+    "target": "65",
+    "greedy_out": "65",
+    "correct": 1,
+    "token_entropy": 0.1565368582184116,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "51-10=",
+    "target": "41",
+    "greedy_out": "41",
+    "correct": 1,
+    "token_entropy": 0.058615031419321895,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "74-50=",
+    "target": "24",
+    "greedy_out": "24",
+    "correct": 1,
+    "token_entropy": 0.07313404614493872,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "25-3=",
+    "target": "22",
+    "greedy_out": "20",
+    "correct": 0,
+    "token_entropy": 0.3768214149943863,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "81+47=",
+    "target": "128",
+    "greedy_out": "128",
+    "correct": 1,
+    "token_entropy": 0.0500088504049927,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "46+30=",
+    "target": "76",
+    "greedy_out": "76",
+    "correct": 1,
+    "token_entropy": 0.06717975305703779,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "93-65=",
+    "target": "28",
+    "greedy_out": "28",
+    "correct": 1,
+    "token_entropy": 0.0536792422644794,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "8+82=",
+    "target": "90",
+    "greedy_out": "90",
+    "correct": 1,
+    "token_entropy": 0.7078529609522471,
+    "semantic_entropy": 1.8866967846580784,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "98-64=",
+    "target": "34",
+    "greedy_out": "34",
+    "correct": 1,
+    "token_entropy": 0.09368931979406625,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "30+70=",
+    "target": "100",
+    "greedy_out": "100",
+    "correct": 1,
+    "token_entropy": 0.03029451216571033,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "23-20=",
+    "target": "3",
+    "greedy_out": "3",
+    "correct": 1,
+    "token_entropy": 0.4110915302298963,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 1
+  },
+  {
+    "prompt": "57-49=",
+    "target": "8",
+    "greedy_out": "8",
+    "correct": 1,
+    "token_entropy": 0.10858076205477118,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "6+2=",
+    "target": "8",
+    "greedy_out": "10",
+    "correct": 0,
+    "token_entropy": 1.5607637763023376,
+    "semantic_entropy": 2.0431918705451206,
+    "self_consistency": 0.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "25+3=",
+    "target": "28",
+    "greedy_out": "28",
+    "correct": 1,
+    "token_entropy": 0.8011055386159569,
+    "semantic_entropy": 1.2275294114572126,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "46+88=",
+    "target": "134",
+    "greedy_out": "134",
+    "correct": 1,
+    "token_entropy": 0.07513918104814366,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "56+82=",
+    "target": "138",
+    "greedy_out": "137",
+    "correct": 0,
+    "token_entropy": 0.10032021848019212,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "14+80=",
+    "target": "94",
+    "greedy_out": "94",
+    "correct": 1,
+    "token_entropy": 0.10775076582406957,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "46+91=",
+    "target": "137",
+    "greedy_out": "137",
+    "correct": 1,
+    "token_entropy": 0.15405302768340334,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "56-2=",
+    "target": "54",
+    "greedy_out": "54",
+    "correct": 1,
+    "token_entropy": 0.4388446877516496,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "49-10=",
+    "target": "39",
+    "greedy_out": "39",
+    "correct": 1,
+    "token_entropy": 0.13266544816239426,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "82+52=",
+    "target": "134",
+    "greedy_out": "134",
+    "correct": 1,
+    "token_entropy": 0.0550047957804054,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "42-34=",
+    "target": "8",
+    "greedy_out": "8",
+    "correct": 1,
+    "token_entropy": 0.16735561611130834,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 1
+  },
+  {
+    "prompt": "97-5=",
+    "target": "92",
+    "greedy_out": "91",
+    "correct": 0,
+    "token_entropy": 0.5135520457212502,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54+45=",
+    "target": "99",
+    "greedy_out": "99",
+    "correct": 1,
+    "token_entropy": 0.029314197279745713,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "82-21=",
+    "target": "61",
+    "greedy_out": "61",
+    "correct": 1,
+    "token_entropy": 0.2575137621218649,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54-9=",
+    "target": "45",
+    "greedy_out": "46",
+    "correct": 0,
+    "token_entropy": 0.18140920585331818,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87+19=",
+    "target": "106",
+    "greedy_out": "106",
+    "correct": 1,
+    "token_entropy": 0.0645608261693269,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "31+96=",
+    "target": "127",
+    "greedy_out": "127",
+    "correct": 1,
+    "token_entropy": 0.10333688183163758,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "81-8=",
+    "target": "73",
+    "greedy_out": "73",
+    "correct": 1,
+    "token_entropy": 0.27591693521632504,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "50+69=",
+    "target": "119",
+    "greedy_out": "119",
+    "correct": 1,
+    "token_entropy": 0.036022145402967,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "99-84=",
+    "target": "15",
+    "greedy_out": "15",
+    "correct": 1,
+    "token_entropy": 0.12212729487024869,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "50+48=",
+    "target": "98",
+    "greedy_out": "98",
+    "correct": 1,
+    "token_entropy": 0.18056682274133587,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "44+67=",
+    "target": "111",
+    "greedy_out": "111",
+    "correct": 1,
+    "token_entropy": 0.034974300826434046,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "22+76=",
+    "target": "98",
+    "greedy_out": "98",
+    "correct": 1,
+    "token_entropy": 0.09336779307341203,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "8+95=",
+    "target": "103",
+    "greedy_out": "102",
+    "correct": 0,
+    "token_entropy": 0.3852777465217514,
+    "semantic_entropy": 1.2206072645530175,
+    "self_consistency": 0.5,
+    "digit_len": 3
+  },
+  {
+    "prompt": "86+3=",
+    "target": "89",
+    "greedy_out": "89",
+    "correct": 1,
+    "token_entropy": 0.45049747979889315,
+    "semantic_entropy": 0.9404479886553263,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "95-95=",
+    "target": "0",
+    "greedy_out": "0",
+    "correct": 1,
+    "token_entropy": 0.026768698036903515,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 1
+  },
+  {
+    "prompt": "92+86=",
+    "target": "178",
+    "greedy_out": "178",
+    "correct": 1,
+    "token_entropy": 0.10635965879191644,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "55+4=",
+    "target": "59",
+    "greedy_out": "69",
+    "correct": 0,
+    "token_entropy": 0.4258501293952577,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "67-42=",
+    "target": "25",
+    "greedy_out": "25",
+    "correct": 1,
+    "token_entropy": 0.03943338489625603,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "44-18=",
+    "target": "26",
+    "greedy_out": "27",
+    "correct": 0,
+    "token_entropy": 0.42160670284647495,
+    "semantic_entropy": 1.2798542258336676,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "70+93=",
+    "target": "163",
+    "greedy_out": "163",
+    "correct": 1,
+    "token_entropy": 0.07578536833170801,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "73+44=",
+    "target": "117",
+    "greedy_out": "117",
+    "correct": 1,
+    "token_entropy": 0.0800275812507607,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "65+32=",
+    "target": "97",
+    "greedy_out": "97",
+    "correct": 1,
+    "token_entropy": 0.23648708686232567,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "42+34=",
+    "target": "76",
+    "greedy_out": "76",
+    "correct": 1,
+    "token_entropy": 0.27436482029346126,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65-11=",
+    "target": "54",
+    "greedy_out": "54",
+    "correct": 1,
+    "token_entropy": 0.22362194342228273,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65-26=",
+    "target": "39",
+    "greedy_out": "39",
+    "correct": 1,
+    "token_entropy": 0.09324123073990147,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "3+25=",
+    "target": "28",
+    "greedy_out": "28",
+    "correct": 1,
+    "token_entropy": 0.2929802030945818,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "30-11=",
+    "target": "19",
+    "greedy_out": "19",
+    "correct": 1,
+    "token_entropy": 0.06785575331499179,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "44-11=",
+    "target": "33",
+    "greedy_out": "33",
+    "correct": 1,
+    "token_entropy": 0.131728195779336,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "18+69=",
+    "target": "87",
+    "greedy_out": "87",
+    "correct": 1,
+    "token_entropy": 0.14385944814421237,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "64-62=",
+    "target": "2",
+    "greedy_out": "2",
+    "correct": 1,
+    "token_entropy": 0.1304281057382468,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "33-4=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.24267626708994308,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "74+63=",
+    "target": "137",
+    "greedy_out": "137",
+    "correct": 1,
+    "token_entropy": 0.13214652123861015,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "65-29=",
+    "target": "36",
+    "greedy_out": "36",
+    "correct": 1,
+    "token_entropy": 0.18112923084603003,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "79+82=",
+    "target": "161",
+    "greedy_out": "161",
+    "correct": 1,
+    "token_entropy": 0.19718064556946047,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "78-77=",
+    "target": "1",
+    "greedy_out": "1",
+    "correct": 1,
+    "token_entropy": 0.12158075196202844,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "90-44=",
+    "target": "46",
+    "greedy_out": "46",
+    "correct": 1,
+    "token_entropy": 0.17534074963380894,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "89+7=",
+    "target": "96",
+    "greedy_out": "97",
+    "correct": 0,
+    "token_entropy": 0.8168061812369464,
+    "semantic_entropy": 1.8343719702816237,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "59-47=",
+    "target": "12",
+    "greedy_out": "12",
+    "correct": 1,
+    "token_entropy": 0.23376064186838144,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54+41=",
+    "target": "95",
+    "greedy_out": "95",
+    "correct": 1,
+    "token_entropy": 0.05563220575762292,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "99+58=",
+    "target": "157",
+    "greedy_out": "157",
+    "correct": 1,
+    "token_entropy": 0.1324604456895031,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "97-25=",
+    "target": "72",
+    "greedy_out": "82",
+    "correct": 0,
+    "token_entropy": 0.38898002651209634,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "49-24=",
+    "target": "25",
+    "greedy_out": "25",
+    "correct": 1,
+    "token_entropy": 0.20476468613681695,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "8+54=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.8020008456563422,
+    "semantic_entropy": 1.6434177197931799,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "34-23=",
+    "target": "11",
+    "greedy_out": "10",
+    "correct": 0,
+    "token_entropy": 0.14402775577036664,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "49+48=",
+    "target": "97",
+    "greedy_out": "97",
+    "correct": 1,
+    "token_entropy": 0.1924467432157447,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "38-16=",
+    "target": "22",
+    "greedy_out": "22",
+    "correct": 1,
+    "token_entropy": 0.06577730188534285,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65+78=",
+    "target": "143",
+    "greedy_out": "143",
+    "correct": 1,
+    "token_entropy": 0.08808246289845556,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "49-7=",
+    "target": "42",
+    "greedy_out": "42",
+    "correct": 1,
+    "token_entropy": 0.4293610940221697,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "39+14=",
+    "target": "53",
+    "greedy_out": "53",
+    "correct": 1,
+    "token_entropy": 0.07274202183665086,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "98+91=",
+    "target": "189",
+    "greedy_out": "189",
+    "correct": 1,
+    "token_entropy": 0.08888873585237889,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "83+58=",
+    "target": "141",
+    "greedy_out": "141",
+    "correct": 1,
+    "token_entropy": 0.07341905181237962,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "73-57=",
+    "target": "16",
+    "greedy_out": "16",
+    "correct": 1,
+    "token_entropy": 0.25761064450489357,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "32+89=",
+    "target": "121",
+    "greedy_out": "121",
+    "correct": 1,
+    "token_entropy": 0.06663196487352252,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "74+36=",
+    "target": "110",
+    "greedy_out": "110",
+    "correct": 1,
+    "token_entropy": 0.016253200912615284,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "7+24=",
+    "target": "31",
+    "greedy_out": "32",
+    "correct": 0,
+    "token_entropy": 0.8828130029918005,
+    "semantic_entropy": 1.8343719702816237,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "55+85=",
+    "target": "140",
+    "greedy_out": "140",
+    "correct": 1,
+    "token_entropy": 0.0622227838030085,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "62-17=",
+    "target": "45",
+    "greedy_out": "45",
+    "correct": 1,
+    "token_entropy": 0.11422749181898932,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "61+70=",
+    "target": "131",
+    "greedy_out": "131",
+    "correct": 1,
+    "token_entropy": 0.06258126726606861,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "48-29=",
+    "target": "19",
+    "greedy_out": "19",
+    "correct": 1,
+    "token_entropy": 0.0448539179439346,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "60-5=",
+    "target": "55",
+    "greedy_out": "55",
+    "correct": 1,
+    "token_entropy": 0.15372781222686172,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "77-37=",
+    "target": "40",
+    "greedy_out": "40",
+    "correct": 1,
+    "token_entropy": 0.10141674819169566,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "42-2=",
+    "target": "40",
+    "greedy_out": "40",
+    "correct": 1,
+    "token_entropy": 0.2529774750000797,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "89-30=",
+    "target": "59",
+    "greedy_out": "59",
+    "correct": 1,
+    "token_entropy": 0.22341881785541773,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "33+37=",
+    "target": "70",
+    "greedy_out": "70",
+    "correct": 1,
+    "token_entropy": 0.20340917775562653,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54+46=",
+    "target": "100",
+    "greedy_out": "100",
+    "correct": 1,
+    "token_entropy": 0.06422941124765202,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "78+2=",
+    "target": "80",
+    "greedy_out": "79",
+    "correct": 0,
+    "token_entropy": 0.5924206746664519,
+    "semantic_entropy": 0.8979457248567798,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "22+26=",
+    "target": "48",
+    "greedy_out": "48",
+    "correct": 1,
+    "token_entropy": 0.10572848226487015,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "68-22=",
+    "target": "46",
+    "greedy_out": "46",
+    "correct": 1,
+    "token_entropy": 0.0975429534058397,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "68+25=",
+    "target": "93",
+    "greedy_out": "93",
+    "correct": 1,
+    "token_entropy": 0.0605280032614246,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "60+29=",
+    "target": "89",
+    "greedy_out": "89",
+    "correct": 1,
+    "token_entropy": 0.08930874476209283,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "12+14=",
+    "target": "26",
+    "greedy_out": "26",
+    "correct": 1,
+    "token_entropy": 0.27682672441005707,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "70+72=",
+    "target": "142",
+    "greedy_out": "142",
+    "correct": 1,
+    "token_entropy": 0.1893066861666739,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 3
+  },
+  {
+    "prompt": "67-25=",
+    "target": "42",
+    "greedy_out": "42",
+    "correct": 1,
+    "token_entropy": 0.10483147029299289,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "82-9=",
+    "target": "73",
+    "greedy_out": "73",
+    "correct": 1,
+    "token_entropy": 0.3244814853242133,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "53+58=",
+    "target": "111",
+    "greedy_out": "111",
+    "correct": 1,
+    "token_entropy": 0.033922204209375195,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "73-56=",
+    "target": "17",
+    "greedy_out": "17",
+    "correct": 1,
+    "token_entropy": 0.22330584369289377,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56+67=",
+    "target": "123",
+    "greedy_out": "123",
+    "correct": 1,
+    "token_entropy": 0.13378421080415137,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "64+18=",
+    "target": "82",
+    "greedy_out": "92",
+    "correct": 0,
+    "token_entropy": 0.3908548458324124,
+    "semantic_entropy": 1.0888999753452238,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "31-28=",
+    "target": "3",
+    "greedy_out": "3",
+    "correct": 1,
+    "token_entropy": 0.07810226094443351,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "32+27=",
+    "target": "59",
+    "greedy_out": "59",
+    "correct": 1,
+    "token_entropy": 0.12447694209792341,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "4+2=",
+    "target": "6",
+    "greedy_out": "10",
+    "correct": 0,
+    "token_entropy": 1.6352054178714752,
+    "semantic_entropy": 1.7351264569629226,
+    "self_consistency": 0.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "42+71=",
+    "target": "113",
+    "greedy_out": "113",
+    "correct": 1,
+    "token_entropy": 0.0278693531290628,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "94-32=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.21270161789531508,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56+90=",
+    "target": "146",
+    "greedy_out": "146",
+    "correct": 1,
+    "token_entropy": 0.0886841217870824,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "24+39=",
+    "target": "63",
+    "greedy_out": "63",
+    "correct": 1,
+    "token_entropy": 0.11136220042438556,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "86-83=",
+    "target": "3",
+    "greedy_out": "3",
+    "correct": 1,
+    "token_entropy": 0.3539754333323799,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 1
+  },
+  {
+    "prompt": "28+66=",
+    "target": "94",
+    "greedy_out": "94",
+    "correct": 1,
+    "token_entropy": 0.04702669273441037,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "47+20=",
+    "target": "67",
+    "greedy_out": "67",
+    "correct": 1,
+    "token_entropy": 0.08448017603950575,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54-29=",
+    "target": "25",
+    "greedy_out": "26",
+    "correct": 0,
+    "token_entropy": 0.24788258182040104,
+    "semantic_entropy": 0.6931471805599453,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56-51=",
+    "target": "5",
+    "greedy_out": "5",
+    "correct": 1,
+    "token_entropy": 0.3401186313130893,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 1
+  },
+  {
+    "prompt": "50-10=",
+    "target": "40",
+    "greedy_out": "40",
+    "correct": 1,
+    "token_entropy": 0.06131090402292708,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "64+6=",
+    "target": "70",
+    "greedy_out": "70",
+    "correct": 1,
+    "token_entropy": 0.4608165605459362,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "94-61=",
+    "target": "33",
+    "greedy_out": "33",
+    "correct": 1,
+    "token_entropy": 0.09838525087495024,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "14+17=",
+    "target": "31",
+    "greedy_out": "31",
+    "correct": 1,
+    "token_entropy": 0.05607620641239919,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71-46=",
+    "target": "25",
+    "greedy_out": "25",
+    "correct": 1,
+    "token_entropy": 0.27120482673247653,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "57+67=",
+    "target": "124",
+    "greedy_out": "124",
+    "correct": 1,
+    "token_entropy": 0.14739061571890488,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "47+28=",
+    "target": "75",
+    "greedy_out": "75",
+    "correct": 1,
+    "token_entropy": 0.06537274915414552,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "14-7=",
+    "target": "7",
+    "greedy_out": "7",
+    "correct": 1,
+    "token_entropy": 0.9296436202712357,
+    "semantic_entropy": 1.1490596969706202,
+    "self_consistency": 0.2,
+    "digit_len": 1
+  },
+  {
+    "prompt": "97-13=",
+    "target": "84",
+    "greedy_out": "84",
+    "correct": 1,
+    "token_entropy": 0.29406954639125615,
+    "semantic_entropy": 0.6931471805599453,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "42+95=",
+    "target": "137",
+    "greedy_out": "137",
+    "correct": 1,
+    "token_entropy": 0.07790012477198616,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "86-27=",
+    "target": "59",
+    "greedy_out": "59",
+    "correct": 1,
+    "token_entropy": 0.1802470963448286,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "24+54=",
+    "target": "78",
+    "greedy_out": "78",
+    "correct": 1,
+    "token_entropy": 0.06253990796782698,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "61-18=",
+    "target": "43",
+    "greedy_out": "43",
+    "correct": 1,
+    "token_entropy": 0.05060478594775001,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "21-1=",
+    "target": "20",
+    "greedy_out": "20",
+    "correct": 1,
+    "token_entropy": 0.5439519458062326,
+    "semantic_entropy": 1.0888999753452238,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "12+43=",
+    "target": "55",
+    "greedy_out": "55",
+    "correct": 1,
+    "token_entropy": 0.16628822381608188,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "19+29=",
+    "target": "48",
+    "greedy_out": "48",
+    "correct": 1,
+    "token_entropy": 0.5730049709479014,
+    "semantic_entropy": 1.4978661367769954,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "26+85=",
+    "target": "111",
+    "greedy_out": "111",
+    "correct": 1,
+    "token_entropy": 0.03384794136218261,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "8+20=",
+    "target": "28",
+    "greedy_out": "29",
+    "correct": 0,
+    "token_entropy": 0.7990702276971812,
+    "semantic_entropy": 1.6957425341696346,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90+12=",
+    "target": "102",
+    "greedy_out": "102",
+    "correct": 1,
+    "token_entropy": 0.08457781860488467,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "6+46=",
+    "target": "52",
+    "greedy_out": "51",
+    "correct": 0,
+    "token_entropy": 0.6149755230386896,
+    "semantic_entropy": 1.3592367006650063,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "27+31=",
+    "target": "58",
+    "greedy_out": "57",
+    "correct": 0,
+    "token_entropy": 0.25111251198298606,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56-44=",
+    "target": "12",
+    "greedy_out": "12",
+    "correct": 1,
+    "token_entropy": 0.2290652699302882,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "12+87=",
+    "target": "99",
+    "greedy_out": "99",
+    "correct": 1,
+    "token_entropy": 0.0416401860905656,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "42+86=",
+    "target": "128",
+    "greedy_out": "128",
+    "correct": 1,
+    "token_entropy": 0.05491877088934416,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "30+8=",
+    "target": "38",
+    "greedy_out": "39",
+    "correct": 0,
+    "token_entropy": 0.7692534713229785,
+    "semantic_entropy": 1.8866967846580784,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "15-9=",
+    "target": "6",
+    "greedy_out": "6",
+    "correct": 1,
+    "token_entropy": 0.8711115557234734,
+    "semantic_entropy": 1.2798542258336676,
+    "self_consistency": 0.4,
+    "digit_len": 1
+  },
+  {
+    "prompt": "37+31=",
+    "target": "68",
+    "greedy_out": "67",
+    "correct": 0,
+    "token_entropy": 0.23642179412612072,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "78-1=",
+    "target": "77",
+    "greedy_out": "77",
+    "correct": 1,
+    "token_entropy": 0.3042931141098961,
+    "semantic_entropy": 0.8979457248567798,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "83+70=",
+    "target": "153",
+    "greedy_out": "153",
+    "correct": 1,
+    "token_entropy": 0.08610201277770102,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "54+72=",
+    "target": "126",
+    "greedy_out": "126",
+    "correct": 1,
+    "token_entropy": 0.05455759109463543,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "81-17=",
+    "target": "64",
+    "greedy_out": "64",
+    "correct": 1,
+    "token_entropy": 0.21823011113641164,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "5+78=",
+    "target": "83",
+    "greedy_out": "92",
+    "correct": 0,
+    "token_entropy": 0.8276448002822386,
+    "semantic_entropy": 1.4708084763221114,
+    "self_consistency": 0.4,
+    "digit_len": 2
+  },
+  {
+    "prompt": "89-41=",
+    "target": "48",
+    "greedy_out": "48",
+    "correct": 1,
+    "token_entropy": 0.11956259293947369,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65-45=",
+    "target": "20",
+    "greedy_out": "20",
+    "correct": 1,
+    "token_entropy": 0.020773391336357843,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "83+38=",
+    "target": "121",
+    "greedy_out": "121",
+    "correct": 1,
+    "token_entropy": 0.050641466325032525,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "93-24=",
+    "target": "69",
+    "greedy_out": "69",
+    "correct": 1,
+    "token_entropy": 0.14631070161703974,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "57-14=",
+    "target": "43",
+    "greedy_out": "43",
+    "correct": 1,
+    "token_entropy": 0.1461214643010559,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "96+69=",
+    "target": "165",
+    "greedy_out": "165",
+    "correct": 1,
+    "token_entropy": 0.05476895865285769,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "82+87=",
+    "target": "169",
+    "greedy_out": "169",
+    "correct": 1,
+    "token_entropy": 0.1360110891982913,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "27+93=",
+    "target": "120",
+    "greedy_out": "120",
+    "correct": 1,
+    "token_entropy": 0.03245802866877057,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "62-37=",
+    "target": "25",
+    "greedy_out": "25",
+    "correct": 1,
+    "token_entropy": 0.10348068278593321,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71+70=",
+    "target": "141",
+    "greedy_out": "141",
+    "correct": 1,
+    "token_entropy": 0.05593338160542771,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "34-4=",
+    "target": "30",
+    "greedy_out": "30",
+    "correct": 1,
+    "token_entropy": 0.2898988702024023,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "98-81=",
+    "target": "17",
+    "greedy_out": "17",
+    "correct": 1,
+    "token_entropy": 0.10261430678656325,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "25+47=",
+    "target": "72",
+    "greedy_out": "72",
+    "correct": 1,
+    "token_entropy": 0.07877176208421588,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "92-18=",
+    "target": "74",
+    "greedy_out": "74",
+    "correct": 1,
+    "token_entropy": 0.17508864930520454,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "35-16=",
+    "target": "19",
+    "greedy_out": "19",
+    "correct": 1,
+    "token_entropy": 0.03230598056688905,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "10+47=",
+    "target": "57",
+    "greedy_out": "57",
+    "correct": 1,
+    "token_entropy": 0.1662687895974765,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "33+47=",
+    "target": "80",
+    "greedy_out": "80",
+    "correct": 1,
+    "token_entropy": 0.0910841811564751,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "53-12=",
+    "target": "41",
+    "greedy_out": "41",
+    "correct": 1,
+    "token_entropy": 0.07653411442879587,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71-67=",
+    "target": "4",
+    "greedy_out": "4",
+    "correct": 1,
+    "token_entropy": 0.09440642758272588,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 1
+  },
+  {
+    "prompt": "86+69=",
+    "target": "155",
+    "greedy_out": "155",
+    "correct": 1,
+    "token_entropy": 0.06270443624816835,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "43-37=",
+    "target": "6",
+    "greedy_out": "6",
+    "correct": 1,
+    "token_entropy": 0.1624137318576686,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "98-82=",
+    "target": "16",
+    "greedy_out": "16",
+    "correct": 1,
+    "token_entropy": 0.08684529893798754,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "57-40=",
+    "target": "17",
+    "greedy_out": "17",
+    "correct": 1,
+    "token_entropy": 0.09590889043950786,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "12-1=",
+    "target": "11",
+    "greedy_out": "10",
+    "correct": 0,
+    "token_entropy": 0.9860107056156266,
+    "semantic_entropy": 1.5047882836811908,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "80-13=",
+    "target": "67",
+    "greedy_out": "67",
+    "correct": 1,
+    "token_entropy": 0.20031507848761976,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "57-50=",
+    "target": "7",
+    "greedy_out": "7",
+    "correct": 1,
+    "token_entropy": 0.42224550899118185,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 1
+  },
+  {
+    "prompt": "46+87=",
+    "target": "133",
+    "greedy_out": "133",
+    "correct": 1,
+    "token_entropy": 0.14068246056558564,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "17+50=",
+    "target": "67",
+    "greedy_out": "67",
+    "correct": 1,
+    "token_entropy": 0.10506692660662036,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "31-27=",
+    "target": "4",
+    "greedy_out": "4",
+    "correct": 1,
+    "token_entropy": 0.10316178208449855,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "54-17=",
+    "target": "37",
+    "greedy_out": "37",
+    "correct": 1,
+    "token_entropy": 0.1524011044530198,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "23-11=",
+    "target": "12",
+    "greedy_out": "12",
+    "correct": 1,
+    "token_entropy": 0.08850732579594478,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54-22=",
+    "target": "32",
+    "greedy_out": "32",
+    "correct": 1,
+    "token_entropy": 0.04670282414493462,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "50+40=",
+    "target": "90",
+    "greedy_out": "90",
+    "correct": 1,
+    "token_entropy": 0.022785003219420712,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "16-4=",
+    "target": "12",
+    "greedy_out": "10",
+    "correct": 0,
+    "token_entropy": 0.6892275025505418,
+    "semantic_entropy": 1.4708084763221114,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "51-35=",
+    "target": "16",
+    "greedy_out": "16",
+    "correct": 1,
+    "token_entropy": 0.1880777662542338,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87-82=",
+    "target": "5",
+    "greedy_out": "5",
+    "correct": 1,
+    "token_entropy": 0.314722594426712,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 1
+  },
+  {
+    "prompt": "25+40=",
+    "target": "65",
+    "greedy_out": "65",
+    "correct": 1,
+    "token_entropy": 0.07150277006439865,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71+85=",
+    "target": "156",
+    "greedy_out": "156",
+    "correct": 1,
+    "token_entropy": 0.16327773849479854,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.4,
+    "digit_len": 3
+  },
+  {
+    "prompt": "3+86=",
+    "target": "89",
+    "greedy_out": "89",
+    "correct": 1,
+    "token_entropy": 0.553875046238924,
+    "semantic_entropy": 1.1682824501765625,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "37+26=",
+    "target": "63",
+    "greedy_out": "63",
+    "correct": 1,
+    "token_entropy": 0.07444633382450168,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "64+6=",
+    "target": "70",
+    "greedy_out": "70",
+    "correct": 1,
+    "token_entropy": 0.4608165605459362,
+    "semantic_entropy": 1.2206072645530175,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "22-20=",
+    "target": "2",
+    "greedy_out": "1",
+    "correct": 0,
+    "token_entropy": 0.3969499170780182,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 1
+  },
+  {
+    "prompt": "71-29=",
+    "target": "42",
+    "greedy_out": "42",
+    "correct": 1,
+    "token_entropy": 0.2449635017546825,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "58-9=",
+    "target": "49",
+    "greedy_out": "49",
+    "correct": 1,
+    "token_entropy": 0.31283485528547317,
+    "semantic_entropy": 1.2275294114572126,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "52-25=",
+    "target": "27",
+    "greedy_out": "27",
+    "correct": 1,
+    "token_entropy": 0.09949606280618657,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "92-56=",
+    "target": "36",
+    "greedy_out": "36",
+    "correct": 1,
+    "token_entropy": 0.13637026022964469,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "47-10=",
+    "target": "37",
+    "greedy_out": "37",
+    "correct": 1,
+    "token_entropy": 0.28805668229081977,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "28+12=",
+    "target": "40",
+    "greedy_out": "40",
+    "correct": 1,
+    "token_entropy": 0.04663238922754923,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "69-40=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.11713925855777536,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "27+87=",
+    "target": "114",
+    "greedy_out": "114",
+    "correct": 1,
+    "token_entropy": 0.08218712784582749,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "83+68=",
+    "target": "151",
+    "greedy_out": "151",
+    "correct": 1,
+    "token_entropy": 0.06871104518359061,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "92-7=",
+    "target": "85",
+    "greedy_out": "85",
+    "correct": 1,
+    "token_entropy": 0.303674240266749,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "94-61=",
+    "target": "33",
+    "greedy_out": "33",
+    "correct": 1,
+    "token_entropy": 0.09838525087495024,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "43+85=",
+    "target": "128",
+    "greedy_out": "128",
+    "correct": 1,
+    "token_entropy": 0.052260941149143036,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "85-52=",
+    "target": "33",
+    "greedy_out": "33",
+    "correct": 1,
+    "token_entropy": 0.16751784037721032,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "85+88=",
+    "target": "173",
+    "greedy_out": "173",
+    "correct": 1,
+    "token_entropy": 0.11934725637547672,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "6+28=",
+    "target": "34",
+    "greedy_out": "31",
+    "correct": 0,
+    "token_entropy": 0.6439622693190662,
+    "semantic_entropy": 1.5047882836811908,
+    "self_consistency": 0.1,
+    "digit_len": 2
+  },
+  {
+    "prompt": "83-18=",
+    "target": "65",
+    "greedy_out": "65",
+    "correct": 1,
+    "token_entropy": 0.32948108595640707,
+    "semantic_entropy": 0.9433483923290392,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "85+75=",
+    "target": "160",
+    "greedy_out": "160",
+    "correct": 1,
+    "token_entropy": 0.03354806838615332,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "66-54=",
+    "target": "12",
+    "greedy_out": "12",
+    "correct": 1,
+    "token_entropy": 0.2047776306862943,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "53-37=",
+    "target": "16",
+    "greedy_out": "16",
+    "correct": 1,
+    "token_entropy": 0.11335313017480075,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "69-68=",
+    "target": "1",
+    "greedy_out": "1",
+    "correct": 1,
+    "token_entropy": 0.0952065991004929,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "71-12=",
+    "target": "59",
+    "greedy_out": "69",
+    "correct": 0,
+    "token_entropy": 0.20746833815549812,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "75-1=",
+    "target": "74",
+    "greedy_out": "74",
+    "correct": 1,
+    "token_entropy": 0.28361903662638116,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "67-19=",
+    "target": "48",
+    "greedy_out": "48",
+    "correct": 1,
+    "token_entropy": 0.16859885995897153,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "85+77=",
+    "target": "162",
+    "greedy_out": "162",
+    "correct": 1,
+    "token_entropy": 0.07281664799666032,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "84-32=",
+    "target": "52",
+    "greedy_out": "52",
+    "correct": 1,
+    "token_entropy": 0.14126230465869108,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71+62=",
+    "target": "133",
+    "greedy_out": "133",
+    "correct": 1,
+    "token_entropy": 0.15988873783499002,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "38+97=",
+    "target": "135",
+    "greedy_out": "135",
+    "correct": 1,
+    "token_entropy": 0.13034678425174206,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "83+95=",
+    "target": "178",
+    "greedy_out": "178",
+    "correct": 1,
+    "token_entropy": 0.11998164049873594,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "98-69=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.055052886717021465,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "84-76=",
+    "target": "8",
+    "greedy_out": "9",
+    "correct": 0,
+    "token_entropy": 0.3454852554714307,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 1
+  },
+  {
+    "prompt": "44+26=",
+    "target": "70",
+    "greedy_out": "70",
+    "correct": 1,
+    "token_entropy": 0.07707819255301729,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "48-7=",
+    "target": "41",
+    "greedy_out": "41",
+    "correct": 1,
+    "token_entropy": 0.35055903263855726,
+    "semantic_entropy": 1.0888999753452238,
+    "self_consistency": 0.4,
+    "digit_len": 2
+  },
+  {
+    "prompt": "63-48=",
+    "target": "15",
+    "greedy_out": "16",
+    "correct": 0,
+    "token_entropy": 0.23284476114592204,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "85-23=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.33295635735460866,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "85+80=",
+    "target": "165",
+    "greedy_out": "165",
+    "correct": 1,
+    "token_entropy": 0.1864097323268652,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "74-50=",
+    "target": "24",
+    "greedy_out": "24",
+    "correct": 1,
+    "token_entropy": 0.07313404614493872,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87-65=",
+    "target": "22",
+    "greedy_out": "22",
+    "correct": 1,
+    "token_entropy": 0.06040739881185194,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "98-63=",
+    "target": "35",
+    "greedy_out": "35",
+    "correct": 1,
+    "token_entropy": 0.0855579871761923,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "97-30=",
+    "target": "67",
+    "greedy_out": "67",
+    "correct": 1,
+    "token_entropy": 0.1470543961816778,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "68+64=",
+    "target": "132",
+    "greedy_out": "132",
+    "correct": 1,
+    "token_entropy": 0.04299583401007112,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "81-78=",
+    "target": "3",
+    "greedy_out": "3",
+    "correct": 1,
+    "token_entropy": 0.08599077339749783,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "98-84=",
+    "target": "14",
+    "greedy_out": "14",
+    "correct": 1,
+    "token_entropy": 0.09798850868052493,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "44+87=",
+    "target": "131",
+    "greedy_out": "131",
+    "correct": 1,
+    "token_entropy": 0.04960068821674213,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "31-14=",
+    "target": "17",
+    "greedy_out": "17",
+    "correct": 1,
+    "token_entropy": 0.10331074870191514,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "89-7=",
+    "target": "82",
+    "greedy_out": "82",
+    "correct": 1,
+    "token_entropy": 0.4462461057507123,
+    "semantic_entropy": 0.8979457248567798,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "48-19=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.07592766017963488,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "19-18=",
+    "target": "1",
+    "greedy_out": "1",
+    "correct": 1,
+    "token_entropy": 0.21424698363989592,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 1
+  },
+  {
+    "prompt": "88-22=",
+    "target": "66",
+    "greedy_out": "66",
+    "correct": 1,
+    "token_entropy": 0.28048765775747597,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "96-23=",
+    "target": "73",
+    "greedy_out": "83",
+    "correct": 0,
+    "token_entropy": 0.33179376090023044,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "66-32=",
+    "target": "34",
+    "greedy_out": "34",
+    "correct": 1,
+    "token_entropy": 0.06088632019236684,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "99-24=",
+    "target": "75",
+    "greedy_out": "85",
+    "correct": 0,
+    "token_entropy": 0.35456730351628113,
+    "semantic_entropy": 0.9502705392332347,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65+86=",
+    "target": "151",
+    "greedy_out": "151",
+    "correct": 1,
+    "token_entropy": 0.058724705100758,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "20+36=",
+    "target": "56",
+    "greedy_out": "56",
+    "correct": 1,
+    "token_entropy": 0.2745026741564895,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87-65=",
+    "target": "22",
+    "greedy_out": "22",
+    "correct": 1,
+    "token_entropy": 0.06040739881185194,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "29+9=",
+    "target": "38",
+    "greedy_out": "38",
+    "correct": 1,
+    "token_entropy": 0.7600302705153202,
+    "semantic_entropy": 1.6094379124341003,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "61+51=",
+    "target": "112",
+    "greedy_out": "112",
+    "correct": 1,
+    "token_entropy": 0.05173053027829155,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "82-55=",
+    "target": "27",
+    "greedy_out": "27",
+    "correct": 1,
+    "token_entropy": 0.16100455475195,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90-12=",
+    "target": "78",
+    "greedy_out": "79",
+    "correct": 0,
+    "token_entropy": 0.16111655766144395,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "57+60=",
+    "target": "117",
+    "greedy_out": "117",
+    "correct": 1,
+    "token_entropy": 0.0381693074159557,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "92-5=",
+    "target": "87",
+    "greedy_out": "87",
+    "correct": 1,
+    "token_entropy": 0.1580576293830139,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "47-42=",
+    "target": "5",
+    "greedy_out": "4",
+    "correct": 0,
+    "token_entropy": 0.3557316908845678,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 1
+  },
+  {
+    "prompt": "90-71=",
+    "target": "19",
+    "greedy_out": "19",
+    "correct": 1,
+    "token_entropy": 0.20196839173634848,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "72-61=",
+    "target": "11",
+    "greedy_out": "11",
+    "correct": 1,
+    "token_entropy": 0.11241548834368587,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "76+89=",
+    "target": "165",
+    "greedy_out": "165",
+    "correct": 1,
+    "token_entropy": 0.04500973370159045,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "30+5=",
+    "target": "35",
+    "greedy_out": "37",
+    "correct": 0,
+    "token_entropy": 0.5064705801196396,
+    "semantic_entropy": 0.9433483923290392,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "84+58=",
+    "target": "142",
+    "greedy_out": "142",
+    "correct": 1,
+    "token_entropy": 0.05543902181671001,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "87+61=",
+    "target": "148",
+    "greedy_out": "148",
+    "correct": 1,
+    "token_entropy": 0.08131784500437789,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "45-2=",
+    "target": "43",
+    "greedy_out": "43",
+    "correct": 1,
+    "token_entropy": 0.3344872190306584,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "35-17=",
+    "target": "18",
+    "greedy_out": "18",
+    "correct": 1,
+    "token_entropy": 0.05152748400966326,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "46+70=",
+    "target": "116",
+    "greedy_out": "116",
+    "correct": 1,
+    "token_entropy": 0.03967666847165674,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "10+45=",
+    "target": "55",
+    "greedy_out": "56",
+    "correct": 0,
+    "token_entropy": 0.26118678368705633,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "16-7=",
+    "target": "9",
+    "greedy_out": "8",
+    "correct": 0,
+    "token_entropy": 0.8525258721783757,
+    "semantic_entropy": 1.6957425341696346,
+    "self_consistency": 0.2,
+    "digit_len": 1
+  },
+  {
+    "prompt": "67-2=",
+    "target": "65",
+    "greedy_out": "65",
+    "correct": 1,
+    "token_entropy": 0.42854016640922055,
+    "semantic_entropy": 1.1682824501765625,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "66+54=",
+    "target": "120",
+    "greedy_out": "120",
+    "correct": 1,
+    "token_entropy": 0.03447939068428241,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "64-9=",
+    "target": "55",
+    "greedy_out": "56",
+    "correct": 0,
+    "token_entropy": 0.17216414562426507,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "24+45=",
+    "target": "69",
+    "greedy_out": "69",
+    "correct": 1,
+    "token_entropy": 0.03326422876367966,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90-54=",
+    "target": "36",
+    "greedy_out": "36",
+    "correct": 1,
+    "token_entropy": 0.16041414866534373,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "15+51=",
+    "target": "66",
+    "greedy_out": "66",
+    "correct": 1,
+    "token_entropy": 0.05808583208514998,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "66+49=",
+    "target": "115",
+    "greedy_out": "115",
+    "correct": 1,
+    "token_entropy": 0.036814474035054445,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "33-12=",
+    "target": "21",
+    "greedy_out": "21",
+    "correct": 1,
+    "token_entropy": 0.08711485601573561,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "48+23=",
+    "target": "71",
+    "greedy_out": "71",
+    "correct": 1,
+    "token_entropy": 0.3197260141411486,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "55-9=",
+    "target": "46",
+    "greedy_out": "47",
+    "correct": 0,
+    "token_entropy": 0.25264632566055906,
+    "semantic_entropy": 0.6931471805599453,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "84-58=",
+    "target": "26",
+    "greedy_out": "26",
+    "correct": 1,
+    "token_entropy": 0.2330714069539681,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "58-56=",
+    "target": "2",
+    "greedy_out": "2",
+    "correct": 1,
+    "token_entropy": 0.12897172337397933,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "54+7=",
+    "target": "61",
+    "greedy_out": "60",
+    "correct": 0,
+    "token_entropy": 0.24588942855674153,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "39+65=",
+    "target": "104",
+    "greedy_out": "104",
+    "correct": 1,
+    "token_entropy": 0.04677331482525915,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "94+43=",
+    "target": "137",
+    "greedy_out": "137",
+    "correct": 1,
+    "token_entropy": 0.10818075097631663,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "43-9=",
+    "target": "34",
+    "greedy_out": "35",
+    "correct": 0,
+    "token_entropy": 0.1541269946610555,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "16+4=",
+    "target": "20",
+    "greedy_out": "19",
+    "correct": 0,
+    "token_entropy": 0.9495396586911132,
+    "semantic_entropy": 1.6769877743224173,
+    "self_consistency": 0.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "65+42=",
+    "target": "107",
+    "greedy_out": "107",
+    "correct": 1,
+    "token_entropy": 0.17461915034800768,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "27+37=",
+    "target": "64",
+    "greedy_out": "64",
+    "correct": 1,
+    "token_entropy": 0.08811633114237338,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "37+20=",
+    "target": "57",
+    "greedy_out": "57",
+    "correct": 1,
+    "token_entropy": 0.07940149582767238,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "61+47=",
+    "target": "108",
+    "greedy_out": "108",
+    "correct": 1,
+    "token_entropy": 0.12062500650063157,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "97-5=",
+    "target": "92",
+    "greedy_out": "91",
+    "correct": 0,
+    "token_entropy": 0.5135520457212502,
+    "semantic_entropy": 1.366158847569202,
+    "self_consistency": 0.2,
+    "digit_len": 2
+  },
+  {
+    "prompt": "20+27=",
+    "target": "47",
+    "greedy_out": "47",
+    "correct": 1,
+    "token_entropy": 0.17236832917357484,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90-61=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.036726824687017746,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "40+21=",
+    "target": "61",
+    "greedy_out": "61",
+    "correct": 1,
+    "token_entropy": 0.18673292382542664,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "62+43=",
+    "target": "105",
+    "greedy_out": "105",
+    "correct": 1,
+    "token_entropy": 0.15005049126921222,
+    "semantic_entropy": 0.5297061990576545,
+    "self_consistency": 0.7,
+    "digit_len": 3
+  },
+  {
+    "prompt": "60-58=",
+    "target": "2",
+    "greedy_out": "2",
+    "correct": 1,
+    "token_entropy": 0.1337569234892726,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "56-35=",
+    "target": "21",
+    "greedy_out": "21",
+    "correct": 1,
+    "token_entropy": 0.20587841112865135,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "38-11=",
+    "target": "27",
+    "greedy_out": "27",
+    "correct": 1,
+    "token_entropy": 0.07258670311421156,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "60-13=",
+    "target": "47",
+    "greedy_out": "47",
+    "correct": 1,
+    "token_entropy": 0.1491334088301907,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "79+42=",
+    "target": "121",
+    "greedy_out": "120",
+    "correct": 0,
+    "token_entropy": 0.1727475716616027,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 3
+  },
+  {
+    "prompt": "79-73=",
+    "target": "6",
+    "greedy_out": "6",
+    "correct": 1,
+    "token_entropy": 0.4670765965420287,
+    "semantic_entropy": 1.1682824501765625,
+    "self_consistency": 0.5,
+    "digit_len": 1
+  },
+  {
+    "prompt": "30+8=",
+    "target": "38",
+    "greedy_out": "39",
+    "correct": 0,
+    "token_entropy": 0.7692534713229785,
+    "semantic_entropy": 1.8343719702816237,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54+66=",
+    "target": "120",
+    "greedy_out": "120",
+    "correct": 1,
+    "token_entropy": 0.04568979295436293,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "79-35=",
+    "target": "44",
+    "greedy_out": "45",
+    "correct": 0,
+    "token_entropy": 0.248759908368811,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "38-23=",
+    "target": "15",
+    "greedy_out": "15",
+    "correct": 1,
+    "token_entropy": 0.2083509654427568,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "31+90=",
+    "target": "121",
+    "greedy_out": "121",
+    "correct": 1,
+    "token_entropy": 0.04081286769360304,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "95-11=",
+    "target": "84",
+    "greedy_out": "84",
+    "correct": 1,
+    "token_entropy": 0.1942288001688818,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "71+9=",
+    "target": "80",
+    "greedy_out": "80",
+    "correct": 1,
+    "token_entropy": 0.599810611262607,
+    "semantic_entropy": 1.6957425341696346,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "89-81=",
+    "target": "8",
+    "greedy_out": "9",
+    "correct": 0,
+    "token_entropy": 0.43121701703057624,
+    "semantic_entropy": 1.1935496040981333,
+    "self_consistency": 0.4,
+    "digit_len": 1
+  },
+  {
+    "prompt": "45-22=",
+    "target": "23",
+    "greedy_out": "23",
+    "correct": 1,
+    "token_entropy": 0.1817620865573796,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "18-17=",
+    "target": "1",
+    "greedy_out": "1",
+    "correct": 1,
+    "token_entropy": 0.1357423395384103,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 1
+  },
+  {
+    "prompt": "39+54=",
+    "target": "93",
+    "greedy_out": "93",
+    "correct": 1,
+    "token_entropy": 0.06069901050068438,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "59-35=",
+    "target": "24",
+    "greedy_out": "24",
+    "correct": 1,
+    "token_entropy": 0.13642651801152775,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "79+26=",
+    "target": "105",
+    "greedy_out": "105",
+    "correct": 1,
+    "token_entropy": 0.049060465884394944,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "76+77=",
+    "target": "153",
+    "greedy_out": "153",
+    "correct": 1,
+    "token_entropy": 0.1225618458702229,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "40+99=",
+    "target": "139",
+    "greedy_out": "139",
+    "correct": 1,
+    "token_entropy": 0.07116467398009263,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "58+4=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.7884128058018783,
+    "semantic_entropy": 1.464816384890813,
+    "self_consistency": 0.3,
+    "digit_len": 2
+  },
+  {
+    "prompt": "99-43=",
+    "target": "56",
+    "greedy_out": "56",
+    "correct": 1,
+    "token_entropy": 0.1353141002667447,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "21+42=",
+    "target": "63",
+    "greedy_out": "63",
+    "correct": 1,
+    "token_entropy": 0.05918726262946924,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "32+6=",
+    "target": "38",
+    "greedy_out": "39",
+    "correct": 0,
+    "token_entropy": 0.21976657320434848,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "23-11=",
+    "target": "12",
+    "greedy_out": "12",
+    "correct": 1,
+    "token_entropy": 0.08850732579594478,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "56+23=",
+    "target": "79",
+    "greedy_out": "79",
+    "correct": 1,
+    "token_entropy": 0.07017538180419554,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "72+68=",
+    "target": "140",
+    "greedy_out": "140",
+    "correct": 1,
+    "token_entropy": 0.06622594583313912,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "85-31=",
+    "target": "54",
+    "greedy_out": "54",
+    "correct": 1,
+    "token_entropy": 0.12143820147806157,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "54+20=",
+    "target": "74",
+    "greedy_out": "74",
+    "correct": 1,
+    "token_entropy": 0.14480188151355833,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "40+22=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.2048066602049706,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "17+75=",
+    "target": "92",
+    "greedy_out": "92",
+    "correct": 1,
+    "token_entropy": 0.06822184232684474,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "52-3=",
+    "target": "49",
+    "greedy_out": "50",
+    "correct": 0,
+    "token_entropy": 0.46597425831714645,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "40+56=",
+    "target": "96",
+    "greedy_out": "97",
+    "correct": 0,
+    "token_entropy": 0.20949914158942798,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "77-21=",
+    "target": "56",
+    "greedy_out": "56",
+    "correct": 1,
+    "token_entropy": 0.15111794920327762,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "19+25=",
+    "target": "44",
+    "greedy_out": "45",
+    "correct": 0,
+    "token_entropy": 0.239326760560895,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "96-87=",
+    "target": "9",
+    "greedy_out": "9",
+    "correct": 1,
+    "token_entropy": 0.06903028016677126,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 1
+  },
+  {
+    "prompt": "65-19=",
+    "target": "46",
+    "greedy_out": "46",
+    "correct": 1,
+    "token_entropy": 0.21196690923534334,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90-76=",
+    "target": "14",
+    "greedy_out": "14",
+    "correct": 1,
+    "token_entropy": 0.10421395546291023,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "26-21=",
+    "target": "5",
+    "greedy_out": "5",
+    "correct": 1,
+    "token_entropy": 0.35549797653220594,
+    "semantic_entropy": 0.8979457248567798,
+    "self_consistency": 0.6,
+    "digit_len": 1
+  },
+  {
+    "prompt": "64-30=",
+    "target": "34",
+    "greedy_out": "34",
+    "correct": 1,
+    "token_entropy": 0.14897236422014734,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "16+13=",
+    "target": "29",
+    "greedy_out": "29",
+    "correct": 1,
+    "token_entropy": 0.04225257357272009,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "23+90=",
+    "target": "113",
+    "greedy_out": "113",
+    "correct": 1,
+    "token_entropy": 0.042237747518811375,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "99-93=",
+    "target": "6",
+    "greedy_out": "5",
+    "correct": 0,
+    "token_entropy": 0.6814300955884391,
+    "semantic_entropy": 1.1682824501765625,
+    "self_consistency": 0.5,
+    "digit_len": 1
+  },
+  {
+    "prompt": "86+52=",
+    "target": "138",
+    "greedy_out": "137",
+    "correct": 0,
+    "token_entropy": 0.1504162017663475,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "82-30=",
+    "target": "52",
+    "greedy_out": "52",
+    "correct": 1,
+    "token_entropy": 0.19810371368657798,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "92-56=",
+    "target": "36",
+    "greedy_out": "36",
+    "correct": 1,
+    "token_entropy": 0.13637026022964469,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "10+35=",
+    "target": "45",
+    "greedy_out": "46",
+    "correct": 0,
+    "token_entropy": 0.2805034612150242,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "39+35=",
+    "target": "74",
+    "greedy_out": "74",
+    "correct": 1,
+    "token_entropy": 0.11511868890374899,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "20+80=",
+    "target": "100",
+    "greedy_out": "100",
+    "correct": 1,
+    "token_entropy": 0.02369082299992442,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "25-2=",
+    "target": "23",
+    "greedy_out": "23",
+    "correct": 1,
+    "token_entropy": 0.38316692621447146,
+    "semantic_entropy": 1.1682824501765625,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "53-12=",
+    "target": "41",
+    "greedy_out": "41",
+    "correct": 1,
+    "token_entropy": 0.07653411442879587,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "63+10=",
+    "target": "73",
+    "greedy_out": "73",
+    "correct": 1,
+    "token_entropy": 0.10612174243821453,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "42+65=",
+    "target": "107",
+    "greedy_out": "107",
+    "correct": 1,
+    "token_entropy": 0.15266430616611615,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "70+40=",
+    "target": "110",
+    "greedy_out": "110",
+    "correct": 1,
+    "token_entropy": 0.029959126724861562,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "58+82=",
+    "target": "140",
+    "greedy_out": "140",
+    "correct": 1,
+    "token_entropy": 0.08097020717104897,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "34+43=",
+    "target": "77",
+    "greedy_out": "77",
+    "correct": 1,
+    "token_entropy": 0.13328373851254582,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "96+94=",
+    "target": "190",
+    "greedy_out": "190",
+    "correct": 1,
+    "token_entropy": 0.034034164156764746,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "39-15=",
+    "target": "24",
+    "greedy_out": "24",
+    "correct": 1,
+    "token_entropy": 0.21169740058636913,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "62+45=",
+    "target": "107",
+    "greedy_out": "107",
+    "correct": 1,
+    "token_entropy": 0.13903224538080394,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 3
+  },
+  {
+    "prompt": "30-16=",
+    "target": "14",
+    "greedy_out": "14",
+    "correct": 1,
+    "token_entropy": 0.044578549393918365,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "90+33=",
+    "target": "123",
+    "greedy_out": "123",
+    "correct": 1,
+    "token_entropy": 0.054498468176461756,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 3
+  },
+  {
+    "prompt": "68+12=",
+    "target": "80",
+    "greedy_out": "90",
+    "correct": 0,
+    "token_entropy": 0.25002095103263855,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "83+92=",
+    "target": "175",
+    "greedy_out": "175",
+    "correct": 1,
+    "token_entropy": 0.11356395803159103,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "58+58=",
+    "target": "116",
+    "greedy_out": "116",
+    "correct": 1,
+    "token_entropy": 0.07749852832057513,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "23+31=",
+    "target": "54",
+    "greedy_out": "54",
+    "correct": 1,
+    "token_entropy": 0.13863600934079537,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87+43=",
+    "target": "130",
+    "greedy_out": "130",
+    "correct": 1,
+    "token_entropy": 0.04667446916573681,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "58+97=",
+    "target": "155",
+    "greedy_out": "155",
+    "correct": 1,
+    "token_entropy": 0.16433580667944625,
+    "semantic_entropy": 0.6108643020548935,
+    "self_consistency": 0.7,
+    "digit_len": 3
+  },
+  {
+    "prompt": "87+71=",
+    "target": "158",
+    "greedy_out": "158",
+    "correct": 1,
+    "token_entropy": 0.16238109057303518,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "55+48=",
+    "target": "103",
+    "greedy_out": "103",
+    "correct": 1,
+    "token_entropy": 0.1422233709745342,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  },
+  {
+    "prompt": "34+74=",
+    "target": "108",
+    "greedy_out": "108",
+    "correct": 1,
+    "token_entropy": 0.04519488335063215,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "99-51=",
+    "target": "48",
+    "greedy_out": "48",
+    "correct": 1,
+    "token_entropy": 0.14178077711646134,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "88-56=",
+    "target": "32",
+    "greedy_out": "32",
+    "correct": 1,
+    "token_entropy": 0.09314717907303323,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "91-30=",
+    "target": "61",
+    "greedy_out": "61",
+    "correct": 1,
+    "token_entropy": 0.07438688665085162,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "87-29=",
+    "target": "58",
+    "greedy_out": "58",
+    "correct": 1,
+    "token_entropy": 0.12612097632760802,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "20+77=",
+    "target": "97",
+    "greedy_out": "97",
+    "correct": 1,
+    "token_entropy": 0.11651180599195261,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "92+79=",
+    "target": "171",
+    "greedy_out": "171",
+    "correct": 1,
+    "token_entropy": 0.08239685554872267,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "92-1=",
+    "target": "91",
+    "greedy_out": "90",
+    "correct": 0,
+    "token_entropy": 0.17316811277608699,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "59-44=",
+    "target": "15",
+    "greedy_out": "15",
+    "correct": 1,
+    "token_entropy": 0.22055899464370063,
+    "semantic_entropy": 0.6730116670092565,
+    "self_consistency": 0.6,
+    "digit_len": 2
+  },
+  {
+    "prompt": "7+31=",
+    "target": "38",
+    "greedy_out": "39",
+    "correct": 0,
+    "token_entropy": 0.5981663109657044,
+    "semantic_entropy": 0.639031859650177,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "18+35=",
+    "target": "53",
+    "greedy_out": "53",
+    "correct": 1,
+    "token_entropy": 0.18205840342367688,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "86-24=",
+    "target": "62",
+    "greedy_out": "62",
+    "correct": 1,
+    "token_entropy": 0.38148530561011285,
+    "semantic_entropy": 1.0296530140645737,
+    "self_consistency": 0.5,
+    "digit_len": 2
+  },
+  {
+    "prompt": "31-21=",
+    "target": "10",
+    "greedy_out": "10",
+    "correct": 1,
+    "token_entropy": 0.030660847764617454,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "23+83=",
+    "target": "106",
+    "greedy_out": "106",
+    "correct": 1,
+    "token_entropy": 0.061957523226737976,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "52+71=",
+    "target": "123",
+    "greedy_out": "123",
+    "correct": 1,
+    "token_entropy": 0.04728032310958952,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "49+73=",
+    "target": "122",
+    "greedy_out": "121",
+    "correct": 0,
+    "token_entropy": 0.18242072353314143,
+    "semantic_entropy": 0.6931471805599453,
+    "self_consistency": 0.5,
+    "digit_len": 3
+  },
+  {
+    "prompt": "89+85=",
+    "target": "174",
+    "greedy_out": "174",
+    "correct": 1,
+    "token_entropy": 0.05882915202528238,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 3
+  },
+  {
+    "prompt": "18+10=",
+    "target": "28",
+    "greedy_out": "28",
+    "correct": 1,
+    "token_entropy": 0.20015365133682886,
+    "semantic_entropy": 0.8018185525433373,
+    "self_consistency": 0.7,
+    "digit_len": 2
+  },
+  {
+    "prompt": "99-57=",
+    "target": "42",
+    "greedy_out": "42",
+    "correct": 1,
+    "token_entropy": 0.1324293608389174,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "39-12=",
+    "target": "27",
+    "greedy_out": "27",
+    "correct": 1,
+    "token_entropy": 0.10824863740708679,
+    "semantic_entropy": -0.0,
+    "self_consistency": 1.0,
+    "digit_len": 2
+  },
+  {
+    "prompt": "22+54=",
+    "target": "76",
+    "greedy_out": "76",
+    "correct": 1,
+    "token_entropy": 0.19880434818333015,
+    "semantic_entropy": 0.5004024235381879,
+    "self_consistency": 0.8,
+    "digit_len": 2
+  },
+  {
+    "prompt": "99-59=",
+    "target": "40",
+    "greedy_out": "40",
+    "correct": 1,
+    "token_entropy": 0.08820200565969571,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 2
+  },
+  {
+    "prompt": "62+80=",
+    "target": "142",
+    "greedy_out": "142",
+    "correct": 1,
+    "token_entropy": 0.13018217397620901,
+    "semantic_entropy": 0.3250829733914482,
+    "self_consistency": 0.9,
+    "digit_len": 3
+  }
+]
