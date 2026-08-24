@@ -1,0 +1,163 @@
+{
+  "settings": {
+    "low_heterogeneity": {
+      "beta_a": 20,
+      "beta_b": 20
+    },
+    "moderate_heterogeneity": {
+      "beta_a": 4,
+      "beta_b": 4
+    },
+    "mild_heterogeneity": {
+      "beta_a": 1,
+      "beta_b": 1
+    },
+    "extreme_heterogeneity": {
+      "beta_a": 0.4,
+      "beta_b": 0.4
+    }
+  },
+  "ks": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "results": {
+    "low_heterogeneity": {
+      "summary": {
+        "p_var_mean": 0.006179366398979618,
+        "sc_acc_k1_mean": 0.5412666666666668,
+        "sc_acc_k1_std": 0.01717643400294343,
+        "sc_acc_k3_mean": 0.8165999999999999,
+        "sc_acc_k3_std": 0.013606793435126663,
+        "sc_acc_k5_mean": 0.8483333333333332,
+        "sc_acc_k5_std": 0.017084643908237152,
+        "sc_acc_k10_mean": 0.9284,
+        "sc_acc_k10_std": 0.010820159983519885,
+        "sc_acc_k20_mean": 0.9807333333333336,
+        "sc_acc_k20_std": 0.006674363373145164,
+        "single_acc_mean": 0.5412666666666668,
+        "ttest_sc_vs_single_t": 148.85097197322534,
+        "ttest_sc_vs_single_p": 2.2594310700414188e-43,
+        "gain_pp_at_maxk": 43.94666666666666,
+        "ece_verb_mean": 0.20167905278546827,
+        "ece_freq_mean": 0.36668666666666666,
+        "ttest_ece_verb_vs_freq_t": -108.35201889651924,
+        "ttest_ece_verb_vs_freq_p": 2.2205507826819387e-39,
+        "auroc_entropy_mean": 0.8156832065790369,
+        "auroc_entropy_std": 0.026240600049965177
+      }
+    },
+    "moderate_heterogeneity": {
+      "summary": {
+        "p_var_mean": 0.028064160759163913,
+        "sc_acc_k1_mean": 0.5528000000000001,
+        "sc_acc_k1_std": 0.015849290204927136,
+        "sc_acc_k3_mean": 0.7964000000000001,
+        "sc_acc_k3_std": 0.015864947265091595,
+        "sc_acc_k5_mean": 0.8104666666666668,
+        "sc_acc_k5_std": 0.01805496079185444,
+        "sc_acc_k10_mean": 0.8718,
+        "sc_acc_k10_std": 0.011390861430898512,
+        "sc_acc_k20_mean": 0.9209333333333334,
+        "sc_acc_k20_std": 0.008940158655281747,
+        "single_acc_mean": 0.5528000000000001,
+        "ttest_sc_vs_single_t": 112.96432667804507,
+        "ttest_sc_vs_single_p": 6.647173768882596e-40,
+        "gain_pp_at_maxk": 36.81333333333334,
+        "ece_verb_mean": 0.1517494494157977,
+        "ece_freq_mean": 0.2973533333333334,
+        "ttest_ece_verb_vs_freq_t": -102.55900310544054,
+        "ttest_ece_verb_vs_freq_p": 1.0883033020015247e-38,
+        "auroc_entropy_mean": 0.8296134152524156,
+        "auroc_entropy_std": 0.017246635383356905
+      }
+    },
+    "mild_heterogeneity": {
+      "summary": {
+        "p_var_mean": 0.0805415640082223,
+        "sc_acc_k1_mean": 0.5459999999999999,
+        "sc_acc_k1_std": 0.021334770066562765,
+        "sc_acc_k3_mean": 0.7344666666666667,
+        "sc_acc_k3_std": 0.014207169956079218,
+        "sc_acc_k5_mean": 0.7205333333333335,
+        "sc_acc_k5_std": 0.014160979250508549,
+        "sc_acc_k10_mean": 0.7566666666666666,
+        "sc_acc_k10_std": 0.01424256208386132,
+        "sc_acc_k20_mean": 0.7795333333333333,
+        "sc_acc_k20_std": 0.011370661987016795,
+        "single_acc_mean": 0.5459999999999999,
+        "ttest_sc_vs_single_t": 47.45497329819337,
+        "ttest_sc_vs_single_p": 4.804197902605182e-29,
+        "gain_pp_at_maxk": 23.353333333333335,
+        "ece_verb_mean": 0.12545270096400774,
+        "ece_freq_mean": 0.15033999999999995,
+        "ttest_ece_verb_vs_freq_t": -6.343674392206483,
+        "ttest_ece_verb_vs_freq_p": 6.232119233563424e-07,
+        "auroc_entropy_mean": 0.8450371624346523,
+        "auroc_entropy_std": 0.014553922781000676
+      }
+    },
+    "extreme_heterogeneity": {
+      "summary": {
+        "p_var_mean": 0.1285152280950521,
+        "sc_acc_k1_mean": 0.5397333333333333,
+        "sc_acc_k1_std": 0.014448322497387235,
+        "sc_acc_k3_mean": 0.6723333333333333,
+        "sc_acc_k3_std": 0.012407821041121817,
+        "sc_acc_k5_mean": 0.6453333333333334,
+        "sc_acc_k5_std": 0.013789884681904712,
+        "sc_acc_k10_mean": 0.6615333333333334,
+        "sc_acc_k10_std": 0.014590344784121457,
+        "sc_acc_k20_mean": 0.6692666666666667,
+        "sc_acc_k20_std": 0.013970247531520461,
+        "single_acc_mean": 0.5397333333333333,
+        "ttest_sc_vs_single_t": 32.56459627450936,
+        "ttest_sc_vs_single_p": 2.1763173391400666e-24,
+        "gain_pp_at_maxk": 12.953333333333331,
+        "ece_verb_mean": 0.1431525393603794,
+        "ece_freq_mean": 0.08314666666666665,
+        "ttest_ece_verb_vs_freq_t": 19.950885437213646,
+        "ttest_ece_verb_vs_freq_p": 1.7549413212345786e-18,
+        "auroc_entropy_mean": 0.871452849694265,
+        "auroc_entropy_std": 0.015720582868053674
+      }
+    }
+  },
+  "power_analysis": {
+    "3": 1.0,
+    "5": 1.0,
+    "8": 1.0,
+    "15": 1.0,
+    "30": 1.0
+  },
+  "robustness_ece_ranking": {
+    "weaker_overconf": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.2299709727192624,
+        "ece_freq": 0.30066000000000004,
+        "p": 3.833088759022113e-30
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.12494124385961128,
+        "ece_freq": 0.08405333333333329,
+        "p": 2.486223408698357e-17
+      }
+    },
+    "stronger_overconf": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.08491740458658188,
+        "ece_freq": 0.29438000000000003,
+        "p": 1.5313072674092958e-44
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.18652197677550664,
+        "ece_freq": 0.08352666666666661,
+        "p": 2.314701446474971e-22
+      }
+    }
+  },
+  "runtime_sec": 0.7744278907775879
+}

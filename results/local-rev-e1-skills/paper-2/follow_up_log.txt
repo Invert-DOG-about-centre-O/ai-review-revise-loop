@@ -1,0 +1,20 @@
+======================================================================
+Q1: deterministic vs randomized APS
+  in_distribution: deterministic cov=0.9221 size=17.738 | randomized cov=0.9053 size=16.738
+  shifted_0.5: deterministic cov=0.8234 size=17.861 | randomized cov=0.7948 size=16.861
+======================================================================
+Q2: nonconformity-score distributional shift, LAC vs APS
+  s=0.0: LAC score mean=0.9157 (calib mean=0.9151) | APS score mean=0.4521 (calib mean=0.4472)
+  s=0.2: LAC score mean=0.9271 (calib mean=0.9151) | APS score mean=0.5107 (calib mean=0.4472)
+  s=0.5: LAC score mean=0.9405 (calib mean=0.9151) | APS score mean=0.5858 (calib mean=0.4472)
+  s=0.7: LAC score mean=0.9481 (calib mean=0.9151) | APS score mean=0.6328 (calib mean=0.4472)
+  s=1.0: LAC score mean=0.9586 (calib mean=0.9151) | APS score mean=0.6956 (calib mean=0.4472)
+  Normalized score-distribution shift (s=0->1, in calib-std units): LAC=0.680  APS=0.847
+======================================================================
+Q3: matched-set-size shift-robustness comparison (3 seeds)
+  seed 0: matched alpha_lac=0.0716 | sizes s=0: LAC=17.80 APS=17.79 | coverage drop: LAC=0.1682 APS=0.1738
+  seed 1: matched alpha_lac=0.0687 | sizes s=0: LAC=18.32 APS=18.31 | coverage drop: LAC=0.1557 APS=0.1617
+  seed 2: matched alpha_lac=0.0723 | sizes s=0: LAC=18.26 APS=18.27 | coverage drop: LAC=0.1591 APS=0.1620
+  Matched-size mean drop over 3 seeds: LAC=0.1610 +/- 0.0053  APS=0.1658 +/- 0.0056
+======================================================================
+DONE

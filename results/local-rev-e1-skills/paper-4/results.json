@@ -1,0 +1,2091 @@
+{
+  "meta": {
+    "P_NASH": 1.4733683420855215,
+    "P_MONOPOLY": 1.924981245311328,
+    "PRICE_GRID": [
+      1.4282070517629408,
+      1.4669167291822958,
+      1.5056264066016505,
+      1.5443360840210054,
+      1.5830457614403601,
+      1.621755438859715,
+      1.6604651162790698,
+      1.6991747936984247,
+      1.7378844711177797,
+      1.7765941485371344,
+      1.815303825956489,
+      1.854013503375844,
+      1.892723180795199,
+      1.9314328582145537,
+      1.9701425356339086
+    ],
+    "M": 15,
+    "PERIODS": 150000,
+    "N_SEEDS": 25,
+    "ALPHA": 0.15,
+    "DELTA": 0.95,
+    "BETA": 4e-05,
+    "robust_market": {
+      "MU": 0.5,
+      "P_NASH": 1.7996999249812453,
+      "P_MONOPOLY": 2.1875468867216803
+    },
+    "total_runtime_sec": 319.1394853591919
+  },
+  "main": [
+    {
+      "seed": 0,
+      "condition": "baseline",
+      "collusion_index_tail": 0.35944285714285684,
+      "collusion_index_last1000": 0.3570285714285717,
+      "avg_price_tail": 1.6356973743435859,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4624942857142858,
+      "collusion_index_last1000": 0.49652857142857104,
+      "avg_price_tail": 1.6822367291822957,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "baseline",
+      "collusion_index_tail": 0.36487999999999987,
+      "collusion_index_last1000": 0.36388571428571453,
+      "avg_price_tail": 1.6381528582145537,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "baseline",
+      "collusion_index_tail": 0.6488200000000005,
+      "collusion_index_last1000": 0.6633714285714291,
+      "avg_price_tail": 1.7663838259564895,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "baseline",
+      "collusion_index_tail": 0.343945714285714,
+      "collusion_index_last1000": 0.3419857142857143,
+      "avg_price_tail": 1.6286986646661665,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "baseline",
+      "collusion_index_tail": 0.38604,
+      "collusion_index_last1000": 0.3860000000000001,
+      "avg_price_tail": 1.6477089872468118,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "baseline",
+      "collusion_index_tail": 0.5243914285714281,
+      "collusion_index_last1000": 0.47398571428571407,
+      "avg_price_tail": 1.7101902775693922,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "baseline",
+      "collusion_index_tail": 0.35157428571428545,
+      "collusion_index_last1000": 0.36534285714285664,
+      "avg_price_tail": 1.632143825956489,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3913714285714283,
+      "collusion_index_last1000": 0.3933714285714279,
+      "avg_price_tail": 1.6501167291822956,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "baseline",
+      "collusion_index_tail": 0.37538571428571416,
+      "collusion_index_last1000": 0.3746000000000003,
+      "avg_price_tail": 1.642897374343586,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "baseline",
+      "collusion_index_tail": 0.39390000000000003,
+      "collusion_index_last1000": 0.40404285714285737,
+      "avg_price_tail": 1.6512586646661667,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3781542857142859,
+      "collusion_index_last1000": 0.3708285714285714,
+      "avg_price_tail": 1.6441476969242312,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "baseline",
+      "collusion_index_tail": 0.384425714285714,
+      "collusion_index_last1000": 0.38518571428571424,
+      "avg_price_tail": 1.6469799549887472,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "baseline",
+      "collusion_index_tail": 0.42705428571428505,
+      "collusion_index_last1000": 0.4286857142857137,
+      "avg_price_tail": 1.6662315678919728,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3971257142857136,
+      "collusion_index_last1000": 0.39744285714285676,
+      "avg_price_tail": 1.6527154388597147,
+      "n_audits": 0
+    },
+    {
+      "seed": 15,
+      "condition": "baseline",
+      "collusion_index_tail": 0.40411142857142823,
+      "collusion_index_last1000": 0.3984714285714286,
+      "avg_price_tail": 1.6558702775693923,
+      "n_audits": 0
+    },
+    {
+      "seed": 16,
+      "condition": "baseline",
+      "collusion_index_tail": 0.42799714285714274,
+      "collusion_index_last1000": 0.42864285714285644,
+      "avg_price_tail": 1.666657374343586,
+      "n_audits": 0
+    },
+    {
+      "seed": 17,
+      "condition": "baseline",
+      "collusion_index_tail": 0.36870285714285694,
+      "collusion_index_last1000": 0.36731428571428565,
+      "avg_price_tail": 1.6398793098274569,
+      "n_audits": 0
+    },
+    {
+      "seed": 18,
+      "condition": "baseline",
+      "collusion_index_tail": 0.5822599999999992,
+      "collusion_index_last1000": 0.5791142857142854,
+      "avg_price_tail": 1.7363244711177792,
+      "n_audits": 0
+    },
+    {
+      "seed": 19,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4767485714285709,
+      "collusion_index_last1000": 0.5062142857142851,
+      "avg_price_tail": 1.6886741485371342,
+      "n_audits": 0
+    },
+    {
+      "seed": 20,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4364085714285711,
+      "collusion_index_last1000": 0.42525714285714256,
+      "avg_price_tail": 1.6704560840210052,
+      "n_audits": 0
+    },
+    {
+      "seed": 21,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4945942857142864,
+      "collusion_index_last1000": 0.5027428571428576,
+      "avg_price_tail": 1.6967335033758444,
+      "n_audits": 0
+    },
+    {
+      "seed": 22,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3151914285714289,
+      "collusion_index_last1000": 0.39225714285714297,
+      "avg_price_tail": 1.615712858214554,
+      "n_audits": 0
+    },
+    {
+      "seed": 23,
+      "condition": "baseline",
+      "collusion_index_tail": 0.34367428571428604,
+      "collusion_index_last1000": 0.3437000000000001,
+      "avg_price_tail": 1.6285760840210055,
+      "n_audits": 0
+    },
+    {
+      "seed": 24,
+      "condition": "baseline",
+      "collusion_index_tail": 0.45112,
+      "collusion_index_last1000": 0.4499857142857145,
+      "avg_price_tail": 1.6770999549887473,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07280857142857079,
+      "collusion_index_last1000": 0.07361428571428481,
+      "avg_price_tail": 1.5062496324081018,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "diversity",
+      "collusion_index_tail": 0.3694628571428577,
+      "collusion_index_last1000": 0.3700571428571433,
+      "avg_price_tail": 1.6402225356339089,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "diversity",
+      "collusion_index_tail": 0.22378285714285673,
+      "collusion_index_last1000": 0.2224999999999997,
+      "avg_price_tail": 1.574431567891973,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07331714285714179,
+      "collusion_index_last1000": 0.07284285714285622,
+      "avg_price_tail": 1.5064793098274565,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "diversity",
+      "collusion_index_tail": 0.30706571428571433,
+      "collusion_index_last1000": 0.30714285714285705,
+      "avg_price_tail": 1.612043180795199,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "diversity",
+      "collusion_index_tail": 0.2543171428571426,
+      "collusion_index_last1000": 0.2536142857142853,
+      "avg_price_tail": 1.5882212453113278,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "diversity",
+      "collusion_index_tail": 0.43179142857142927,
+      "collusion_index_last1000": 0.43571428571428567,
+      "avg_price_tail": 1.668370922730683,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "diversity",
+      "collusion_index_tail": 0.22890571428571357,
+      "collusion_index_last1000": 0.23051428571428514,
+      "avg_price_tail": 1.5767451162790695,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "diversity",
+      "collusion_index_tail": 0.27713428571428494,
+      "collusion_index_last1000": 0.27757142857142864,
+      "avg_price_tail": 1.5985257614403598,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07456857142857085,
+      "collusion_index_last1000": 0.0741714285714275,
+      "avg_price_tail": 1.5070444711177793,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "diversity",
+      "collusion_index_tail": 0.24825428571428546,
+      "collusion_index_last1000": 0.2485571428571424,
+      "avg_price_tail": 1.5854831807951988,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "diversity",
+      "collusion_index_tail": 0.3689799999999998,
+      "collusion_index_last1000": 0.36937142857142874,
+      "avg_price_tail": 1.6400044711177795,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "diversity",
+      "collusion_index_tail": 0.22293428571428495,
+      "collusion_index_last1000": 0.1826,
+      "avg_price_tail": 1.5740483420855211,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "diversity",
+      "collusion_index_tail": 0.3691485714285715,
+      "collusion_index_last1000": 0.369028571428572,
+      "avg_price_tail": 1.6400806001500376,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "diversity",
+      "collusion_index_tail": 0.22926285714285657,
+      "collusion_index_last1000": 0.22961428571428522,
+      "avg_price_tail": 1.5769064066016503,
+      "n_audits": 0
+    },
+    {
+      "seed": 15,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07359428571428465,
+      "collusion_index_last1000": 0.07138571428571358,
+      "avg_price_tail": 1.506604471117779,
+      "n_audits": 0
+    },
+    {
+      "seed": 16,
+      "condition": "diversity",
+      "collusion_index_tail": 0.075337142857142,
+      "collusion_index_last1000": 0.07322857142856978,
+      "avg_price_tail": 1.5073915678919727,
+      "n_audits": 0
+    },
+    {
+      "seed": 17,
+      "condition": "diversity",
+      "collusion_index_tail": 0.2421771428571426,
+      "collusion_index_last1000": 0.24208571428571363,
+      "avg_price_tail": 1.5827386646661665,
+      "n_audits": 0
+    },
+    {
+      "seed": 18,
+      "condition": "diversity",
+      "collusion_index_tail": 0.24521142857142833,
+      "collusion_index_last1000": 0.245171428571428,
+      "avg_price_tail": 1.5841089872468117,
+      "n_audits": 0
+    },
+    {
+      "seed": 19,
+      "condition": "diversity",
+      "collusion_index_tail": 0.4264742857142857,
+      "collusion_index_last1000": 0.4274000000000002,
+      "avg_price_tail": 1.6659696324081021,
+      "n_audits": 0
+    },
+    {
+      "seed": 20,
+      "condition": "diversity",
+      "collusion_index_tail": 0.28519999999999956,
+      "collusion_index_last1000": 0.2845571428571428,
+      "avg_price_tail": 1.6021683420855213,
+      "n_audits": 0
+    },
+    {
+      "seed": 21,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07414571428571391,
+      "collusion_index_last1000": 0.07459999999999932,
+      "avg_price_tail": 1.506853503375844,
+      "n_audits": 0
+    },
+    {
+      "seed": 22,
+      "condition": "diversity",
+      "collusion_index_tail": 0.3193600000000002,
+      "collusion_index_last1000": 0.3200857142857146,
+      "avg_price_tail": 1.6175954388597151,
+      "n_audits": 0
+    },
+    {
+      "seed": 23,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07457714285714172,
+      "collusion_index_last1000": 0.07288571428571301,
+      "avg_price_tail": 1.507048342085521,
+      "n_audits": 0
+    },
+    {
+      "seed": 24,
+      "condition": "diversity",
+      "collusion_index_tail": 0.07360857142857041,
+      "collusion_index_last1000": 0.07279999999999894,
+      "avg_price_tail": 1.5066109227306823,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "transparency",
+      "collusion_index_tail": 0.34496000000000054,
+      "collusion_index_last1000": 0.3476428571428572,
+      "avg_price_tail": 1.629156729182296,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "transparency",
+      "collusion_index_tail": 0.1987028571428567,
+      "collusion_index_last1000": 0.20055714285714218,
+      "avg_price_tail": 1.5631051162790697,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "transparency",
+      "collusion_index_tail": 0.36607142857142894,
+      "collusion_index_last1000": 0.36735714285714294,
+      "avg_price_tail": 1.638690922730683,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "transparency",
+      "collusion_index_tail": 0.38185999999999987,
+      "collusion_index_last1000": 0.38244285714285764,
+      "avg_price_tail": 1.645821245311328,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "transparency",
+      "collusion_index_tail": 0.22647714285714218,
+      "collusion_index_last1000": 0.22258571428571378,
+      "avg_price_tail": 1.5756483420855212,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "transparency",
+      "collusion_index_tail": 0.1917742857142851,
+      "collusion_index_last1000": 0.4010428571428561,
+      "avg_price_tail": 1.559976084021005,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "transparency",
+      "collusion_index_tail": 0.5372285714285728,
+      "collusion_index_last1000": 0.5414428571428589,
+      "avg_price_tail": 1.7159876969242318,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3799342857142856,
+      "collusion_index_last1000": 0.38192857142857123,
+      "avg_price_tail": 1.644951567891973,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "transparency",
+      "collusion_index_tail": 0.14005714285714205,
+      "collusion_index_last1000": 0.16408571428571367,
+      "avg_price_tail": 1.536619954988747,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4060628571428576,
+      "collusion_index_last1000": 0.40305714285714334,
+      "avg_price_tail": 1.6567515678919733,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "transparency",
+      "collusion_index_tail": 0.37121142857142947,
+      "collusion_index_last1000": 0.37168571428571406,
+      "avg_price_tail": 1.6410122130532638,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "transparency",
+      "collusion_index_tail": 0.5825857142857143,
+      "collusion_index_last1000": 0.5836142857142851,
+      "avg_price_tail": 1.736471567891973,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "transparency",
+      "collusion_index_tail": 0.15581142857142807,
+      "collusion_index_last1000": 0.16588571428571358,
+      "avg_price_tail": 1.5437347936984245,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4381571428571428,
+      "collusion_index_last1000": 0.4389285714285719,
+      "avg_price_tail": 1.6712457614403602,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4960771428571426,
+      "collusion_index_last1000": 0.49854285714285734,
+      "avg_price_tail": 1.6974031807951988,
+      "n_audits": 0
+    },
+    {
+      "seed": 15,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3430371428571427,
+      "collusion_index_last1000": 0.34275714285714287,
+      "avg_price_tail": 1.6282883420855214,
+      "n_audits": 0
+    },
+    {
+      "seed": 16,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3680057142857146,
+      "collusion_index_last1000": 0.3707428571428573,
+      "avg_price_tail": 1.6395644711177797,
+      "n_audits": 0
+    },
+    {
+      "seed": 17,
+      "condition": "transparency",
+      "collusion_index_tail": 0.5173828571428568,
+      "collusion_index_last1000": 0.5205285714285717,
+      "avg_price_tail": 1.7070251162790697,
+      "n_audits": 0
+    },
+    {
+      "seed": 18,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3270628571428574,
+      "collusion_index_last1000": 0.3268571428571428,
+      "avg_price_tail": 1.6210741485371345,
+      "n_audits": 0
+    },
+    {
+      "seed": 19,
+      "condition": "transparency",
+      "collusion_index_tail": 0.2854714285714285,
+      "collusion_index_last1000": 0.2852857142857141,
+      "avg_price_tail": 1.6022909227306827,
+      "n_audits": 0
+    },
+    {
+      "seed": 20,
+      "condition": "transparency",
+      "collusion_index_tail": 0.46793142857142883,
+      "collusion_index_last1000": 0.49755714285714336,
+      "avg_price_tail": 1.6846922130532636,
+      "n_audits": 0
+    },
+    {
+      "seed": 21,
+      "condition": "transparency",
+      "collusion_index_tail": 0.47566857142857144,
+      "collusion_index_last1000": 0.4655,
+      "avg_price_tail": 1.6881864066016505,
+      "n_audits": 0
+    },
+    {
+      "seed": 22,
+      "condition": "transparency",
+      "collusion_index_tail": 0.6207200000000005,
+      "collusion_index_last1000": 0.6206428571428573,
+      "avg_price_tail": 1.7536935033758443,
+      "n_audits": 0
+    },
+    {
+      "seed": 23,
+      "condition": "transparency",
+      "collusion_index_tail": 0.14768571428571348,
+      "collusion_index_last1000": 0.15735714285714172,
+      "avg_price_tail": 1.5400651162790695,
+      "n_audits": 0
+    },
+    {
+      "seed": 24,
+      "condition": "transparency",
+      "collusion_index_tail": 0.6238200000000016,
+      "collusion_index_last1000": 0.6229571428571445,
+      "avg_price_tail": 1.7550935033758448,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.35944285714285684,
+      "collusion_index_last1000": 0.3570285714285717,
+      "avg_price_tail": 1.6356973743435859,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4808457142857148,
+      "collusion_index_last1000": 0.4474571428571428,
+      "avg_price_tail": 1.6905244711177798,
+      "n_audits": 52
+    },
+    {
+      "seed": 2,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.34298857142857103,
+      "collusion_index_last1000": 0.25652857142857105,
+      "avg_price_tail": 1.6282664066016503,
+      "n_audits": 1
+    },
+    {
+      "seed": 3,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.434948571428571,
+      "collusion_index_last1000": 0.4433428571428566,
+      "avg_price_tail": 1.6697967291822955,
+      "n_audits": 4
+    },
+    {
+      "seed": 4,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4448428571428575,
+      "collusion_index_last1000": 0.4631428571428574,
+      "avg_price_tail": 1.67426511627907,
+      "n_audits": 19
+    },
+    {
+      "seed": 5,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4699285714285719,
+      "collusion_index_last1000": 0.4763428571428577,
+      "avg_price_tail": 1.6855941485371346,
+      "n_audits": 20
+    },
+    {
+      "seed": 6,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4661742857142857,
+      "collusion_index_last1000": 0.43507142857142844,
+      "avg_price_tail": 1.6838986646661667,
+      "n_audits": 31
+    },
+    {
+      "seed": 7,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3343685714285712,
+      "collusion_index_last1000": 0.3266428571428569,
+      "avg_price_tail": 1.624373503375844,
+      "n_audits": 3
+    },
+    {
+      "seed": 8,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.35801142857142876,
+      "collusion_index_last1000": 0.3935000000000002,
+      "avg_price_tail": 1.6350509227306829,
+      "n_audits": 2
+    },
+    {
+      "seed": 9,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4638085714285713,
+      "collusion_index_last1000": 0.46159999999999973,
+      "avg_price_tail": 1.6828302775693924,
+      "n_audits": 9
+    },
+    {
+      "seed": 10,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3627914285714283,
+      "collusion_index_last1000": 0.3707428571428568,
+      "avg_price_tail": 1.637209632408102,
+      "n_audits": 1
+    },
+    {
+      "seed": 11,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.427114285714286,
+      "collusion_index_last1000": 0.42705714285714347,
+      "avg_price_tail": 1.6662586646661668,
+      "n_audits": 13
+    },
+    {
+      "seed": 12,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.384425714285714,
+      "collusion_index_last1000": 0.38518571428571424,
+      "avg_price_tail": 1.6469799549887472,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.37299428571428517,
+      "collusion_index_last1000": 0.37245714285714265,
+      "avg_price_tail": 1.6418173743435858,
+      "n_audits": 2
+    },
+    {
+      "seed": 14,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3796771428571434,
+      "collusion_index_last1000": 0.37579999999999975,
+      "avg_price_tail": 1.6448354388597153,
+      "n_audits": 3
+    },
+    {
+      "seed": 15,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.44621428571428606,
+      "collusion_index_last1000": 0.48101428571428556,
+      "avg_price_tail": 1.6748844711177797,
+      "n_audits": 10
+    },
+    {
+      "seed": 16,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.42799714285714274,
+      "collusion_index_last1000": 0.42864285714285644,
+      "avg_price_tail": 1.666657374343586,
+      "n_audits": 0
+    },
+    {
+      "seed": 17,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4107028571428565,
+      "collusion_index_last1000": 0.40952857142857113,
+      "avg_price_tail": 1.6588470517629406,
+      "n_audits": 2
+    },
+    {
+      "seed": 18,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.41968000000000033,
+      "collusion_index_last1000": 0.4183142857142857,
+      "avg_price_tail": 1.662901245311328,
+      "n_audits": 2
+    },
+    {
+      "seed": 19,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3995571428571424,
+      "collusion_index_last1000": 0.3850999999999997,
+      "avg_price_tail": 1.6538135033758439,
+      "n_audits": 2
+    },
+    {
+      "seed": 20,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4814857142857146,
+      "collusion_index_last1000": 0.48607142857142843,
+      "avg_price_tail": 1.6908135033758442,
+      "n_audits": 56
+    },
+    {
+      "seed": 21,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4445628571428567,
+      "collusion_index_last1000": 0.4156142857142849,
+      "avg_price_tail": 1.6741386646661665,
+      "n_audits": 2
+    },
+    {
+      "seed": 22,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.43658285714285716,
+      "collusion_index_last1000": 0.3886571428571432,
+      "avg_price_tail": 1.6705347936984247,
+      "n_audits": 32
+    },
+    {
+      "seed": 23,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.2998114285714291,
+      "collusion_index_last1000": 0.29925714285714294,
+      "avg_price_tail": 1.608767051762941,
+      "n_audits": 2
+    },
+    {
+      "seed": 24,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3410028571428567,
+      "collusion_index_last1000": 0.3411714285714284,
+      "avg_price_tail": 1.627369632408102,
+      "n_audits": 6
+    },
+    {
+      "seed": 0,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.35944285714285684,
+      "collusion_index_last1000": 0.3570285714285717,
+      "avg_price_tail": 1.6356973743435859,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.40408857142857113,
+      "collusion_index_last1000": 0.40515714285714277,
+      "avg_price_tail": 1.6558599549887472,
+      "n_audits": 8
+    },
+    {
+      "seed": 2,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.36010571428571475,
+      "collusion_index_last1000": 0.36131428571428603,
+      "avg_price_tail": 1.6359967291822959,
+      "n_audits": 1
+    },
+    {
+      "seed": 3,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.401048571428571,
+      "collusion_index_last1000": 0.39932857142857126,
+      "avg_price_tail": 1.6544870517629406,
+      "n_audits": 1
+    },
+    {
+      "seed": 4,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3560742857142857,
+      "collusion_index_last1000": 0.35642857142857126,
+      "avg_price_tail": 1.6341760840210053,
+      "n_audits": 2
+    },
+    {
+      "seed": 5,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.34493714285714344,
+      "collusion_index_last1000": 0.12131428571428601,
+      "avg_price_tail": 1.6291464066016508,
+      "n_audits": 4
+    },
+    {
+      "seed": 6,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.36387142857142823,
+      "collusion_index_last1000": 0.36448571428571447,
+      "avg_price_tail": 1.6376973743435859,
+      "n_audits": 2
+    },
+    {
+      "seed": 7,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.19476571428571404,
+      "collusion_index_last1000": 0.36054285714285744,
+      "avg_price_tail": 1.5613270517629407,
+      "n_audits": 38
+    },
+    {
+      "seed": 8,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.24452571428571432,
+      "collusion_index_last1000": 0.24530000000000035,
+      "avg_price_tail": 1.583799309827457,
+      "n_audits": 1
+    },
+    {
+      "seed": 9,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.34037142857142827,
+      "collusion_index_last1000": 0.34361428571428554,
+      "avg_price_tail": 1.6270844711177794,
+      "n_audits": 2
+    },
+    {
+      "seed": 10,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3954485714285716,
+      "collusion_index_last1000": 0.3953428571428574,
+      "avg_price_tail": 1.6519580195048764,
+      "n_audits": 3
+    },
+    {
+      "seed": 11,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.408308571428571,
+      "collusion_index_last1000": 0.4121857142857137,
+      "avg_price_tail": 1.65776576144036,
+      "n_audits": 2
+    },
+    {
+      "seed": 12,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.384425714285714,
+      "collusion_index_last1000": 0.38518571428571424,
+      "avg_price_tail": 1.6469799549887472,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4426371428571429,
+      "collusion_index_last1000": 0.418057142857143,
+      "avg_price_tail": 1.6732689872468118,
+      "n_audits": 1
+    },
+    {
+      "seed": 14,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.28821714285714256,
+      "collusion_index_last1000": 0.28721428571428537,
+      "avg_price_tail": 1.6035309227306827,
+      "n_audits": 2
+    },
+    {
+      "seed": 15,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3026057142857139,
+      "collusion_index_last1000": 0.30392857142857177,
+      "avg_price_tail": 1.6100289872468116,
+      "n_audits": 1
+    },
+    {
+      "seed": 16,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.42799714285714274,
+      "collusion_index_last1000": 0.42864285714285644,
+      "avg_price_tail": 1.666657374343586,
+      "n_audits": 0
+    },
+    {
+      "seed": 17,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.31642285714285734,
+      "collusion_index_last1000": 0.3175142857142851,
+      "avg_price_tail": 1.616268987246812,
+      "n_audits": 1
+    },
+    {
+      "seed": 18,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4288571428571429,
+      "collusion_index_last1000": 0.4293285714285715,
+      "avg_price_tail": 1.6670457614403602,
+      "n_audits": 2
+    },
+    {
+      "seed": 19,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.29381428571428597,
+      "collusion_index_last1000": 0.29479999999999995,
+      "avg_price_tail": 1.6060586646661668,
+      "n_audits": 1
+    },
+    {
+      "seed": 20,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4781114285714286,
+      "collusion_index_last1000": 0.4768999999999998,
+      "avg_price_tail": 1.6892896324081021,
+      "n_audits": 3
+    },
+    {
+      "seed": 21,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4134599999999994,
+      "collusion_index_last1000": 0.4147999999999995,
+      "avg_price_tail": 1.6600922130532632,
+      "n_audits": 3
+    },
+    {
+      "seed": 22,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3712028571428576,
+      "collusion_index_last1000": 0.3723285714285713,
+      "avg_price_tail": 1.6410083420855217,
+      "n_audits": 2
+    },
+    {
+      "seed": 23,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3442399999999996,
+      "collusion_index_last1000": 0.34875714285714254,
+      "avg_price_tail": 1.628831567891973,
+      "n_audits": 2
+    },
+    {
+      "seed": 24,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.21829999999999994,
+      "collusion_index_last1000": 0.16267142857142833,
+      "avg_price_tail": 1.571955438859715,
+      "n_audits": 14
+    }
+  ],
+  "threshold_ablation": [
+    {
+      "seed": 0,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.14888571428571437,
+      "collusion_index_last1000": 0.02938571428571403,
+      "avg_price_tail": 1.5406070517629409,
+      "n_audits": 60,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 1,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3295857142857142,
+      "collusion_index_last1000": 0.3304571428571431,
+      "avg_price_tail": 1.622213503375844,
+      "n_audits": 32,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 2,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.31961428571428546,
+      "collusion_index_last1000": 0.3181571428571428,
+      "avg_price_tail": 1.6177102775693923,
+      "n_audits": 17,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 3,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.25899428571428584,
+      "collusion_index_last1000": 0.2570000000000002,
+      "avg_price_tail": 1.5903335033758441,
+      "n_audits": 36,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 4,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.37482000000000015,
+      "collusion_index_last1000": 0.3736142857142853,
+      "avg_price_tail": 1.6426418904726183,
+      "n_audits": 22,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 5,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.15670857142857106,
+      "collusion_index_last1000": 0.07035714285714278,
+      "avg_price_tail": 1.5441399549887471,
+      "n_audits": 67,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 6,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.15359142857142868,
+      "collusion_index_last1000": 0.14629999999999962,
+      "avg_price_tail": 1.5427322130532635,
+      "n_audits": 58,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 7,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.17308285714285768,
+      "collusion_index_last1000": 0.2120428571428576,
+      "avg_price_tail": 1.551534793698425,
+      "n_audits": 68,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 8,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.2348342857142854,
+      "collusion_index_last1000": 0.3173428571428569,
+      "avg_price_tail": 1.5794225356339084,
+      "n_audits": 60,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 9,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.19826857142857146,
+      "collusion_index_last1000": 0.25254285714285674,
+      "avg_price_tail": 1.5629089872468118,
+      "n_audits": 69,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 10,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.17475142857142828,
+      "collusion_index_last1000": 0.1338285714285712,
+      "avg_price_tail": 1.5522883420855214,
+      "n_audits": 71,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 11,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.28787142857142883,
+      "collusion_index_last1000": 0.09984285714285712,
+      "avg_price_tail": 1.6033747936984248,
+      "n_audits": 20,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 12,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.1281142857142858,
+      "collusion_index_last1000": 0.21465714285714285,
+      "avg_price_tail": 1.5312264066016505,
+      "n_audits": 69,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 13,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.16556571428571393,
+      "collusion_index_last1000": 0.27881428571428535,
+      "avg_price_tail": 1.5481399549887471,
+      "n_audits": 71,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 14,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.22339428571428524,
+      "collusion_index_last1000": 0.22331428571428508,
+      "avg_price_tail": 1.5742560840210051,
+      "n_audits": 24,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 15,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.14393142857142827,
+      "collusion_index_last1000": 0.04759999999999989,
+      "avg_price_tail": 1.538369632408102,
+      "n_audits": 73,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 16,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.1670571428571425,
+      "collusion_index_last1000": 0.1844428571428572,
+      "avg_price_tail": 1.548813503375844,
+      "n_audits": 67,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 17,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.17294000000000007,
+      "collusion_index_last1000": 0.28819999999999985,
+      "avg_price_tail": 1.5514702775693925,
+      "n_audits": 52,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 18,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.2723828571428569,
+      "collusion_index_last1000": 0.336414285714285,
+      "avg_price_tail": 1.5963799549887472,
+      "n_audits": 37,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 19,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.16024285714285694,
+      "collusion_index_last1000": 0.1261999999999998,
+      "avg_price_tail": 1.5457360840210053,
+      "n_audits": 69,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 20,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.17373142857142834,
+      "collusion_index_last1000": 0.11209999999999963,
+      "avg_price_tail": 1.551827696924231,
+      "n_audits": 62,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 21,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.1629885714285715,
+      "collusion_index_last1000": 0.07117142857142866,
+      "avg_price_tail": 1.5469760840210054,
+      "n_audits": 68,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 22,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.14853428571428576,
+      "collusion_index_last1000": 0.0943142857142851,
+      "avg_price_tail": 1.5404483420855215,
+      "n_audits": 78,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 23,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.19162285714285662,
+      "collusion_index_last1000": 0.2827571428571424,
+      "avg_price_tail": 1.559907696924231,
+      "n_audits": 37,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 24,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.12995428571428552,
+      "collusion_index_last1000": -0.009314285714285718,
+      "avg_price_tail": 1.532057374343586,
+      "n_audits": 63,
+      "audit_theta": 0.3
+    },
+    {
+      "seed": 0,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.35944285714285684,
+      "collusion_index_last1000": 0.3570285714285717,
+      "avg_price_tail": 1.6356973743435859,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 1,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4624942857142858,
+      "collusion_index_last1000": 0.49652857142857104,
+      "avg_price_tail": 1.6822367291822957,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 2,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.36487999999999987,
+      "collusion_index_last1000": 0.36388571428571453,
+      "avg_price_tail": 1.6381528582145537,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 3,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.6488200000000005,
+      "collusion_index_last1000": 0.6633714285714291,
+      "avg_price_tail": 1.7663838259564895,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 4,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.343945714285714,
+      "collusion_index_last1000": 0.3419857142857143,
+      "avg_price_tail": 1.6286986646661665,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 5,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.38604,
+      "collusion_index_last1000": 0.3860000000000001,
+      "avg_price_tail": 1.6477089872468118,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 6,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.5243914285714281,
+      "collusion_index_last1000": 0.47398571428571407,
+      "avg_price_tail": 1.7101902775693922,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 7,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.35157428571428545,
+      "collusion_index_last1000": 0.36534285714285664,
+      "avg_price_tail": 1.632143825956489,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 8,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3913714285714283,
+      "collusion_index_last1000": 0.3933714285714279,
+      "avg_price_tail": 1.6501167291822956,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 9,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.37538571428571416,
+      "collusion_index_last1000": 0.3746000000000003,
+      "avg_price_tail": 1.642897374343586,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 10,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.39390000000000003,
+      "collusion_index_last1000": 0.40404285714285737,
+      "avg_price_tail": 1.6512586646661667,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 11,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3781542857142859,
+      "collusion_index_last1000": 0.3708285714285714,
+      "avg_price_tail": 1.6441476969242312,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 12,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.384425714285714,
+      "collusion_index_last1000": 0.38518571428571424,
+      "avg_price_tail": 1.6469799549887472,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 13,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.42705428571428505,
+      "collusion_index_last1000": 0.4286857142857137,
+      "avg_price_tail": 1.6662315678919728,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 14,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3971257142857136,
+      "collusion_index_last1000": 0.39744285714285676,
+      "avg_price_tail": 1.6527154388597147,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 15,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.40411142857142823,
+      "collusion_index_last1000": 0.3984714285714286,
+      "avg_price_tail": 1.6558702775693923,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 16,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.42799714285714274,
+      "collusion_index_last1000": 0.42864285714285644,
+      "avg_price_tail": 1.666657374343586,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 17,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.36870285714285694,
+      "collusion_index_last1000": 0.36731428571428565,
+      "avg_price_tail": 1.6398793098274569,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 18,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.47952857142857136,
+      "collusion_index_last1000": 0.528757142857142,
+      "avg_price_tail": 1.6899296324081021,
+      "n_audits": 3,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 19,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4767485714285709,
+      "collusion_index_last1000": 0.5062142857142851,
+      "avg_price_tail": 1.6886741485371342,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 20,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4364085714285711,
+      "collusion_index_last1000": 0.42525714285714256,
+      "avg_price_tail": 1.6704560840210052,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 21,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4945942857142864,
+      "collusion_index_last1000": 0.5027428571428576,
+      "avg_price_tail": 1.6967335033758444,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 22,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3151914285714289,
+      "collusion_index_last1000": 0.39225714285714297,
+      "avg_price_tail": 1.615712858214554,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 23,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.34367428571428604,
+      "collusion_index_last1000": 0.3437000000000001,
+      "avg_price_tail": 1.6285760840210055,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    },
+    {
+      "seed": 24,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.45112,
+      "collusion_index_last1000": 0.4499857142857145,
+      "avg_price_tail": 1.6770999549887473,
+      "n_audits": 0,
+      "audit_theta": 0.7
+    }
+  ],
+  "market_robustness": [
+    {
+      "seed": 0,
+      "condition": "baseline",
+      "collusion_index_tail": 0.39815714285714215,
+      "collusion_index_last1000": 0.39311428571428486,
+      "avg_price_tail": 1.9541239631336402,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "baseline",
+      "collusion_index_tail": 0.49682857142857145,
+      "collusion_index_last1000": 0.49031428571428637,
+      "avg_price_tail": 1.9923933769156574,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "baseline",
+      "collusion_index_tail": 0.5154285714285711,
+      "collusion_index_last1000": 0.4932714285714285,
+      "avg_price_tail": 1.9996073304040294,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "baseline",
+      "collusion_index_tail": 0.49244285714285707,
+      "collusion_index_last1000": 0.5169714285714281,
+      "avg_price_tail": 1.9906923909548815,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "baseline",
+      "collusion_index_tail": 0.38778000000000046,
+      "collusion_index_last1000": 0.3674857142857151,
+      "avg_price_tail": 1.9500992198049514,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4732857142857133,
+      "collusion_index_last1000": 0.4873999999999998,
+      "avg_price_tail": 1.9832623513021108,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "baseline",
+      "collusion_index_tail": 0.44061142857142904,
+      "collusion_index_last1000": 0.3670142857142855,
+      "avg_price_tail": 1.9705897288607868,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4081085714285722,
+      "collusion_index_last1000": 0.4059285714285721,
+      "avg_price_tail": 1.9579835944700463,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4817514285714285,
+      "collusion_index_last1000": 0.47347142857142843,
+      "avg_price_tail": 1.986545752866788,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "baseline",
+      "collusion_index_tail": 0.5316285714285716,
+      "collusion_index_last1000": 0.5333428571428571,
+      "avg_price_tail": 2.0058904511842246,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3808542857142863,
+      "collusion_index_last1000": 0.4179285714285715,
+      "avg_price_tail": 1.9474131025613548,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "baseline",
+      "collusion_index_tail": 0.4384742857142862,
+      "collusion_index_last1000": 0.4382857142857145,
+      "avg_price_tail": 1.9697608444968386,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "baseline",
+      "collusion_index_tail": 0.5228285714285709,
+      "collusion_index_last1000": 0.5265285714285705,
+      "avg_price_tail": 2.0024773979209085,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "baseline",
+      "collusion_index_tail": 0.30760285714285823,
+      "collusion_index_last1000": 0.3122000000000007,
+      "avg_price_tail": 1.91900275854678,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "baseline",
+      "collusion_index_tail": 0.3717714285714289,
+      "collusion_index_last1000": 0.4722285714285713,
+      "avg_price_tail": 1.9438903440145752,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11543428571428649,
+      "collusion_index_last1000": 0.11582857142857246,
+      "avg_price_tail": 1.8444707619762086,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "diversity",
+      "collusion_index_tail": -0.051462857142857324,
+      "collusion_index_last1000": -0.05349999999999965,
+      "avg_price_tail": 1.779740212195906,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11680857142857269,
+      "collusion_index_last1000": 0.11497142857142854,
+      "avg_price_tail": 1.8450037745150578,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "diversity",
+      "collusion_index_tail": 0.24343714285714355,
+      "collusion_index_last1000": 0.2433714285714293,
+      "avg_price_tail": 1.8941162812131607,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "diversity",
+      "collusion_index_tail": 0.1162885714285715,
+      "collusion_index_last1000": 0.11660000000000066,
+      "avg_price_tail": 1.8448020940949523,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "diversity",
+      "collusion_index_tail": 0.2430685714285723,
+      "collusion_index_last1000": 0.2426000000000011,
+      "avg_price_tail": 1.893973331904405,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "diversity",
+      "collusion_index_tail": 0.1577142857142848,
+      "collusion_index_last1000": 0.15714285714285647,
+      "avg_price_tail": 1.8608689315185936,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11564857142857234,
+      "collusion_index_last1000": 0.11677142857142979,
+      "avg_price_tail": 1.8445538720394388,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "diversity",
+      "collusion_index_tail": 0.15743714285714192,
+      "collusion_index_last1000": 0.15714285714285647,
+      "avg_price_tail": 1.8607614425034826,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11658571428571529,
+      "collusion_index_last1000": 0.11522857142857224,
+      "avg_price_tail": 1.8449173400492984,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "diversity",
+      "collusion_index_tail": 0.15791142857142806,
+      "collusion_index_last1000": 0.15782857142857068,
+      "avg_price_tail": 1.8609453927767654,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11642571428571435,
+      "collusion_index_last1000": 0.1179285714285724,
+      "avg_price_tail": 1.8448552845354196,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "diversity",
+      "collusion_index_tail": 0.20180571428571484,
+      "collusion_index_last1000": 0.20291428571428577,
+      "avg_price_tail": 1.877969658128818,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "diversity",
+      "collusion_index_tail": 0.1167514285714289,
+      "collusion_index_last1000": 0.11480000000000112,
+      "avg_price_tail": 1.8449816118315294,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "diversity",
+      "collusion_index_tail": 0.11532285714285836,
+      "collusion_index_last1000": 0.11548571428571534,
+      "avg_price_tail": 1.8444275447433292,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "transparency",
+      "collusion_index_tail": 0.31142571428571414,
+      "collusion_index_last1000": 0.3110857142857142,
+      "avg_price_tail": 1.9204854420748043,
+      "n_audits": 0
+    },
+    {
+      "seed": 1,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4668657142857144,
+      "collusion_index_last1000": 0.46618571428571454,
+      "avg_price_tail": 1.9807723738077376,
+      "n_audits": 0
+    },
+    {
+      "seed": 2,
+      "condition": "transparency",
+      "collusion_index_tail": 0.5352285714285717,
+      "collusion_index_last1000": 0.5381857142857145,
+      "avg_price_tail": 2.0072867002464903,
+      "n_audits": 0
+    },
+    {
+      "seed": 3,
+      "condition": "transparency",
+      "collusion_index_tail": 0.47533428571428554,
+      "collusion_index_last1000": 0.4771999999999999,
+      "avg_price_tail": 1.9840568835065908,
+      "n_audits": 0
+    },
+    {
+      "seed": 4,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4340142857142849,
+      "collusion_index_last1000": 0.4336999999999991,
+      "avg_price_tail": 1.9680310470474758,
+      "n_audits": 0
+    },
+    {
+      "seed": 5,
+      "condition": "transparency",
+      "collusion_index_tail": 0.45248857142857213,
+      "collusion_index_last1000": 0.5324857142857137,
+      "avg_price_tail": 1.9751962426320868,
+      "n_audits": 0
+    },
+    {
+      "seed": 6,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4973914285714282,
+      "collusion_index_last1000": 0.49824285714285543,
+      "avg_price_tail": 1.9926116793484083,
+      "n_audits": 0
+    },
+    {
+      "seed": 7,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3429771428571438,
+      "collusion_index_last1000": 0.34425714285714387,
+      "avg_price_tail": 1.9327225677848037,
+      "n_audits": 0
+    },
+    {
+      "seed": 8,
+      "condition": "transparency",
+      "collusion_index_tail": 0.257491428571429,
+      "collusion_index_last1000": 0.25700000000000084,
+      "avg_price_tail": 1.8995671932268783,
+      "n_audits": 0
+    },
+    {
+      "seed": 9,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3680114285714295,
+      "collusion_index_last1000": 0.36675714285714356,
+      "avg_price_tail": 1.9424320394384313,
+      "n_audits": 0
+    },
+    {
+      "seed": 10,
+      "condition": "transparency",
+      "collusion_index_tail": 0.4561285714285708,
+      "collusion_index_last1000": 0.45709999999999884,
+      "avg_price_tail": 1.9766080055728215,
+      "n_audits": 0
+    },
+    {
+      "seed": 11,
+      "condition": "transparency",
+      "collusion_index_tail": 0.2810200000000006,
+      "collusion_index_last1000": 0.44677142857142943,
+      "avg_price_tail": 1.9086926781695426,
+      "n_audits": 0
+    },
+    {
+      "seed": 12,
+      "condition": "transparency",
+      "collusion_index_tail": 0.3399914285714286,
+      "collusion_index_last1000": 0.341685714285715,
+      "avg_price_tail": 1.931564567570464,
+      "n_audits": 0
+    },
+    {
+      "seed": 13,
+      "condition": "transparency",
+      "collusion_index_tail": 0.344091428571428,
+      "collusion_index_last1000": 0.27962857142857184,
+      "avg_price_tail": 1.9331547401135996,
+      "n_audits": 0
+    },
+    {
+      "seed": 14,
+      "condition": "transparency",
+      "collusion_index_tail": 0.22322571428571433,
+      "collusion_index_last1000": 0.1976428571428573,
+      "avg_price_tail": 1.886277340049298,
+      "n_audits": 0
+    },
+    {
+      "seed": 0,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4840971428571428,
+      "collusion_index_last1000": 0.5066000000000003,
+      "avg_price_tail": 1.9874555310256135,
+      "n_audits": 1
+    },
+    {
+      "seed": 1,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.450774285714286,
+      "collusion_index_last1000": 0.4511,
+      "avg_price_tail": 1.974531362126246,
+      "n_audits": 7
+    },
+    {
+      "seed": 2,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3708857142857148,
+      "collusion_index_last1000": 0.3733571428571432,
+      "avg_price_tail": 1.9435468224198909,
+      "n_audits": 1
+    },
+    {
+      "seed": 3,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.45272000000000057,
+      "collusion_index_last1000": 0.44672857142857214,
+      "avg_price_tail": 1.9752860015003753,
+      "n_audits": 25
+    },
+    {
+      "seed": 4,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.3969285714285721,
+      "collusion_index_last1000": 0.3790142857142855,
+      "avg_price_tail": 1.9536474654377882,
+      "n_audits": 7
+    },
+    {
+      "seed": 5,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4813371428571433,
+      "collusion_index_last1000": 0.48568571428571483,
+      "avg_price_tail": 1.98638507341121,
+      "n_audits": 116
+    },
+    {
+      "seed": 6,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4496657142857145,
+      "collusion_index_last1000": 0.45868571428571486,
+      "avg_price_tail": 1.9741014060658022,
+      "n_audits": 84
+    },
+    {
+      "seed": 7,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4812828571428573,
+      "collusion_index_last1000": 0.4901857142857151,
+      "avg_price_tail": 1.9863640188618583,
+      "n_audits": 60
+    },
+    {
+      "seed": 8,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4482114285714287,
+      "collusion_index_last1000": 0.45517142857142917,
+      "avg_price_tail": 1.973537365770014,
+      "n_audits": 2
+    },
+    {
+      "seed": 9,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4864571428571424,
+      "collusion_index_last1000": 0.46880000000000016,
+      "avg_price_tail": 1.9883708498553208,
+      "n_audits": 47
+    },
+    {
+      "seed": 10,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4227857142857148,
+      "collusion_index_last1000": 0.42298571428571413,
+      "avg_price_tail": 1.9636760797342194,
+      "n_audits": 8
+    },
+    {
+      "seed": 11,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4966228571428572,
+      "collusion_index_last1000": 0.4827285714285715,
+      "avg_price_tail": 1.9923135912549566,
+      "n_audits": 45
+    },
+    {
+      "seed": 12,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.47418857142857174,
+      "collusion_index_last1000": 0.4861142857142859,
+      "avg_price_tail": 1.983612521701854,
+      "n_audits": 39
+    },
+    {
+      "seed": 13,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4639142857142866,
+      "collusion_index_last1000": 0.48144285714285706,
+      "avg_price_tail": 1.9796276712035155,
+      "n_audits": 4
+    },
+    {
+      "seed": 14,
+      "condition": "audit_explore",
+      "collusion_index_tail": 0.4390828571428569,
+      "collusion_index_last1000": 0.400571428571429,
+      "avg_price_tail": 1.9699968770764118,
+      "n_audits": 3
+    },
+    {
+      "seed": 0,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.2895285714285707,
+      "collusion_index_last1000": -0.001771428571429927,
+      "avg_price_tail": 1.911992701746865,
+      "n_audits": 34
+    },
+    {
+      "seed": 1,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.36337714285714356,
+      "collusion_index_last1000": 0.36358571428571446,
+      "avg_price_tail": 1.9406346458043084,
+      "n_audits": 3
+    },
+    {
+      "seed": 2,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3803971428571427,
+      "collusion_index_last1000": 0.3825714285714279,
+      "avg_price_tail": 1.9472358010931303,
+      "n_audits": 2
+    },
+    {
+      "seed": 3,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.48547428571428614,
+      "collusion_index_last1000": 0.48478571428571415,
+      "avg_price_tail": 1.987989651698639,
+      "n_audits": 1
+    },
+    {
+      "seed": 4,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3017171428571424,
+      "collusion_index_last1000": 0.3015285714285707,
+      "avg_price_tail": 1.9167200021433928,
+      "n_audits": 2
+    },
+    {
+      "seed": 5,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3299828571428571,
+      "collusion_index_last1000": 0.33097142857142886,
+      "avg_price_tail": 1.9276827735505304,
+      "n_audits": 6
+    },
+    {
+      "seed": 6,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.31655428571428595,
+      "collusion_index_last1000": 0.3179857142857148,
+      "avg_price_tail": 1.9224745429214447,
+      "n_audits": 2
+    },
+    {
+      "seed": 7,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3389542857142857,
+      "collusion_index_last1000": 0.3377857142857138,
+      "avg_price_tail": 1.9311623148644304,
+      "n_audits": 5
+    },
+    {
+      "seed": 8,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3108514285714286,
+      "collusion_index_last1000": 0.30787142857142835,
+      "avg_price_tail": 1.9202627071053477,
+      "n_audits": 1
+    },
+    {
+      "seed": 9,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.19272571428571353,
+      "collusion_index_last1000": 0.1921571428571424,
+      "avg_price_tail": 1.8744480077162144,
+      "n_audits": 6
+    },
+    {
+      "seed": 10,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.4271628571428565,
+      "collusion_index_last1000": 0.431642857142857,
+      "avg_price_tail": 1.9653737412924657,
+      "n_audits": 3
+    },
+    {
+      "seed": 11,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.30151714285714193,
+      "collusion_index_last1000": 0.34412857142857145,
+      "avg_price_tail": 1.9166424327510445,
+      "n_audits": 17
+    },
+    {
+      "seed": 12,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.2845285714285713,
+      "collusion_index_last1000": 0.3571142857142855,
+      "avg_price_tail": 1.910053466938163,
+      "n_audits": 23
+    },
+    {
+      "seed": 13,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3439657142857145,
+      "collusion_index_last1000": 0.3447714285714284,
+      "avg_price_tail": 1.9331059822098382,
+      "n_audits": 1
+    },
+    {
+      "seed": 14,
+      "condition": "audit_enforce",
+      "collusion_index_tail": 0.3509257142857138,
+      "collusion_index_last1000": 0.3512857142857135,
+      "avg_price_tail": 1.9358053970635514,
+      "n_audits": 3
+    }
+  ]
+}

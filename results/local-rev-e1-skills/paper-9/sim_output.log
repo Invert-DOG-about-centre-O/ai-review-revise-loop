@@ -1,0 +1,58 @@
+=== low_heterogeneity (p_var=0.0062) ===
+  single-sample acc: 0.5413
+  self-consistency acc @k=1: 0.5413 (std 0.0172)
+  self-consistency acc @k=3: 0.8166 (std 0.0136)
+  self-consistency acc @k=5: 0.8483 (std 0.0171)
+  self-consistency acc @k=10: 0.9284 (std 0.0108)
+  self-consistency acc @k=20: 0.9807 (std 0.0067)
+  gain @k=20 vs k=1: 43.95 pp, paired t=148.85, p=2.259e-43
+  ECE verbalized-conf: 0.2017 vs ECE frequency-conf: 0.3667  (paired t=-108.35, p=2.221e-39)
+  semantic-entropy AUROC (predicting wrong answer, k=10): 0.8157 (std 0.0262)
+
+=== moderate_heterogeneity (p_var=0.0281) ===
+  single-sample acc: 0.5528
+  self-consistency acc @k=1: 0.5528 (std 0.0158)
+  self-consistency acc @k=3: 0.7964 (std 0.0159)
+  self-consistency acc @k=5: 0.8105 (std 0.0181)
+  self-consistency acc @k=10: 0.8718 (std 0.0114)
+  self-consistency acc @k=20: 0.9209 (std 0.0089)
+  gain @k=20 vs k=1: 36.81 pp, paired t=112.96, p=6.647e-40
+  ECE verbalized-conf: 0.1517 vs ECE frequency-conf: 0.2974  (paired t=-102.56, p=1.088e-38)
+  semantic-entropy AUROC (predicting wrong answer, k=10): 0.8296 (std 0.0172)
+
+=== mild_heterogeneity (p_var=0.0805) ===
+  single-sample acc: 0.5460
+  self-consistency acc @k=1: 0.5460 (std 0.0213)
+  self-consistency acc @k=3: 0.7345 (std 0.0142)
+  self-consistency acc @k=5: 0.7205 (std 0.0142)
+  self-consistency acc @k=10: 0.7567 (std 0.0142)
+  self-consistency acc @k=20: 0.7795 (std 0.0114)
+  gain @k=20 vs k=1: 23.35 pp, paired t=47.45, p=4.804e-29
+  ECE verbalized-conf: 0.1255 vs ECE frequency-conf: 0.1503  (paired t=-6.34, p=6.232e-07)
+  semantic-entropy AUROC (predicting wrong answer, k=10): 0.8450 (std 0.0146)
+
+=== extreme_heterogeneity (p_var=0.1285) ===
+  single-sample acc: 0.5397
+  self-consistency acc @k=1: 0.5397 (std 0.0144)
+  self-consistency acc @k=3: 0.6723 (std 0.0124)
+  self-consistency acc @k=5: 0.6453 (std 0.0138)
+  self-consistency acc @k=10: 0.6615 (std 0.0146)
+  self-consistency acc @k=20: 0.6693 (std 0.0140)
+  gain @k=20 vs k=1: 12.95 pp, paired t=32.56, p=2.176e-24
+  ECE verbalized-conf: 0.1432 vs ECE frequency-conf: 0.0831  (paired t=19.95, p=1.755e-18)
+  semantic-entropy AUROC (predicting wrong answer, k=10): 0.8715 (std 0.0157)
+
+=== Power analysis: self-consistency gain significance vs. #replicates (moderate het.) ===
+  n_reps=3: fraction of 5 trials significant (p<0.05) = 1.00
+  n_reps=5: fraction of 5 trials significant (p<0.05) = 1.00
+  n_reps=8: fraction of 5 trials significant (p<0.05) = 1.00
+  n_reps=15: fraction of 5 trials significant (p<0.05) = 1.00
+  n_reps=30: fraction of 5 trials significant (p<0.05) = 1.00
+=== Robustness: ECE ranking (verb vs freq) under alternative overconfidence transforms ===
+  [weaker_overconf] moderate_heterogeneity: ECE_verb=0.2300  ECE_freq=0.3007  p=3.83e-30
+  [weaker_overconf] extreme_heterogeneity: ECE_verb=0.1249  ECE_freq=0.0841  p=2.49e-17
+  [stronger_overconf] moderate_heterogeneity: ECE_verb=0.0849  ECE_freq=0.2944  p=1.53e-44
+  [stronger_overconf] extreme_heterogeneity: ECE_verb=0.1865  ECE_freq=0.0835  p=2.31e-22
+
+Total runtime: 1.5s
+Saved sim_results.json

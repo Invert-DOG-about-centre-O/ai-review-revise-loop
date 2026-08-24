@@ -1,0 +1,76 @@
+{
+  "permutation_tests": {
+    "mixing_eps0.15": {
+      "r_observed": -0.8225,
+      "perm_p_value": 0.0003
+    },
+    "mixing_eps0.35": {
+      "r_observed": 0.0767,
+      "perm_p_value": 0.7996
+    },
+    "smallworld_eps0.15": {
+      "r_observed": -0.3315,
+      "perm_p_value": 0.2908
+    },
+    "smallworld_eps0.35": {
+      "r_observed": 0.3342,
+      "perm_p_value": 0.2696
+    }
+  },
+  "highpower_rerun": {
+    "mixing_eps0.35": {
+      "r_30seeds": -0.1578,
+      "variance_range_30seeds": 0.0168,
+      "r_5seeds_original": null
+    },
+    "smallworld_eps0.15": {
+      "r_30seeds": -0.0821,
+      "variance_range_30seeds": 0.0019,
+      "r_5seeds_original": null
+    }
+  },
+  "mu_N_ablation": {
+    "mu0.5_eps0.15": {
+      "variance_at_alpha0": 0.3128,
+      "variance_at_alpha6": 0.3012,
+      "alpha_range_variance_shift": 0.0117
+    },
+    "mu0.5_eps0.35": {
+      "variance_at_alpha0": 0.2286,
+      "variance_at_alpha6": 0.2202,
+      "alpha_range_variance_shift": 0.0188
+    },
+    "mu0.5_epsilon_shift_at_alpha0": 0.0842,
+    "N100_eps0.15": {
+      "variance_at_alpha0": 0.3109,
+      "variance_at_alpha6": 0.3003,
+      "alpha_range_variance_shift": 0.0105
+    },
+    "N100_eps0.35": {
+      "variance_at_alpha0": 0.2593,
+      "variance_at_alpha6": 0.2182,
+      "alpha_range_variance_shift": 0.0411
+    },
+    "N100_epsilon_shift_at_alpha0": 0.0516
+  },
+  "calibration_target_sensitivity": {
+    "target_1.3": {
+      "calibrated_alpha": 0.55,
+      "achieved_ratio": 1.3165,
+      "variance_at_calibration": 0.223,
+      "variance_shift_from_alpha0": 0.0004
+    },
+    "target_1.4": {
+      "calibrated_alpha": 0.65,
+      "achieved_ratio": 1.3791,
+      "variance_at_calibration": 0.2303,
+      "variance_shift_from_alpha0": 0.007
+    },
+    "target_1.6": {
+      "calibrated_alpha": 1.05,
+      "achieved_ratio": 1.601,
+      "variance_at_calibration": 0.2314,
+      "variance_shift_from_alpha0": 0.008
+    }
+  }
+}

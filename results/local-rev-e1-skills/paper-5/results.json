@@ -1,0 +1,506 @@
+{
+  "main": {
+    "label": "MAIN (N=10,T=0.8,all ops/digits)",
+    "n": 300,
+    "err_rate": 0.68,
+    "aucs": {
+      "semantic_entropy": {
+        "auroc": 0.9860855800653595,
+        "ci_lo": 0.9753728414442701,
+        "ci_hi": 0.9950962772785623
+      },
+      "self_inconsistency": {
+        "auroc": 0.9875663807189542,
+        "ci_lo": 0.9748505015432098,
+        "ci_hi": 0.9969704749679076
+      },
+      "token_entropy": {
+        "auroc": 0.6719515931372549,
+        "ci_lo": 0.6072931276297335,
+        "ci_hi": 0.7331730769230769
+      },
+      "nll": {
+        "auroc": 0.9908343545751634,
+        "ci_lo": 0.9829768445839875,
+        "ci_hi": 0.996884265540982
+      }
+    },
+    "comparisons": {
+      "SE_vs_self_inconsistency": {
+        "diff": -0.0014808006535946827,
+        "p_raw": 0.54,
+        "p_bonferroni": 1.0
+      },
+      "SE_vs_token_entropy": {
+        "diff": 0.31413398692810457,
+        "p_raw": 0.0,
+        "p_bonferroni": 0.0
+      },
+      "SE_vs_nll": {
+        "diff": -0.0047487745098039325,
+        "p_raw": 0.116,
+        "p_bonferroni": 0.34800000000000003
+      }
+    }
+  },
+  "by_operator": {
+    "+": {
+      "label": "op=+",
+      "n": 120,
+      "err_rate": 0.675,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.960747071858183,
+          "ci_lo": 0.9176136363636364,
+          "ci_hi": 0.9947753396029259
+        },
+        "self_inconsistency": {
+          "auroc": 0.9647040202595758,
+          "ci_lo": 0.927328742297934,
+          "ci_hi": 0.9954621848739496
+        },
+        "token_entropy": {
+          "auroc": 0.5753402975625198,
+          "ci_lo": 0.46001852423587525,
+          "ci_hi": 0.685012836970475
+        },
+        "nll": {
+          "auroc": 0.9624881291547959,
+          "ci_lo": 0.9175,
+          "ci_hi": 0.9956675224646984
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": -0.0039569484013928236,
+          "p_raw": 0.494
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.38540677429566317,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": -0.0017410572966128912,
+          "p_raw": 0.806
+        }
+      }
+    },
+    "-": {
+      "label": "op=-",
+      "n": 120,
+      "err_rate": 0.65,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9775641025641025,
+          "ci_lo": 0.9534662867996201,
+          "ci_hi": 0.9943703703703703
+        },
+        "self_inconsistency": {
+          "auroc": 0.9731379731379731,
+          "ci_lo": 0.9437429854096521,
+          "ci_hi": 0.9952516619183286
+        },
+        "token_entropy": {
+          "auroc": 0.8362332112332113,
+          "ci_lo": 0.75671875,
+          "ci_hi": 0.906
+        },
+        "nll": {
+          "auroc": 0.9848901098901099,
+          "ci_lo": 0.9626909518213866,
+          "ci_hi": 0.9985047846889952
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.00442612942612941,
+          "p_raw": 0.482
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.14133089133089127,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": -0.007326007326007411,
+          "p_raw": 0.39
+        }
+      }
+    },
+    "*": {
+      "label": "op=*",
+      "n": 120,
+      "err_rate": 0.675,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 1.0,
+          "ci_lo": 1.0,
+          "ci_hi": 1.0
+        },
+        "self_inconsistency": {
+          "auroc": 0.9992086103197214,
+          "ci_lo": 0.9964090287277702,
+          "ci_hi": 1.0
+        },
+        "token_entropy": {
+          "auroc": 0.6571699905033238,
+          "ci_lo": 0.5564295485636115,
+          "ci_hi": 0.7515966386554622
+        },
+        "nll": {
+          "auroc": 1.0,
+          "ci_lo": 1.0,
+          "ci_hi": 1.0
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.0007913896802785869,
+          "p_raw": 0.75
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.3428300094966762,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": 0.0,
+          "p_raw": 1.0
+        }
+      }
+    }
+  },
+  "by_digits": {
+    "1": {
+      "label": "ndig=1",
+      "n": 120,
+      "err_rate": 0.041666666666666664,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.908695652173913,
+          "ci_lo": 0.7844827586206896,
+          "ci_hi": 0.9857549857549858
+        },
+        "self_inconsistency": {
+          "auroc": 0.9373913043478261,
+          "ci_lo": 0.8168103448275862,
+          "ci_hi": 0.9974715549936789
+        },
+        "token_entropy": {
+          "auroc": 0.9269565217391305,
+          "ci_lo": 0.8459051724137931,
+          "ci_hi": 0.9956896551724138
+        },
+        "nll": {
+          "auroc": 0.9408695652173913,
+          "ci_lo": 0.8771551724137931,
+          "ci_hi": 0.9956896551724138
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": -0.028695652173913122,
+          "p_raw": 0.06451612903225806
+        },
+        "SE_vs_token_entropy": {
+          "diff": -0.01826086956521744,
+          "p_raw": 0.782258064516129
+        },
+        "SE_vs_nll": {
+          "diff": -0.032173913043478275,
+          "p_raw": 0.5403225806451613
+        }
+      }
+    },
+    "2": {
+      "label": "ndig=2",
+      "n": 120,
+      "err_rate": 0.9416666666666667,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.797724399494311,
+          "ci_lo": 0.5512010113780025,
+          "ci_hi": 0.9572649572649573
+        },
+        "self_inconsistency": {
+          "auroc": 0.7964601769911505,
+          "ci_lo": 0.5582608695652174,
+          "ci_hi": 0.95448798988622
+        },
+        "token_entropy": {
+          "auroc": 0.6308470290771175,
+          "ci_lo": 0.4586894586894587,
+          "ci_hi": 0.8034782608695652
+        },
+        "nll": {
+          "auroc": 0.8495575221238938,
+          "ci_lo": 0.7155499367888748,
+          "ci_hi": 0.9568965517241379
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.0012642225031604948,
+          "p_raw": 1.0
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.16687737041719342,
+          "p_raw": 0.118
+        },
+        "SE_vs_nll": {
+          "diff": -0.05183312262958284,
+          "p_raw": 0.498
+        }
+      }
+    },
+    "3": {
+      "label": "ndig=3",
+      "n": 120,
+      "err_rate": 1.0,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": NaN,
+          "ci_lo": NaN,
+          "ci_hi": NaN
+        },
+        "self_inconsistency": {
+          "auroc": NaN,
+          "ci_lo": NaN,
+          "ci_hi": NaN
+        },
+        "token_entropy": {
+          "auroc": NaN,
+          "ci_lo": NaN,
+          "ci_hi": NaN
+        },
+        "nll": {
+          "auroc": NaN,
+          "ci_lo": NaN,
+          "ci_hi": NaN
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": NaN,
+          "p_raw": NaN
+        },
+        "SE_vs_token_entropy": {
+          "diff": NaN,
+          "p_raw": NaN
+        },
+        "SE_vs_nll": {
+          "diff": NaN,
+          "p_raw": NaN
+        }
+      }
+    }
+  },
+  "by_N": {
+    "5": {
+      "label": "N=5",
+      "n": 150,
+      "err_rate": 0.6533333333333333,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9962715855572999,
+          "ci_lo": 0.9894,
+          "ci_hi": 1.0
+        },
+        "self_inconsistency": {
+          "auroc": 0.9946036106750392,
+          "ci_lo": 0.9860089869281046,
+          "ci_hi": 1.0
+        },
+        "token_entropy": {
+          "auroc": 0.7602040816326531,
+          "ci_lo": 0.6743909685086156,
+          "ci_hi": 0.842
+        },
+        "nll": {
+          "auroc": 0.9911695447409733,
+          "ci_lo": 0.9733279450394019,
+          "ci_hi": 1.0
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.00166797488226067,
+          "p_raw": 0.272
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.23606750392464682,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": 0.005102040816326592,
+          "p_raw": 0.782
+        }
+      }
+    },
+    "10": {
+      "label": "N=10",
+      "n": 150,
+      "err_rate": 0.6733333333333333,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9810062638916953,
+          "ci_lo": 0.9547089947089947,
+          "ci_hi": 0.9989896948878562
+        },
+        "self_inconsistency": {
+          "auroc": 0.9823196605374823,
+          "ci_lo": 0.9573194662480377,
+          "ci_hi": 0.9994318181818181
+        },
+        "token_entropy": {
+          "auroc": 0.7138815922408568,
+          "ci_lo": 0.6226415094339622,
+          "ci_hi": 0.7987040133779264
+        },
+        "nll": {
+          "auroc": 0.9888866437664174,
+          "ci_lo": 0.9726205997392438,
+          "ci_hi": 1.0
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": -0.0013133966457870017,
+          "p_raw": 0.576
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.26712467165083853,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": -0.007880379874722121,
+          "p_raw": 0.25
+        }
+      }
+    },
+    "20": {
+      "label": "N=20",
+      "n": 150,
+      "err_rate": 0.6533333333333333,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9522174254317112,
+          "ci_lo": 0.9053951367781155,
+          "ci_hi": 0.9922727272727273
+        },
+        "self_inconsistency": {
+          "auroc": 0.9509419152276295,
+          "ci_lo": 0.9020598138245197,
+          "ci_hi": 0.9924
+        },
+        "token_entropy": {
+          "auroc": 0.7646193092621664,
+          "ci_lo": 0.6876136593251162,
+          "ci_hi": 0.8405952149387279
+        },
+        "nll": {
+          "auroc": 0.9508437990580848,
+          "ci_lo": 0.9016964285714286,
+          "ci_hi": 0.9933533447684391
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.0012755102040816757,
+          "p_raw": 0.868
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.1875981161695448,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": 0.0013736263736263687,
+          "p_raw": 0.878
+        }
+      }
+    }
+  },
+  "by_temperature": {
+    "0.5": {
+      "label": "T=0.5",
+      "n": 150,
+      "err_rate": 0.7066666666666667,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9944253859348199,
+          "ci_lo": 0.9818,
+          "ci_hi": 1.0
+        },
+        "self_inconsistency": {
+          "auroc": 0.9908876500857633,
+          "ci_lo": 0.9698,
+          "ci_hi": 1.0
+        },
+        "token_entropy": {
+          "auroc": 0.6942538593481989,
+          "ci_lo": 0.6015286097913655,
+          "ci_hi": 0.7871017871017871
+        },
+        "nll": {
+          "auroc": 0.9899228130360206,
+          "ci_lo": 0.9684819897084048,
+          "ci_hi": 1.0
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": 0.003537735849056589,
+          "p_raw": 0.746
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.30017152658662094,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": 0.004502572898799295,
+          "p_raw": 0.366
+        }
+      }
+    },
+    "1.0": {
+      "label": "T=1.0",
+      "n": 150,
+      "err_rate": 0.6733333333333333,
+      "aucs": {
+        "semantic_entropy": {
+          "auroc": 0.9987876338654273,
+          "ci_lo": 0.9951489951489951,
+          "ci_hi": 1.0
+        },
+        "self_inconsistency": {
+          "auroc": 0.9991917559102849,
+          "ci_lo": 0.9967838765008576,
+          "ci_hi": 1.0
+        },
+        "token_entropy": {
+          "auroc": 0.7953121842796524,
+          "ci_lo": 0.7249228395061729,
+          "ci_hi": 0.8617724867724867
+        },
+        "nll": {
+          "auroc": 0.997373206708426,
+          "ci_lo": 0.9897084048027445,
+          "ci_hi": 1.0
+        }
+      },
+      "comparisons": {
+        "SE_vs_self_inconsistency": {
+          "diff": -0.00040412204485751335,
+          "p_raw": 0.884
+        },
+        "SE_vs_token_entropy": {
+          "diff": 0.2034754495857749,
+          "p_raw": 0.0
+        },
+        "SE_vs_nll": {
+          "diff": 0.0014144271570013522,
+          "p_raw": 0.772
+        }
+      }
+    }
+  },
+  "total_elapsed_sec": 117.37967944145203
+}

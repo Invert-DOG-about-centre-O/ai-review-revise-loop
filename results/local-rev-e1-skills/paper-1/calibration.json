@@ -1,0 +1,8 @@
+{
+  "target_ratio": 1.4,
+  "source": "Huszar et al. 2021 PNAS, in-group amplification ratio range 1.3x-1.6x, midpoint used",
+  "calibrated_alpha": 0.65,
+  "achieved_ratio": 1.3791245291460543,
+  "variance_at_calibration": 0.23034438783581399,
+  "extremeness_at_calibration": 0.43632950021433037
+}

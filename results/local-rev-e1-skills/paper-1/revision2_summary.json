@@ -1,0 +1,86 @@
+{
+  "n_sweep": {
+    "N=50": {
+      "epsilon_shift_at_alpha0": 0.0649,
+      "alpha_range_eps0.35": 0.0032,
+      "alpha_range_eps0.15": 0.0084,
+      "epsilon_dominance_ratio_eps0.35": 20.51
+    },
+    "N=75": {
+      "epsilon_shift_at_alpha0": 0.0654,
+      "alpha_range_eps0.35": 0.0017,
+      "alpha_range_eps0.15": 0.0108,
+      "epsilon_dominance_ratio_eps0.35": 37.49
+    },
+    "N=100": {
+      "epsilon_shift_at_alpha0": 0.0516,
+      "alpha_range_eps0.35": 0.0411,
+      "alpha_range_eps0.15": 0.0105,
+      "epsilon_dominance_ratio_eps0.35": 1.26
+    },
+    "N=150": {
+      "epsilon_shift_at_alpha0": 0.0776,
+      "alpha_range_eps0.35": 0.0025,
+      "alpha_range_eps0.15": 0.0074,
+      "epsilon_dominance_ratio_eps0.35": 30.47
+    },
+    "N=200": {
+      "epsilon_shift_at_alpha0": 0.0999,
+      "alpha_range_eps0.35": 0.0068,
+      "alpha_range_eps0.15": 0.0073,
+      "epsilon_dominance_ratio_eps0.35": 14.76
+    }
+  },
+  "calibration_cutoff_sensitivity": {
+    "cutoff_0.0": {
+      "calibrated_alpha": 0.7,
+      "achieved_ratio": 1.3993,
+      "variance_at_calibration": 0.2324,
+      "variance_shift_from_alpha0": 0.0091
+    },
+    "cutoff_0.05": {
+      "calibrated_alpha": 0.7,
+      "achieved_ratio": 1.3759,
+      "variance_at_calibration": 0.2324,
+      "variance_shift_from_alpha0": 0.0091
+    },
+    "cutoff_0.15": {
+      "calibrated_alpha": 0.8,
+      "achieved_ratio": 1.4157,
+      "variance_at_calibration": 0.2301,
+      "variance_shift_from_alpha0": 0.0068
+    }
+  },
+  "soft_gate": {
+    "steep_eps0.15": {
+      "r": -0.7962,
+      "range": 0.0095,
+      "var_at_alpha0": 0.2974
+    },
+    "steep_eps0.35": {
+      "r": -0.3915,
+      "range": 0.0288,
+      "var_at_alpha0": 0.2089
+    },
+    "soft_eps0.15": {
+      "r": 0.9058,
+      "range": 0.0317,
+      "var_at_alpha0": 0.1587
+    },
+    "soft_eps0.35": {
+      "r": 0.951,
+      "range": 0.137,
+      "var_at_alpha0": 0.0
+    },
+    "verysoft_eps0.15": {
+      "r": 0.0,
+      "range": 0.0,
+      "var_at_alpha0": 0.0
+    },
+    "verysoft_eps0.35": {
+      "r": 0.0,
+      "range": 0.0,
+      "var_at_alpha0": 0.0
+    }
+  }
+}

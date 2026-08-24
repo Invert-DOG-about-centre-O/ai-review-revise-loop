@@ -1,0 +1,34 @@
+{
+  "mixing_eps0.15": {
+    "pearson_r_alpha_vs_variance": -0.8225,
+    "ols_slope_alpha_vs_variance": -0.00156,
+    "variance_total_variation": 0.0303,
+    "variance_range": 0.0123,
+    "variance_baseline_alpha0": 0.3073,
+    "pearson_r_alpha_vs_amp_ratio": 0.9776
+  },
+  "mixing_eps0.35": {
+    "pearson_r_alpha_vs_variance": 0.0767,
+    "ols_slope_alpha_vs_variance": 0.00039,
+    "variance_total_variation": 0.1245,
+    "variance_range": 0.0303,
+    "variance_baseline_alpha0": 0.2074,
+    "pearson_r_alpha_vs_amp_ratio": 0.9546
+  },
+  "smallworld_eps0.15": {
+    "pearson_r_alpha_vs_variance": -0.3315,
+    "ols_slope_alpha_vs_variance": -0.00016,
+    "variance_total_variation": 0.0078,
+    "variance_range": 0.0036,
+    "variance_baseline_alpha0": 0.3153,
+    "pearson_r_alpha_vs_amp_ratio": 0.9874
+  },
+  "smallworld_eps0.35": {
+    "pearson_r_alpha_vs_variance": 0.3342,
+    "ols_slope_alpha_vs_variance": 0.00108,
+    "variance_total_variation": 0.0643,
+    "variance_range": 0.0199,
+    "variance_baseline_alpha0": 0.2297,
+    "pearson_r_alpha_vs_amp_ratio": 0.9623
+  }
+}

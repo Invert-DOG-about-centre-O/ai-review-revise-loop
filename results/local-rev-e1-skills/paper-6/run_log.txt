@@ -1,0 +1,6 @@
+[main grid] 720 runs, elapsed 7.3s
+[hetero ablation] 480 runs, elapsed 14.2s
+[complementarity tests] 24 cells tested
+[transparency x asymmetric] tests done
+[power analysis] done, elapsed 65.2s
+TOTAL elapsed 65.2s

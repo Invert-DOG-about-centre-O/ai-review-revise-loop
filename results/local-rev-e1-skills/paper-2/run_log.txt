@@ -1,0 +1,44 @@
+epoch 0 loss 3.1578
+epoch 1 loss 3.1050
+epoch 2 loss 3.0403
+epoch 3 loss 2.9742
+epoch 4 loss 2.9083
+epoch 5 loss 2.8443
+epoch 6 loss 2.7817
+epoch 7 loss 2.7206
+training took 2.6s
+in_distribution {'condition': 'in_distribution', 'naive_coverage': 0.9122413793103449, 'naive_size': 17.138836206896553, 'lac_coverage': 0.8969827586206897, 'lac_size': 15.988146551724139, 'lac_qhat': 0.97770804, 'aps_coverage': 0.9225, 'aps_size': 17.75844827586207, 'aps_qhat': 0.8917793181723979, 'n_test_points': 23200}
+shifted_0.5 {'condition': 'shifted_0.5', 'naive_coverage': 0.8065517241379311, 'naive_size': 17.259181034482758, 'lac_coverage': 0.7759051724137931, 'lac_size': 16.25487068965517, 'lac_qhat': 0.97770804, 'aps_coverage': 0.8237068965517241, 'aps_size': 17.880775862068965, 'aps_qhat': 0.8917793181723979, 'n_test_points': 23200}
+calib_ablation {'n_calib_points': 290, 'n_calib_seqs': 10, 'lac_coverage': 0.9306465517241379, 'lac_size': 18.02758620689655, 'aps_coverage': 0.9538362068965517, 'aps_size': 19.942155172413795}
+calib_ablation {'n_calib_points': 725, 'n_calib_seqs': 25, 'lac_coverage': 0.9205603448275862, 'lac_size': 17.369612068965516, 'aps_coverage': 0.9439224137931035, 'aps_size': 19.148577586206898}
+calib_ablation {'n_calib_points': 1450, 'n_calib_seqs': 50, 'lac_coverage': 0.9077155172413793, 'lac_size': 16.63741379310345, 'aps_coverage': 0.9325, 'aps_size': 18.36280172413793}
+calib_ablation {'n_calib_points': 2900, 'n_calib_seqs': 100, 'lac_coverage': 0.9050862068965517, 'lac_size': 16.49375, 'aps_coverage': 0.9291379310344827, 'aps_size': 18.142844827586206}
+calib_ablation {'n_calib_points': 5800, 'n_calib_seqs': 200, 'lac_coverage': 0.8994396551724138, 'lac_size': 16.126896551724137, 'aps_coverage': 0.9260775862068965, 'aps_size': 17.970646551724137}
+calib_ablation {'n_calib_points': 23200, 'n_calib_seqs': 800, 'lac_coverage': 0.8969827586206897, 'lac_size': 15.988146551724139, 'aps_coverage': 0.9234913793103449, 'aps_size': 17.802543103448276}
+temp_ablation {'temperature': 0.5, 'naive_coverage': 0.7705172413793103, 'naive_size': 10.446206896551724, 'lac_coverage': 0.8949568965517242, 'lac_size': 15.838448275862069, 'aps_coverage': 0.9227155172413793, 'aps_size': 17.553793103448275}
+temp_ablation {'temperature': 0.8, 'naive_coverage': 0.8838793103448276, 'naive_size': 15.454870689655172, 'lac_coverage': 0.8959482758620689, 'lac_size': 15.910862068965518, 'aps_coverage': 0.9233189655172414, 'aps_size': 17.731508620689656}
+temp_ablation {'temperature': 1.0, 'naive_coverage': 0.9122413793103449, 'naive_size': 17.138836206896553, 'lac_coverage': 0.8969827586206897, 'lac_size': 15.988146551724139, 'aps_coverage': 0.9222844827586207, 'aps_size': 17.74375}
+temp_ablation {'temperature': 1.5, 'naive_coverage': 0.9426724137931034, 'naive_size': 19.162844827586206, 'lac_coverage': 0.8969396551724138, 'lac_size': 16.037284482758622, 'aps_coverage': 0.9217672413793103, 'aps_size': 17.79051724137931}
+temp_ablation {'temperature': 2.0, 'naive_coverage': 0.9540086206896552, 'naive_size': 20.038060344827585, 'lac_coverage': 0.8959913793103448, 'lac_size': 16.026077586206895, 'aps_coverage': 0.9220689655172414, 'aps_size': 17.848706896551725}
+temp_ablation {'temperature': 3.0, 'naive_coverage': 0.9649137931034483, 'naive_size': 20.877112068965516, 'lac_coverage': 0.895646551724138, 'lac_size': 16.05836206896552, 'aps_coverage': 0.9221120689655172, 'aps_size': 17.893922413793103}
+shift_sweep {'shift_frac': 0.0, 'naive_coverage': 0.9112068965517242, 'lac_coverage': 0.8954310344827586, 'aps_coverage': 0.9199137931034482, 'naive_size': 17.156810344827587, 'lac_size': 16.029655172413793, 'aps_size': 17.77810344827586}
+shift_sweep {'shift_frac': 0.1, 'naive_coverage': 0.889051724137931, 'lac_coverage': 0.8711206896551724, 'aps_coverage': 0.9024137931034483, 'naive_size': 17.190603448275862, 'lac_size': 16.127068965517243, 'aps_size': 17.817327586206897}
+shift_sweep {'shift_frac': 0.2, 'naive_coverage': 0.8626724137931034, 'lac_coverage': 0.8392241379310345, 'aps_coverage': 0.8767241379310344, 'naive_size': 17.199137931034482, 'lac_size': 16.12508620689655, 'aps_size': 17.82146551724138}
+shift_sweep {'shift_frac': 0.3, 'naive_coverage': 0.8416379310344828, 'lac_coverage': 0.8179310344827586, 'aps_coverage': 0.857844827586207, 'naive_size': 17.205862068965516, 'lac_size': 16.17301724137931, 'aps_size': 17.832672413793105}
+shift_sweep {'shift_frac': 0.4, 'naive_coverage': 0.8292241379310344, 'lac_coverage': 0.8025862068965517, 'aps_coverage': 0.8480172413793103, 'naive_size': 17.23043103448276, 'lac_size': 16.193103448275863, 'aps_size': 17.857931034482757}
+shift_sweep {'shift_frac': 0.5, 'naive_coverage': 0.8102586206896552, 'lac_coverage': 0.779051724137931, 'aps_coverage': 0.8294827586206897, 'naive_size': 17.253793103448277, 'lac_size': 16.247672413793104, 'aps_size': 17.88241379310345}
+shift_sweep {'shift_frac': 0.7, 'naive_coverage': 0.7722413793103449, 'lac_coverage': 0.7387068965517242, 'aps_coverage': 0.7945689655172414, 'naive_size': 17.278362068965517, 'lac_size': 16.298793103448276, 'aps_size': 17.90956896551724}
+shift_sweep {'shift_frac': 1.0, 'naive_coverage': 0.7230172413793103, 'lac_coverage': 0.6815517241379311, 'aps_coverage': 0.7520689655172413, 'naive_size': 17.330862068965516, 'lac_size': 16.382241379310344, 'aps_size': 17.960258620689654}
+DONE total time 13.439745664596558
+
+--- multiseed_check.py output ---
+seed 0: shift0={'naive': 0.9144137931034483, 'lac': 0.8991034482758621, 'aps': 0.9248275862068965} shift1={'naive': 0.725103448275862, 'lac': 0.6832413793103448, 'aps': 0.7510344827586207}
+seed 1: shift0={'naive': 0.9176551724137931, 'lac': 0.9048275862068965, 'aps': 0.9309655172413793} shift1={'naive': 0.7321379310344828, 'lac': 0.6999310344827586, 'aps': 0.7631724137931034}
+seed 2: shift0={'naive': 0.9124137931034483, 'lac': 0.9006206896551724, 'aps': 0.9251724137931034} shift1={'naive': 0.7306896551724138, 'lac': 0.6995862068965517, 'aps': 0.761448275862069}
+seed 3: shift0={'naive': 0.9178620689655173, 'lac': 0.9003448275862069, 'aps': 0.9240689655172414} shift1={'naive': 0.7306896551724138, 'lac': 0.6871034482758621, 'aps': 0.7455172413793103}
+seed 4: shift0={'naive': 0.9066896551724138, 'lac': 0.8991034482758621, 'aps': 0.9228275862068965} shift1={'naive': 0.7257931034482759, 'lac': 0.7074482758620689, 'aps': 0.764551724137931}
+
+Coverage drop (shift 0 -> shift 1), mean +/- std over 5 seeds:
+  naive: 0.1849 +/- 0.0032  (values=[0.1893, 0.1855, 0.1817, 0.1872, 0.1809])
+  lac: 0.2053 +/- 0.0087  (values=[0.2159, 0.2049, 0.201, 0.201, 0.1917])
+  aps: 0.1684 +/- 0.0072  (values=[0.1738, 0.1678, 0.1637, 0.1786, 0.1583])

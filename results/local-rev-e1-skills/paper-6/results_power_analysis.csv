@@ -1,0 +1,6 @@
+n_seeds,n_replicates,fraction_significant
+10,8,1.0
+20,8,1.0
+40,8,1.0
+80,8,1.0
+160,8,1.0

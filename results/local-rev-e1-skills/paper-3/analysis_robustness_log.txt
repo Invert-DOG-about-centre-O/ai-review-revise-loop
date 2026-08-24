@@ -1,0 +1,30 @@
+=== final_var and frozen_frac by K, lambda, epsilon (mean over 20 seeds) ===
+--- K=3 ---
+lambda\eps   0.10   0.20   0.30
+var  lam= -1.0  0.329  0.331  0.339
+frz  lam= -1.0  0.998  0.995  0.991
+var  lam=  0.0  0.324  0.301  0.258
+frz  lam=  0.0  0.693  0.448  0.276
+var  lam=  1.0  0.321  0.303  0.271
+frz  lam=  1.0  0.072  0.006  0.002
+--- K=5 ---
+lambda\eps   0.10   0.20   0.30
+var  lam= -1.0  0.329  0.332  0.346
+frz  lam= -1.0  0.997  0.992  0.985
+var  lam=  0.0  0.324  0.300  0.251
+frz  lam=  0.0  0.532  0.264  0.115
+var  lam=  1.0  0.322  0.301  0.274
+frz  lam=  1.0  0.016  0.001  0.000
+--- K=10 ---
+lambda\eps   0.10   0.20   0.30
+var  lam= -1.0  0.329  0.335  0.367
+frz  lam= -1.0  0.994  0.983  0.973
+var  lam=  0.0  0.321  0.292  0.239
+frz  lam=  0.0  0.279  0.078  0.020
+var  lam=  1.0  0.321  0.299  0.270
+frz  lam=  1.0  0.002  0.001  0.000
+
+=== Ordering check: does final_var(diversity-boost) > final_var(engagement) > final_var(random) hold at eps=0.20 for every K? ===
+K=3: random=0.301 engagement=0.303 diversity-boost=0.331  order_holds=True
+K=5: random=0.300 engagement=0.301 diversity-boost=0.332  order_holds=True
+K=10: random=0.292 engagement=0.299 diversity-boost=0.335  order_holds=True

@@ -1,0 +1,14 @@
+{
+  "mixing": {
+    "r_alpha_variance": -0.1357,
+    "variance_range": 0.0,
+    "variance_at_alpha0": 0.0,
+    "variance_at_alpha6": 0.0
+  },
+  "smallworld": {
+    "r_alpha_variance": 0.816,
+    "variance_range": 0.0001,
+    "variance_at_alpha0": 0.0,
+    "variance_at_alpha6": 0.0001
+  }
+}

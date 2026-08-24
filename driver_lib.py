@@ -145,12 +145,22 @@ def setup_local(name):
     return d
 
 
-def author_with_tools(d, s, topics, lessons="", model="sonnet"):
+def author_with_tools(d, s, topics, lessons="", model="sonnet", skills=False):
     """Write v1.md for episode s: real WebSearch + Read/Write access, so the
     author surveys existing work on the topic and weighs candidate angles
     before drafting, instead of free-associating a paper straight from the
     topic string (the prior autoresearch._build_complete()-based behavior,
-    which had no tools at all)."""
+    which had no tools at all).
+
+    skills=True (the skills-loop arm, see reflect_and_update_skills()) seeds
+    this paper's directory with a real copy of the agent-level skills.md —
+    written by the author itself at the end of each prior episode — and
+    tells it to Read that file before drafting. Unlike `lessons` (embedded
+    as prompt text, e2's mechanism), this tests whether the author agent
+    consulting a self-maintained skills file via its own Read tool changes
+    v1 quality over episodes. Mutually exclusive with `lessons` in practice
+    (no experiment uses both), but not enforced — nothing stops combining
+    them."""
     pdir = d / f"data/autoresearch/paper-{s}"
     v1 = pdir / "v1.md"
     if v1.exists():
@@ -159,8 +169,22 @@ def author_with_tools(d, s, topics, lessons="", model="sonnet"):
     topic = topics[s % len(topics)]
     lessons_block = (f"\n===== LESSONS FROM PRIOR REVIEWS (apply these) =====\n"
                      f"{lessons}\n\n") if lessons else ""
+    skills_block = ""
+    if skills:
+        master_skills = d / "data/autoresearch/skills.md"
+        skills_local = pdir / "skills.md"
+        if master_skills.exists():
+            shutil.copy(master_skills, skills_local)
+        else:
+            skills_local.write_text("", encoding="utf-8")
+        skills_block = (
+            "Before anything else, read skills.md in this directory using "
+            "the Read tool — it contains lessons YOU distilled from the "
+            "review process of earlier papers in this series (empty if "
+            "this is the first paper). Apply anything relevant when "
+            "choosing your direction and drafting.\n\n")
     prompt = (
-        f"{lessons_block}"
+        f"{lessons_block}{skills_block}"
         f"You are an AI research scientist. Your topic: {topic}\n\n"
         f"First, use WebSearch to survey existing work in this space — what "
         f"has been tried, and what the open problems or gaps are. Based on "
@@ -212,7 +236,8 @@ def author_with_tools(d, s, topics, lessons="", model="sonnet"):
            "--add-dir", str(pdir)]
     run_claude_tool(cmd, prompt, pdir, expect_file=v1)
     enforce_char_limit(pdir, "v1.md", model=model)
-    ml.log(f"ep{s}: authored w/ search ({topic[:40]}...)")
+    tag = " + skills.md" if skills else ""
+    ml.log(f"ep{s}: authored w/ search{tag} ({topic[:40]}...)")
     return v1.read_text(encoding="utf-8")
 
 
@@ -553,13 +578,70 @@ def reviewer_history_context(pdir, k, reviewer_i):
     return "\n\n".join(parts) + "\n\n"
 
 
+def reflect_and_update_skills(pdir, d, model="sonnet"):
+    """End-of-episode step for the skills-loop arm: the author agent itself
+    (real Read/Write access, not a separate ml.chat distill call like e2's
+    lessons_on) reads every version and review of the paper it just
+    finished, then rewrites skills.md with general, reusable lessons for
+    drafting FUTURE papers — not paper-specific facts. Writes the new
+    content to skills_updated.md (a file that doesn't exist yet) rather
+    than editing skills.md in place, so run_claude_tool's expect_file
+    existence check is a meaningful completion signal (skills.md itself may
+    already exist and be non-empty going in, so its existence alone
+    wouldn't prove anything happened). The result is then promoted to the
+    agent-level skills.md, which author_with_tools(skills=True) seeds into
+    each subsequent paper's directory.
+
+    Idempotent/resumable: skipped if skills_updated.md already exists."""
+    skills_updated = pdir / "skills_updated.md"
+    if skills_updated.exists():
+        return
+    skills_local = pdir / "skills.md"
+    if not skills_local.exists():
+        skills_local.write_text("", encoding="utf-8")
+    review_files = sorted(pdir.glob("round*_review.json"))
+    names = ", ".join(f.name for f in review_files)
+    prompt = (
+        f"You just finished a full review-revise cycle for this paper. "
+        f"Read every version of it (v1.md, v2.md, ...) and every review in "
+        f"this directory ({names}) using the Read tool, to see what issues "
+        f"came up across rounds and how well (or poorly) they were "
+        f"addressed by each revision. Also read the experiment code, logs, "
+        f"and result files (.py, .csv, .json, .txt, etc.) in this "
+        f"directory that the reviews reference or verified against — "
+        f"lessons grounded in what the code/results actually show are more "
+        f"useful than lessons inferred only from the reviews' prose.\n\n"
+        f"Then read skills.md in this directory — lessons distilled from "
+        f"earlier papers in this series, may be empty if this is the first "
+        f"one. Write an UPDATED, COMPLETE version of it to "
+        f"skills_updated.md using the Write tool: add any new, general, "
+        f"reusable lessons from THIS paper's review process that would "
+        f"help you write a BETTER FIRST DRAFT of a future paper on a "
+        f"different topic — recurring rigor gaps, framing mistakes, things "
+        f"the reviewer consistently flagged. Do not include paper- or "
+        f"topic-specific facts or results, only general lessons about what "
+        f"makes these papers score well. Keep it concise (a bullet list is "
+        f"fine); revise or remove an existing bullet if this paper's "
+        f"experience refines or contradicts it rather than just appending "
+        f"under it. If skills.md already covers a lesson well, carry it "
+        f"forward unchanged rather than rewording it for its own sake.")
+    cmd = ["claude", "-p", "--model", model,
+           "--allowedTools", "Read Write Edit",
+           "--add-dir", str(pdir)]
+    run_claude_tool(cmd, prompt, pdir, expect_file=skills_updated)
+    master_skills = d / "data/autoresearch/skills.md"
+    shutil.copy(skills_updated, master_skills)
+    ml.log(f"{pdir.name}: skills.md updated")
+
+
 def run_episode(d, s, gpu, lessons_on, ledger, lenient=False,
                 author_model="sonnet", reviewer_model="sonnet",
-                reviewer_history=True):
+                reviewer_history=True, skills_on=False):
     lessons_path = d / "data/autoresearch/lessons.md"
     start_lessons = (lessons_path.read_text(encoding="utf-8").strip()
                      if lessons_on and lessons_path.exists() else "")
-    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model)
+    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model,
+                      skills=skills_on)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
@@ -588,6 +670,8 @@ def run_episode(d, s, gpu, lessons_on, ledger, lenient=False,
             lessons_text = (lessons_path.read_text(encoding="utf-8").strip()
                             if lessons_on and lessons_path.exists() else "")
             revise_with_tools(pdir, k, lessons=lessons_text, model=author_model)
+    if skills_on:
+        reflect_and_update_skills(pdir, d, model=author_model)
 
 
 def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,

@@ -1,0 +1,32 @@
+Nash price: 1.4733683420855215 Monopoly price: 1.924981245311328
+
+=== Main comparison (collusion index, last 10% of periods) ===
+baseline        mean=0.4196 sd=0.0781 n=25
+diversity       mean=0.2257 sd=0.1212 n=25
+transparency    mean=0.3758 sd=0.1450 n=25
+audit_explore   mean=0.4076 sd=0.0513 n=25
+audit_enforce   mean=0.3553 sd=0.0697 n=25
+
+=== Paired tests vs baseline (Bonferroni-corrected, k=4 comparisons) ===
+diversity       mean_diff=-0.1939  paired-t p=6.67e-07 (bonf=2.67e-06)  wilcoxon p=1.19e-07
+transparency    mean_diff=-0.0438  paired-t p=1.81e-01 (bonf=7.25e-01)  wilcoxon p=2.10e-01
+audit_explore   mean_diff=-0.0120  paired-t p=4.53e-01 (bonf=1.00e+00)  wilcoxon p=5.92e-01
+audit_enforce   mean_diff=-0.0643  paired-t p=1.25e-03 (bonf=4.99e-03)  wilcoxon p=4.06e-03
+
+=== Threshold ablation (audit_enforce), matched n=25 seeds ===
+theta=0.3: mean_idx=0.2021 sd=0.0678 mean_n_audits=54.0
+theta=0.5: mean_idx=0.3553 sd=0.0697 mean_n_audits=3.8
+theta=0.7: mean_idx=0.4155 sd=0.0717 mean_n_audits=0.1
+
+=== Market robustness (MU=0.5, less differentiated), n=15 seeds ===
+baseline mean=0.4432 sd=0.0659
+diversity       mean=0.1359  mean_diff=-0.3072  paired-t p=2.77e-09 (bonf=1.11e-08)
+transparency    mean=0.3857  mean_diff=-0.0575  paired-t p=3.92e-02 (bonf=1.57e-01)
+audit_explore   mean=0.4533  mean_diff=+0.0101  paired-t p=6.03e-01 (bonf=1.00e+00)
+audit_enforce   mean=0.3345  mean_diff=-0.1087  paired-t p=9.39e-04 (bonf=3.76e-03)
+
+=== Effect sizes (Cohen's dz, paired) vs baseline, main market ===
+diversity       dz=-1.335
+transparency    dz=-0.275
+audit_explore   dz=-0.152
+audit_enforce   dz=-0.731

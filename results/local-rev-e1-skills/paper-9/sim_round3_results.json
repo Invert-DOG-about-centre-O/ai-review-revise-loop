@@ -1,0 +1,68 @@
+{
+  "w_sensitivity": {
+    "W=2": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.08217396844456477,
+        "ece_freq": 0.16332000000000005,
+        "t": -19.386233272328017,
+        "p": 3.8145420048881484e-18
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.1785483896169217,
+        "ece_freq": 0.13696666666666663,
+        "t": 13.604800177626503,
+        "p": 4.050800049511144e-14
+      }
+    },
+    "W=4": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.15090623177940515,
+        "ece_freq": 0.29553999999999997,
+        "t": -114.47013380181282,
+        "p": 4.531300778864165e-40
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.1484073643956751,
+        "ece_freq": 0.09086666666666664,
+        "t": 20.863690134452565,
+        "p": 5.204172522170474e-19
+      }
+    },
+    "W=8": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.2031123888808851,
+        "ece_freq": 0.36477333333333345,
+        "t": -111.34866708637495,
+        "p": 1.0084763309224935e-39
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.13338926858102507,
+        "ece_freq": 0.11400666666666663,
+        "t": 4.557844000466554,
+        "p": 8.65265860252914e-05
+      }
+    }
+  },
+  "grid_rounding_check": {
+    "k=1": {
+      "coarse_mean": 0.5386920000000001,
+      "fine_mean": 0.5387442,
+      "n_unique_coarse": 96,
+      "n_unique_fine": 951,
+      "max_abs_diff_per_point": 0.00500000000000006,
+      "mean_abs_diff_per_point": 0.001959
+    },
+    "k=20": {
+      "coarse_mean": 0.6697274216043052,
+      "fine_mean": 0.6697424747064394,
+      "n_unique_coarse": 96,
+      "n_unique_fine": 951,
+      "max_abs_diff_per_point": 0.019344409945854013,
+      "mean_abs_diff_per_point": 0.00198798083941641
+    },
+    "coarse_gain_pp": 13.103542160430514,
+    "fine_gain_pp": 13.099827470643943,
+    "gain_diff_from_rounding_pp": 0.0037146897865714124
+  },
+  "runtime_sec": 36.43151497840881
+}

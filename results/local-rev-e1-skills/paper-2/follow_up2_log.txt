@@ -1,0 +1,19 @@
+======================================================================
+Q2-extended: score-distribution shift, LAC vs APS, 5 seeds
+  seed 0: LAC_move=0.676  APS_move=0.839  APS>LAC: True
+  seed 1: LAC_move=0.668  APS_move=0.813  APS>LAC: True
+  seed 2: LAC_move=0.649  APS_move=0.799  APS>LAC: True
+  seed 3: LAC_move=0.648  APS_move=0.836  APS>LAC: True
+  seed 4: LAC_move=0.646  APS_move=0.794  APS>LAC: True
+  Mean over 5 seeds: LAC=0.658+/-0.012  APS=0.816+/-0.019  APS>LAC in 5/5 seeds
+======================================================================
+Q3-extended: matched-set-size shift-robustness, 5 seeds (add seeds 3,4)
+  seed 0: coverage drop: LAC=0.1682 APS=0.1738  APS>LAC: True
+  seed 1: coverage drop: LAC=0.1557 APS=0.1617  APS>LAC: True
+  seed 2: coverage drop: LAC=0.1591 APS=0.1620  APS>LAC: True
+  seed 3: coverage drop: LAC=0.1700 APS=0.1743  APS>LAC: True
+  seed 4: coverage drop: LAC=0.1507 APS=0.1545  APS>LAC: True
+  Matched-size mean drop over 5 seeds: LAC=0.1608+/-0.0073  APS=0.1653+/-0.0077
+  Per-seed (APS-LAC) diff: [np.float64(0.0056), np.float64(0.006), np.float64(0.0029), np.float64(0.0043), np.float64(0.0037)]  mean=0.0045 std=0.0012  positive in 5/5 seeds
+======================================================================
+DONE

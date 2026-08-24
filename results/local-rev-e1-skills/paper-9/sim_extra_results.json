@@ -1,0 +1,69 @@
+{
+  "analytic_gain_check": {
+    "low_heterogeneity": {
+      "analytic_acc_k1": 0.5499966666666667,
+      "analytic_acc_k20": 0.9793267828938387,
+      "analytic_gain_pp": 42.933011622717196
+    },
+    "moderate_heterogeneity": {
+      "analytic_acc_k1": 0.5499839999999999,
+      "analytic_acc_k20": 0.917794382198166,
+      "analytic_gain_pp": 36.78103821981661
+    },
+    "mild_heterogeneity": {
+      "analytic_acc_k1": 0.5475153333333334,
+      "analytic_acc_k20": 0.778731787563335,
+      "analytic_gain_pp": 23.12164542300017
+    },
+    "extreme_heterogeneity": {
+      "analytic_acc_k1": 0.5386920000000001,
+      "analytic_acc_k20": 0.6697274216043052,
+      "analytic_gain_pp": 13.103542160430514
+    }
+  },
+  "alt_family_check": {
+    "compressive_slope0.6": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.16130611619244395,
+        "ece_freq": 0.29978,
+        "t": -41.46005070880629,
+        "p": 2.2832121709112768e-27
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.11034086546367589,
+        "ece_freq": 0.08345999999999995,
+        "t": 7.651099161089481,
+        "p": 1.9520972750776756e-08
+      }
+    },
+    "mildly_compressive_slope1.0": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.1267765168479308,
+        "ece_freq": 0.29991999999999996,
+        "t": -53.42838993036571,
+        "p": 1.6024311972548594e-30
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.10534508093204341,
+        "ece_freq": 0.08029999999999997,
+        "t": 6.279522918373147,
+        "p": 7.419749539775618e-07
+      }
+    },
+    "expansive_slope1.3": {
+      "moderate_heterogeneity": {
+        "ece_verb": 0.13539957572800962,
+        "ece_freq": 0.2943266666666667,
+        "t": -49.29753213970523,
+        "p": 1.6126768441139085e-29
+      },
+      "extreme_heterogeneity": {
+        "ece_verb": 0.06288209987557279,
+        "ece_freq": 0.08501999999999997,
+        "t": -7.814556543394638,
+        "p": 1.283789817202269e-08
+      }
+    }
+  },
+  "runtime_sec": 12.868290662765503
+}

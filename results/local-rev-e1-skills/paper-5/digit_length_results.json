@@ -1,0 +1,63 @@
+{
+  "1": {
+    "n_draws": 8,
+    "n_per_draw": 60,
+    "mean_err_rate": 0.027083333333333334,
+    "n_draws_with_defined_auroc": 5,
+    "auroc_mean": 0.766395905939058,
+    "auroc_min": 0.6186440677966102,
+    "auroc_max": 0.8641975308641975,
+    "auroc_per_draw": [
+      NaN,
+      0.8318965517241379,
+      0.8641975308641975,
+      0.7198275862068966,
+      0.6186440677966102,
+      0.7974137931034483,
+      NaN,
+      NaN
+    ],
+    "mean_n_correct_per_draw": 58.375
+  },
+  "2": {
+    "n_draws": 8,
+    "n_per_draw": 60,
+    "mean_err_rate": 0.9333333333333333,
+    "n_draws_with_defined_auroc": 7,
+    "auroc_mean": 0.7460389945699448,
+    "auroc_min": 0.46545454545454545,
+    "auroc_max": 0.9707602339181286,
+    "auroc_per_draw": [
+      0.6327272727272727,
+      0.7611607142857143,
+      0.6939655172413793,
+      0.9707602339181286,
+      0.783,
+      0.9152046783625731,
+      NaN,
+      0.46545454545454545
+    ],
+    "mean_n_correct_per_draw": 4.0
+  },
+  "3": {
+    "n_draws": 8,
+    "n_per_draw": 60,
+    "mean_err_rate": 0.9958333333333333,
+    "n_draws_with_defined_auroc": 2,
+    "auroc_mean": 0.6567796610169492,
+    "auroc_min": 0.3983050847457627,
+    "auroc_max": 0.9152542372881356,
+    "auroc_per_draw": [
+      NaN,
+      NaN,
+      0.3983050847457627,
+      NaN,
+      NaN,
+      NaN,
+      NaN,
+      0.9152542372881356
+    ],
+    "mean_n_correct_per_draw": 0.25
+  },
+  "total_elapsed_sec": 98.51865530014038
+}

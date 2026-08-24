@@ -1,0 +1,75 @@
+elapsed_sec=2.78
+
+(A) fine-grained continuous transition widths:
+{
+  "low": [
+    0.63,
+    0.65,
+    0.02
+  ],
+  "medium": [
+    0.58,
+    0.59,
+    0.01
+  ],
+  "high": [
+    0.53,
+    0.55,
+    0.02
+  ]
+}
+
+(B) confidence-map sensitivity collapse points:
+{
+  "linear": {
+    "low": 0.6,
+    "medium": 0.55,
+    "high": 0.5
+  },
+  "sqrt": {
+    "low": 0.55,
+    "medium": 0.5,
+    "high": 0.5
+  },
+  "square": {
+    "low": 0.75,
+    "medium": 0.65,
+    "high": 0.55
+  }
+}
+
+(C) sigmoid-blend results:
+ skill  lam  team_acc_mean
+   low 0.40       0.923392
+   low 0.45       0.918275
+   low 0.50       0.911111
+   low 0.55       0.911550
+   low 0.60       0.912719
+   low 0.65       0.901170
+   low 0.70       0.895614
+   low 0.75       0.870614
+   low 0.80       0.809795
+   low 0.85       0.753655
+   low 1.00       0.640643
+medium 0.40       0.933480
+medium 0.45       0.928216
+medium 0.50       0.925439
+medium 0.55       0.932310
+medium 0.60       0.921637
+medium 0.65       0.913596
+medium 0.70       0.898246
+medium 0.75       0.865789
+medium 0.80       0.830556
+medium 0.85       0.786696
+medium 1.00       0.753070
+  high 0.40       0.937135
+  high 0.45       0.936988
+  high 0.50       0.941813
+  high 0.55       0.938012
+  high 0.60       0.934064
+  high 0.65       0.917690
+  high 0.70       0.908626
+  high 0.75       0.892982
+  high 0.80       0.871930
+  high 0.85       0.854971
+  high 1.00       0.854971
