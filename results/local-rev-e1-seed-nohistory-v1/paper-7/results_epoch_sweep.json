@@ -1,0 +1,44 @@
+{
+  "epoch_sweep": {
+    "15": {
+      "auroc": {
+        "token_entropy": 0.48312307692307693,
+        "lexical_entropy": 0.7654081196581196,
+        "semantic_entropy": 0.6975942307692309
+      },
+      "acc": 0.16
+    },
+    "17": {
+      "auroc": {
+        "token_entropy": 0.6348844710297913,
+        "lexical_entropy": 0.7610485573539761,
+        "semantic_entropy": 0.778721704198921
+      },
+      "acc": 0.2914285714285715
+    },
+    "19": {
+      "auroc": {
+        "token_entropy": 0.6146886416950164,
+        "lexical_entropy": 0.7682277619115474,
+        "semantic_entropy": 0.7715717086153829
+      },
+      "acc": 0.5085714285714286
+    },
+    "21": {
+      "auroc": {
+        "token_entropy": 0.6282246077126862,
+        "lexical_entropy": 0.8345852662998524,
+        "semantic_entropy": 0.8636696695076779
+      },
+      "acc": 0.8171428571428571
+    },
+    "23": {
+      "auroc": {
+        "token_entropy": 0.6743529411764706,
+        "lexical_entropy": 0.9065882352941177,
+        "semantic_entropy": 0.9265882352941177
+      },
+      "acc": 0.9371428571428572
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "ablation_large": {
+    "n_seeds": 30,
+    "auroc_mean": {
+      "token_entropy": 0.6049496847500573,
+      "lexical_entropy": 0.8103264872521562,
+      "semantic_entropy": 0.8043337159363777
+    },
+    "auroc_std": {
+      "token_entropy": 0.15756190782276755,
+      "lexical_entropy": 0.09067170720371671,
+      "semantic_entropy": 0.10043684906643406
+    },
+    "semantic_minus_lexical_mean": -0.005992771315778555,
+    "bootstrap_ci95": [
+      -0.034640594666151485,
+      0.022920627418427
+    ],
+    "wilcoxon_p": 0.685047073289752
+  }
+}

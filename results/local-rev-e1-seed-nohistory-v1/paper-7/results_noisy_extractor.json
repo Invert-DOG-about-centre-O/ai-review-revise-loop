@@ -1,0 +1,24 @@
+{
+  "noisy_extractor": {
+    "0.0": {
+      "token_entropy": 0.6146886416950164,
+      "lexical_entropy": 0.7682277619115474,
+      "semantic_entropy": 0.7715717086153829
+    },
+    "0.1": {
+      "token_entropy": 0.6584054103790945,
+      "lexical_entropy": 0.7832318631660737,
+      "semantic_entropy": 0.765337330797857
+    },
+    "0.2": {
+      "token_entropy": 0.6141613447514068,
+      "lexical_entropy": 0.7677748953370072,
+      "semantic_entropy": 0.7887070314088949
+    },
+    "0.3": {
+      "token_entropy": 0.6531532649545071,
+      "lexical_entropy": 0.7369002632977789,
+      "semantic_entropy": 0.7361225213709686
+    }
+  }
+}

@@ -187,8 +187,8 @@ if __name__ == "__main__":
     sweep_results["sig_w0_vs_main_similarity"] = {"diff": obs, "p": p}
     print(f"w=0.0 (sweep) vs similarity (main, 10 seeds): diff={obs:.4f}, p={p:.4f}")
 
-    print("\n=== Holm-Bonferroni correction (weight-sweep family, m=7) ===")
-    sweep_pvals = [(k, v["p"]) for k, v in sweep_results.items() if k.startswith("sig_")]
+    print("\n=== Holm-Bonferroni correction (weight-sweep family, m=8) ===")
+    sweep_pvals = [(k, v["p"]) for k, v in sweep_results.items() if isinstance(k, str) and k.startswith("sig_")]
     holm_sweep = holm_bonferroni(sweep_pvals)
     for k, v in holm_sweep.items():
         print(f"{k}: p={v['p']:.4f}, holm_threshold={v['holm_threshold']:.4f}, significant_holm={v['significant_holm']}")
