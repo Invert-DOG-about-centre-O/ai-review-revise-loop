@@ -13,12 +13,17 @@ per paper cycle, not every round. Isolates the lessons-channel effect from
 independent-reviewer aggregation.
 
 Agent dir: local-rev-e1-{N}reviewers-lessons (or -a{author}-r{reviewer}-
-{N}reviewers-lessons if either model is overridden).
+{N}reviewers-lessons if either model is overridden; add a slug suffix if
+--topic is set, so a custom-topic run never shares a directory — and
+therefore never shares an in-progress lessons.md — with the default-topic
+run).
 
 Usage: run_N4_HB_L.py [--episodes S] [--rounds K] [--n-reviewers N]
+                      [--topic TEXT]
                       [--author-model M] [--reviewer-model M]
 """
 import argparse
+import re
 
 import driver_lib as lib
 from driver_lib import ml
@@ -31,17 +36,26 @@ def main():
     ap.add_argument("--rounds", type=int, default=None,
                     help="override K_ROUNDS (default: full design value)")
     ap.add_argument("--n-reviewers", type=int, default=4)
+    ap.add_argument("--topic", default=None,
+                    help="override driver_lib.TOPICS with this single "
+                         "topic for every episode (default: the standard "
+                         "2-topic rotation)")
     ap.add_argument("--author-model", default="sonnet")
     ap.add_argument("--reviewer-model", default="sonnet")
     args = ap.parse_args()
     lib.S_EPISODES = args.episodes
     if args.rounds is not None:
         lib.K_ROUNDS = args.rounds
+    if args.topic:
+        lib.TOPICS = [args.topic]
 
     name = "local-rev-e1"
     if args.author_model != "sonnet" or args.reviewer_model != "sonnet":
         name += f"-a{args.author_model}-r{args.reviewer_model}"
     name += f"-{args.n_reviewers}reviewers-lessons"
+    if args.topic:
+        slug = re.sub(r"[^a-z0-9]+", "-", args.topic.lower()).strip("-")
+        name += f"-topic-{slug}"
     d = lib.setup_local(name)
     ledger = d / "data/autoresearch/rounds.jsonl"
     failed = []
