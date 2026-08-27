@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
-"""Multi-reviewer + lessons arm: N independent no-history reviewers per
-round (each reads only the current version, with no knowledge of the
-others or of prior rounds — same as run_N4_HB_NL.py), PLUS the
-lessons channel — all N reviews of a round are distilled together into
-lessons.md (driver_lib.distill_multi_lessons()) and injected into
-subsequent authoring and revise prompts. Isolates the lessons-channel
-effect from independent-reviewer aggregation. Agent dir:
-local-rev-e1-{N}reviewers-lessons (or -a{author}-r{reviewer}-{N}reviewers-
-lessons if either model is overridden).
+"""N4_HB_L: N independent no-history reviewers per round (each reads only
+the current version, with no knowledge of the others or of prior rounds —
+same as run_N4_HB_NL.py), PLUS a persistent lessons.md — same skills-style
+mechanism as run_skills.py, not e2's per-round distill: after each paper's
+FULL review-revise cycle completes, the author agent itself (real
+Read/Write tool access) reflects on every version and every reviewer's
+review of that paper and rewrites lessons.md
+(driver_lib.reflect_and_update_skills()); the NEXT episode's author reads
+it via its own Read tool before drafting v1
+(driver_lib.author_with_tools(skills=True)). Lessons accumulate only once
+per paper cycle, not every round. Isolates the lessons-channel effect from
+independent-reviewer aggregation.
 
-Usage: run_N4_HB_L.py [--episodes S] [--rounds K]
-                                    [--n-reviewers N]
-                                    [--author-model M] [--reviewer-model M]
+Agent dir: local-rev-e1-{N}reviewers-lessons (or -a{author}-r{reviewer}-
+{N}reviewers-lessons if either model is overridden).
+
+Usage: run_N4_HB_L.py [--episodes S] [--rounds K] [--n-reviewers N]
+                      [--author-model M] [--reviewer-model M]
 """
 import argparse
 
@@ -21,16 +26,15 @@ from driver_lib import ml
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--episodes", type=int, default=None,
-                    help="override S_EPISODES (default: full design value)")
+    ap.add_argument("--episodes", type=int, default=5,
+                    help="number of papers (default: 5)")
     ap.add_argument("--rounds", type=int, default=None,
                     help="override K_ROUNDS (default: full design value)")
     ap.add_argument("--n-reviewers", type=int, default=4)
     ap.add_argument("--author-model", default="sonnet")
     ap.add_argument("--reviewer-model", default="sonnet")
     args = ap.parse_args()
-    if args.episodes is not None:
-        lib.S_EPISODES = args.episodes
+    lib.S_EPISODES = args.episodes
     if args.rounds is not None:
         lib.K_ROUNDS = args.rounds
 
@@ -47,16 +51,16 @@ def main():
                                            args.n_reviewers,
                                            author_model=args.author_model,
                                            reviewer_model=args.reviewer_model,
-                                           lessons_on=True)
-            ml.log(f"multireviewer-lessons: episode {s} done")
+                                           skills_on=True)
+            ml.log(f"N4_HB_L: episode {s} done")
         except Exception as exc:
-            ml.log(f"multireviewer-lessons: episode {s} FAILED: {exc!r} — "
+            ml.log(f"N4_HB_L: episode {s} FAILED: {exc!r} — "
                    f"continuing to next episode (rerun to retry this one)")
             failed.append(s)
     if failed:
-        ml.log(f"multireviewer-lessons: COMPLETE with failures in episodes {failed}")
+        ml.log(f"N4_HB_L: COMPLETE with failures in episodes {failed}")
     else:
-        ml.log("multireviewer-lessons: COMPLETE")
+        ml.log("N4_HB_L: COMPLETE")
 
 
 if __name__ == "__main__":

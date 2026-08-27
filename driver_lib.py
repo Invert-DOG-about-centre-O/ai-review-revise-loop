@@ -610,7 +610,10 @@ def reflect_and_update_skills(pdir, d, model="sonnet"):
     skills_local = pdir / "lessons.md"
     if not skills_local.exists():
         skills_local.write_text("", encoding="utf-8")
-    review_files = sorted(pdir.glob("round*_review.json"))
+    # "round*_review*.json" (not "round*_review.json") so this also picks up
+    # multi-reviewer filenames (round{k}_review_{i}.json), not just the
+    # single-reviewer round{k}_review.json.
+    review_files = sorted(pdir.glob("round*_review*.json"))
     names = ", ".join(f.name for f in review_files)
     prompt = (
         f"You just finished a full review-revise cycle for this paper. "
@@ -706,7 +709,7 @@ def distill_multi_lessons(d, pdir, k, reviews, model="sonnet"):
 
 def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
                                author_model="sonnet", reviewer_model="sonnet",
-                               lessons_on=False):
+                               lessons_on=False, skills_on=False):
     """N independent reviewers per round instead of one: each reads only
     the current version (no history_context — reviewers don't see each
     other's review or prior rounds, matching the no-history condition) and
@@ -718,11 +721,19 @@ def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
     lessons_on (e2-style, see run_episode) additionally distills all N
     reviews of each round into lessons.md (distill_multi_lessons()) and
     feeds accumulated lessons into the next paper's authoring and this
-    paper's revise steps, the same as the single-reviewer e2 arm."""
+    paper's revise steps, the same as the single-reviewer e2 arm.
+
+    skills_on (see run_skills.py / reflect_and_update_skills()) instead
+    accumulates lessons only ONCE per paper, after its full cycle
+    completes, via the author agent's own Read/Write reflection over every
+    version + every reviewer's review of that paper — not per round, and
+    not via a separate distill call. Mutually exclusive with lessons_on in
+    practice (no script sets both), but not enforced."""
     lessons_path = d / "data/autoresearch/lessons.md"
     start_lessons = (lessons_path.read_text(encoding="utf-8").strip()
                      if lessons_on and lessons_path.exists() else "")
-    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model)
+    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model,
+                      skills=skills_on)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
@@ -754,11 +765,13 @@ def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
                             if lessons_on and lessons_path.exists() else "")
             revise_with_tools(pdir, k, lessons=lessons_text, model=author_model,
                               review_names=review_names)
+    if skills_on:
+        reflect_and_update_skills(pdir, d, model=author_model)
 
 
 def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
                                        author_model="sonnet", reviewer_model="sonnet",
-                                       lessons_on=False):
+                                       lessons_on=False, skills_on=False):
     """Same as run_episode_multi_reviewer, except each of the N reviewers is
     given ITS OWN review history (reviewer_history_context()) — every prior
     version of the paper and that same reviewer's own past reviews of it —
@@ -767,11 +780,16 @@ def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
     N independent judges help" (run_episode_multi_reviewer).
 
     lessons_on: see run_episode_multi_reviewer — same distill_multi_lessons()
-    channel, independent of the per-reviewer history tested here."""
+    channel, independent of the per-reviewer history tested here.
+
+    skills_on: see run_episode_multi_reviewer — same end-of-cycle
+    reflect_and_update_skills() channel, independent of the per-reviewer
+    history tested here."""
     lessons_path = d / "data/autoresearch/lessons.md"
     start_lessons = (lessons_path.read_text(encoding="utf-8").strip()
                      if lessons_on and lessons_path.exists() else "")
-    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model)
+    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model,
+                      skills=skills_on)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
@@ -804,3 +822,6 @@ def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
                             if lessons_on and lessons_path.exists() else "")
             revise_with_tools(pdir, k, lessons=lessons_text, model=author_model,
                               review_names=review_names)
+
+    if skills_on:
+        reflect_and_update_skills(pdir, d, model=author_model)
