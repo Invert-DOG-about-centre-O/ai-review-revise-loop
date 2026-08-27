@@ -3,7 +3,7 @@
 of the others (no shared context, ever), but each tracks ITS OWN review
 history across rounds (driver_lib.reviewer_history_context()) — every prior
 version of the paper and that same reviewer's own past reviews of it.
-Isolates "does per-reviewer memory help" from run_multireviewer.py's
+Isolates "does per-reviewer memory help" from run_N4_HB_NL.py's
 "does averaging N blind independent judges help."
 
 Seeds from an existing multi-reviewer run's v1.md + round1_review_{i}.json
@@ -15,7 +15,7 @@ round 2 onward (reviewer_history_context() returns "" for k=1 regardless).
 Agent dir: local-rev-e1-{N}reviewers-history (or -a{author}-r{reviewer}
 suffix if either model is overridden).
 
-Usage: run_multireviewer_history.py [--episodes S] [--rounds K]
+Usage: run_N4_HA_NL.py [--episodes S] [--rounds K]
                                     [--n-reviewers N] [--seed-from DIR]
                                     [--author-model M] [--reviewer-model M]
 """

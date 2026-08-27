@@ -2,14 +2,13 @@
 """05-revision-loop: flexible/advanced CLI for one-off variants that don't
 warrant their own dedicated script — cross-model pairings,
 --lenient-on-execution, --tag (e.g. seeding from another run's v1/round1
-files), e2 (lessons channel). For the three main experimental arms, use the
-dedicated scripts instead:
-    run_standard.py       history-aware reviewer, single reviewer/round
-    run_nohistory.py      reviewer sees only the current version, no history
-    run_multireviewer.py  N independent no-history reviewers per round
+files), e2 (lessons channel). For the 8 main experimental arms (2 reviewer
+counts x history-aware/blind x lessons/no-lessons), use the dedicated
+run_N{1|4}_{HA|HB}_{L|NL}.py scripts instead — see driver_lib.py's
+docstring for the full list.
 
-All four share the same engine (driver_lib.py) — see its docstring for the
-full list of deviations from the stock research-loop and the resumability
+All share the same engine (driver_lib.py) — see its docstring for the full
+list of deviations from the stock research-loop and the resumability
 model.
 
 E1 (arm e1): author writes an empirical paper, then K rounds of
@@ -64,7 +63,7 @@ def main():
     ap.add_argument("--no-reviewer-history", action="store_true",
                     help="reviewer does not see prior versions/reviews of "
                          "the paper it's reviewing (runs to a separate "
-                         "-nohistory agent dir) — prefer run_nohistory.py "
+                         "-nohistory agent dir) — prefer run_N1_HB_NL.py "
                          "unless you also need another flag here")
     ap.add_argument("--tag", default=None,
                     help="extra suffix appended to the agent dir name, for "
@@ -72,7 +71,7 @@ def main():
                          "run seeded from another run's v1/round1 files)")
     ap.add_argument("--n-reviewers", type=int, default=1,
                     help="if >1, use N independent no-history reviewers per "
-                         "round instead of one — prefer run_multireviewer.py "
+                         "round instead of one — prefer run_N4_HB_NL.py "
                          "unless you also need another flag here. "
                          "Incompatible with --lenient-on-execution, "
                          "--no-reviewer-history (always no-history in this "

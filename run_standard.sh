@@ -39,5 +39,5 @@ if [ ! -d "$PAPERENA_AGENT_DIR/agents/local-rev-template" ]; then
 fi
 export PAPERENA_AGENT_DIR
 
-"$PYTHON" run_standard.py --episodes 1 --rounds 3 \
+"$PYTHON" run_N1_HA_NL.py --episodes 1 --rounds 3 \
     --author-model sonnet --reviewer-model sonnet

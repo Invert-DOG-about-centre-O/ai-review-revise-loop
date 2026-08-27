@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""No-history arm: reviewer sees only the current version each round, never
-prior versions or reviews of the same paper (driver_lib.history_context()
-is skipped). Otherwise identical to run_standard.py. Agent dir:
-local-rev-e1-nohistory (or -a{author}-r{reviewer}-nohistory if either model
-is overridden).
+"""Standard arm: history-aware reviewer, one reviewer per round. Author
+writes v1, then K rounds of review -> revise on the same paper; from round 2
+on the reviewer also sees every prior version + its review
+(driver_lib.history_context()). Agent dir: local-rev-e1 (or
+-a{author}-r{reviewer} if either model is overridden).
 
-Usage: run_nohistory.py [--episodes S] [--rounds K]
-                        [--author-model M] [--reviewer-model M]
+Usage: run_N1_HA_NL.py [--episodes S] [--rounds K]
+                       [--author-model M] [--reviewer-model M]
 """
 import argparse
 
@@ -31,7 +31,6 @@ def main():
     name = "local-rev-e1"
     if args.author_model != "sonnet" or args.reviewer_model != "sonnet":
         name += f"-a{args.author_model}-r{args.reviewer_model}"
-    name += "-nohistory"
     d = lib.setup_local(name)
     ledger = d / "data/autoresearch/rounds.jsonl"
     failed = []
@@ -40,16 +39,16 @@ def main():
             lib.run_episode(d, s, None, False, ledger,
                             author_model=args.author_model,
                             reviewer_model=args.reviewer_model,
-                            reviewer_history=False)
-            ml.log(f"nohistory: episode {s} done")
+                            reviewer_history=True)
+            ml.log(f"standard: episode {s} done")
         except Exception as exc:
-            ml.log(f"nohistory: episode {s} FAILED: {exc!r} — continuing "
+            ml.log(f"standard: episode {s} FAILED: {exc!r} — continuing "
                    f"to next episode (rerun to retry this one)")
             failed.append(s)
     if failed:
-        ml.log(f"nohistory: COMPLETE with failures in episodes {failed}")
+        ml.log(f"standard: COMPLETE with failures in episodes {failed}")
     else:
-        ml.log("nohistory: COMPLETE")
+        ml.log("standard: COMPLETE")
 
 
 if __name__ == "__main__":

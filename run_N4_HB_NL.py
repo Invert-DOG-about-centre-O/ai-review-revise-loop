@@ -6,7 +6,7 @@ rounds); the author revises against all N reviews at once
 local-rev-e1-{N}reviewers (or -a{author}-r{reviewer}-{N}reviewers if either
 model is overridden).
 
-Usage: run_multireviewer.py [--episodes S] [--rounds K] [--n-reviewers N]
+Usage: run_N4_HB_NL.py [--episodes S] [--rounds K] [--n-reviewers N]
                             [--author-model M] [--reviewer-model M]
 """
 import argparse

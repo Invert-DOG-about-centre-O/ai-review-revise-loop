@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 """Skills-loop arm: reviewer is no-history (single reviewer, sees only the
-current version each round — same as run_nohistory.py), but the author
-agent maintains a persistent skills.md file across episodes. After each
+current version each round — same as run_N1_HB_NL.py), but the author
+agent maintains a persistent lessons.md file across episodes. After each
 paper's full review-revise cycle, the author agent itself (real Read/Write
 tool access, not a separate distill call) reflects on every version and
-review of that paper and rewrites skills.md with general, reusable lessons
-(driver_lib.reflect_and_update_skills()). The NEXT episode's author reads
-skills.md via its own Read tool before drafting v1
+review of that paper and rewrites lessons.md with general, reusable
+lessons (driver_lib.reflect_and_update_skills()). The NEXT episode's
+author reads lessons.md via its own Read tool before drafting v1
 (driver_lib.author_with_tools(skills=True)).
 
-Hypothesis: v1 (round-1) ratings trend upward across episodes as skills.md
-accumulates, even though the reviewer never sees history and each paper is
-on its own topic.
+NOTE: this reuses the exact same on-disk filename (lessons.md) as e2's
+`lessons_on` channel elsewhere in this codebase — a different mechanism
+(ml.chat distill call vs. the author's own Read/Write access). No
+collision in practice since this script never sets lessons_on=True in the
+same agent dir, but don't combine them.
+
+Hypothesis: v1 (round-1) ratings trend upward across episodes as
+lessons.md accumulates, even though the reviewer never sees history and
+each paper is on its own topic.
 
 Agent dir: local-rev-e1-skills (or -a{author}-r{reviewer}-skills if either
 model is overridden).

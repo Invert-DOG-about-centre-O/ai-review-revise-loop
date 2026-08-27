@@ -2,14 +2,21 @@
 """05-revision-loop: shared engine for E1's author/review/revise mechanics.
 
 Not a script to run directly — this is the common core imported by the
-per-experiment entry points:
-    run_standard.py       history-aware reviewer, single reviewer/round
-    run_nohistory.py      reviewer sees only the current version, no history
-    run_multireviewer.py  N independent no-history reviewers per round
-    driver.py             flexible/advanced CLI for one-off variants
-                           (cross-model, --lenient-on-execution, --tag,
-                           seeding from another run) not worth a dedicated
-                           script
+per-experiment entry points, named run_N{1|4}_{HA|HB}_{L|NL}.py: N =
+reviewer count (1 or 4), HA/HB = reviewer history-aware/blind, L/NL = with
+or without the lessons channel:
+    run_N1_HA_NL.py  1 reviewer, history-aware, no lessons
+    run_N1_HB_NL.py  1 reviewer, history-blind, no lessons
+    run_N1_HA_L.py   1 reviewer, history-aware, lessons
+    run_N1_HB_L.py   1 reviewer, history-blind, lessons
+    run_N4_HB_NL.py  N reviewers, history-blind, no lessons
+    run_N4_HA_NL.py  N reviewers, history-aware (per-reviewer), no lessons
+    run_N4_HB_L.py   N reviewers, history-blind, lessons
+    run_N4_HA_L.py   N reviewers, history-aware (per-reviewer), lessons
+    driver.py        flexible/advanced CLI for one-off variants
+                      (cross-model, --lenient-on-execution, --tag,
+                      seeding from another run) not worth a dedicated
+                      script
 
 Deviations from the stock research-loop, documented in EXPERIMENT.md:
 - author gets real WebSearch + Read/Write + scoped Bash access
@@ -153,14 +160,18 @@ def author_with_tools(d, s, topics, lessons="", model="sonnet", skills=False):
     which had no tools at all).
 
     skills=True (the skills-loop arm, see reflect_and_update_skills()) seeds
-    this paper's directory with a real copy of the agent-level skills.md —
+    this paper's directory with a real copy of the agent-level lessons.md —
     written by the author itself at the end of each prior episode — and
     tells it to Read that file before drafting. Unlike `lessons` (embedded
     as prompt text, e2's mechanism), this tests whether the author agent
-    consulting a self-maintained skills file via its own Read tool changes
+    consulting a self-maintained lessons file via its own Read tool changes
     v1 quality over episodes. Mutually exclusive with `lessons` in practice
     (no experiment uses both), but not enforced — nothing stops combining
-    them."""
+    them. NOTE: this reuses the exact same on-disk filename
+    (data/autoresearch/lessons.md) as e2's `lessons_on` channel — fine
+    today since no script passes both skills=True and lessons_on=True for
+    the same agent dir, but running both together WOULD collide (each
+    mechanism would overwrite the other's file)."""
     pdir = d / f"data/autoresearch/paper-{s}"
     v1 = pdir / "v1.md"
     if v1.exists():
@@ -171,14 +182,14 @@ def author_with_tools(d, s, topics, lessons="", model="sonnet", skills=False):
                      f"{lessons}\n\n") if lessons else ""
     skills_block = ""
     if skills:
-        master_skills = d / "data/autoresearch/skills.md"
-        skills_local = pdir / "skills.md"
+        master_skills = d / "data/autoresearch/lessons.md"
+        skills_local = pdir / "lessons.md"
         if master_skills.exists():
             shutil.copy(master_skills, skills_local)
         else:
             skills_local.write_text("", encoding="utf-8")
         skills_block = (
-            "Before anything else, read skills.md in this directory using "
+            "Before anything else, read lessons.md in this directory using "
             "the Read tool — it contains lessons YOU distilled from the "
             "review process of earlier papers in this series (empty if "
             "this is the first paper). Apply anything relevant when "
@@ -236,7 +247,7 @@ def author_with_tools(d, s, topics, lessons="", model="sonnet", skills=False):
            "--add-dir", str(pdir)]
     run_claude_tool(cmd, prompt, pdir, expect_file=v1)
     enforce_char_limit(pdir, "v1.md", model=model)
-    tag = " + skills.md" if skills else ""
+    tag = " + lessons.md" if skills else ""
     ml.log(f"ep{s}: authored w/ search{tag} ({topic[:40]}...)")
     return v1.read_text(encoding="utf-8")
 
@@ -582,21 +593,21 @@ def reflect_and_update_skills(pdir, d, model="sonnet"):
     """End-of-episode step for the skills-loop arm: the author agent itself
     (real Read/Write access, not a separate ml.chat distill call like e2's
     lessons_on) reads every version and review of the paper it just
-    finished, then rewrites skills.md with general, reusable lessons for
+    finished, then rewrites lessons.md with general, reusable lessons for
     drafting FUTURE papers — not paper-specific facts. Writes the new
-    content to skills_updated.md (a file that doesn't exist yet) rather
-    than editing skills.md in place, so run_claude_tool's expect_file
-    existence check is a meaningful completion signal (skills.md itself may
-    already exist and be non-empty going in, so its existence alone
+    content to lessons_updated.md (a file that doesn't exist yet) rather
+    than editing lessons.md in place, so run_claude_tool's expect_file
+    existence check is a meaningful completion signal (lessons.md itself
+    may already exist and be non-empty going in, so its existence alone
     wouldn't prove anything happened). The result is then promoted to the
-    agent-level skills.md, which author_with_tools(skills=True) seeds into
-    each subsequent paper's directory.
+    agent-level lessons.md, which author_with_tools(skills=True) seeds
+    into each subsequent paper's directory.
 
-    Idempotent/resumable: skipped if skills_updated.md already exists."""
-    skills_updated = pdir / "skills_updated.md"
+    Idempotent/resumable: skipped if lessons_updated.md already exists."""
+    skills_updated = pdir / "lessons_updated.md"
     if skills_updated.exists():
         return
-    skills_local = pdir / "skills.md"
+    skills_local = pdir / "lessons.md"
     if not skills_local.exists():
         skills_local.write_text("", encoding="utf-8")
     review_files = sorted(pdir.glob("round*_review.json"))
@@ -611,10 +622,10 @@ def reflect_and_update_skills(pdir, d, model="sonnet"):
         f"directory that the reviews reference or verified against — "
         f"lessons grounded in what the code/results actually show are more "
         f"useful than lessons inferred only from the reviews' prose.\n\n"
-        f"Then read skills.md in this directory — lessons distilled from "
+        f"Then read lessons.md in this directory — lessons distilled from "
         f"earlier papers in this series, may be empty if this is the first "
         f"one. Write an UPDATED, COMPLETE version of it to "
-        f"skills_updated.md using the Write tool: add any new, general, "
+        f"lessons_updated.md using the Write tool: add any new, general, "
         f"reusable lessons from THIS paper's review process that would "
         f"help you write a BETTER FIRST DRAFT of a future paper on a "
         f"different topic — recurring rigor gaps, framing mistakes, things "
@@ -623,15 +634,15 @@ def reflect_and_update_skills(pdir, d, model="sonnet"):
         f"makes these papers score well. Keep it concise (a bullet list is "
         f"fine); revise or remove an existing bullet if this paper's "
         f"experience refines or contradicts it rather than just appending "
-        f"under it. If skills.md already covers a lesson well, carry it "
+        f"under it. If lessons.md already covers a lesson well, carry it "
         f"forward unchanged rather than rewording it for its own sake.")
     cmd = ["claude", "-p", "--model", model,
            "--allowedTools", "Read Write Edit",
            "--add-dir", str(pdir)]
     run_claude_tool(cmd, prompt, pdir, expect_file=skills_updated)
-    master_skills = d / "data/autoresearch/skills.md"
+    master_skills = d / "data/autoresearch/lessons.md"
     shutil.copy(skills_updated, master_skills)
-    ml.log(f"{pdir.name}: skills.md updated")
+    ml.log(f"{pdir.name}: lessons.md updated")
 
 
 def run_episode(d, s, gpu, lessons_on, ledger, lenient=False,
@@ -674,21 +685,50 @@ def run_episode(d, s, gpu, lessons_on, ledger, lenient=False,
         reflect_and_update_skills(pdir, d, model=author_model)
 
 
+def distill_multi_lessons(d, pdir, k, reviews, model="sonnet"):
+    """Like run_episode's inline distill step (ml.chat(DISTILL_PROMPT...) ->
+    ml.lessons_add()), but for N reviews of the same round at once: combines
+    all N formatted reviews into one block before distilling, the same
+    reuse-DISTILL_PROMPT-via-.format(review=...) pattern revise_with_tools
+    uses for review_names when addressing N reviews at once. Idempotent via
+    the same .distilled{k} marker run_episode uses."""
+    marker = pdir / f".distilled{k}"
+    if marker.exists():
+        return
+    blocks = [f"--- reviewer {i} ---\n{ml.format_review(r)}"
+              for i, r in enumerate(reviews, start=1)]
+    combined = "\n\n".join(blocks)
+    lesson = ml.chat(ml.DISTILL_PROMPT.format(review=combined), model=model)
+    n = ml.lessons_add(d, lesson)
+    marker.write_text("", encoding="utf-8")
+    ml.log(f"{pdir.name} round{k}: distilled -> {n} lessons")
+
+
 def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
-                               author_model="sonnet", reviewer_model="sonnet"):
+                               author_model="sonnet", reviewer_model="sonnet",
+                               lessons_on=False):
     """N independent reviewers per round instead of one: each reads only
     the current version (no history_context — reviewers don't see each
     other's review or prior rounds, matching the no-history condition) and
     writes its own round{k}_review_{i}.json. The author then revises against
     all N reviews at once (revise_with_tools' review_names param), so
     agreement across independent reviewers becomes a signal the author can
-    weigh, rather than a single reviewer's opinion being the whole story."""
-    author_with_tools(d, s, TOPICS, model=author_model)
+    weigh, rather than a single reviewer's opinion being the whole story.
+
+    lessons_on (e2-style, see run_episode) additionally distills all N
+    reviews of each round into lessons.md (distill_multi_lessons()) and
+    feeds accumulated lessons into the next paper's authoring and this
+    paper's revise steps, the same as the single-reviewer e2 arm."""
+    lessons_path = d / "data/autoresearch/lessons.md"
+    start_lessons = (lessons_path.read_text(encoding="utf-8").strip()
+                     if lessons_on and lessons_path.exists() else "")
+    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
         review_names = [f"round{k}_review_{i}.json" for i in range(1, n_reviewers + 1)]
         ratings = []
+        reviews = []
         for i, name in enumerate(review_names, start=1):
             rev_file = pdir / name
             if rev_file.exists():
@@ -701,30 +741,43 @@ def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
                        version=vk.name, rating=review.get("rating"),
                        confidence=review.get("confidence"))
             ratings.append(review.get("rating"))
+            reviews.append(review)
         mean_rating = sum(ratings) / len(ratings)
         ml.log(f"ep{s} round{k}: ratings {ratings} (mean {mean_rating:.1f})")
         if k > K_ROUNDS:                    # final review only — no revise
             break
+        if lessons_on:
+            distill_multi_lessons(d, pdir, k, reviews, model=author_model)
         v_next = pdir / f"v{k + 1}.md"
         if not v_next.exists():
-            revise_with_tools(pdir, k, model=author_model,
+            lessons_text = (lessons_path.read_text(encoding="utf-8").strip()
+                            if lessons_on and lessons_path.exists() else "")
+            revise_with_tools(pdir, k, lessons=lessons_text, model=author_model,
                               review_names=review_names)
 
 
 def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
-                                       author_model="sonnet", reviewer_model="sonnet"):
+                                       author_model="sonnet", reviewer_model="sonnet",
+                                       lessons_on=False):
     """Same as run_episode_multi_reviewer, except each of the N reviewers is
     given ITS OWN review history (reviewer_history_context()) — every prior
     version of the paper and that same reviewer's own past reviews of it —
     while still never seeing the other N-1 reviewers' opinions, past or
     present. Isolates "does per-reviewer memory help" from "does averaging
-    N independent judges help" (run_episode_multi_reviewer)."""
-    author_with_tools(d, s, TOPICS, model=author_model)
+    N independent judges help" (run_episode_multi_reviewer).
+
+    lessons_on: see run_episode_multi_reviewer — same distill_multi_lessons()
+    channel, independent of the per-reviewer history tested here."""
+    lessons_path = d / "data/autoresearch/lessons.md"
+    start_lessons = (lessons_path.read_text(encoding="utf-8").strip()
+                     if lessons_on and lessons_path.exists() else "")
+    author_with_tools(d, s, TOPICS, lessons=start_lessons, model=author_model)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
         review_names = [f"round{k}_review_{i}.json" for i in range(1, n_reviewers + 1)]
         ratings = []
+        reviews = []
         for i, name in enumerate(review_names, start=1):
             rev_file = pdir / name
             if rev_file.exists():
@@ -738,11 +791,16 @@ def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
                        version=vk.name, rating=review.get("rating"),
                        confidence=review.get("confidence"))
             ratings.append(review.get("rating"))
+            reviews.append(review)
         mean_rating = sum(ratings) / len(ratings)
         ml.log(f"ep{s} round{k}: ratings {ratings} (mean {mean_rating:.1f})")
         if k > K_ROUNDS:                    # final review only — no revise
             break
+        if lessons_on:
+            distill_multi_lessons(d, pdir, k, reviews, model=author_model)
         v_next = pdir / f"v{k + 1}.md"
         if not v_next.exists():
-            revise_with_tools(pdir, k, model=author_model,
+            lessons_text = (lessons_path.read_text(encoding="utf-8").strip()
+                            if lessons_on and lessons_path.exists() else "")
+            revise_with_tools(pdir, k, lessons=lessons_text, model=author_model,
                               review_names=review_names)
