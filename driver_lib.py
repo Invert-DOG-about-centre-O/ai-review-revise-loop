@@ -49,6 +49,7 @@ import os
 import shutil
 import subprocess
 import sys
+from concurrent.futures import ThreadPoolExecutor, wait
 from pathlib import Path
 from types import SimpleNamespace
 
@@ -67,7 +68,8 @@ EXPERIMENT_BUDGET_S = TOOL_TIMEOUT_S // 2
 CHECKPOINT_S = TOOL_TIMEOUT_S - 300
 
 
-def run_claude_tool(cmd, prompt, pdir, expect_file, timeout=TOOL_TIMEOUT_S, retries=2):
+def run_claude_tool(cmd, prompt, pdir, expect_file, timeout=TOOL_TIMEOUT_S, retries=2,
+                    isolate_cleanup=False):
     """Run a claude -p tool-call subprocess with failure -> terminate ->
     cleanup -> retry. Two things count as failure, handled identically:
     (a) a hard timeout, and (b) the process exiting normally without
@@ -79,12 +81,25 @@ def run_claude_tool(cmd, prompt, pdir, expect_file, timeout=TOOL_TIMEOUT_S, retr
     this; this is the backstop.) Either way: kill the whole process tree if
     still running (not just the immediate shell child — a spawned
     experiment could outlive the top-level process on Windows if only that
-    were killed), delete every file created in pdir during that attempt (so
-    a half-finished experiment/paper doesn't linger or corrupt a later
-    resume), and retry up to `retries` times before raising."""
+    were killed), then retry up to `retries` times before raising.
+
+    isolate_cleanup=False (default): on failure, delete every file newly
+    created in pdir during that attempt (so a half-finished experiment/
+    paper doesn't linger or corrupt a later resume) — computed as a
+    directory listing diff (before vs. after this attempt). Only safe when
+    this is the only call touching pdir at a time.
+
+    isolate_cleanup=True: skip the directory-diff entirely and only delete
+    expect_file itself on failure. Use this whenever multiple calls run
+    CONCURRENTLY against the same pdir (e.g. N reviewers in parallel,
+    review_with_tools(parallel=True)) — a before/after diff would race
+    against sibling threads' writes and could delete another reviewer's
+    just-written, perfectly good file just because it appeared during this
+    attempt's window."""
     env = {k_: v_ for k_, v_ in os.environ.items() if k_ != "CLAUDECODE"}
     for attempt in range(1, retries + 1):
-        before = {p.name for p in pdir.iterdir()} if pdir.exists() else set()
+        before = (set() if isolate_cleanup else
+                 {p.name for p in pdir.iterdir()} if pdir.exists() else set())
         proc = subprocess.Popen(cmd, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                                 stderr=subprocess.PIPE, text=True, encoding="utf-8",
                                 errors="replace", cwd=str(pdir), env=env,
@@ -104,14 +119,18 @@ def run_claude_tool(cmd, prompt, pdir, expect_file, timeout=TOOL_TIMEOUT_S, retr
                                  stderr=stderr or "")
         if not timed_out and result.returncode == 0 and expect_file.exists():
             return result
-        after = {p.name for p in pdir.iterdir()} if pdir.exists() else set()
-        new_files = sorted(after - before)
-        for name in new_files:
-            path = pdir / name
-            if path.is_dir():
-                shutil.rmtree(path, ignore_errors=True)
-            else:
-                path.unlink(missing_ok=True)
+        if isolate_cleanup:
+            expect_file.unlink(missing_ok=True)
+            new_files = [expect_file.name]
+        else:
+            after = {p.name for p in pdir.iterdir()} if pdir.exists() else set()
+            new_files = sorted(after - before)
+            for name in new_files:
+                path = pdir / name
+                if path.is_dir():
+                    shutil.rmtree(path, ignore_errors=True)
+                else:
+                    path.unlink(missing_ok=True)
         reason = (f"timed out after {timeout}s" if timed_out else
                  f"exit {result.returncode}" if result.returncode != 0 else
                  f"{expect_file.name} not written")
@@ -400,7 +419,7 @@ verify-text/verify-citation skills):
 
 
 def review_with_tools(pdir, k, extra_context="", lenient=False, model="sonnet",
-                      out_name=None):
+                      out_name=None, parallel=False):
     """Tool-enabled review: real Read/Bash access, scoped to this paper's own
     directory (same isolation as author/revise_with_tools), so the reviewer
     can actually run any code/experiments the author left behind and check
@@ -412,13 +431,31 @@ def review_with_tools(pdir, k, extra_context="", lenient=False, model="sonnet",
 
     out_name overrides the output filename (default round{k}_review.json) —
     used by the multi-reviewer arm so N independent reviewers of the same
-    round don't overwrite each other's file."""
+    round don't overwrite each other's file.
+
+    parallel=True: this call is one of several running CONCURRENTLY against
+    the same pdir (N reviewers at once — see run_episode_multi_reviewer()).
+    Passes isolate_cleanup=True to run_claude_tool (a directory-diff cleanup
+    isn't safe when siblings are writing to the same directory at the same
+    time), and adds a prompt note asking the reviewer to prefix any of its
+    own scratch/check files with a tag derived from out_name, so two
+    concurrent reviewers picking the same generic script name (e.g.
+    "check.py") don't clobber each other."""
     vname = "v1.md" if k == 1 else f"v{k}.md"
     out_name = out_name or f"round{k}_review.json"
     out_path = pdir / out_name
     leniency = EXECUTION_LENIENCY_NOTE if lenient else ""
+    parallel_note = (
+        f"NOTE: other reviewers are independently verifying this same paper "
+        f"IN THIS SAME DIRECTORY AT THE SAME TIME RIGHT NOW (you never see "
+        f"their output, and they never see yours — full independence is "
+        f"preserved). If you write any of your own scratch/check scripts or "
+        f"intermediate files during verification, prefix every filename you "
+        f"create with \"{Path(out_name).stem}_\" so it can't collide with a "
+        f"concurrent reviewer's file of the same generic name (e.g. "
+        f"\"check.py\", \"verify.py\").\n\n") if parallel else ""
     prompt = (
-        f"{extra_context}"
+        f"{extra_context}{parallel_note}"
         f"Read {vname} (the paper to review) in this directory using the "
         f"Read tool.\n\n{REVIEW_GUIDELINES}\n{VERIFICATION_GUIDELINES}\n"
         f"Run any verification code IN THE FOREGROUND and wait for it to "
@@ -443,7 +480,7 @@ def review_with_tools(pdir, k, extra_context="", lenient=False, model="sonnet",
     cmd = ["claude", "-p", "--model", model,
            "--allowedTools", "Read Write Edit Bash(python *) Bash(pip install *)",
            "--add-dir", str(pdir)]
-    run_claude_tool(cmd, prompt, pdir, expect_file=out_path)
+    run_claude_tool(cmd, prompt, pdir, expect_file=out_path, isolate_cleanup=parallel)
     try:
         return ml.parse_review(out_path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, AttributeError) as exc:
@@ -688,16 +725,76 @@ def run_episode(d, s, gpu, lessons_on, ledger, lenient=False,
         reflect_and_update_skills(pdir, d, model=author_model)
 
 
+def generate_reviews_parallel(pdir, k, review_names, ledger, s, vk, reviewer_model,
+                              context_fn=None):
+    """Shared by run_episode_multi_reviewer[_history](): generate every
+    review_names[i] file that doesn't already exist, with ALL missing
+    reviewers running CONCURRENTLY — real wall-clock savings, since each
+    review_with_tools() call is an independent claude -p subprocess with no
+    shared state between reviewers, and each is I/O-bound waiting on that
+    subprocess (so a thread pool, not multiprocessing, is enough — the GIL
+    is released during subprocess.communicate()'s wait). Every parallel call
+    passes parallel=True (review_with_tools' isolate_cleanup + scratch-file-
+    prefix note — see its docstring for why a plain directory-diff cleanup
+    isn't safe when siblings are writing to the same pdir at once).
+
+    context_fn(i), if given, returns the extra_context string for reviewer
+    i (used for reviewer_history_context() in the -history arm); omitted
+    (None) means no extra context, matching run_episode_multi_reviewer's
+    no-history reviewers.
+
+    Waits for EVERY submitted call to finish — success or failure — before
+    raising anything (concurrent.futures.wait(), not iterating futures in
+    submission order), so one reviewer failing quickly doesn't leave a
+    slower sibling's still-running subprocess orphaned when this function
+    returns/raises.
+
+    Returns the list of review dicts in reviewer order (1..N): reviews that
+    already existed on disk are loaded as-is, freshly generated ones are
+    recorded to the ledger first."""
+    to_generate = [(i, name) for i, name in enumerate(review_names, start=1)
+                   if not (pdir / name).exists()]
+    if to_generate:
+        ml.log(f"{pdir.name} round{k}: generating {len(to_generate)} "
+               f"review(s) in parallel")
+        with ThreadPoolExecutor(max_workers=len(to_generate)) as ex:
+            futures = {
+                ex.submit(review_with_tools, pdir, k,
+                         extra_context=(context_fn(i) if context_fn else ""),
+                         model=reviewer_model, out_name=name, parallel=True):
+                (i, name) for i, name in to_generate}
+            wait(futures)
+            errors = []
+            for fut, (i, name) in futures.items():
+                exc = fut.exception()
+                if exc is not None:
+                    errors.append((i, exc))
+                    continue
+                review = fut.result()
+                (pdir / name).write_text(json.dumps(review, indent=2), encoding="utf-8")
+                record(ledger, episode=s, round=k, reviewer=i, version=vk.name,
+                       rating=review.get("rating"), confidence=review.get("confidence"))
+            if errors:
+                i, exc = errors[0]
+                raise RuntimeError(
+                    f"{pdir.name} round{k}: reviewer {i} failed during "
+                    f"parallel review generation: {exc!r}") from exc
+    return [json.loads((pdir / name).read_text(encoding="utf-8"))
+            for name in review_names]
+
+
 def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
                                author_model="sonnet", reviewer_model="sonnet",
                                skills_on=False):
     """N independent reviewers per round instead of one: each reads only
     the current version (no history_context — reviewers don't see each
     other's review or prior rounds, matching the no-history condition) and
-    writes its own round{k}_review_{i}.json. The author then revises against
-    all N reviews at once (revise_with_tools' review_names param), so
-    agreement across independent reviewers becomes a signal the author can
-    weigh, rather than a single reviewer's opinion being the whole story.
+    writes its own round{k}_review_{i}.json — all N running CONCURRENTLY
+    (generate_reviews_parallel()), not one after another. The author then
+    revises against all N reviews at once (revise_with_tools' review_names
+    param), so agreement across independent reviewers becomes a signal the
+    author can weigh, rather than a single reviewer's opinion being the
+    whole story.
 
     skills_on (see run_skills.py / reflect_and_update_skills()) accumulates
     lessons only ONCE per paper, after its full cycle completes, via the
@@ -712,19 +809,9 @@ def run_episode_multi_reviewer(d, s, gpu, ledger, n_reviewers,
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
         review_names = [f"round{k}_review_{i}.json" for i in range(1, n_reviewers + 1)]
-        ratings = []
-        for i, name in enumerate(review_names, start=1):
-            rev_file = pdir / name
-            if rev_file.exists():
-                review = json.loads(rev_file.read_text(encoding="utf-8"))
-            else:
-                review = review_with_tools(pdir, k, model=reviewer_model,
-                                           out_name=name)
-                rev_file.write_text(json.dumps(review, indent=2), encoding="utf-8")
-                record(ledger, episode=s, round=k, reviewer=i,
-                       version=vk.name, rating=review.get("rating"),
-                       confidence=review.get("confidence"))
-            ratings.append(review.get("rating"))
+        reviews = generate_reviews_parallel(pdir, k, review_names, ledger, s, vk,
+                                            reviewer_model)
+        ratings = [r.get("rating") for r in reviews]
         mean_rating = sum(ratings) / len(ratings)
         ml.log(f"ep{s} round{k}: ratings {ratings} (mean {mean_rating:.1f})")
         if k > K_ROUNDS:                    # final review only — no revise
@@ -749,26 +836,22 @@ def run_episode_multi_reviewer_history(d, s, gpu, ledger, n_reviewers,
 
     skills_on: see run_episode_multi_reviewer — same end-of-cycle
     reflect_and_update_skills() channel, independent of the per-reviewer
-    history tested here."""
+    history tested here.
+
+    Reviews for a given round still run CONCURRENTLY across the N
+    reviewers (generate_reviews_parallel()), same as run_episode_multi_
+    reviewer — per-reviewer history is about what EACH reviewer remembers
+    about earlier rounds, not about whether reviewers within a round run
+    at the same time."""
     author_with_tools(d, s, TOPICS, model=author_model, skills=skills_on)
     pdir = d / f"data/autoresearch/paper-{s}"
     for k in range(1, K_ROUNDS + 2):        # K revise rounds + 1 final review
         vk = pdir / (f"v{k}.md" if k > 1 else "v1.md")
         review_names = [f"round{k}_review_{i}.json" for i in range(1, n_reviewers + 1)]
-        ratings = []
-        for i, name in enumerate(review_names, start=1):
-            rev_file = pdir / name
-            if rev_file.exists():
-                review = json.loads(rev_file.read_text(encoding="utf-8"))
-            else:
-                ctx = reviewer_history_context(pdir, k, i)
-                review = review_with_tools(pdir, k, extra_context=ctx,
-                                           model=reviewer_model, out_name=name)
-                rev_file.write_text(json.dumps(review, indent=2), encoding="utf-8")
-                record(ledger, episode=s, round=k, reviewer=i,
-                       version=vk.name, rating=review.get("rating"),
-                       confidence=review.get("confidence"))
-            ratings.append(review.get("rating"))
+        reviews = generate_reviews_parallel(
+            pdir, k, review_names, ledger, s, vk, reviewer_model,
+            context_fn=lambda i: reviewer_history_context(pdir, k, i))
+        ratings = [r.get("rating") for r in reviews]
         mean_rating = sum(ratings) / len(ratings)
         ml.log(f"ep{s} round{k}: ratings {ratings} (mean {mean_rating:.1f})")
         if k > K_ROUNDS:                    # final review only — no revise
