@@ -16,4 +16,5 @@ This directory consists of scripts to run experiments, a script to generate plot
 
 Scripts to run experiments all use `driver_lib.py`, and the naming convention uses HA/HB, L/NL and N1/N4 to refer to the variations above. So, `run_N4_HA_L.py` means 4 independent history-aware reviewers, and the author can transfer lessons across papers. All scripts are 3 rounds of revision i.e. 4 drafts and 4 reviews, with NL being 1 paper to be generated and L being 5 papers to be generated.
 
+`plot_scores.py` is a plotting script.
 
