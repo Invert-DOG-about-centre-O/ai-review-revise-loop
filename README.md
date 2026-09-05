@@ -18,3 +18,4 @@ Scripts to run experiments all use `driver_lib.py`, and the naming convention us
 
 `plot_scores.py` is a plotting script.
 
+The `results` folder consists of generated papers and reviews.
