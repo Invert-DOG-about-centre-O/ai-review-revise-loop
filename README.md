@@ -5,7 +5,9 @@ What happens to scientific paper quality when AI agents receive feedback from ot
 ## Variations
 
 Reviewer modes: history-aware (HA) or history-blind (HB) across reviews of the same paper.
+
 Author modes: Lessons on (L) or off (NL) across paper cycles.
+
 Number of independent reviewers (N): 1 or 4
 
 ## File guide
