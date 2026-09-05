@@ -1,0 +1,86 @@
+{
+  "w4_cs30": {
+    "n_models": 5,
+    "mean_pre_ece": 0.07390893545603583,
+    "mean_T_star": 0.7624136165230138,
+    "mean_frac_worse": 0.522,
+    "sd_frac_worse_across_models": 0.20980943734732238
+  },
+  "w4_cs60": {
+    "n_models": 5,
+    "mean_pre_ece": 0.07390893545603583,
+    "mean_T_star": 0.7743703175138709,
+    "mean_frac_worse": 0.45200000000000007,
+    "sd_frac_worse_across_models": 0.2641401143332833
+  },
+  "w4_cs120": {
+    "n_models": 5,
+    "mean_pre_ece": 0.07390893545603583,
+    "mean_T_star": 0.7527549350069844,
+    "mean_frac_worse": 0.386,
+    "sd_frac_worse_across_models": 0.2818332840528244
+  },
+  "w4_cs240": {
+    "n_models": 5,
+    "mean_pre_ece": 0.07390893545603583,
+    "mean_T_star": 0.7494779890382803,
+    "mean_frac_worse": 0.296,
+    "sd_frac_worse_across_models": 0.272176413379264
+  },
+  "w16_cs30": {
+    "n_models": 5,
+    "mean_pre_ece": 0.018278025742156978,
+    "mean_T_star": 0.7405075906721894,
+    "mean_frac_worse": 0.868,
+    "sd_frac_worse_across_models": 0.07259476565152612
+  },
+  "w16_cs60": {
+    "n_models": 5,
+    "mean_pre_ece": 0.018278025742156978,
+    "mean_T_star": 0.878388412621016,
+    "mean_frac_worse": 0.876,
+    "sd_frac_worse_across_models": 0.09838699100999077
+  },
+  "w16_cs120": {
+    "n_models": 5,
+    "mean_pre_ece": 0.018278025742156978,
+    "mean_T_star": 1.013357295926258,
+    "mean_frac_worse": 0.794,
+    "sd_frac_worse_across_models": 0.11886967653695368
+  },
+  "w16_cs240": {
+    "n_models": 5,
+    "mean_pre_ece": 0.018278025742156978,
+    "mean_T_star": 1.0527557790215476,
+    "mean_frac_worse": 0.7620000000000001,
+    "sd_frac_worse_across_models": 0.16858232410309218
+  },
+  "w64_cs30": {
+    "n_models": 5,
+    "mean_pre_ece": 0.013871169761802065,
+    "mean_T_star": 0.814373423790634,
+    "mean_frac_worse": 0.8959999999999999,
+    "sd_frac_worse_across_models": 0.09787747442593725
+  },
+  "w64_cs60": {
+    "n_models": 5,
+    "mean_pre_ece": 0.013871169761802065,
+    "mean_T_star": 1.0559550123687031,
+    "mean_frac_worse": 0.8480000000000001,
+    "sd_frac_worse_across_models": 0.1577022510936353
+  },
+  "w64_cs120": {
+    "n_models": 5,
+    "mean_pre_ece": 0.013871169761802065,
+    "mean_T_star": 1.1807770949596812,
+    "mean_frac_worse": 0.882,
+    "sd_frac_worse_across_models": 0.13590437814875575
+  },
+  "w64_cs240": {
+    "n_models": 5,
+    "mean_pre_ece": 0.013871169761802065,
+    "mean_T_star": 1.2469281496299682,
+    "mean_frac_worse": 0.892,
+    "sd_frac_worse_across_models": 0.1213260071048248
+  }
+}

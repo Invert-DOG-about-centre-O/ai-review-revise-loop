@@ -1,0 +1,842 @@
+[
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6000,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.03472922722443984
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6001,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.03352697010660736
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6002,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.05108833255257435
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6003,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.048047652078628524
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6004,
+    "acc_test": 0.9,
+    "ece_test": 0.04163423459791199
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6005,
+    "acc_test": 0.92,
+    "ece_test": 0.03844708510811233
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6006,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.07982679082376751
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6007,
+    "acc_test": 0.94,
+    "ece_test": 0.03375262577830547
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6008,
+    "acc_test": 0.92,
+    "ece_test": 0.05606954265905493
+  },
+  {
+    "dataset": "moons",
+    "width": 128,
+    "seed": 6009,
+    "acc_test": 0.96,
+    "ece_test": 0.041791992132526205
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7000,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.06475397427107457
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7001,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.047891317675773135
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7002,
+    "acc_test": 0.8733333333333333,
+    "ece_test": 0.06585090386894239
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7003,
+    "acc_test": 0.88,
+    "ece_test": 0.039395234511167714
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7004,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.05610104077683322
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7005,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.05819692519739615
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7006,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.06343575644249723
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7007,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.04268994670931012
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7008,
+    "acc_test": 0.88,
+    "ece_test": 0.056121621181634156
+  },
+  {
+    "dataset": "moons",
+    "width": 256,
+    "seed": 7009,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.0455686445281414
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8000,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.05893456736316923
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8001,
+    "acc_test": 0.86,
+    "ece_test": 0.05583736437062065
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8002,
+    "acc_test": 0.88,
+    "ece_test": 0.05491443422951854
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8003,
+    "acc_test": 0.9,
+    "ece_test": 0.06503986968802936
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8004,
+    "acc_test": 0.8866666666666667,
+    "ece_test": 0.06131121628707399
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8005,
+    "acc_test": 0.8866666666666667,
+    "ece_test": 0.06606766861488052
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8006,
+    "acc_test": 0.88,
+    "ece_test": 0.05561318717916397
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8007,
+    "acc_test": 0.8733333333333333,
+    "ece_test": 0.05216987938222487
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8008,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.027716708885101075
+  },
+  {
+    "dataset": "moons",
+    "width": 512,
+    "seed": 8009,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.029495276460026854
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9000,
+    "acc_test": 0.8866666666666667,
+    "ece_test": 0.08175626903168878
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9001,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.05582533661786235
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9002,
+    "acc_test": 0.8866666666666667,
+    "ece_test": 0.06107142146931439
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9003,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.05849675950909308
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9004,
+    "acc_test": 0.8933333333333333,
+    "ece_test": 0.0537743869814603
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9005,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.05520682889546738
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9006,
+    "acc_test": 0.9066666666666666,
+    "ece_test": 0.046410664063701944
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9007,
+    "acc_test": 0.9,
+    "ece_test": 0.05325178926062224
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9008,
+    "acc_test": 0.94,
+    "ece_test": 0.06510471934760363
+  },
+  {
+    "dataset": "moons",
+    "width": 1024,
+    "seed": 9009,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.05839023804579229
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106000,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.04912927551933669
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106001,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.044821049785995805
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106002,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.051403666651114135
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106003,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.03987820571294831
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106004,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.03910404371541985
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106005,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.02966923788555665
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106006,
+    "acc_test": 0.9666666666666667,
+    "ece_test": 0.028143881536342216
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106007,
+    "acc_test": 0.9733333333333334,
+    "ece_test": 0.036456322381802235
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106008,
+    "acc_test": 0.9733333333333334,
+    "ece_test": 0.05082333404921486
+  },
+  {
+    "dataset": "circles",
+    "width": 128,
+    "seed": 106009,
+    "acc_test": 0.96,
+    "ece_test": 0.0554462024905733
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107000,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.0275846057719472
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107001,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.040450499653505
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107002,
+    "acc_test": 0.96,
+    "ece_test": 0.030459990668761164
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107003,
+    "acc_test": 0.94,
+    "ece_test": 0.0492959709970367
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107004,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.017234753566293944
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107005,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.038986402010423735
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107006,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.035090666326718555
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107007,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.04801747431216624
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107008,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.03181305463481079
+  },
+  {
+    "dataset": "circles",
+    "width": 256,
+    "seed": 107009,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.03960277373498156
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108000,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.05962434668012309
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108001,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.04291186737205988
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108002,
+    "acc_test": 0.92,
+    "ece_test": 0.04279469595387149
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108003,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.043387031244548596
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108004,
+    "acc_test": 0.92,
+    "ece_test": 0.04952720123558764
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108005,
+    "acc_test": 0.92,
+    "ece_test": 0.05158232812229645
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108006,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.05707146410274039
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108007,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.05518604630568397
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108008,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.034401592261132326
+  },
+  {
+    "dataset": "circles",
+    "width": 512,
+    "seed": 108009,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.04650859510169436
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109000,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.039428525619101484
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109001,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.039179078125901635
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109002,
+    "acc_test": 0.96,
+    "ece_test": 0.037247766474057226
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109003,
+    "acc_test": 0.9466666666666667,
+    "ece_test": 0.05340553184588146
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109004,
+    "acc_test": 0.9133333333333333,
+    "ece_test": 0.05143817745949393
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109005,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.03750380064266289
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109006,
+    "acc_test": 0.9533333333333334,
+    "ece_test": 0.040387203763113305
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109007,
+    "acc_test": 0.94,
+    "ece_test": 0.019087400872769906
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109008,
+    "acc_test": 0.9266666666666666,
+    "ece_test": 0.05171408154248201
+  },
+  {
+    "dataset": "circles",
+    "width": 1024,
+    "seed": 109009,
+    "acc_test": 0.9333333333333333,
+    "ece_test": 0.02573672314976794
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206000,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.017100575836695556
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206001,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.020170248908100995
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206002,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.025910192593379823
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206003,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.015733875469914664
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206004,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.03551108316282417
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206005,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.013744066441574325
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206006,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.0174479075113603
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206007,
+    "acc_test": 0.958041958041958,
+    "ece_test": 0.03844290913944866
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206008,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.02372428025549722
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 128,
+    "seed": 206009,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.03073752081873299
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207000,
+    "acc_test": 0.993006993006993,
+    "ece_test": 0.009166228998626638
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207001,
+    "acc_test": 0.958041958041958,
+    "ece_test": 0.02628976163278893
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207002,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.025980664892977224
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207003,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.02394732245492507
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207004,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.01884838727108224
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207005,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.022029649438445945
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207006,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.015554530636766577
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207007,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.03589451274069088
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207008,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.025995433563312756
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 256,
+    "seed": 207009,
+    "acc_test": 1.0,
+    "ece_test": 0.01620548533510943
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208000,
+    "acc_test": 0.986013986013986,
+    "ece_test": 0.02008260703894796
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208001,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.03001383845149244
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208002,
+    "acc_test": 0.986013986013986,
+    "ece_test": 0.009810228157915293
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208003,
+    "acc_test": 0.9440559440559441,
+    "ece_test": 0.05427719299083256
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208004,
+    "acc_test": 0.986013986013986,
+    "ece_test": 0.01870033449252044
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208005,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.009550086157816114
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208006,
+    "acc_test": 0.993006993006993,
+    "ece_test": 0.012129447067199156
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208007,
+    "acc_test": 0.986013986013986,
+    "ece_test": 0.017616844626537564
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208008,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.01653874239723021
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 512,
+    "seed": 208009,
+    "acc_test": 0.986013986013986,
+    "ece_test": 0.020138766861122127
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209000,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.0154024125558619
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209001,
+    "acc_test": 0.9440559440559441,
+    "ece_test": 0.04672491591676961
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209002,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.033311507026487844
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209003,
+    "acc_test": 0.958041958041958,
+    "ece_test": 0.02903919480533934
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209004,
+    "acc_test": 0.965034965034965,
+    "ece_test": 0.03455622277906987
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209005,
+    "acc_test": 0.972027972027972,
+    "ece_test": 0.024017377419128978
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209006,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.021073294615363683
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209007,
+    "acc_test": 0.9790209790209791,
+    "ece_test": 0.028950348428993716
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209008,
+    "acc_test": 0.9440559440559441,
+    "ece_test": 0.043462179661120294
+  },
+  {
+    "dataset": "breast_cancer",
+    "width": 1024,
+    "seed": 209009,
+    "acc_test": 0.958041958041958,
+    "ece_test": 0.028717666331847334
+  }
+]

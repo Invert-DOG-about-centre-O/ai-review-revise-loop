@@ -1,0 +1,19 @@
+[   1.9s] width=   2 seed=0 acc=0.990 ece=0.0030 bayes_ece=0.0090 T*=0.261 ece_ts=0.0089
+[   2.5s] width=   2 seed=1 acc=0.988 ece=0.0521 bayes_ece=0.0575 T*=0.468 ece_ts=0.0039
+[   3.1s] width=   4 seed=0 acc=0.992 ece=0.0090 bayes_ece=0.0131 T*=0.549 ece_ts=0.0064
+[   3.7s] width=   4 seed=1 acc=0.989 ece=0.0045 bayes_ece=0.0102 T*=0.756 ece_ts=0.0077
+[   4.3s] width=  16 seed=0 acc=0.990 ece=0.0081 bayes_ece=0.0086 T*=1.510 ece_ts=0.0069
+[   4.8s] width=  16 seed=1 acc=0.989 ece=0.0072 bayes_ece=0.0092 T*=1.188 ece_ts=0.0065
+[   5.6s] width=  64 seed=0 acc=0.988 ece=0.0097 bayes_ece=0.0098 T*=2.252 ece_ts=0.0081
+[   6.3s] width=  64 seed=1 acc=0.986 ece=0.0120 bayes_ece=0.0114 T*=2.713 ece_ts=0.0073
+[  14.7s] width= 256 seed=0 acc=0.988 ece=0.0115 bayes_ece=0.0109 T*=2.192 ece_ts=0.0085
+[  17.0s] width= 256 seed=1 acc=0.988 ece=0.0107 bayes_ece=0.0100 T*=2.252 ece_ts=0.0082
+[  18.0s] LS width=   2 seed=0 acc=0.990 ece=0.0849 bayes_ece=0.0888 T*=0.179 ece_ts=0.0070
+[  18.8s] LS width=   2 seed=1 acc=0.982 ece=0.2055 bayes_ece=0.2181 T*=0.145 ece_ts=0.0103
+[  20.8s] LS width= 256 seed=0 acc=0.990 ece=0.0680 bayes_ece=0.0708 T*=0.410 ece_ts=0.0083
+[  23.2s] LS width= 256 seed=1 acc=0.990 ece=0.0782 bayes_ece=0.0822 T*=0.388 ece_ts=0.0072
+
+Done in 23.2s. Bayes accuracy: 0.992
+
+Config: D=8, num_classes=3, N_TRAIN=2000, N_VAL=800, N_TEST=2000, epochs=80,
+widths=[2,4,16,64,256], seeds=[0,1], depth=2 MLP hidden layers, Adam lr=1e-2, wd=1e-5.

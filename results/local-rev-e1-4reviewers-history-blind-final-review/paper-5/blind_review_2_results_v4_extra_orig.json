@@ -1,0 +1,14 @@
+{
+  "lr_probe": [
+    {"lr": 0.003, "seed": 0, "accuracy": 0.47},
+    {"lr": 0.003, "seed": 1, "accuracy": 0.094},
+    {"lr": 0.003, "seed": 2, "accuracy": 0.072},
+    {"lr": 0.01, "seed": 0, "accuracy": 0.058},
+    {"lr": 0.01, "seed": 1, "accuracy": 0.378},
+    {"lr": 0.01, "seed": 2, "accuracy": 0.062},
+    {"lr": 0.03, "seed": 0, "accuracy": 0.002},
+    {"lr": 0.03, "seed": 1, "accuracy": 0.0},
+    {"lr": 0.03, "seed": 2, "accuracy": 0.002}
+  ],
+  "note": "backup of original results_v4_extra.json before rerun for verification"
+}

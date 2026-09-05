@@ -1,0 +1,16 @@
+{
+ "overall_frac_ts_worsens_ece": 0.3104166666666667,
+ "overall_n": 480,
+ "low_acc_lt_0.4_frac_ts_worsens_ece": 0.42,
+ "low_acc_n": 100,
+ "digits_width2_baseline_and_ls_pooled": {
+  "temperature_mean": 0.8386322833131998,
+  "temperature_std": 1.137522662108144,
+  "ece_ts_mean": 0.35026570719563305,
+  "ece_ts_std": 0.34618258424081233,
+  "ece_ts_min": 0.003284261955155271,
+  "ece_ts_max": 0.8345757246017456,
+  "ece_raw_mean": 0.07625401245637073,
+  "ece_raw_std": 0.04124124864749546
+ }
+}

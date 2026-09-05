@@ -1,0 +1,226 @@
+{
+  "seed0_greedy_accuracy": 0.8475,
+  "seed0_aurocs": {
+    "token_entropy": 0.8760094782146138,
+    "semantic_entropy": 0.8244837758112095,
+    "self_consistency": 0.8307219884907394
+  },
+  "seed0_loss": [
+    2.8674867153167725,
+    1.1293329000473022
+  ],
+  "multi_seed": {
+    "0": {
+      "greedy_accuracy": 0.8475,
+      "aurocs": {
+        "token_entropy": 0.8760094782146138,
+        "semantic_entropy": 0.8244837758112095,
+        "self_consistency": 0.8307219884907394
+      },
+      "loss_start": 2.8674867153167725,
+      "loss_end": 1.1293329000473022
+    },
+    "1": {
+      "greedy_accuracy": 0.815,
+      "aurocs": {
+        "token_entropy": 0.9676670535566241,
+        "semantic_entropy": 0.9504642679489306,
+        "self_consistency": 0.9436246062012933
+      },
+      "loss_start": 2.8467774391174316,
+      "loss_end": 1.1647533178329468
+    },
+    "2": {
+      "greedy_accuracy": 0.4175,
+      "aurocs": {
+        "token_entropy": 0.6911927218524325,
+        "semantic_entropy": 0.6709028295340649,
+        "self_consistency": 0.6688468556449333
+      },
+      "loss_start": 2.9671144485473633,
+      "loss_end": 1.2363510131835938
+    },
+    "3": {
+      "greedy_accuracy": 0.875,
+      "aurocs": {
+        "token_entropy": 0.9905714285714287,
+        "semantic_entropy": 0.9721714285714286,
+        "self_consistency": 0.9788
+      },
+      "loss_start": 2.89009165763855,
+      "loss_end": 1.0992430448532104
+    },
+    "4": {
+      "greedy_accuracy": 0.7775,
+      "aurocs": {
+        "token_entropy": 0.891614581451642,
+        "semantic_entropy": 0.87788576176885,
+        "self_consistency": 0.8788431662993604
+      },
+      "loss_start": 2.8813560009002686,
+      "loss_end": 1.194861650466919
+    }
+  },
+  "bootstrap_ci": {
+    "token_entropy": [
+      0.8350578166271814,
+      0.9105923721022919
+    ],
+    "semantic_entropy": [
+      0.766099736796428,
+      0.8745502355468305
+    ],
+    "self_consistency": [
+      0.7735112929176935,
+      0.8808676703226739
+    ]
+  },
+  "bootstrap_diff_semantic_vs_token": {
+    "mean_diff": -0.05108948859291418,
+    "lo": -0.09072552250553989,
+    "hi": -0.013185163083966153,
+    "p": 0.007
+  },
+  "bootstrap_diff_selfcons_vs_token": {
+    "mean_diff": -0.04449360176861779,
+    "lo": -0.08559995712810145,
+    "hi": -0.005693477531123808,
+    "p": 0.021
+  },
+  "bootstrap_diff_semantic_vs_selfcons": {
+    "mean_diff": -0.006595886824296393,
+    "lo": -0.02146052579226935,
+    "hi": 0.007171373058079512,
+    "p": 0.363
+  },
+  "k_sweep": {
+    "2": {
+      "token_entropy": 0.8760094782146138,
+      "semantic_entropy": 0.7141302770927028,
+      "self_consistency": 0.7554523913148605
+    },
+    "5": {
+      "token_entropy": 0.8760094782146138,
+      "semantic_entropy": 0.7842255428212196,
+      "self_consistency": 0.7948885342618115
+    },
+    "10": {
+      "token_entropy": 0.8760094782146138,
+      "semantic_entropy": 0.8592533488079694,
+      "self_consistency": 0.8660718603414091
+    },
+    "20": {
+      "token_entropy": 0.8760094782146138,
+      "semantic_entropy": 0.8556748392088592,
+      "self_consistency": 0.8642826055418541
+    }
+  },
+  "by_digit_len": {
+    "1": {
+      "n": 37,
+      "acc": 0.7297297297297297,
+      "aurocs": {
+        "token_entropy": 0.837037037037037,
+        "semantic_entropy": 0.8481481481481481,
+        "self_consistency": 0.8518518518518519
+      }
+    },
+    "2": {
+      "n": 256,
+      "acc": 0.82421875,
+      "aurocs": {
+        "token_entropy": 0.8483412322274883,
+        "semantic_entropy": 0.7806213796735123,
+        "self_consistency": 0.787625065824118
+      }
+    },
+    "3": {
+      "n": 107,
+      "acc": 0.9439252336448598,
+      "aurocs": {
+        "token_entropy": 0.9191419141914191,
+        "semantic_entropy": 0.8952145214521453,
+        "self_consistency": 0.8976897689768977
+      }
+    }
+  },
+  "per_seed_bootstrap_tests": {
+    "0": {
+      "semantic_vs_token": {
+        "mean_diff": -0.05108948859291418,
+        "lo": -0.09072552250553989,
+        "hi": -0.013185163083966153,
+        "p": 0.007
+      },
+      "selfcons_vs_token": {
+        "mean_diff": -0.04449360176861779,
+        "lo": -0.08559995712810145,
+        "hi": -0.005693477531123808,
+        "p": 0.021
+      }
+    },
+    "1": {
+      "semantic_vs_token": {
+        "mean_diff": -0.01709394745006353,
+        "lo": -0.041896154982978114,
+        "hi": 0.0036312402493371295,
+        "p": 0.122
+      },
+      "selfcons_vs_token": {
+        "mean_diff": -0.02394730849553109,
+        "lo": -0.04958837601802064,
+        "hi": -0.0020587526170117477,
+        "p": 0.029
+      }
+    },
+    "2": {
+      "semantic_vs_token": {
+        "mean_diff": -0.02001753444805176,
+        "lo": -0.062298525784339184,
+        "hi": 0.02398718158948715,
+        "p": 0.326
+      },
+      "selfcons_vs_token": {
+        "mean_diff": -0.022251954505578465,
+        "lo": -0.07073661856046765,
+        "hi": 0.027183252112852996,
+        "p": 0.356
+      }
+    },
+    "3": {
+      "semantic_vs_token": {
+        "mean_diff": -0.01853232143196775,
+        "lo": -0.04609822517327684,
+        "hi": -0.0007632331762956047,
+        "p": 0.036
+      },
+      "selfcons_vs_token": {
+        "mean_diff": -0.011910103039910636,
+        "lo": -0.025889728075931796,
+        "hi": -0.00090688575899847,
+        "p": 0.032
+      }
+    },
+    "4": {
+      "semantic_vs_token": {
+        "mean_diff": -0.01426431531335259,
+        "lo": -0.03731879665975421,
+        "hi": 0.007536134264303865,
+        "p": 0.203
+      },
+      "selfcons_vs_token": {
+        "mean_diff": -0.013436072699944734,
+        "lo": -0.03905298106297518,
+        "hi": 0.009634570197820179,
+        "p": 0.264
+      }
+    }
+  },
+  "seed_win_sign_test": {
+    "wins": 5,
+    "n": 5,
+    "p_greater": 0.03125
+  },
+  "accuracy_vs_advantage_correlation": 0.15352790321284346,
+  "elapsed_seconds": 563.1880798339844
+}

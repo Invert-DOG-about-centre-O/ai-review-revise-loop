@@ -19,7 +19,7 @@ therefore never shares an in-progress lessons.md — with the default-topic
 run).
 
 Usage: run_N4_HB_L.py [--episodes S] [--rounds K] [--n-reviewers N]
-                      [--topic TEXT]
+                      [--topic TEXT] [--start-episode S]
                       [--author-model M] [--reviewer-model M]
 """
 import argparse
@@ -40,6 +40,11 @@ def main():
                     help="override driver_lib.TOPICS with this single "
                          "topic for every episode (default: the standard "
                          "2-topic rotation)")
+    ap.add_argument("--start-episode", type=int, default=0,
+                    help="episode index to start from (default 0) — use "
+                         "to resume after manually deleting/renumbering "
+                         "earlier papers (e.g. to restore strict lessons.md "
+                         "ordering after mid-run failures)")
     ap.add_argument("--author-model", default="sonnet")
     ap.add_argument("--reviewer-model", default="sonnet")
     args = ap.parse_args()
@@ -59,7 +64,7 @@ def main():
     d = lib.setup_local(name)
     ledger = d / "data/autoresearch/rounds.jsonl"
     failed = []
-    for s in range(lib.S_EPISODES):
+    for s in range(args.start_episode, lib.S_EPISODES):
         try:
             lib.run_episode_multi_reviewer(d, s, None, ledger,
                                            args.n_reviewers,

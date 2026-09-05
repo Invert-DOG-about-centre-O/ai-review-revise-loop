@@ -1,0 +1,9 @@
+{
+  "n_sims": 600,
+  "n_perm": 300,
+  "n_per_sample": 160,
+  "false_positive_rate": 0.04666666666666667,
+  "nominal_alpha": 0.05,
+  "binomial_se_under_nominal": 0.008897565210026092,
+  "within_2se_of_nominal": true
+}

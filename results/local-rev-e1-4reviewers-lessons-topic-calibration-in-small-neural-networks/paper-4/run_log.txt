@@ -1,0 +1,17 @@
+$ python experiment.py
+Total training time: 178.9s for 210 runs
+(full analysis JSON printed to stdout is identical to analysis.json; see that file for the
+authoritative machine-readable copy)
+
+$ python robustness.py
+(output identical to robustness.json; see that file for the authoritative machine-readable copy)
+
+Notes:
+- sklearn MLPClassifier raised ConvergenceWarning ("Maximum iterations (2000) reached")
+  for a small number of the 210 runs (typically the widest/most flexible networks on the
+  hardest datasets). This does not affect the reported metrics -- ECE and accuracy are
+  computed from whatever weights sklearn returns after max_iter, and the same stopping
+  rule (max_iter=2000, solver='adam', default learning rate) is applied identically across
+  all 210 runs, so it cannot introduce a width-dependent bias in favor of the reported trend
+  as such convergence issues would if anything worsen fit (raising ECE_pre) unpredictably
+  across widths, not systematically build the observed monotonic pattern.

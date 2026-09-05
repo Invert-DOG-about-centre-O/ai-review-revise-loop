@@ -1,0 +1,26 @@
+{
+ "blobs__baseline": {
+  "spearman_width_ece_raw": -0.14195158660135157,
+  "spearman_acc_ece_raw": 0.07458176981133419,
+  "partial_corr_width_ece_given_acc": -0.5062999151409812,
+  "partial_p": 3.6461675860699332e-09
+ },
+ "blobs__label_smooth": {
+  "spearman_width_ece_raw": 0.30374699706931224,
+  "spearman_acc_ece_raw": 0.4894555098041065,
+  "partial_corr_width_ece_given_acc": -0.463317253807813,
+  "partial_p": 9.888742124852308e-08
+ },
+ "digits__baseline": {
+  "spearman_width_ece_raw": 0.0024148568726561287,
+  "spearman_acc_ece_raw": 0.04448743112589742,
+  "partial_corr_width_ece_given_acc": -0.21312506755389513,
+  "partial_p": 0.01943137129219405
+ },
+ "digits__label_smooth": {
+  "spearman_width_ece_raw": 0.12221275651181453,
+  "spearman_acc_ece_raw": 0.1606937596819759,
+  "partial_corr_width_ece_given_acc": -0.20221348253617702,
+  "partial_p": 0.026767889475047383
+ }
+}

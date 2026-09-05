@@ -1,0 +1,96 @@
+{
+  "bounded_T_hidden2_smoothed": [
+    {
+      "seed": 0,
+      "test_acc": 0.5222222208976746,
+      "ece_pre": 0.15019664260460613,
+      "T_bounded": 0.4949731353586,
+      "ece_post_bounded": 0.06531327213091465,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 1,
+      "test_acc": 0.5777778029441833,
+      "ece_pre": 0.16777868178528865,
+      "T_bounded": 0.5742254659928927,
+      "ece_post_bounded": 0.054555306012215546,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 2,
+      "test_acc": 0.48055556416511536,
+      "ece_pre": 0.10836931321710425,
+      "T_bounded": 0.5082439279016091,
+      "ece_post_bounded": 0.05351694033449639,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 3,
+      "test_acc": 0.5916666388511658,
+      "ece_pre": 0.18999618177483985,
+      "T_bounded": 0.46930242331997224,
+      "ece_post_bounded": 0.04828233975917601,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 4,
+      "test_acc": 0.5916666388511658,
+      "ece_pre": 0.18184626994257508,
+      "T_bounded": 0.41627683319416575,
+      "ece_post_bounded": 0.05849161071105258,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 5,
+      "test_acc": 0.5055555701255798,
+      "ece_pre": 0.12709861691037047,
+      "T_bounded": 0.5451015524065693,
+      "ece_post_bounded": 0.09409794999349907,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 6,
+      "test_acc": 0.4611110985279083,
+      "ece_pre": 0.09246120473410141,
+      "T_bounded": 0.579130105420682,
+      "ece_post_bounded": 0.058279014473586355,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 7,
+      "test_acc": 0.4416666626930237,
+      "ece_pre": 0.08599061056279331,
+      "T_bounded": 0.46071487871209865,
+      "ece_post_bounded": 0.10731974041089476,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 8,
+      "test_acc": 0.5416666865348816,
+      "ece_pre": 0.14401185710441766,
+      "T_bounded": 0.38917795310513076,
+      "ece_post_bounded": 0.04346621471114817,
+      "min_test_bin_count": 0
+    },
+    {
+      "seed": 9,
+      "test_acc": 0.6111111044883728,
+      "ece_pre": 0.21353696945010034,
+      "T_bounded": 0.5552665552010491,
+      "ece_post_bounded": 0.08831611509938636,
+      "min_test_bin_count": 0
+    }
+  ],
+  "crossover_stats": {
+    "k": 7,
+    "n": 10,
+    "binomial_p_greater_than_uniform": 0.019661636945587566,
+    "bootstrap_mode_distribution_over_5000": {
+      "4": 244,
+      "8": 4740,
+      "16": 16
+    },
+    "bootstrap_frac_mode_is_8": 0.948
+  },
+  "elapsed_sec": 3.9497501850128174
+}

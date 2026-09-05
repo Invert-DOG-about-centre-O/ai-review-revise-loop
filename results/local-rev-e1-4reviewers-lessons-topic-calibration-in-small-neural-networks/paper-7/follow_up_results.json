@@ -1,0 +1,31 @@
+{
+  "digits_isolated_vs_ensemble_direct": {
+    "n": 20,
+    "mean_diff": -0.012761265660578683,
+    "wilcoxon_p": 0.017181396484375
+  },
+  "blobs_K2": {
+    "K": 2,
+    "width": 16,
+    "n": 20,
+    "mean_diff": -0.001306552380144439,
+    "wilcoxon_p": 0.013616561889648438,
+    "single_params": 804,
+    "ens_params": 808
+  },
+  "blobs_K8": {
+    "K": 8,
+    "width": 4,
+    "n": 20,
+    "mean_diff": -0.038351995120067005,
+    "wilcoxon_p": 1.9073486328125e-06,
+    "single_params": 804,
+    "ens_params": 832
+  },
+  "blobs_single_width8_isolated": {
+    "n": 20,
+    "mean_diff": -0.0015051365130477365,
+    "wilcoxon_p": 0.026641845703125
+  },
+  "wall_time_seconds": 211.1946542263031
+}

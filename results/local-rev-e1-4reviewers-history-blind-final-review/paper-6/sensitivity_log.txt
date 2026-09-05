@@ -1,0 +1,40 @@
+s=0.0: trust 0.791+/-0.005, acc 0.752+/-0.009, overrel 0.151+/-0.002
+s=1.0: trust 0.571+/-0.006, acc 0.550+/-0.009, overrel 0.256+/-0.002
+trust gap s0-s1: mean=0.219 std=0.009 min=0.201 max=0.234 (all seeds positive: True)
+
+=== Competence crossover sensitivity ===
+AI>User (baseline): s=0 acc=0.751, s=0.5 acc=0.644, s=1 acc=0.545, monotonic_decline=True
+AI<User (reversed): s=0 acc=0.662, s=0.5 acc=0.709, s=1 acc=0.777, monotonic_decline=False
+AI=User: s=0 acc=0.679, s=0.5 acc=0.663, s=1 acc=0.645, monotonic_decline=True
+
+=== LR / slope sensitivity (qualitative monotonicity check) ===
+lr=0.06, slope_t=1.5: trust(s=0,0.4,1)=[0.785, 0.699, 0.572] monotonic=True
+lr=0.06, slope_t=3.0: trust(s=0,0.4,1)=[0.784, 0.696, 0.569] monotonic=True
+lr=0.06, slope_t=6.0: trust(s=0,0.4,1)=[0.779, 0.692, 0.564] monotonic=True
+lr=0.12, slope_t=1.5: trust(s=0,0.4,1)=[0.799, 0.708, 0.574] monotonic=True
+lr=0.12, slope_t=3.0: trust(s=0,0.4,1)=[0.795, 0.704, 0.568] monotonic=True
+lr=0.12, slope_t=6.0: trust(s=0,0.4,1)=[0.787, 0.696, 0.562] monotonic=True
+lr=0.24, slope_t=1.5: trust(s=0,0.4,1)=[0.802, 0.708, 0.57] monotonic=True
+lr=0.24, slope_t=3.0: trust(s=0,0.4,1)=[0.796, 0.699, 0.562] monotonic=True
+lr=0.24, slope_t=6.0: trust(s=0,0.4,1)=[0.784, 0.69, 0.546] monotonic=True
+
+=== Confidence-decoupling overreliance, 20-seed mean (re-verified against current sim.py) ===
+s=0.0: calibrated 0.151+/-0.002  decoupled 0.174+/-0.002
+s=0.4: calibrated 0.200+/-0.003  decoupled 0.234+/-0.002
+s=1.0: calibrated 0.256+/-0.002  decoupled 0.307+/-0.002
+
+=== Equal-competence 'mild decline': testing trust-update-asymmetry vs confidence-selection explanations ===
+weak_mult=0.3 (default): acc(s=0,0.5,1)=[np.float64(0.679), np.float64(0.663), np.float64(0.645)]
+weak_mult=1.0 (no asymmetric discount): acc(s=0,0.5,1)=[np.float64(0.68), np.float64(0.663), np.float64(0.645)]
+equal-competence s=0: calibrated conf acc=0.679 vs decoupled (uninformative) conf acc=0.650 (user_comp=0.65 floor)
+
+=== Equal-competence: calibrated vs decoupled confidence across the FULL s sweep (new) ===
+s=0.0: calibrated=0.679 decoupled=0.650 gap=+0.030
+s=0.2: calibrated=0.672 decoupled=0.649 gap=+0.023
+s=0.4: calibrated=0.666 decoupled=0.649 gap=+0.017
+s=0.6: calibrated=0.658 decoupled=0.648 gap=+0.010
+s=0.8: calibrated=0.652 decoupled=0.649 gap=+0.003
+s=1.0: calibrated=0.645 decoupled=0.647 gap=-0.001
+
+=== Paired t-test: baseline s=0 vs s=1 trust gap across 20 seeds (new) ===
+t=106.457, p=7.62e-28

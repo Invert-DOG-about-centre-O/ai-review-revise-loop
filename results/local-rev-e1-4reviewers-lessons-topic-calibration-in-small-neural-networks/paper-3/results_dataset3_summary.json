@@ -1,0 +1,12 @@
+{
+  "n_runs": 140,
+  "spearman_rho_width_Tstar": 0.45114498086357524,
+  "spearman_p": 1.1094066282995337e-08,
+  "spearman_rho_width_Tstar_excl_width4": 0.36047330967587266,
+  "p_excl_width4": 2.6240972514837215e-05,
+  "wilcoxon_p_pre_gt_post": 0.47760637206784257,
+  "mean_pre_ece": 0.03158265638741239,
+  "mean_post_ece": 0.03121518126815045,
+  "spearman_rho_preece_delta": 0.47261157639238166,
+  "p_preece_delta": 3.729167059496683e-09
+}

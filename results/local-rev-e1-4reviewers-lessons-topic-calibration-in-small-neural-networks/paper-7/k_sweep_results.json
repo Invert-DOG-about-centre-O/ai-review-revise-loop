@@ -1,0 +1,26 @@
+{
+  "K2": {
+    "K": 2,
+    "width": 16,
+    "n": 20,
+    "mean_diff": -0.000757565878193924,
+    "wilcoxon_p": 0.5958194732666016,
+    "single_params": 2410,
+    "ens_params": 2420
+  },
+  "K8": {
+    "K": 8,
+    "width": 4,
+    "n": 20,
+    "mean_diff": -0.18955052341048048,
+    "wilcoxon_p": 1.9073486328125e-06,
+    "single_params": 2410,
+    "ens_params": 2480
+  },
+  "single_width8_isolated": {
+    "n": 20,
+    "mean_diff": -0.016838462506731346,
+    "wilcoxon_p": 3.814697265625e-06
+  },
+  "wall_time_seconds": 115.66367077827454
+}

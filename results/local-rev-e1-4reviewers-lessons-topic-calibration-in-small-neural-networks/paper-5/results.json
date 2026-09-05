@@ -1,0 +1,525 @@
+{
+ "config": {
+  "widths": [
+   2,
+   4,
+   8,
+   16,
+   32,
+   64,
+   128,
+   256
+  ],
+  "conditions": [
+   "baseline",
+   "label_smooth"
+  ],
+  "n_seeds": 15,
+  "epochs": 120,
+  "lr": 0.001,
+  "n_bins": 15,
+  "ls_eps": 0.1
+ },
+ "warnings_count": 0,
+ "summary_table": [
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 2,
+   "n": 15,
+   "acc_mean": 0.3068888888888888,
+   "ece_raw_mean": 0.08685990168650944,
+   "ece_raw_std": 0.05061358287684181,
+   "ece_ts_mean": 0.04685234916210174,
+   "ece_ts_std": 0.024298025147105592,
+   "temperature_mean": 2.102817785739899
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 4,
+   "n": 15,
+   "acc_mean": 0.39577777777777784,
+   "ece_raw_mean": 0.10652518564462661,
+   "ece_raw_std": 0.05071732011798332,
+   "ece_ts_mean": 0.2897942527797487,
+   "ece_ts_std": 0.2585517673573029,
+   "temperature_mean": 0.5573671352894356
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 8,
+   "n": 15,
+   "acc_mean": 0.47977777777777775,
+   "ece_raw_mean": 0.13621187377638283,
+   "ece_raw_std": 0.05725381415185527,
+   "ece_ts_mean": 0.44646520721250116,
+   "ece_ts_std": 0.16009543997603937,
+   "temperature_mean": 0.09498364058478424
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 16,
+   "n": 15,
+   "acc_mean": 0.5644444444444443,
+   "ece_raw_mean": 0.16072676165898642,
+   "ece_raw_std": 0.04745359865068306,
+   "ece_ts_mean": 0.3841272534198232,
+   "ece_ts_std": 0.13805993377548365,
+   "temperature_mean": 0.06650416580184053
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 32,
+   "n": 15,
+   "acc_mean": 0.6062222222222222,
+   "ece_raw_mean": 0.1478304205404388,
+   "ece_raw_std": 0.024732745854209266,
+   "ece_ts_mean": 0.2912299452556504,
+   "ece_ts_std": 0.15925203959249595,
+   "temperature_mean": 0.20434963769900302
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 64,
+   "n": 15,
+   "acc_mean": 0.6248888888888888,
+   "ece_raw_mean": 0.08857726905081006,
+   "ece_raw_std": 0.023806846745488164,
+   "ece_ts_mean": 0.062430667943424646,
+   "ece_ts_std": 0.021915533268088535,
+   "temperature_mean": 0.7352564652760823
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 128,
+   "n": 15,
+   "acc_mean": 0.6817777777777777,
+   "ece_raw_mean": 0.0936530478729142,
+   "ece_raw_std": 0.022048855080831587,
+   "ece_ts_mean": 0.06578953008519278,
+   "ece_ts_std": 0.018567681208002278,
+   "temperature_mean": 0.7963099280993143
+  },
+  {
+   "dataset": "blobs",
+   "condition": "baseline",
+   "width": 256,
+   "n": 15,
+   "acc_mean": 0.696,
+   "ece_raw_mean": 0.07700794935888713,
+   "ece_raw_std": 0.021464193312687126,
+   "ece_ts_mean": 0.07040782890054915,
+   "ece_ts_std": 0.02127645994539273,
+   "temperature_mean": 0.9204126278559367
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 2,
+   "n": 15,
+   "acc_mean": 0.31955555555555554,
+   "ece_raw_mean": 0.07405547548664941,
+   "ece_raw_std": 0.037976601257381525,
+   "ece_ts_mean": 0.12120511903365454,
+   "ece_ts_std": 0.19429049196844334,
+   "temperature_mean": 1.2402193801943213
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 4,
+   "n": 15,
+   "acc_mean": 0.39111111111111113,
+   "ece_raw_mean": 0.09647176986270481,
+   "ece_raw_std": 0.0574514544090756,
+   "ece_ts_mean": 0.30497598960002265,
+   "ece_ts_std": 0.2610940373312454,
+   "temperature_mean": 0.47046527684045336
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 8,
+   "n": 15,
+   "acc_mean": 0.49933333333333335,
+   "ece_raw_mean": 0.15133627310064104,
+   "ece_raw_std": 0.02362654105661491,
+   "ece_ts_mean": 0.4419890503684679,
+   "ece_ts_std": 0.14635206205013018,
+   "temperature_mean": 0.03633234528048585
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 16,
+   "n": 15,
+   "acc_mean": 0.5697777777777778,
+   "ece_raw_mean": 0.17536780718300077,
+   "ece_raw_std": 0.048186150465021296,
+   "ece_ts_mean": 0.34445714269744016,
+   "ece_ts_std": 0.16571006163511529,
+   "temperature_mean": 0.08807931496606519
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 32,
+   "n": 15,
+   "acc_mean": 0.6239999999999999,
+   "ece_raw_mean": 0.166675260523955,
+   "ece_raw_std": 0.029365774220251474,
+   "ece_ts_mean": 0.33979693160454433,
+   "ece_ts_std": 0.10401217448316803,
+   "temperature_mean": 0.04920599984470755
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 64,
+   "n": 15,
+   "acc_mean": 0.6533333333333332,
+   "ece_raw_mean": 0.14520126796431007,
+   "ece_raw_std": 0.0337946368208235,
+   "ece_ts_mean": 0.14199104923672146,
+   "ece_ts_std": 0.1357852116909302,
+   "temperature_mean": 0.47341493315373856
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 128,
+   "n": 15,
+   "acc_mean": 0.6775555555555556,
+   "ece_raw_mean": 0.1409326673944791,
+   "ece_raw_std": 0.023770472869314687,
+   "ece_ts_mean": 0.15408980510632198,
+   "ece_ts_std": 0.12767904213847028,
+   "temperature_mean": 0.44937959148082884
+  },
+  {
+   "dataset": "blobs",
+   "condition": "label_smooth",
+   "width": 256,
+   "n": 15,
+   "acc_mean": 0.7173333333333335,
+   "ece_raw_mean": 0.1335736249552833,
+   "ece_raw_std": 0.02736204102717745,
+   "ece_ts_mean": 0.07344723793533116,
+   "ece_ts_std": 0.02063788355708232,
+   "temperature_mean": 0.689672593275706
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 2,
+   "n": 15,
+   "acc_mean": 0.19444444444444445,
+   "ece_raw_mean": 0.08143896572015905,
+   "ece_raw_std": 0.04760942310212638,
+   "ece_ts_mean": 0.3896461252343876,
+   "ece_ts_std": 0.36066318273956044,
+   "temperature_mean": 0.7807592770162349
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 4,
+   "n": 15,
+   "acc_mean": 0.3087037037037037,
+   "ece_raw_mean": 0.15281942074635513,
+   "ece_raw_std": 0.05097472585443478,
+   "ece_ts_mean": 0.39361886685093245,
+   "ece_ts_std": 0.3065144813787325,
+   "temperature_mean": 0.1535180301172659
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 8,
+   "n": 15,
+   "acc_mean": 0.551111111111111,
+   "ece_raw_mean": 0.3581379562671538,
+   "ece_raw_std": 0.06880776913202766,
+   "ece_ts_mean": 0.08804592011979331,
+   "ece_ts_std": 0.024739658740326086,
+   "temperature_mean": 0.21169843673706054
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 16,
+   "n": 15,
+   "acc_mean": 0.7490740740740741,
+   "ece_raw_mean": 0.49117603669012033,
+   "ece_raw_std": 0.052841813892025025,
+   "ece_ts_mean": 0.06910857452010667,
+   "ece_ts_std": 0.03797735696454064,
+   "temperature_mean": 0.186318743096975
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 32,
+   "n": 15,
+   "acc_mean": 0.8824074074074074,
+   "ece_raw_mean": 0.4637593686497874,
+   "ece_raw_std": 0.03222951822766113,
+   "ece_ts_mean": 0.07212336740560002,
+   "ece_ts_std": 0.03763019266991015,
+   "temperature_mean": 0.15681638141783574
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 64,
+   "n": 15,
+   "acc_mean": 0.9096296296296296,
+   "ece_raw_mean": 0.29383275760820626,
+   "ece_raw_std": 0.01705435992895676,
+   "ece_ts_mean": 0.06876148457328476,
+   "ece_ts_std": 0.03030832478826481,
+   "temperature_mean": 0.11827011175143222
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 128,
+   "n": 15,
+   "acc_mean": 0.9325925925925929,
+   "ece_raw_mean": 0.1617666374809212,
+   "ece_raw_std": 0.009599268363196743,
+   "ece_ts_mean": 0.0255006307694647,
+   "ece_ts_std": 0.005917194925962834,
+   "temperature_mean": 0.44135463833808897
+  },
+  {
+   "dataset": "digits",
+   "condition": "baseline",
+   "width": 256,
+   "n": 15,
+   "acc_mean": 0.9542592592592591,
+   "ece_raw_mean": 0.09354847471471187,
+   "ece_raw_std": 0.00723845931589488,
+   "ece_ts_mean": 0.02330774157135574,
+   "ece_ts_std": 0.005917522618827388,
+   "temperature_mean": 0.5018024841944376
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 2,
+   "n": 15,
+   "acc_mean": 0.1640740740740741,
+   "ece_raw_mean": 0.07106905919258241,
+   "ece_raw_std": 0.036337215413465504,
+   "ece_ts_mean": 0.31088528915687846,
+   "ece_ts_std": 0.3512890435675633,
+   "temperature_mean": 0.8965052896101648
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 4,
+   "n": 15,
+   "acc_mean": 0.33944444444444444,
+   "ece_raw_mean": 0.18954728109003216,
+   "ece_raw_std": 0.07558284733734787,
+   "ece_ts_mean": 0.21745244590772522,
+   "ece_ts_std": 0.24504514390045776,
+   "temperature_mean": 0.22928338209943225
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 8,
+   "n": 15,
+   "acc_mean": 0.5675925925925926,
+   "ece_raw_mean": 0.3787084602261031,
+   "ece_raw_std": 0.0693140491339314,
+   "ece_ts_mean": 0.10914145395987564,
+   "ece_ts_std": 0.1257051765428472,
+   "temperature_mean": 0.18589037345567097
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 16,
+   "n": 15,
+   "acc_mean": 0.7907407407407407,
+   "ece_raw_mean": 0.53115548428286,
+   "ece_raw_std": 0.04897504101407706,
+   "ece_ts_mean": 0.07301846165072036,
+   "ece_ts_std": 0.06780965802986412,
+   "temperature_mean": 0.16626988437492402
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 32,
+   "n": 15,
+   "acc_mean": 0.8864814814814815,
+   "ece_raw_mean": 0.4738117679539654,
+   "ece_raw_std": 0.022770514558386683,
+   "ece_ts_mean": 0.06792893468505806,
+   "ece_ts_std": 0.036574295056331106,
+   "temperature_mean": 0.16788596941623837
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 64,
+   "n": 15,
+   "acc_mean": 0.906851851851852,
+   "ece_raw_mean": 0.32059922434113636,
+   "ece_raw_std": 0.019940644905380858,
+   "ece_ts_mean": 0.07007986406761188,
+   "ece_ts_std": 0.03349355896358528,
+   "temperature_mean": 0.12908391933112096
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 128,
+   "n": 15,
+   "acc_mean": 0.9424074074074074,
+   "ece_raw_mean": 0.22210658809377087,
+   "ece_raw_std": 0.010515161418818697,
+   "ece_ts_mean": 0.025034266969671946,
+   "ece_ts_std": 0.005061716644819959,
+   "temperature_mean": 0.37752891182899473
+  },
+  {
+   "dataset": "digits",
+   "condition": "label_smooth",
+   "width": 256,
+   "n": 15,
+   "acc_mean": 0.9611111111111111,
+   "ece_raw_mean": 0.1857675571380942,
+   "ece_raw_std": 0.011177266056466234,
+   "ece_ts_mean": 0.024135966361672798,
+   "ece_ts_std": 0.005056069657456204,
+   "temperature_mean": 0.37618658542633054
+  }
+ ],
+ "H1_width_vs_ece_raw": {
+  "blobs__baseline": {
+   "spearman_rho": -0.14195158660135157,
+   "p_two_sided": 0.12196738456747515,
+   "p_one_sided": 0.9390163077162624,
+   "n": 120,
+   "loo_rho_min": -0.3791045945813537,
+   "loo_rho_max": 0.023723495143715044,
+   "loo_rhos_by_width_dropped": {
+    "2": -0.3791045945813537,
+    "4": -0.25200321993721153,
+    "8": -0.17313438177731114,
+    "16": -0.1277298116015916,
+    "32": -0.12034567735156111,
+    "64": -0.04084840223421134,
+    "128": -0.05530245225554766,
+    "256": 0.023723495143715044
+   }
+  },
+  "blobs__label_smooth": {
+   "spearman_rho": 0.30374699706931224,
+   "p_two_sided": 0.0007446070709241274,
+   "p_one_sided": 0.0003723035354620637,
+   "n": 120,
+   "loo_rho_min": 0.041476839191660744,
+   "loo_rho_max": 0.4036136359218805,
+   "loo_rhos_by_width_dropped": {
+    "2": 0.041476839191660744,
+    "4": 0.1307148871494763,
+    "8": 0.3106049662193685,
+    "16": 0.36449343532065503,
+    "32": 0.36276523368766916,
+    "64": 0.3758053005547443,
+    "128": 0.38224677936860074,
+    "256": 0.4036136359218805
+   }
+  },
+  "digits__baseline": {
+   "spearman_rho": 0.0024148568726561287,
+   "p_two_sided": 0.9791164948071313,
+   "p_one_sided": 0.4895582474035656,
+   "n": 120,
+   "loo_rho_min": -0.3791045945813537,
+   "loo_rho_max": 0.33134338581519895,
+   "loo_rhos_by_width_dropped": {
+    "2": -0.3791045945813537,
+    "4": -0.20000006170827322,
+    "8": -0.025923024494787963,
+    "16": 0.015239596218148077,
+    "32": 0.015396705457510427,
+    "64": 0.07635509033010274,
+    "128": 0.16794977687835355,
+    "256": 0.33134338581519895
+   }
+  },
+  "digits__label_smooth": {
+   "spearman_rho": 0.12221275651181453,
+   "p_two_sided": 0.18360021772858737,
+   "p_one_sided": 0.09180010886429368,
+   "n": 120,
+   "loo_rho_min": -0.30966231078319445,
+   "loo_rho_max": 0.32160261297473314,
+   "loo_rhos_by_width_dropped": {
+    "2": -0.30966231078319445,
+    "4": -0.12537317301115633,
+    "8": 0.13621371052715858,
+    "16": 0.17470547417093465,
+    "32": 0.17611945732519582,
+    "64": 0.23864893459141162,
+    "128": 0.3074627814321215,
+    "256": 0.32160261297473314
+   }
+  }
+ },
+ "H2_label_smoothing_vs_baseline_post_TS": {
+  "n_pairs": 240,
+  "n_pos_baseline_worse": 119,
+  "n_neg_baseline_better": 121,
+  "n_zero": 0,
+  "mean_diff_baseline_minus_ls": -0.0020262039086126117,
+  "median_diff_baseline_minus_ls": -0.0005306509551074763,
+  "bootstrap_ci_95": [
+   -0.02949655739613896,
+   0.025522235741837946
+  ],
+  "wilcoxon_statistic": 14264.0,
+  "p_value_two_sided": 0.8555486423864382,
+  "rank_biserial_effect_size": -0.01355463347164592
+ },
+ "H2_power_analysis": {
+  "observed_n_pairs": 240,
+  "observed_sd_of_paired_diff": 0.21433961112622238,
+  "alpha": 0.05,
+  "target_power": 0.8,
+  "minimum_detectable_mean_diff_ece": 0.040031690066298864,
+  "minimum_detectable_effect_in_sd_units": 0.18676757812500003,
+  "note": "Simulated via paired-normal approximation matched to observed residual SD; MDE is the mean paired ECE difference detectable with 80% power at alpha=0.05 given the achieved n_pairs."
+ },
+ "descriptive_TS_reduces_ECE": {
+  "baseline": {
+   "n": 240,
+   "mean_ece_raw": 0.18711700171668566,
+   "mean_ece_ts": 0.1742006091127448,
+   "mean_reduction": 0.012916392603940856,
+   "wilcoxon_p": 0.0016509564167244558
+  },
+  "label_smooth": {
+   "n": 240,
+   "mean_ece_raw": 0.216023723049348,
+   "mean_ece_ts": 0.17622681302135743,
+   "mean_reduction": 0.03979691002799058,
+   "wilcoxon_p": 0.0013713190684427963
+  }
+ },
+ "multiplicity_note": "Two primary pre-registered tests (H1, H2) plus one descriptive check reported without correction (not treated as a formal test); leave-one-width-out robustness checks on H1 are diagnostics, not additional hypothesis tests."
+}

@@ -1,0 +1,17 @@
+{
+  "width": 16,
+  "n_models": 30,
+  "median_pre_ece": 0.09118594252582417,
+  "low_group": {
+    "n": 15,
+    "mean_pre_ece": 0.04684298401655681,
+    "mean_frac_worse": 0.32733333333333337,
+    "sd_frac_worse": 0.3480654016266538
+  },
+  "high_group": {
+    "n": 15,
+    "mean_pre_ece": 0.20831868003150375,
+    "mean_frac_worse": 0.010666666666666666,
+    "sd_frac_worse": 0.023441924185608348
+  }
+}

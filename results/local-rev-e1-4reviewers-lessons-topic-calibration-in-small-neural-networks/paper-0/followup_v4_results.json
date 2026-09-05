@@ -1,0 +1,295 @@
+{
+  "wider_null": {
+    "k": 7,
+    "n": 10,
+    "p_narrow_null_3widths": 0.019661636945587566,
+    "p_wide_null_9widths": 1.8470026417902396e-05
+  },
+  "testset_noise": {
+    "4": {
+      "mean_flip_frac": 0.1402,
+      "per_seed_flip_frac": [
+        0.0005,
+        0.1835,
+        0.125,
+        0.052,
+        0.0355,
+        0.231,
+        0.3345,
+        0.0155,
+        0.033,
+        0.3915
+      ]
+    },
+    "8": {
+      "mean_flip_frac": 0.11695000000000003,
+      "per_seed_flip_frac": [
+        0.008,
+        0.179,
+        0.0185,
+        0.138,
+        0.0145,
+        0.135,
+        0.0565,
+        0.0105,
+        0.2695,
+        0.34
+      ]
+    },
+    "16": {
+      "mean_flip_frac": 0.2612,
+      "per_seed_flip_frac": [
+        0.4245,
+        0.0835,
+        0.438,
+        0.2025,
+        0.1155,
+        0.3145,
+        0.2795,
+        0.053,
+        0.2975,
+        0.4035
+      ]
+    }
+  },
+  "bounded_generalization": {
+    "4": {
+      "rows": [
+        {
+          "seed": 0,
+          "T_unconstrained": 0.6068223714828491,
+          "T_bounded": 0.5253985743888135,
+          "ece_unconstrained": 0.07168591981644787,
+          "ece_bounded": 0.0366210470870076
+        },
+        {
+          "seed": 1,
+          "T_unconstrained": 0.6183367371559143,
+          "T_bounded": 0.5250723530822858,
+          "ece_unconstrained": 0.048755418934716105,
+          "ece_bounded": 0.029516523804284246
+        },
+        {
+          "seed": 2,
+          "T_unconstrained": 0.6955673694610596,
+          "T_bounded": 0.6159227138042592,
+          "ece_unconstrained": 0.08954252185751291,
+          "ece_bounded": 0.07082527090702866
+        },
+        {
+          "seed": 3,
+          "T_unconstrained": 0.6109569668769836,
+          "T_bounded": 0.5195743411318658,
+          "ece_unconstrained": 0.049631922956816746,
+          "ece_bounded": 0.05447234969799861
+        },
+        {
+          "seed": 4,
+          "T_unconstrained": 0.6275034546852112,
+          "T_bounded": 0.542139708803976,
+          "ece_unconstrained": 0.05513762807305025,
+          "ece_bounded": 0.03253607053927263
+        },
+        {
+          "seed": 5,
+          "T_unconstrained": 0.5998777747154236,
+          "T_bounded": 0.5183816679303593,
+          "ece_unconstrained": 0.042816745593971084,
+          "ece_bounded": 0.03566253944598177
+        },
+        {
+          "seed": 6,
+          "T_unconstrained": 0.6085996031761169,
+          "T_bounded": 0.5187575144517804,
+          "ece_unconstrained": 0.04949776829016642,
+          "ece_bounded": 0.0264580188416655
+        },
+        {
+          "seed": 7,
+          "T_unconstrained": 0.674117386341095,
+          "T_bounded": 0.5895860646714255,
+          "ece_unconstrained": 0.07066388275555036,
+          "ece_bounded": 0.05590577904479091
+        },
+        {
+          "seed": 8,
+          "T_unconstrained": 0.6557848453521729,
+          "T_bounded": 0.5724971996258779,
+          "ece_unconstrained": 0.0664912978604383,
+          "ece_bounded": 0.07133397097837466
+        },
+        {
+          "seed": 9,
+          "T_unconstrained": 0.6721134185791016,
+          "T_bounded": 0.593495484578851,
+          "ece_unconstrained": 0.07605661360903641,
+          "ece_bounded": 0.06075715626178255
+        }
+      ],
+      "mean_T_unconstrained": 0.6369679927825928,
+      "mean_T_bounded": 0.5520825622469494,
+      "mean_ece_unconstrained": 0.06202797197477065,
+      "mean_ece_bounded": 0.04740887266081871,
+      "max_abs_T_diff": 0.09326438407362847
+    },
+    "8": {
+      "rows": [
+        {
+          "seed": 0,
+          "T_unconstrained": 0.6375584006309509,
+          "T_bounded": 0.5033630972616673,
+          "ece_unconstrained": 0.041256012075464615,
+          "ece_bounded": 0.024753894731116048
+        },
+        {
+          "seed": 1,
+          "T_unconstrained": 0.6743161678314209,
+          "T_bounded": 0.5559013494897856,
+          "ece_unconstrained": 0.053450585713238886,
+          "ece_bounded": 0.03784468571020079
+        },
+        {
+          "seed": 2,
+          "T_unconstrained": 0.6665381193161011,
+          "T_bounded": 0.5463656412805339,
+          "ece_unconstrained": 0.046881099836801415,
+          "ece_bounded": 0.022665582044088084
+        },
+        {
+          "seed": 3,
+          "T_unconstrained": 0.6026983261108398,
+          "T_bounded": 0.45588829957149585,
+          "ece_unconstrained": 0.032267246001085714,
+          "ece_bounded": 0.01731132818916617
+        },
+        {
+          "seed": 4,
+          "T_unconstrained": 0.6508172154426575,
+          "T_bounded": 0.514985352857762,
+          "ece_unconstrained": 0.03300590470529342,
+          "ece_bounded": 0.01384003543542725
+        },
+        {
+          "seed": 5,
+          "T_unconstrained": 0.6442413330078125,
+          "T_bounded": 0.5088759346216073,
+          "ece_unconstrained": 0.04520775858535959,
+          "ece_bounded": 0.03165236992326959
+        },
+        {
+          "seed": 6,
+          "T_unconstrained": 0.6728842258453369,
+          "T_bounded": 0.5525152049527665,
+          "ece_unconstrained": 0.04255956857282304,
+          "ece_bounded": 0.01942860108431467
+        },
+        {
+          "seed": 7,
+          "T_unconstrained": 0.6495290398597717,
+          "T_bounded": 0.5228473362625076,
+          "ece_unconstrained": 0.040018412597311585,
+          "ece_bounded": 0.021018826601111013
+        },
+        {
+          "seed": 8,
+          "T_unconstrained": 0.6179952621459961,
+          "T_bounded": 0.49188890915966643,
+          "ece_unconstrained": 0.03703901147533278,
+          "ece_bounded": 0.02794888299666233
+        },
+        {
+          "seed": 9,
+          "T_unconstrained": 0.6689466238021851,
+          "T_bounded": 0.5441775990525876,
+          "ece_unconstrained": 0.049850438515310035,
+          "ece_bounded": 0.02420959710140659
+        }
+      ],
+      "mean_T_unconstrained": 0.6485524713993073,
+      "mean_T_bounded": 0.519680872451038,
+      "mean_ece_unconstrained": 0.0421536038078021,
+      "mean_ece_bounded": 0.024067380381676252,
+      "max_abs_T_diff": 0.146810026539344
+    },
+    "16": {
+      "rows": [
+        {
+          "seed": 0,
+          "T_unconstrained": 0.6174322962760925,
+          "T_bounded": 0.4413826814006464,
+          "ece_unconstrained": 0.03145951256470725,
+          "ece_bounded": 0.009455393123781075
+        },
+        {
+          "seed": 1,
+          "T_unconstrained": 0.6598860025405884,
+          "T_bounded": 0.5070439157616522,
+          "ece_unconstrained": 0.039446736272842085,
+          "ece_bounded": 0.021470665705816384
+        },
+        {
+          "seed": 2,
+          "T_unconstrained": 0.6756073832511902,
+          "T_bounded": 0.5375449366249012,
+          "ece_unconstrained": 0.04656615755308541,
+          "ece_bounded": 0.027611196014047545
+        },
+        {
+          "seed": 3,
+          "T_unconstrained": 0.6165854930877686,
+          "T_bounded": 0.4180123191674355,
+          "ece_unconstrained": 0.029165410800886957,
+          "ece_bounded": 0.020565334760610815
+        },
+        {
+          "seed": 4,
+          "T_unconstrained": 0.6611030697822571,
+          "T_bounded": 0.5024421172626127,
+          "ece_unconstrained": 0.03856876982795375,
+          "ece_bounded": 0.012355719256879505
+        },
+        {
+          "seed": 5,
+          "T_unconstrained": 0.5829120874404907,
+          "T_bounded": 0.35808429192203334,
+          "ece_unconstrained": 0.02290948139082112,
+          "ece_bounded": 0.02199871588272704
+        },
+        {
+          "seed": 6,
+          "T_unconstrained": 0.6567324995994568,
+          "T_bounded": 0.5003104712088049,
+          "ece_unconstrained": 0.03776725598510652,
+          "ece_bounded": 0.018323779273453335
+        },
+        {
+          "seed": 7,
+          "T_unconstrained": 0.6022594571113586,
+          "T_bounded": 0.39681561814423194,
+          "ece_unconstrained": 0.035462528116396566,
+          "ece_bounded": 0.010487253179370465
+        },
+        {
+          "seed": 8,
+          "T_unconstrained": 0.6409492492675781,
+          "T_bounded": 0.49040334952176723,
+          "ece_unconstrained": 0.04439748355491013,
+          "ece_bounded": 0.01584414127702303
+        },
+        {
+          "seed": 9,
+          "T_unconstrained": 0.6779146194458008,
+          "T_bounded": 0.541269369972887,
+          "ece_unconstrained": 0.042440271195648555,
+          "ece_bounded": 0.026398992061584553
+        }
+      ],
+      "mean_T_unconstrained": 0.6391382157802582,
+      "mean_T_bounded": 0.4693309070986972,
+      "mean_ece_unconstrained": 0.03681836072623583,
+      "mean_ece_bounded": 0.018451119053529374,
+      "max_abs_T_diff": 0.22482779551845739
+    }
+  },
+  "elapsed_sec": 24.319406032562256
+}
